@@ -51,21 +51,22 @@ require("requisites.php");
 			<span class="prev arrow"><img class="desaturated" src="./index_files/arr3.png" width="8" height="23" alt="" onclick="prevSliderFrame(&#39;slider1&#39;);"></span>
 				<div>
 			
-<div style="opacity: 0; z-index: 0; background: url(&quot;/img/slider1.jpg&quot;) left center no-repeat;">
+<div style="opacity: 0; z-index: 0; background: url(index_files/slider1.jpg) left center no-repeat;">
 	<div style="width: 480px;"></div>
 	<div><br><h3>Вашу работу выполняют лучшие профессионалы</h3><h3>В работах нет плагиата из Интернета</h3></div>
-</div><div style="background: url(&quot;/img/slider2.jpg&quot;) right top no-repeat; z-index: 1; opacity: 0;">
+</div>
+					<div style="background: url(index_files/slider2.jpg) right top no-repeat; z-index: 1; opacity: 0;">
 	<div><br><h3>Выполнение всех требований и инструкций</h3><h3>Большинство сдаёт на «отлично»</h3></div>
-</div><div style="background: url(&quot;/img/slider3.jpg&quot;) left top no-repeat; z-index: 2; opacity: 1;">
+</div><div style="background: url(index_files/slider3.jpg) left top no-repeat; z-index: 2; opacity: 1;">
 	<div style="width: 329px;"></div>
 	<div><br><h3>Все работы — точно в срок</h3></div>
-</div><div style="background: url(&quot;/img/slider4.jpg&quot;) right top no-repeat; z-index: 0;">
+</div><div style="background: url(index_files/slider4.jpg) right top no-repeat; z-index: 0;">
 	<div><br><h3><a href="gotovie_keisy.php">Индивидуальный подход к каждому клиенту</a></h3></div>
 	<div style="width: 433px;"></div>
-</div><div style="background: url(&quot;/img/slider5.jpg&quot;) left top no-repeat; z-index: 0;">
+</div><div style="background: url(index_files/slider5.jpg) left top no-repeat; z-index: 0;">
 	<div style="width: 329px;"></div>
 	<div><br><h3>Бесплатные доработки</h3><h3>Конфиденциальность гарантирована</h3></div>
-</div><div style="background: url(&quot;/img/slider6.jpg&quot;) right top no-repeat; z-index: 0;">
+</div><div style="background: url(index_files/slider6.jpg) right top no-repeat; z-index: 0;">
 	<div><br><h3>При оформлении заказа составляется договор и бланк заказа</h3><h3>Мы являемся официально зарегистрированной организацией</h3></div>
 	<div style="width: 354px;"></div>
 </div>
