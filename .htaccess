@@ -2,5 +2,5 @@
 RewriteBase /
 
 # Return 404
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404.php
 DirectoryIndex index.php
