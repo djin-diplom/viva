@@ -31,11 +31,6 @@ require("header.php");
         <div>
 
 <h1>Расчет стоимости</h1>Сделайте запрос или узнайте об услуге подробнее, заполнив форму.&nbsp;<br>Не забудьте указать Ваши контактные данные, чтобы мы могли оперативно с Вами связаться.<br>
-<script type="text/javascript" src="./order_files/jquery.min.js.Без названия"></script>
-<script type="text/javascript" src="./order_files/jquery-ui.min.js.Без названия"></script>
-<script type="text/javascript" src="./order_files/jquery-ui-i18n.min.js.Без названия"></script>
-<script type="text/javascript" src="./order_files/jquery.maskedinput.min.js.Без названия"></script>
-<script type="text/javascript" src="./order_files/jquery.form.js.Без названия"></script>
 
 <style>
 	form#request_form { width: 75%; }
@@ -213,68 +208,9 @@ require("header.php");
   </table>
 </form>
 
-<script type="text/javascript">
-  $("#id_phone").mask("+7 (999) 999-99-99", {placeholder:" "});
-</script>
+
 </div>
 
-<script type="text/javascript">
-$(document).ajaxSend(function (event, xhr, settings) {
-  function getCookie(name) {
-    var cookieValue = null;
-    if (document.cookie && document.cookie != '') {
-      var cookies = document.cookie.split(';');
-      for (var i = 0; i < cookies.length; i++) {
-        var cookie = jQuery.trim(cookies[i]);
-        if (cookie.substring(0, name.length + 1) == (name + '=')) {
-          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-          break;
-        }
-      }
-    }
-    return cookieValue;
-  }
-
-  function sameOrigin(url) {
-    var host = document.location.host;
-    var protocol = document.location.protocol;
-    var sr_origin = '//' + host;
-    var origin = protocol + sr_origin;
-    return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
-        (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') || !(/^(\/\/|http:|https:).*/.test(url));
-  }
-
-  function safeMethod(method) {
-    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
-  }
-
-  if (!safeMethod(settings.type) && sameOrigin(settings.url)) {
-    xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
-  }
-});
-
-  $.getJSON('order2.php', function( response ) {
-      $('div#request_div').html(response.html);
-
-      var options = {
-        dataType:  'json',
-        beforeSubmit: function() {$("#request_form").find("input:not(:disabled), select:not(:disabled), textarea:not(:disabled), button:not(:disabled)").prop("disabled",true);},
-        success:   processJson
-      };
-
-      function processJson(data) {
-        if(data.success) {
-          $('div#request_message').remove();
-          $('div#request_div').html(data.html);
-        } else {
-          $('div#request_div').html(data.html);
-          $('#request_form').ajaxForm(options);
-        }
-      }
-
-      $('#request_form').ajaxForm(options);
-  });
-</script>
 
 		</div>
 	</section>
