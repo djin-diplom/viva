@@ -50,7 +50,7 @@ require("header.php");
 
 <br>
 
-<div id="request_div"><form id="request_form" method="post" enctype="multipart/form-data" action="">
+<div id="request_div"><form id="request_form" method="post" enctype="multipart/form-data" action="order2.php">
   <div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="oBlyEDpYaBC7PNlqaGEbTOT3xFrlrCTL"></div><table class="order">
     <tbody>
     
@@ -189,21 +189,12 @@ require("header.php");
           </td>
           <td>
             <input type="hidden" value="eec913da06a4be5d9d9916d554ef6ffcf9e08b7034202b2032" name="math_captcha_question"> 4 + 2 = <input type="text" name="math_captcha_field" id="id_math_captcha_field">
-
+              <input type="hidden" value="" name="ordernum">
             
           </td>
         </tr>
         
-    
 
-    <tr>
-      <td class="field">Файлы<br><small>(не больше 100 МБ):</small></td>
-      <td>
-        <input type="file" name="attfile"><br>
-        <input type="file" name="attfile"><br>
-        <input type="file" name="attfile">
-      </td>
-    </tr>
 
     <tr>
       <td class="field">&nbsp;</td>
@@ -213,7 +204,7 @@ require("header.php");
     <tr>
       <td class="field">&nbsp;</td>
       <td>
-        <button type="submit" class="blue" style="font-size: 18px;">
+        <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
           Отправить заказ
         </button>
       </td>
@@ -262,7 +253,7 @@ $(document).ajaxSend(function (event, xhr, settings) {
   }
 });
 
-  $.getJSON('http://ig.diplombase.ru/siteform/', function( response ) {
+  $.getJSON('order2.php', function( response ) {
       $('div#request_div').html(response.html);
 
       var options = {
