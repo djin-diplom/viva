@@ -32,8 +32,8 @@
 			<div class="logo"><a href="index.php" ><img src="./index_files/1_logo.png" width="222" height="70" alt=""></a></div>
 			<div class="addr"><a target="_blank" href="https://yandex.ru/maps/213/moscow/?ll=37.522863%2C55.681357&z=16&from=1org_map&whatshere%5Bpoint%5D=37.522884%2C55.681429&whatshere%5Bzoom%5D=16"><img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>С 6:00 до 22:00, без выходных</div>
 			<div class="phone">
-				<div>+7<span>(960)</span> 590-95-72<br>
-<span><?php echo $email; ?></span></div>
+				<div><span><?php echo $email; ?></span></div>
+				<div><span><?php echo $email2; ?></span></div>
 				<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Заказать работу</label>
 				<form name="callback" action="order2.php" method="post" class="hidden">
 					<input type="hidden" name="callback" value="">

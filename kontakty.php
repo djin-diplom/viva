@@ -30,9 +30,10 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Контакты</h1><h3><span style="color: maroon;">Телефон</span></h3>&nbsp;<br>+7 (960) 590-95-72<p></p><br>
+<h1>Контакты</h1>
 
-<h3><span style="color: maroon;">Электронная почта</span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br>
+<h3><span style="color: maroon;">Электронная почта для партнеров</span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br>
+<h3><span style="color: maroon;">Электронная почта для заказов (присылайте тему, объем, предмет работы)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
 
 </p><h3><span style="color: maroon;">Часы работы</span></h3><p>С <b>6:00 до 22:00</b>; &nbsp;<span style="color: maroon;"><b>без выходных.</b></span><br></p><br>
 

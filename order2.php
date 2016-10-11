@@ -82,7 +82,7 @@ if(isset($_POST['submit'])) {
 
 		$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
 
-		mail($email, $subject, $body, $headers);
+		mail($email2, $subject, $body, $headers);
 		$emailSent = true;
 	}
 	include("win.php");
