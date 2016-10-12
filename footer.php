@@ -7,7 +7,7 @@
 </footer>
 
 <div id="slidebox1">
-    <a class="close"></a>
+    <a class="close">x</a>
     <h2>Акция!</h2>
     <h2>Цены ниже</h2>
     <h3>на 20%!</h3>

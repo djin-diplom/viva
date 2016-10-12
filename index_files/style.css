@@ -113,6 +113,18 @@ a.more:hover{
 	font-size:18px;
 	margin:10px 20px 10px 0px;
 }
+a.close{
+	background:transparent url(../img/close.gif) no-repeat top left;
+	width:13px;
+	height:13px;
+	position:absolute;
+	cursor:pointer;
+	top:10px;
+	right:10px;
+}
+a.close:hover{
+	background-position:0px -13px;
+}
 
 input[type=checkbox], input[type=radio] { -webkit-appearance: none; font-size: 1px; opacity: 0.75; position: relative; top: 2px; outline: none; }
 input[type=checkbox]:hover, input[type=checkbox]:focus, input[type=checkbox]:checked, input[type=radio]:hover, input[type=radio]:focus, input[type=radio]:checked { opacity: 1; }
