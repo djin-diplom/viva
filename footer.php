@@ -5,3 +5,15 @@
         <div class="links"><a href="articles.php">Полезные статьи</a><br><a href="gotovie_keisy.php">Готовые кейсы</a><br><a href="job_creators.php">Работа авторам</a></div>
     </section>
 </footer>
+
+<div id="slidebox1">
+    <a class="close"></a>
+    <h2>Акция!</h2>
+    <h2>Цены ниже</h2>
+    <h3>на 20%!</h3>
+    <h3>Дипломная=3400</h3>
+    <h3>Курсовая=1500</h3>
+    <h3>Реферат=850</h3>
+    <h2>При полной предоплате действует скидка 15%!</h2>
+    <a href="order.php">Заказать работу</a>
+</div>

@@ -26,12 +26,15 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/40103015" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<div id="marquee">Закажите работу прямо сейчас, ждем вашу заявку на почте! Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
+<div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
 <noindex>
 	<header>
 		<section>
 			<div class="logo"><a href="index.php" ><img src="./index_files/1_logo.png" width="222" height="70" alt=""></a></div>
 			<div class="addr"><a target="_blank" href="https://yandex.ru/maps/213/moscow/?ll=37.522863%2C55.681357&z=16&from=1org_map&whatshere%5Bpoint%5D=37.522884%2C55.681429&whatshere%5Bzoom%5D=16"><img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>С 6:00 до 22:00, без выходных</div>
 			<div class="phone">
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менджеров!</div>
 				<div><span><?php echo $email; ?></span></div>
 				<div><span><?php echo $email2; ?></span></div>
 				<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Заказать работу</label>
@@ -65,8 +68,9 @@
 			<div><span><a href="o_kompanii.php">О компании</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Услуги и цены</a></span></div>
 			<div><span><a href="poriadok_zakaza.php">Порядок заказа</a></span></div>
-			<div><span><a href="order.php">Расчет стоимости</a></span></div>
+			<div><span><a href="order.php">Заказать работу</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
+			<div><span><a href="dogovor.php">Договор</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 		
