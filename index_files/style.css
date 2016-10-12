@@ -91,6 +91,8 @@ button:active
 	-moz-box-shadow:-2px 0px 5px #aaa;
 	-webkit-box-shadow:-2px 0px 5px #aaa;
 	box-shadow:-2px 0px 5px #aaa;
+	opacity: 0.4; /* Значение прозрачности */
+	filter: alpha(Opacity=40); /* Прозрачность в IE */
 }
 #slidebox1 p, a.more{
 	font-size:11px;
