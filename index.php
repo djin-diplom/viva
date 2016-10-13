@@ -23,14 +23,13 @@ require("requisites.php");
 
 	<section class="leather" style="background-image: url(/img/leather1.jpg);">
 
-		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">Мы сделаем диплом за Вас!</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
-		<div id="shorttext" class="hidden"><h1>Работа на заказ</h1>
-<div class="dashedborder">Наши клиенты знают, что дипломная работа на заказ в «<?php echo $site_name; ?>» будет написана качественно и быстро.</div>
-<div class="dashedborder">Написание дипломной работы начинается с составления плана. После утверждения плана мы выполняем диплом по частям: введение, главы диплома, заключение, приложения и список литературы. По мере написания работы Вы получаете работу по частям для проверки и согласования с научным руководителем.</div>
-<div class="dashedborder">Уже готовый диплом оформляется по методичке и Вам останется прийти на защиту и получить отличную оценку!</div>
+		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">Работаем без предоплаты!</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
+		<div id="shorttext" class="hidden"><h1>Работа на заказ без предоплаты</h1>
+<div class="dashedborder">Наши клиенты знают, что работа на заказ в «<?php echo $site_name; ?>» будет написана качественно и без предоплаты!</div>
+<div class="dashedborder">Мы бесплатно вышлем вам план и введение! Лишь после бесплатного ознакомления с частью работы вы платите деньги!</div>
 <div class="dashedborder">Для защиты диплома мы подготовим доклад и презентацию бесплатно.</div>
-<div class="dashedborder">Мы выполняем дипломные работы для всех специальностей и почти на любые темы.<br>
-Можно написать диплом на примере Вашей организации со всеми данными.</div>
+<div class="dashedborder">Мы выполняем работы для всех специальностей и почти на любые темы.</div>
+<div class="dashedborder">Можно написать работу на примере Вашей организации со всеми данными.</div>
 <div class="dashedborder">Дипломная или курсовая работа в 2016 году - это довольно непросто, особенно из-за требований по антиплагиату.<br>
 Если Вам нужно заказать диплом или курсовую, то лучшее решение - это обратиться в компанию «<?php echo $site_name; ?>».<br>
 Подойти в офис в Москве или сделать заказ диплома по почте и через сайт.</div></div>

@@ -1,5 +1,5 @@
 <?php
-$site_name = "Vivadiplom.ru";
+$site_name = "<a href='http://vivadiplom.ru'>Да здравствует Диплом!</a>";
 $site_url = "Vivadiplom.ru";
 $email = "zakaz@vivadiplom.ru";
 $email2 = "vivadiplom.ru@gmail.com";
