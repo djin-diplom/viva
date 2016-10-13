@@ -1,6 +1,6 @@
 <?php
-$site_name = "Viva.16mb.com";
-$site_url = "Viva.16mb.com";
-$email = "zakaz@viva.16mb.com";
-$email2 = "viva16mb@gmail.com";
+$site_name = "Vivadiplom.ru";
+$site_url = "Vivadiplom.ru";
+$email = "zakaz@vivadiplom.ru";
+$email2 = "vivadiplom.ru@gmail.com";
 $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф. 234-236.";
