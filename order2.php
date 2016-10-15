@@ -39,7 +39,6 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['count_1']) != $_POST['count_2']) {
 		$hasError = true;
 	}
-
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -50,7 +49,7 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['email_stud']) == '') {
 		$hasError = true;
 	} else {
-		$add_info= $_POST['email_stud'];
+		$email_stud= $_POST['email_stud'];
 	}
 	if(trim($_POST['name']) == '') {
 		$hasError = true;
@@ -63,9 +62,9 @@ if(isset($_POST['submit'])) {
 		$tema= $_POST['tema'];
 	}
 	if(trim($_POST['predmet']) == '') {
-		$name= "пусто";
+		$predmet= "пусто";
 	} else {
-		$name= $_POST['predmet'];
+		$predmet= $_POST['predmet'];
 	}
 	if(trim($_POST['university']) == '') {
 		$university= "пусто";
@@ -78,8 +77,6 @@ if(isset($_POST['submit'])) {
 		$add_info= $_POST['add_info'];
 	}
 
-
-	//$ordernum = $_POST['ordernum'];
 
 	//Если ошибок нет, отправить email
 	if (!isset($hasError)) {
