@@ -8,6 +8,7 @@ $element_vipolnenia = "суток";
 $payment = "1200";
 
 
+$path_img = "http://vivadiplom.ru/vivadiplomfirstallemail/";
 $site_name = "Да здравствует Диплом!";
 $site_url = "http://vivadiplom.ru/";
 $email = "zakaz@vivadiplom.ru";
@@ -36,7 +37,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 					<tbody><tr>
 						<td style="padding:15px 25px">
 							<a href="<?php echo $site_url; ?>" style="text-decoration:none" target="_blank" data-saferedirecturl="<?php echo $site_url; ?>">
-								<img style="margin-bottom:22px" src="index_files/1_logo.jpg" alt="<?php echo $site_name; ?>" class="CToWUd">
+								<img style="margin-bottom:22px" src="<?php echo $path_img; ?>index_files/1_logo.jpg" alt="<?php echo $site_name; ?>" class="CToWUd">
 							</a>
 						</td>
 						<td style="padding-right:30px">
