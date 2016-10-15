@@ -71,7 +71,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 	</tr>
 	<tr>
 		<td style="padding:0px">
-			<table style="width:100%;height:317px;text-align:center;border-collapse:separate;background:url(&#39;https://ci3.googleusercontent.com/proxy/YHFJO7OmhsLT0PQOAkV_n4YntiGbjqMjaWruAu6e9Wf6wgvHAsHYbKHpS2tYa_77BhBub6436uzNPaJtsJgl-vKKY26QGO1qKZvndp-LLwJEv7j9HJIaSO_UnsgABq_Qhp1P0ZYRioHPEnoKlPU=s0-d-e1-ft#https://www.homework.ru/customer/content/emails/OrderEstimatedCustomerEmail/table-bg.png&#39;) no-repeat;line-height:normal">
+			<table style="width:100%;height:317px;text-align:center;border-collapse:separate;background:url(&#39;<?php echo $path_img; ?>unnamed.png&#39;) no-repeat;line-height:normal">
 				<tbody><tr>
 					<td style="width:50%">
 						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:130px">
