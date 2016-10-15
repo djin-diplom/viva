@@ -273,9 +273,8 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 			</td>
 		<tr>
 		</tr>
-			<td style="color:#98a4ab;text-align:center;padding-bottom:10px;padding-top:25px">
-				Если вы хотите отписать от рассылки, перейдите сюда
-				<a href="<?php echo $site_url; ?>otpiska.php" class="m_3689207491995373867gp-button" target="_blank" ">
+			<td style="color:#98a4ab;text-align:center;padding-bottom:10px;padding-top:8px">
+				Если вы хотите отписать от рассылки, перейдите сюда <a href="<?php echo $site_url; ?>otpiska.php" target="_blank" ">
 			</td>
 		<tr>
 		</tr>
