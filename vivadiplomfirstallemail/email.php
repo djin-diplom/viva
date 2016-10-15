@@ -114,7 +114,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 				После получения части работы для продолжения выполнения заказа<br>
 				требуется оплатить заказ. Это можно сделать через платежные системы<br>
 				
-<a href="http://vivadiplom.ru/oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
+<a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay5.gif" width="76" height="37" alt=""></a><br>
 				В личном кабинете Вы можете посмотреть актуальную информацию по
