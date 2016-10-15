@@ -271,8 +271,10 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 			<td style="color:#98a4ab;text-align:center;padding-bottom:10px;padding-top:25px">
 				С Уважением, команда Учебного центра "<?php echo $site_name; ?>"
 			</td>
-		</tr>
-				<tr>
+			<td style="color:#98a4ab;text-align:center;padding-bottom:10px;padding-top:25px">
+				Если вы хотите отписать от рассылки, перейдите сюда
+				<a href="<?php echo $site_url; ?>otpiska.php" class="m_3689207491995373867gp-button" target="_blank" ">
+			</td>
 			<td style="color:#98a4ab;text-align:center;padding:15px 100px;font-size:13px">
 				Это письмо отправлено автоматически и носит информационный характер, на него не нужно отвечать.
 			</td>
