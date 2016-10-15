@@ -38,9 +38,8 @@ if(isset($_POST['submit'])) {
 	//Проверка суммы
 	if(trim($_POST['count_1']) != $_POST['count_2']) {
 		$hasError = true;
-	} else {
-		$work_kind = trim($_POST['work_kind']);
 	}
+
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -48,49 +47,57 @@ if(isset($_POST['submit'])) {
 		$work_kind = trim($_POST['work_kind']);
 	}
 	//Проверка поля email
-	if(trim($_POST['email']) == '') {
+	if(trim($_POST['email_stud']) == '') {
 		$hasError = true;
 	} else {
-		$email_stud = trim($_POST['email']);
+		$add_info= $_POST['email_stud'];
 	}
-
 	if(trim($_POST['name']) == '') {
 		$hasError = true;
 	} else {
 		$name= $_POST['name'];
 	}
-	if(trim($_POST['email']) == '') {
+	if(trim($_POST['tema']) == '') {
 		$hasError = true;
 	} else {
-		$name= $_POST['email'];
+		$tema= $_POST['tema'];
+	}
+	if(trim($_POST['predmet']) == '') {
+		$name= "пусто";
+	} else {
+		$name= $_POST['predmet'];
+	}
+	if(trim($_POST['university']) == '') {
+		$university= "пусто";
+	} else {
+		$university= $_POST['university'];
+	}
+	if(trim($_POST['add_info']) == '') {
+		$add_info= "пусто";
+	} else {
+		$add_info= $_POST['add_info'];
 	}
 
-	//$subject = $_POST['subject'];
-	//$predmet = $_POST['predmet'];
-	//$university = $_POST['university'];
-	//$add_info = $_POST['add_info'];
-	//$phone = $_POST['phone'];
+
 	//$ordernum = $_POST['ordernum'];
 
 	//Если ошибок нет, отправить email
 	if (!isset($hasError)) {
 		$body = "
+		name: $name \n\n
+		email_stud: $email_stud \n\n
 		work_kind: $work_kind \n\n
-		subject: $subject \n\n
+		tema: $tema \n\n
 		predmet : $predmet \n\n
 		university: $university \n\n
 		add_info: $add_info \n\n
-		name: $name \n\n
-		email_stud: $email_stud \n\n
-		phone: $phone \n\n
-		
 		";
 
 		$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
 
 		mail($email2, $subject, $body, $headers);
 		$emailSent = true;
-		
+
 	}
 	include("win.php");
 }

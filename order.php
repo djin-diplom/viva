@@ -83,7 +83,7 @@ require("header.php");
         <tr>
           <td class="field">
             Тема работы
-            
+              <span style="color: red;">*</span>
           </td>
           <td>
             <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="tema"></textarea>
@@ -156,7 +156,7 @@ require("header.php");
             <span style="color: red;">*</span>
           </td>
           <td>
-            <input style="width: 50%;" type="text" name="email" id="id_email">
+            <input style="width: 50%;" type="text" name="email_stud" id="id_email">
 
             
           </td>
