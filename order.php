@@ -62,12 +62,13 @@ require("header.php");
           <td>
             <select name="work_kind" id="id_work_kind">
 <option value="" selected="selected">---</option>
-<option value="control">Контрольная работа</option>
-<option value="paper">Реферат</option>
-<option value="essay">Курсовая работа</option>
-<option value="report">Отчет по практике</option>
+<option value="kontrolnaia">Контрольная работа</option>
+<option value="referat">Реферат</option>
+<option value="esse">Реферат</option>
+<option value="kursovaia">Курсовая работа</option>
+<option value="otchot">Отчет по практике</option>
 <option value="diploma">Диплом</option>
-<option value="mage_dissertation">Магистерская диссертация</option>
+<option value="magister_dissertation">Магистерская диссертация</option>
 <option value="drawings">Чертежи</option>
 <option value="other">Прочее</option>
 <option value="complex">Комплексный заказ</option>
@@ -85,7 +86,7 @@ require("header.php");
             
           </td>
           <td>
-            <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="subject"></textarea>
+            <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="tema"></textarea>
 
             
           </td>
@@ -123,7 +124,7 @@ require("header.php");
         
         <tr>
           <td class="field">
-            Доп. информация
+            Доп. информация<br>(объем, уникальность)
             
           </td>
           <td>
@@ -160,35 +161,24 @@ require("header.php");
             
           </td>
         </tr>
-        
-    
-        
         <tr>
-          <td class="field">
-            Телефон
-            
-          </td>
-          <td>
-            <input style="width: 50%;" type="text" name="phone" id="id_phone">
+            <td class="field">
+                <?php
+                $a = rand(1,10);
+                $b = rand(1,100);
+                $c = $a+$b;
+                echo $a."+".$b."=";
+                ?>
+                <span style="color: red;">*</span>
+            </td>
+            <td>
+                <input style="width: 50%;" type="text" name="count_1">
+                <input style="width: 50%; display: none;" type="text" value=<?php echo $c?> name="count_2">
 
-            
-          </td>
+
+            </td>
         </tr>
-        
-    
-        
-        <tr>
-          <td class="field">
-            Решите задачу
-            <span style="color: red;">*</span>
-          </td>
-          <td>
-            <input type="hidden" value="eec913da06a4be5d9d9916d554ef6ffcf9e08b7034202b2032" name="math_captcha_question"> 4 + 2 = <input type="text" name="math_captcha_field" id="id_math_captcha_field">
-              <input type="hidden" value="" name="ordernum">
-            
-          </td>
-        </tr>
-        
+
 
 
     <tr>

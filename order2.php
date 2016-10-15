@@ -35,6 +35,12 @@ require("header.php");
 if(isset($_POST['submit'])) {
 
 
+	//Проверка суммы
+	if(trim($_POST['count_1']) != $_POST['count_2']) {
+		$hasError = true;
+	} else {
+		$work_kind = trim($_POST['work_kind']);
+	}
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -59,12 +65,12 @@ if(isset($_POST['submit'])) {
 		$name= $_POST['email'];
 	}
 
-	$subject = $_POST['subject'];
-	$predmet = $_POST['predmet'];
-	$university = $_POST['university'];
-	$add_info = $_POST['add_info'];
-	$phone = $_POST['phone'];
-	$ordernum = $_POST['ordernum'];
+	//$subject = $_POST['subject'];
+	//$predmet = $_POST['predmet'];
+	//$university = $_POST['university'];
+	//$add_info = $_POST['add_info'];
+	//$phone = $_POST['phone'];
+	//$ordernum = $_POST['ordernum'];
 
 	//Если ошибок нет, отправить email
 	if (!isset($hasError)) {
@@ -84,6 +90,7 @@ if(isset($_POST['submit'])) {
 
 		mail($email2, $subject, $body, $headers);
 		$emailSent = true;
+		
 	}
 	include("win.php");
 }
