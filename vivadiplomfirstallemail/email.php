@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <?php
-$name_client = "Заказчик";
-$tema_raboti = 'Колбаса "Московская"';
+if(empty($_POST['name'])) {
+	$name_client = "Заказчик";
+	$tema_raboti = 'Колбаса "Московская"';
+	$srok_vipolnenia = 15;
+	$element_vipolnenia = "суток";
+	$payment = "1200";
+} else {
+	$name_client = $_POST['name'];
+	$tema_raboti = $_POST['tema'];
+	$password = $_POST['password'];
+	$srok_vipolnenia = $_POST['time'];
+	$element_vipolnenia = "суток";
+	$payment = $_POST['gold'];
+}
+
 $url_cabinet = "http://vivadiplom.ru/564395.php";
-$srok_vipolnenia = 15;
-$element_vipolnenia = "суток";
-$payment = "1200";
-
-
 $path_img = "http://vivadiplom.ru/vivadiplomfirstallemail/";
 $site_name = "Да здравствует Диплом!";
 $site_url = "http://vivadiplom.ru/";

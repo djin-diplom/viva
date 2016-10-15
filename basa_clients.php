@@ -23,7 +23,6 @@ require("requisites.php");
         <div>
 
             <h1>Редактировать данные Заказчика</h1>
-            Данные заказчика &nbsp;<br>
 
             <style>
                 form#request_form { width: 75%; }
@@ -79,6 +78,16 @@ require("requisites.php");
                 </td>
                 <td>
                     <input style="width: 50%;" type="text" name="gold" id="id_name">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="field">
+                    Срок выполнения
+                    <span style="color: red;">*</span>
+                </td>
+                <td>
+                    <input style="width: 50%;" type="text" name="time" id="id_name">
 
                 </td>
             </tr>
