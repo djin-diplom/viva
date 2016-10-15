@@ -62,7 +62,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 
 
 <table style="text-align:center;word-wrap:break-word;line-height:1.786;font-size:14px;width:630px;border-spacing:0px">
-	<tbody><tr style="display:none"><td><img src="./Gmail_files/s_SsbFACralq0JH6SMOgbsd7X2VteuLXDYjkCXmGqBhe3NqAvfdKDaq_r5b8yNqWMVgQfFXlxzFmhh4n5ZVf4Fd854pwbu-eo_cMRmVUFPKXPD3T9lkCAs7tauhkH84Mg1tDYy_59l25MYhyxXYBawSrP4olw8OvZYDpUg=s0-d-e1-ft" width="1" height="1" style="opacity:0" class="CToWUd"></td></tr>
+	<tbody><tr style="display:none"><td><img src="<?php echo $path_img; ?>Gmail_files/s_SsbFACralq0JH6SMOgbsd7X2VteuLXDYjkCXmGqBhe3NqAvfdKDaq_r5b8yNqWMVgQfFXlxzFmhh4n5ZVf4Fd854pwbu-eo_cMRmVUFPKXPD3T9lkCAs7tauhkH84Mg1tDYy_59l25MYhyxXYBawSrP4olw8OvZYDpUg=s0-d-e1-ft" width="1" height="1" style="opacity:0" class="CToWUd"></td></tr>
 	<tr>
 		<td style="padding:20px 15px 30px">
 			Мы оценили стоимость выполнения Вашей работы:<br>
