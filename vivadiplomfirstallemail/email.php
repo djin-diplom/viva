@@ -148,7 +148,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 				</td>
 				<td style="padding:11px 26px;border-right:1px solid #e2e5e6">
 					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/LUX9ieurbbsYAVLhjp4H6mnHCtm7WKgwJ9hdUL1iJ9PTppSI_ZvlSrjrcomtCnwq4eCpQPaNiITrGyQlHaIoKnSd71kNHVBp91I5tP7mxjLSkc4l2Wpk1rg=s0-d-e1-ft" alt="К заказу" class="CToWUd">
-					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="mailto:<?php echo $url_cabinet; ?>" target="_blank" >Перейти к заказу</a>
+					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="<?php echo $url_cabinet; ?>" target="_blank" >Перейти к заказу</a>
 				</td>
 				<td style="padding:11px 26px">
 					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/8NiiEuMBP7Rx5GzeBsw3RiapvV5K2hfjcX5ONK6G2i4NC87p-SSVtzG57G6MabsSHaHC2PkXHKvqi3dfRyzv-EIjb9NjY8HhvZzKOw9d-PYF-iOS3q_hw0gNmw=s0-d-e1-ft" alt="Заказать еще" class="CToWUd">

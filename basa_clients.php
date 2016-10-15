@@ -7,7 +7,7 @@ require("requisites.php");
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-    <title>Заказать работу</title>
+    <title>Ввести данные заказчика</title>
 
     <meta name="description" content="Расчет стоимости">
     <meta name="keywords" content="Расчет стоимости">

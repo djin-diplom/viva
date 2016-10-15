@@ -64,7 +64,7 @@ require("header.php");
 <option value="" selected="selected">---</option>
 <option value="kontrolnaia">Контрольная работа</option>
 <option value="referat">Реферат</option>
-<option value="esse">Реферат</option>
+<option value="esse">Эссе</option>
 <option value="kursovaia">Курсовая работа</option>
 <option value="otchot">Отчет по практике</option>
 <option value="diploma">Диплом</option>
