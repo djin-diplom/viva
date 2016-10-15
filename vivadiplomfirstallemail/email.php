@@ -271,20 +271,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 				С Уважением, команда Учебного центра "<?php echo $site_name; ?>"
 			</td>
 		</tr>
-		<tr>
-			<td style="text-align:center">
-				Служба поддержки
-				<span>
-						 <a href="tel:495-644-35-60" value="+74956443560" target="_blank">495-644-35-60</a>
-				</span>
-			</td>
-		</tr>
-		<tr>
-			<td style="color:#98a4ab;text-align:center;padding-bottom:10px;padding-top:5px;font-size:12px">
-				<a style="color:#98a4ab" href="https://www.homework.ru/Customer/login/via-token?token=d7fc4e36-3f8a-47f6-a900-167205cfd01d&amp;ReturnUrl=%2fCustomer%2flogin%2funsubscribe%3femail-marketing%3dOrderEstimated" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=ru&amp;q=https://www.homework.ru/Customer/login/via-token?token%3Dd7fc4e36-3f8a-47f6-a900-167205cfd01d%26ReturnUrl%3D%252fCustomer%252flogin%252funsubscribe%253femail-marketing%253dOrderEstimated&amp;source=gmail&amp;ust=1476599730219000&amp;usg=AFQjCNG5RlYsUKX4KsCvRu0yyvg4Zm0VuQ">Отписаться от рассылки</a>
-			</td>
-		</tr>
-		<tr>
+				<tr>
 			<td style="color:#98a4ab;text-align:center;padding:15px 100px;font-size:13px">
 				Это письмо отправлено автоматически и носит информационный характер, на него не нужно отвечать.
 			</td>
