@@ -17,7 +17,7 @@ if(empty($_POST['client_email'])) {
 fwrite($fp, $client_pass."\n");
 
 if(empty($_POST['client_name'])) {
-	$client_name = "";
+	$client_name = "Имя";
 } else {
 	$client_name = $_POST['client_name'];
 }
@@ -28,8 +28,14 @@ fwrite($fp, $client_last_name."\n");
 fwrite($fp, $client_otchestvo."\n");
 	$client_city = "Город";
 fwrite($fp, $client_city ."\n");
+
+if(empty($_POST['client_vuz'])) {
 	$client_vuz = "ВУЗ";
+} else {
+	$client_vuz = $_POST['client_vuz'];
+}
 fwrite($fp, $client_vuz."\n");
+
 	$client_fak = "Факультет";
 fwrite($fp, $client_fak."\n");
 	$client_special = "Специальность";
@@ -187,7 +193,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 		<td style="padding:20px 15px 30px">
 			Мы оценили стоимость выполнения Вашей работы:<br>
 			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $zakaz_teme; ?></a><br>
-			Номер заказа <?php echo $zakaz; ?>
+			Номер заказа <?php echo $zakaz; ?><br>
+			Логин для входа в Личный кабинет: <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
+			Запомните Ваш пароль: <?php echo $client_email; ?><br>
 		</td>
 	</tr>
 	<tr>
