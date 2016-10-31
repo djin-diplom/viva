@@ -1,27 +1,139 @@
 <!DOCTYPE html>
 <?php
-if(empty($_POST['name'])) {
-	$name_client = "Заказчик";
-	$tema_raboti = 'Колбаса "Московская"';
-	$srok_vipolnenia = 15;
-	$element_vipolnenia = "суток";
-	$payment = "1200";
+require("../requisites.php");
+header('Content-Type: text/html; charset=utf-8');
+setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian');
+
+
+if(empty($_POST['client_email'])) {
+	$client_email = "";
 } else {
-	$name_client = $_POST['name'];
-	$tema_raboti = $_POST['tema'];
-	$password = $_POST['password'];
-	$srok_vipolnenia = $_POST['time'];
-	$element_vipolnenia = "суток";
-	$payment = $_POST['gold'];
+	$client_email = $_POST['client_email'];
+	$fp = fopen("../kabinet/clients/".$client_email.".txt", "w+");
+	fwrite($fp, $client_email."\n");
 }
 
-$url_cabinet = "http://vivadiplom.ru/564395.php";
-$path_img = "http://vivadiplom.ru/vivadiplomfirstallemail/";
-$site_name = "Да здравствует Диплом!";
-$site_url = "http://vivadiplom.ru/";
-$email = "zakaz@vivadiplom.ru";
-$email2 = "vivadiplom.ru@gmail.com";
-$adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф. 234-236.";
+	$client_pass = rand(1000000000,9000000000);
+fwrite($fp, $client_pass."\n");
+
+if(empty($_POST['client_name'])) {
+	$client_name = "";
+} else {
+	$client_name = $_POST['client_name'];
+}
+fwrite($fp, $client_name."\n");
+	$client_last_name= "Фамилия";
+fwrite($fp, $client_last_name."\n");
+	$client_otchestvo = "Отчество";
+fwrite($fp, $client_otchestvo."\n");
+	$client_city = "Город";
+fwrite($fp, $client_city ."\n");
+	$client_vuz = "ВУЗ";
+fwrite($fp, $client_vuz."\n");
+	$client_fak = "Факультет";
+fwrite($fp, $client_fak."\n");
+	$client_special = "Специальность";
+fwrite($fp, $client_special."\n");
+	$opisanie_rab = "Описание";
+fwrite($fp, $opisanie_rab."\n");
+	$client_kurs = 9;
+fwrite($fp, $client_kurs."\n");
+
+fclose($fp);
+
+$fp = fopen("index_files/nomer.txt", "r");
+if ($fp)
+{
+	while (!feof($fp))
+	{
+		$mytext = fgets($fp, 999);
+	}
+	$zakaz = $mytext + rand(1,5);
+}
+else {
+	$zakaz = 140079;
+}
+
+fclose($fp);
+$fp = fopen("index_files/nomer.txt", "w+");
+$test = fwrite($fp, $zakaz);
+fclose($fp);
+
+$client_email = $_POST['client_email'];
+$fp = fopen("../kabinet/clients/".$client_email.".txt", "a");
+fwrite($fp, $zakaz."\n");
+
+if(empty($_POST['srok_vipoln'])) {
+	$srok_vipoln = "";
+} else {
+	$srok_vipoln = $_POST['srok_vipoln'];
+}
+fwrite($fp, $srok_vipoln."\n");
+	$zakaz_date = date("d.m.y");
+fwrite($fp, $zakaz_date."\n");
+	$zakaz_akcia = date("j.m.y",strtotime("+15 DAY"));
+fwrite($fp, $zakaz_akcia."\n");
+if(empty($_POST['zakaz_teme'])) {
+	$zakaz_teme = "";
+} else {
+	$zakaz_teme= $_POST['zakaz_teme'];
+}
+fwrite($fp, $zakaz_teme."\n");
+
+if(empty($_POST['zakaz_predmet'])) {
+	$zakaz_predmet = "";
+} else {
+	$zakaz_predmet= $_POST['zakaz_predmet'];
+}
+fwrite($fp, $zakaz_predmet."\n");
+
+if(empty($_POST['zakaz_type'])) {
+	$zakaz_type = "";
+} else {
+	$zakaz_type= $_POST['zakaz_type'];
+}
+fwrite($fp, $zakaz_type."\n");
+
+if(empty($_POST['zakaz_unik'])) {
+	$zakaz_unik = "";
+} else {
+	$zakaz_unik= $_POST['zakaz_unik'];
+}
+fwrite($fp, $zakaz_unik."\n");
+
+if(empty($_POST['zakaz_pages'])) {
+	$zakaz_pages = "";
+} else {
+	$zakaz_pages= $_POST['zakaz_pages'];
+}
+fwrite($fp, $zakaz_pages."\n");
+
+if(empty($_POST['zakaz_dopoln'])) {
+	$zakaz_dopoln = "";
+} else {
+	$zakaz_dopoln= $_POST['zakaz_dopoln'];
+}
+fwrite($fp, $zakaz_dopoln."\n");
+	$zakaz_cherteg = $_POST['zakaz_cherteg'];
+fwrite($fp, $zakaz_cherteg."\n");
+
+if(empty($_POST['zakaz_cena'])) {
+	$zakaz_cena = "";
+} else {
+	$zakaz_cena= $_POST['zakaz_cena'];
+}
+fwrite($fp, $zakaz_cena."\n");
+
+	$balance = 0;
+fwrite($fp, $balance."\n");
+	$balance_date = date("d.m.y");
+fwrite($fp, $balance_date."\n");
+
+fclose($fp);
+
+$url_cabinet = "../check_login.php";
+$path_img = $site_url."vivadiplomfirstallemail/";
+
 ?>
 
 <html>
@@ -45,7 +157,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 					<tbody><tr>
 						<td style="padding:15px 25px">
 							<a href="<?php echo $site_url; ?>" style="text-decoration:none" target="_blank" data-saferedirecturl="<?php echo $site_url; ?>">
-								<img style="margin-bottom:22px" src="<?php echo $path_img; ?>index_files/1_logo.jpg" alt="<?php echo $site_name; ?>" class="CToWUd">
+								<img style="margin-bottom:22px" src="../index_files/1_logo.png" alt="<?php echo $site_name; ?>" class="CToWUd">
 							</a>
 						</td>
 						<td style="padding-right:30px">
@@ -60,7 +172,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 
 	<tr>
 		<td style="color: green; font-size:21px;text-align:center;padding-top:40px">
-			<b>Здравствуйте, <?php echo $name_client; ?>!</b>
+			<b>Здравствуйте, <?php echo $client_name; ?>!</b>
 		</td>
 	</tr>
 <tr>
@@ -74,7 +186,8 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 	<tr>
 		<td style="padding:20px 15px 30px">
 			Мы оценили стоимость выполнения Вашей работы:<br>
-			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $tema_raboti; ?></a>
+			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $zakaz_teme; ?></a><br>
+			Номер заказа <?php echo $zakaz; ?>
 		</td>
 	</tr>
 	<tr>
@@ -92,13 +205,13 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $payment; ?> руб.</div>
-							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $payment*0.85; ?> руб.</div>
-							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 15%</div>
+							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena*1.2; ?> руб.</div>
+							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%</div>
 					</td>
 					<td style="width:50%">
-							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipolnenia; ?></div>
-							<div style="font-size:24px"><?php echo $element_vipolnenia; ?></div>
+							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
+							<div style="font-size:24px">сут.</div>
 
 						<div style="font-size:14px;padding:5px 0px 22px">с момента оплаты</div>
 					</td>
@@ -148,7 +261,7 @@ $adres = "г. Москва, ул. Марии Ульяновой, д. 17а, оф.
 				</td>
 				<td style="padding:11px 26px;border-right:1px solid #e2e5e6">
 					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/LUX9ieurbbsYAVLhjp4H6mnHCtm7WKgwJ9hdUL1iJ9PTppSI_ZvlSrjrcomtCnwq4eCpQPaNiITrGyQlHaIoKnSd71kNHVBp91I5tP7mxjLSkc4l2Wpk1rg=s0-d-e1-ft" alt="К заказу" class="CToWUd">
-					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="<?php echo $url_cabinet; ?>" target="_blank" >Перейти к заказу</a>
+					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" >Перейти к заказу</a>
 				</td>
 				<td style="padding:11px 26px">
 					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/8NiiEuMBP7Rx5GzeBsw3RiapvV5K2hfjcX5ONK6G2i4NC87p-SSVtzG57G6MabsSHaHC2PkXHKvqi3dfRyzv-EIjb9NjY8HhvZzKOw9d-PYF-iOS3q_hw0gNmw=s0-d-e1-ft" alt="Заказать еще" class="CToWUd">

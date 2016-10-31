@@ -70,31 +70,30 @@
 				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
 				<div><span><?php echo $email; ?></span></div>
 				<div><span><?php echo $email2; ?></span></div>
-				<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Заказать работу</label>
-				<form name="callback" action="order2.php" method="post" class="hidden">
+				<?php if (empty($_SESSION['client_email'])): ?>
+					<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Личный кабинет</label>
+				<form name="callback" action="check_login.php" method="get" class="hidden">
 					<input type="hidden" name="callback" value="">
 					<span></span>
 					<section>
 						<div>
-							Ваше имя:<br><input required="" type="text" name="name" style="width: 200px; margin: 5px 0 10px;"><br>
-							Email:<br><input type="text" name="email" ><br>
-							Номер заказа (если есть):<br><input type="text" name="ordernum" style="width: 150px; margin-top: 5px;"><br>
+
+							Email:<br><input type="text" name="client_email" ><br>
+							Пароль:<br><input type="text" name="client_pass" style=" margin-top: 5px;"><br>
+
+
 						</div>
-						<input type="hidden" value="" name="subject">
-						<input type="hidden" value="" name="predmet">
-						<input type="hidden" value="" name="university">
-						<input type="hidden" value="" name="add_info">
-						<input type="hidden" value="" name="phone">
+
 						<div>
 							<div style="text-align: right;"><label onclick="document.forms.callback.className=&#39;hidden&#39;;">Закрыть окно</label></div>
-							<b>Я хочу:</b>
-							<div><label><input checked="" type="radio" name="work_kind" value="сделать заказ"> Сделать заказ</label></div>
-							<div><label><input type="radio" name="work_kind" value="узнать о готовности работы"> Узнать о готовности работы</label></div>
-							<div><label><input type="radio" name="work_kind" value="уточнить про доработку"> Уточнить про доработку</label></div>
-							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Написать мне</button><br>
+							<p>Пароль вы должны получить по почте после заказа работы.</p>
+							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Войти в личный кабинет</button><br>
 						</div>
 					</section>
 				</form>
+				<?php else: ?>
+					<button><a href="kabinet/profile.php" style="color:white;">Здравствуйте, <?php echo $_SESSION['client_name']; ?>! Это вход в личный кабинет</a></button>
+				<?php endif ?>
 			</div>
 		</section>
 		<menu>

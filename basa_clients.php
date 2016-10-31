@@ -35,7 +35,8 @@ require("requisites.php");
                 form#request_form table tr:last-of-type td input { visibility: hidden; width: 30px; }
             </style>
 
-<div id="request_div"><form id="request_form" method="post" enctype="multipart/form-data" action="vivadiplomfirstallemail\email.php">
+<div id="request_div">
+    <form id="request_form" method="post" enctype="multipart/form-data" action="vivadiplomfirstallemail\email.php">
         <div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="oBlyEDpYaBC7PNlqaGEbTOT3xFrlrCTL"></div><table class="order">
             <tbody>
 
@@ -45,39 +46,29 @@ require("requisites.php");
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="name" id="id_name">
+                    <input style="width: 50%;" type="text" name="client_name" id="id_name">
 
 
                 </td>
             </tr>
-            <tr>
-                <td class="field">
-                    Пароль
-                    <span style="color: red;">*</span>
-                </td>
-                <td>
-                    <input style="width: 50%;" type="text" name="password" id="id_name">
 
-
-                </td>
-            </tr>
             <tr>
                 <td class="field">
                     E-mail
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="email" id="id_email">
+                    <input style="width: 50%;" type="text" name="client_email" id="id_email">
 
                 </td>
             </tr>
             <tr>
                 <td class="field">
-                    Стоимость заказа<br>без скидки
+                    Стоимость заказа
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="gold" id="id_name">
+                    <input style="width: 50%;" type="text" name="zakaz_cena" id="id_name">
 
                 </td>
             </tr>
@@ -87,7 +78,7 @@ require("requisites.php");
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="time" id="id_name">
+                    <input style="width: 50%;" type="text" name="srok_vipoln" id="id_name">
 
                 </td>
             </tr>
@@ -98,7 +89,7 @@ require("requisites.php");
 
                 </td>
                 <td>
-                    <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="tema"></textarea>
+                    <textarea id="id_subject" style="width: 80%;" rows="2" cols="10" name="zakaz_teme"></textarea>
 
 
                 </td>
@@ -112,7 +103,18 @@ require("requisites.php");
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="predmet" maxlength="100">
+                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td class="field">
+                    Вид
+
+                </td>
+                <td>
+                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_type" maxlength="100">
 
 
                 </td>
@@ -126,21 +128,51 @@ require("requisites.php");
 
                 </td>
                 <td>
-                    <input id="id_university" style="width: 50%;" type="text" name="university" maxlength="100">
+                    <input id="id_university" style="width: 50%;" type="text" name="client_vuz" maxlength="100">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td class="field">
+                    Уникальность
+
+                </td>
+                <td>
+                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_unik" maxlength="100">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td class="field">
+                    Объем
+
+                </td>
+                <td>
+                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_pages" maxlength="100">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td class="field">
+                    Чертежи
+                </td>
+                <td>
+                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_cherteg" maxlength="100">
 
 
                 </td>
             </tr>
 
-
-
             <tr>
                 <td class="field">
-                    Доп. информация<br>(объем, уникальность)
+                    Доп. информация
 
                 </td>
                 <td>
-                    <textarea id="id_add_info" style="width: 80%;" rows="3" cols="10" name="add_info"></textarea>
+                    <textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln"></textarea>
 
 
                 </td>
@@ -151,7 +183,7 @@ require("requisites.php");
                 <td class="field">&nbsp;</td>
                 <td>
                     <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
-                        Сохранить
+                        Сохранить, создать запись в базе и личный кабинет.
                     </button>
                 </td>
             </tr>
