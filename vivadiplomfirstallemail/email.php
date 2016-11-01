@@ -137,7 +137,7 @@ fwrite($fp, $balance_date."\n");
 
 fclose($fp);
 
-$url_cabinet = "../check_login.php";
+$url_cabinet = $site_url."check_login.php";
 $path_img = $site_url."vivadiplomfirstallemail/";
 
 ?>
