@@ -163,7 +163,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					<tbody><tr>
 						<td style="padding:15px 25px">
 							<a href="<?php echo $site_url; ?>" style="text-decoration:none" target="_blank" data-saferedirecturl="<?php echo $site_url; ?>">
-								<img style="margin-bottom:22px" src="../index_files/1_logo.png" alt="<?php echo $site_name; ?>" class="CToWUd">
+								<img style="margin-bottom:22px" src="<?php echo $path_img; ?>index_files/1_logo.png" alt="<?php echo $site_name; ?>" class="CToWUd">
 							</a>
 						</td>
 						<td style="padding-right:30px">
@@ -386,7 +386,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 						<tbody><tr>
 							<td style="width:209px;height:129px;padding:0;overflow:visible">
 								<a href="<?php echo $site_url; ?>aktcii_i_skidki.php" class="m_3689207491995373867gp-button" target="_blank" ">
-									<img alt="android phones" src="<?php echo $site_img; ?>index_files/offer1.jpg" class="CToWUd" width: 400;>
+									<img alt="android phones" src="<?php echo $path_img; ?>index_files/offer1.jpg" class="CToWUd" width: 400;>
 								</a>
 							</td>
 							
