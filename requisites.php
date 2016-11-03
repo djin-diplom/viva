@@ -23,4 +23,5 @@ if ($per == 1) {
     $url_adres_yandex = "https://yandex.ru/maps/-/CZgsN0p4";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZgsN0p4\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014647964140";
+    $push_impulse = "<script charset=\"UTF-8\" src=\"//cdn.sendpulse.com/js/push/9b4856f4d4e8109ccf19a9f64e457f0e_0.js\" async></script>";
 }

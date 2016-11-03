@@ -108,7 +108,7 @@ if(empty($_POST['zakaz_unik'])) {
 fwrite($fp, $zakaz_unik."\n");
 
 if(empty($_POST['zakaz_pages'])) {
-	$zakaz_pages = "";
+	$zakaz_pages = "30-40";
 } else {
 	$zakaz_pages= $_POST['zakaz_pages'];
 }
