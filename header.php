@@ -1,12 +1,10 @@
-<?php if ($per == 1): ?>
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 	(function (d, w, c) {
 		(w[c] = w[c] || []).push(function() {
 			try {
-				w.yaCounter40204279 = new Ya.Metrika({
-					id:40204279,
+				w.yaCounter40735674 = new Ya.Metrika({
+					id:40735674,
 					clickmap:true,
 					trackLinks:true,
 					accurateTrackBounce:true
@@ -26,38 +24,8 @@
 		} else { f(); }
 	})(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/40204279" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/40735674" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-<?php else: ?>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-	(function (d, w, c) {
-		(w[c] = w[c] || []).push(function() {
-			try {
-				w.yaCounter40395360 = new Ya.Metrika({
-					id:40395360,
-					clickmap:true,
-					trackLinks:true,
-					accurateTrackBounce:true
-				});
-			} catch(e) { }
-		});
-
-		var n = d.getElementsByTagName("script")[0],
-			s = d.createElement("script"),
-			f = function () { n.parentNode.insertBefore(s, n); };
-		s.type = "text/javascript";
-		s.async = true;
-		s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-		if (w.opera == "[object Opera]") {
-			d.addEventListener("DOMContentLoaded", f, false);
-		} else { f(); }
-	})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/40395360" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<?php endif ?>
 
 <div id="marquee">Закажите работу прямо сейчас, ждем вашу заявку на почте! Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
 <div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
@@ -68,7 +36,7 @@
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>"><img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>С 6:00 до 22:00, без выходных</div>
 			<div class="phone">
 				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
-				<div><span><?php echo $email; ?></span></div>
+				
 				<div><span><?php echo $email2; ?></span></div>
 				<?php if (empty($_SESSION['client_email'])): ?>
 					<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Личный кабинет</label>
@@ -97,12 +65,13 @@
 			</div>
 		</section>
 		<menu>
-			<div><span><a href="o_kompanii.php">О компании</a></span></div>
-			<div><span><a href="uslugi_i_ceny.php">Услуги и цены</a></span></div>
-			<div><span><a href="poriadok_zakaza.php">Порядок заказа</a></span></div>
+			<div><span><a href="o_kompanii.php">Наш Учебный центр</a></span></div>
+			<div><span><a href="uslugi_i_ceny.php">Стоимость услуг</a></span></div>
+			<div><span><a href="poriadok_zakaza.php">С чего начать</a></span></div>
 			<div><span><a href="order.php">Заказать работу</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Договор</a></span></div>
+			<div><span><a href="got_rab.php">Готовые работы</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 		

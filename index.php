@@ -23,16 +23,16 @@ require("requisites.php");
 
 	<section class="leather" style="background-image: url(/img/leather1.jpg);">
 
-		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">Работаем без предоплаты!</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
-		<div id="shorttext" class="hidden"><h1>Работа на заказ без предоплаты</h1>
-<div class="dashedborder">Наши клиенты знают, что работа на заказ в «<?php echo $site_name; ?>» будет написана качественно и без предоплаты!</div>
-<div class="dashedborder">Мы бесплатно вышлем вам план и введение! Лишь после бесплатного ознакомления с частью работы вы платите деньги!</div>
-<div class="dashedborder">Для защиты диплома мы подготовим доклад и презентацию бесплатно.</div>
+		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">Дипломные работы на заказ</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
+		<div id="shorttext" class="hidden"><h1>Заказать дипломную или курсовую работу</h1>
+<div class="dashedborder">Наши клиенты знают, что работа на заказ в «<?php echo $site_name; ?>» будет написана качественно!</div>
+<div class="dashedborder">Мы выполнями дипломы в два раза дешевле других крупных компаний!</div>
+<div class="dashedborder">Для защиты диплома мы подготовим доклад и презентацию.</div>
 <div class="dashedborder">Мы выполняем работы для всех специальностей и почти на любые темы.</div>
-<div class="dashedborder">Можно написать работу на примере Вашей организации со всеми данными.</div>
+<div class="dashedborder">Мы предоставляем Заказчиками удобный личный кабинет!</div>
 <div class="dashedborder">Дипломная или курсовая работа в 2016 году - это довольно непросто, особенно из-за требований по антиплагиату.<br>
 Если Вам нужно заказать диплом или курсовую, то лучшее решение - это обратиться в компанию «<?php echo $site_name; ?>».<br>
-Подойти в офис в Москве или сделать заказ диплома по почте и через сайт.</div></div>
+Подойти в офис в Москве или сделать заказ диплома по почте и через форму сайта.</div></div>
 
 		<menu class="advantages">
 			<span class="except"><b>Наши преимущества:</b></span>

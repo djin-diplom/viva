@@ -60,7 +60,7 @@ require ("kab_header.php");
 					<a href="orders.php#<?php echo $param;?>">
 						<span class="label"><?php echo $param_2;?></span>
 						<span class="counter">
-					<?php if ($i==1 or ( $i==3 and $balance == 0) or ( $i==4 and $balance != 0)):?>
+					<?php if ($i==1 or ( $i==3 and (int)$balance == 0) or ( $i==4 and (int)$balance != 0 )or ($i == 5 and $balance == "z" )):?>
 						(1)
 						<?php else:?>
 						(0)
@@ -86,9 +86,7 @@ require ("kab_header.php");
 			case 1:
 				$param = "all";
 				break;
-			case 2:
-				$param = "under-consideration";
-				break;
+
 			case 3:
 				$param = "waiting-for-payment";
 				break;
@@ -108,7 +106,7 @@ require ("kab_header.php");
 		?>
 		<div id="<?php echo $param;?>" class="tab-panel tabs-panel">
 
-			<?php if ($i==1 or ( $i==3 and $balance == 0) or ( $i==4 and $balance != 0)):?>
+			<?php if ($i==1 or ( $i==3 and (int)$balance == 0) or ( $i==4 and (int)$balance != 0) or ($i == 5 and $balance == "z")):?>
 
 					<ul>
 		<li class="order-list-item last">
@@ -166,6 +164,8 @@ require ("kab_header.php");
 <div class="w-order-dates">
 	<span class="date">
 Размещен <?php echo $zakaz_date; ?>, срок выполнения <?php echo $srok_vipoln; ?> сут. с момента оплаты</span>
+	<br><br><a href="javascript:void(0);" id="link<?php echo $i;?>">Открыть дополнительные сведения</a>
+	<div id="look<?php echo $i;?>" style="display:none;"><br><?php echo $zakaz_dopoln; ?></div>
 </div>	</div>
 	<div class="wrapper money">
 		<div class="order-price-area"><svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
