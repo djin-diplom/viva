@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 require("requisites.php");
+$count_text = 58;
 ?>
 <html>
 <head>
