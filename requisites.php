@@ -1,6 +1,6 @@
 <?php
 
-$per = 3;
+$per = 4;
 
 if ($per == 1) {
     $site_name = "<a href='http://vivadiplom.ru'>Да здравствует Диплом!</a>";
@@ -24,7 +24,7 @@ if ($per == 1) {
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZgsN0p4\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014647964140";
     $push_impulse = "<script charset=\"UTF-8\" src=\"//cdn.sendpulse.com/js/push/9b4856f4d4e8109ccf19a9f64e457f0e_0.js\" async></script>";
-} else {
+} elseif ($per == 3) {
     $site_name = "База Знаний";
     $site_url = "http://bazadiplom.ru/";
     $site_phone = "+7 (960) 590 95 72";
@@ -37,4 +37,16 @@ if ($per == 1) {
     $url_oplata = "https://money.yandex.ru/to/410014647964140";
     $push_impulse = "";
 
+} else {
+    $site_name = "Vivadip.xyz";
+    $site_url = "http://vivadip.xyz/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@vivadip.xyz";
+    $email2 = "vivadip.xyz@gmail.com";
+    $email3 = "info@vivadip.xyz";
+    $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014714516309";
+    $push_impulse = "";
 }
