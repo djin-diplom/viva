@@ -193,8 +193,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Мы оценили стоимость выполнения Вашей работы:<br>
 			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $zakaz_teme; ?></a><br>
 			Номер заказа <?php echo $zakaz; ?><br>
-			Логин для входа в Личный кабинет: <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
+			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
+			Все интересующие Вас вопросы можно задать в ответе на это письмо!<br>
 		</td>
 	</tr>
 	<tr>
@@ -415,7 +416,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 		<tr>
 		</tr>
 			<td style="color:#98a4ab;text-align:center;padding:5px 100px;font-size:13px">
-				Это письмо отправлено автоматически и носит информационный характер, на него не нужно отвечать.
+				Все интересующие Вас вопросы можно задать в ответе на это письмо!<br>
+				Далее почтовая система приводит текстовый вид нашего сайта <?php echo $site_url; ?>
 			</td>
 		</tr>
 	</tbody>
