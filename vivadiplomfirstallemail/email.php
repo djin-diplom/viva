@@ -151,8 +151,6 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 </head>
 
 <body>
-
-	
 	
 
 <div style="background-color:#ebeef2;font-family:&#39;Open Sans&#39;,sans-serif;font-size:14px;color:#3b4046;padding-top:20px">
@@ -169,7 +167,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 						<td style="padding-right:30px">
 						</td>
 					</tr>
-				</tbody></table>
+				</tbody>
+				</table>
 			</td>
 		</tr>
 		
@@ -213,9 +212,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena*1.2; ?> руб.</div>
+							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena*1.25; ?> руб.</div>
 							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena; ?> руб.</div>
-							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%</div>
+							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
@@ -224,7 +223,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 						<div style="font-size:14px;padding:5px 0px 22px">с момента оплаты</div>
 					</td>
 				</tr>
-			</tbody></table>
+			</tbody>
+			</table>
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +238,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<td>
 				<!-- В течение суток назначенный на Ваш заказ менеджер <span style="color:#5298ef;font-weight:bold">совершенно бесплатно</span><br> пришлет Вам на почту часть Вашей работы.
 				Если письмо от менеджера<br> не пришло, обратитесь к нам повторно по адресу <a href="mailto:<?php echo $email2; ?>"><?php echo $email2; ?></a>.<br> -->
-				Для начала выполнения работы следует внести предоплату 50%.<br>
+				Для начала выполнения работы следует внести предоплату 50%<br>
+				(или полную стоимость, чтобы получить скидку 20%).<br>
 				Мы будем выполнять работу по
 				Вашим указаниям и Вашему плану.<br>
 				<!-- После получения части работы для продолжения выполнения заказа<br> -->
@@ -252,7 +253,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				своему заказу.
 			</td>
 		</tr>
-</tbody></table>
+</tbody>
+</table>
 
 
 
@@ -311,7 +313,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 		</td>
 	</tr>
 	<tr style="height:40px"></tr>
-</tbody></table>
+</tbody>
+</table>
 
 		</td>
 	</tr>
@@ -374,7 +377,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 		</td>
 	</tr>
 	<tr style="height:30px"></tr>
-</tbody></table>
+</tbody>
+</table>
 
 		</td>
 	</tr>
@@ -396,7 +400,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					</tbody></table>
 				</td>
 			</tr>
-	</tbody></table>
+	</tbody>
+	</table>
 	<table style="width:630px;border-spacing:0;font-size:14px;margin:auto" cellpadding="0" cellspacing="0">
 		<tbody><tr>
 			<td style="color:#98a4ab;text-align:center;padding-bottom:5px;padding-top:13px">
@@ -413,9 +418,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				Это письмо отправлено автоматически и носит информационный характер, на него не нужно отвечать.
 			</td>
 		</tr>
-	</tbody></table><div class="yj6qo"></div><div class="adL">
-</div></div><div class="adL">
-
-</div></div></div><div id=":85" class="ii gt" style="display:none">
-<div id=":86" class="a3s aXjCH undefined"></div></div><div class="hi"></div></div>
-</body></html>
+	</tbody>
+	</table>
+</div>
+</body>
+</html>
