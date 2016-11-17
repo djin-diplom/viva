@@ -3,8 +3,8 @@
 	(function (d, w, c) {
 		(w[c] = w[c] || []).push(function() {
 			try {
-				w.yaCounter40853859 = new Ya.Metrika({
-					id:40853859,
+				w.yaCounter40976924 = new Ya.Metrika({
+					id:40976924,
 					clickmap:true,
 					trackLinks:true,
 					accurateTrackBounce:true
@@ -24,7 +24,7 @@
 		} else { f(); }
 	})(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/40853859" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/40976924" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 <div id="marquee">Закажите работу прямо сейчас, ждем вашу заявку на почте! Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
