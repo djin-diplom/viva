@@ -154,7 +154,7 @@ require ("kab_header.php");
 			<?php echo $zakaz_predmet; ?>, <?php echo $zakaz_pages; ?> страниц(а), 14 pt, <?php echo $zakaz_type; ?>
 		</div>
 		<div class="details system-text">
-			<?php if ($zakaz_unik == 0) echo "Стандартный "; else echo $zakaz_unik; ?>% уникальности (ETXT, antiplagiat.ru), <?php if ($zakaz_cherteg == 0) echo 0; else echo $zakaz_unik; ?> черт. (AutoCAD, Компас и т. д.)
+			<?php if ($zakaz_unik == 0) echo "Стандартный "; else echo $zakaz_unik; ?>% уникальности (ETXT, antiplagiat.ru), <?php if ($zakaz_cherteg == 0) echo 0; else echo $zakaz_cherteg; ?> черт. (AutoCAD, Компас и т. д.)
 		</div>
 	</div>
 </div>
