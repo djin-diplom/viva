@@ -38,7 +38,7 @@ require("header.php");
 
 </p><h3><span style="color: maroon;">Часы работы</span></h3><p>С <b>6:00 до 22:00</b>; &nbsp;<span style="color: maroon;"><b>без выходных.</b></span><br></p><br>
 
-<h3><span style="color: maroon;">Расположение офиса</span></h3>Адрес - <?php echo $adres; ?><br>Мы находимся в самом центре Санкт-Петербурга - недалеко от метро.<div>При себе необходимо иметь документ, в бизнес-центре действует пропускной режим.<br>
+<h3><span style="color: maroon;">Расположение офиса</span></h3>Адрес - <?php echo $adres; ?><br>Мы находимся в самом центре города - недалеко от метро.<div>При себе необходимо иметь документ, в бизнес-центре действует пропускной режим.<br>
 <br>
 <?php echo $url_adres_yandex_frame; ?>
 <div class="marked">Фотографии бизнес-центра и офиса</div>
