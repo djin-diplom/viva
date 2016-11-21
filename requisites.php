@@ -2,11 +2,11 @@
 
 //$per = 4;
 $site_name = "База Знаний";
-$site_url = "http://bazaznanij.com/";
+$site_url = "http://bazaznanij.xyz/";
 $site_phone = "+7 (960) 590 95 72";
-$email = "zakaz@bazaznanij.com";
-$email2 = "bazaznanij.com@gmail.com";
-$email3 = "info@bazaznanij.com";
+$email = "zakaz@bazaznanij.xyz";
+$email2 = "bazaznanij.xyz@gmail.xyz";
+$email3 = "info@bazaznanij.xyz";
 $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
 $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
