@@ -15,7 +15,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>Пиcьмо для будущих Заказчиков компaнии "<? echo $site_name; ?>"</title>
+  <title>Сообщение для потенциальных Заказчиков учебного центра "<? echo $site_name; ?>"</title>
 
   <style type="text/css">
     body {
@@ -131,8 +131,9 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-            Продажа дипломных работ на заказ и другие услуги от компании "<?php echo $site_name; ?>"</span>
-            <br><span style="color: green;">Скидки, акции, новогоднее снижение цен!</span>
+            Дипломные и другие работы «под ключ» - написание и сопровождение до защиты.
+            Презентация и защитная речь в подарок от учебного центра "<?php echo $site_name; ?>".
+            <br><span style="color: green;">Скидки%, предновогоднее падение цен!</span>
           </td>
         </tr>
         <tr>
@@ -142,7 +143,9 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
               <tr>
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компaния "<a href=<?php echo $site_url; ?>><? echo $site_name; ?></a>" БЕЗ ПРЕДОПЛАТЫ пришлет вам часть работы для ознакомления, чтобы вы сделали выбор!<br> Просто сделайте заказ на сайте с помощью формы заказа!</div>
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Учебный центр "<a href=<?php echo $site_url; ?>><? echo $site_name; ?></a>" БЕЗ ПРЕДОПЛАТЫ
+                    предоставит Вам часть диплома, курсовой, магистерской, чтобы вы не покупали кота в мешке!
+                    Используйте форму на нашем сайте, чтобы совершить заказ!</div>
                 </td>
               </tr>
               <tr>
@@ -166,8 +169,17 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Курсовая</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 1500 рублей<br>
-                          Защита диплома и сама дипломная работа - это итог и венец нескольких лет студенчества. Это то, к чему вы шли так долго, и ваш пропуск в успешную и действительно взрослую жизнь. Но что делать, если защита все ближе, а вы понимаете, что не готовы к ней на том уровне, какого вам бы хотелось? Это сейчас, увы, случай нередкий, и дело не в лени или безалаберности.
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 1400 рублей<br>
+                          Вам нужно написать работу?
+
+                          Вы скажете:
+                          «Разумеется, нужно!
+                          Я оканчиваю вуз!
+                          НО…» Но есть причина, которая мешает вам написать работу самостоятельно.
+                          Неважно, какая – главное, что устранить её невозможно.
+                          А это значит, что выход из положения один-единственный: придётся заказать ее.
+                          И после принятия такого решения встаёт весьма сложный вопрос:
+                          КТО МОЖЕТ СДЕЛАТЬ ЭТУ РАБОТУ ЗА ВАС?
                         </div>
                         <br>
                       </td>
@@ -191,8 +203,15 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 4500 рублей<br>
-                          Вам, наверное, не раз доводилось слышать ворчанье преподавателей о том, что когда они были студентами, все было совершенно иначе. И это чистая правда. Однако это не значит, что учиться стало легче. В распоряжении современных студентов стационарные и портативные компьютеры, интернет, электронные библиотеки... И живут они в другом мире - жить стало дороже, зарабатывать на жизнь - сложнее, а выдерживать ее темп и все успевать - гораздо труднее. Знакомо?
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 4600 рублей<br>
+                          КТО МОЖЕТ СДЕЛАТЬ ЭТУ РАБОТУ ЗА ВАС?
+
+                          Причём сделать так, чтобы вы блистали на защите или хотя бы были твёрдо уверены,
+                          что защититесь без проблем? Кто может написать диплом на заказ срочно, качественно и недорого?
+
+                          Несомненно, вы уже протестировали этот вопрос на друзьях/коллегах/родственниках/знакомых
+                          и получили массу советов, которые, по большому счёту, сводятся к одному:
+                          «Нужно заказать дипломную у профи!»
                         </div>
                         <br>
                       </td>
@@ -216,8 +235,13 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Магистерская</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 6000 рублей<br>
-                          Одно из направлений деятельности компании - это продажа дипломных работ практически по всем дисциплинам. У нас трудятся выпускники ведущих вузов страны, которые пишут работы самостоятельно по утвержденному плану с гарантией уникальности и адекватности теме, которую вы выбрали совместно с научным руководителем.
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">От 6500 рублей<br>
+                          Нужно заказать дипломную или магистерскую профессионалам, иначе выбросишь деньги на ветер!
+
+                          Но профессионал – это такое стандартное, такое размытое понятие…
+                          Вы спросите: «Где гарантия, что найденный на просторах Сети «профессионал»
+                          действительно специалист именно в вашей теме? Что он выполнит работу вовремя,
+                          чётко соблюдёт все требования, правильно оформит текст и приложения?»
                         </div>
                         <br>
                       </td>
@@ -231,8 +255,8 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href=<?php echo $site_url."order.php"; ?>>Форма для заказа! Вам сюда!</a><br>
-                  Мы работаем по договору оферты и гарантируем выполнение заказов точно в срок. Просто сделайте заказ - и будьте спокойны и уверены в результате!
+                  <a href=<?php echo $site_url."order.php"; ?>>Форма заказа работы! Приглашаем на сайт!</a><br>
+                  Мы гарантируем: дипломная работа, написанная авторами нашего учебного центра, будет безупречной.
                 </td>
               </tr>
             </table>
@@ -245,7 +269,23 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
 
 
             <strong><? echo $site_name; ?></strong><br>
-            Компания работает на рынке образовательных услуг уже более 10 лет. За этот немалый срок мы помогли множеству студентов: написали бесчисленное количество дипломов, научных докладов, диссертаций, курсовых, рефератов и других работ на заказ. Мы готовы взяться за дело даже в самых сложных случаях, например, когда работа должна быть выполнена в экстремально короткие сроки. Результат всегда оправдывает ожидания наших клиентов, и мы гордимся этим!
+
+            Сказать, что у нас «работают профессионалы, гарантирующие высокое качество» – значит, ничего не сказать. У нас работают преподаватели вузов, знающие о дипломах всё, что только возможно знать – начиная с ГОСТов оформления и заканчивая изысками психологии членов аттестационной комиссии.
+<br>
+
+            Написание дипломных работ на заказ – это наш бизнес! Только в Интернете мы работаем со студентами уже пять лет, и нам ОЧЕНЬ дорога наша репутация.
+
+            <br>
+            Мы всегда согласимся с мнением вашего научного руководителя о необходимости доработки диплома: его требование, даже самое неуместное – это закон. Впрочем, как и все пожелания наших клиентов.
+
+            <br>
+            Сотрудничество с нами продолжится и после того, как вы получите от нас готовое дипломное исследование. В нашу работу входят консультации по любым возникшим у вас вопросам, любые необходимые доработки и сопровождение клиента вплоть до защиты.
+
+            <br>
+            Мы готовы выслушать вас в любой момент  – в том числе, в выходные дни. Проблема возникла ночью, и ее нельзя отложить? Тогда звоните – наши менеджеры спят очень чутко.
+
+            <br>
+            Диплом по биологии будет писать биолог, диплом по лингвистике – лингвист. А если подробнее…
             <br>
             <span class="ios-footer">
               <?php echo $adres; ?> <br>
