@@ -1,17 +1,31 @@
 <?php
 
-//$per = 4;
-$site_name = "База Знаний";
-$site_url = "http://bazaznanij.xyz/";
-$site_phone = "+7 (960) 590 95 72";
-$email = "zakaz@bazaznanij.xyz";
-$email2 = "bazaznanij.xyz@gmail.com";
-$email3 = "info@bazaznanij.xyz";
-$adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
-$url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
-$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410014714516309";
-$push_impulse = "";
+$per = 2;
+if ($per == 1) {
+    $site_name = "База Знаний";
+    $site_url = "http://bazaznanij.xyz/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@bazaznanij.xyz";
+    $email2 = "bazaznanij.xyz@gmail.com";
+    $email3 = "info@bazaznanij.xyz";
+    $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014714516309";
+    $push_impulse = "";
+} else {
+    $site_name = "База Знаний";
+    $site_url = "http://bazaznanij.com/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@bazaznanij.com";
+    $email2 = "bazaznanij.com@gmail.com";
+    $email3 = "info@bazaznanij.com";
+    $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014714516309";
+    $push_impulse = "";
+}
 
 /*
 if ($per == 1) {
