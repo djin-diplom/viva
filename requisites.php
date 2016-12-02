@@ -14,7 +14,7 @@ if ($per == 1) {
     $url_oplata = "https://money.yandex.ru/to/410014714516309";
     $push_impulse = "";
 } else {
-    $site_name = "База Знаний";
+    $site_name = "Диплом-Bazaznanij.com";
     $site_url = "http://bazaznanij.com/";
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@bazaznanij.com";

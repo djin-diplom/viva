@@ -81,17 +81,39 @@ if(isset($_POST['submit'])) {
 
 	//Если ошибок нет, отправить email
 	if (!isset($hasError)) {
+		//$body = "
+		//name: $name \n\n
+		//email_stud: $email_stud \n\n
+		//work_kind: $work_kind \n\n
+		//tema: $tema \n\n
+		//predmet : $predmet \n\n
+		//university: $university \n\n
+		//add_info: $add_info \n\n
+		//";
 		$body = "
-		name: $name \n\n
-		email_stud: $email_stud \n\n
-		work_kind: $work_kind \n\n
-		tema: $tema \n\n
-		predmet : $predmet \n\n
-		university: $university \n\n
-		add_info: $add_info \n\n
+		<html>
+<head>
+  <title>Birthday Reminders for August</title>
+</head>
+<body>
+		name: $name <br>
+		email_stud: $email_stud <br>
+		work_kind: $work_kind <br>
+		tema: $tema <br>
+		predmet : $predmet <br>
+		university: $university <br>
+		add_info: $add_info <br>
+		</body>
+</html>
 		";
 
-		$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
+
+		//$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+		$headers = 'From: '.$email. "\r\n" . 'Reply-To: ' . $email_stud;
+
+		$subject = "Привет, буфет!";
 
 		mail($email2, $subject, $body, $headers);
 		$emailSent = true;
