@@ -17,7 +17,8 @@ if ($per == 1) {
     $site_name = "Диплом-Bazaznanij.com";
     $site_url = "http://bazaznanij.com/";
     $site_phone = "+7 (960) 590 95 72";
-    $email = "zakaz@bazaznanij.com";
+    //$email = "zakaz@bazaznanij.com";
+    $email = "zakaz@agwwefew.esy.es";
     $email2 = "bazaznanij.com@gmail.com";
     $email3 = "info@bazaznanij.com";
     $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
