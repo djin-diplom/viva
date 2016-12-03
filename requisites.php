@@ -1,11 +1,15 @@
 <?php
 
-$per = 1;
+$per = 2;
 if ($per == 1) {
     $site_name = "База Знаний";
     $site_url = "http://bazaznanij.xyz/";
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@bazaznanij.xyz";
+    $email_2 = "info@bazaznanij.xyz";
+    $email_3 = "inform@bazaznanij.xyz";
+    $email_4 = "information@bazaznanij.xyz";
+    $email_5 = "order@bazaznanij.xyz";
     $email2 = "bazaznanij.xyz@gmail.com";
     $email3 = "info@bazaznanij.xyz";
     $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";
