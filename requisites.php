@@ -1,6 +1,6 @@
 <?php
 
-$per = 2;
+$per = 1;
 if ($per == 1) {
     $site_name = "База Знаний";
     $site_url = "http://bazaznanij.xyz/";
