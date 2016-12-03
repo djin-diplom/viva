@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Загрузка файлов на сервер</title>
+</head>
+<body>
+<h2><p><b> Форма для загрузки файлов </b></p></h2>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    excel:
+    <input type="file" name="filename"><br>
+    html:
+    <input type="file" name="filename_html"><br>
+    <input type="submit" value="Загрузить"><br>
+</form>
+</body>
+</html>
