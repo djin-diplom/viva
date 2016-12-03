@@ -41,9 +41,8 @@ foreach($ar as $ar_colls) {
 
 //Если форма отправлена
     if (isset($_POST['filename'])) {
-        $body = '
-            require ("../email/build.php");
-            ';
+        $body = "\"".require ("../email/build.php")."\"";
+
         //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
