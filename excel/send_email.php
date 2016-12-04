@@ -44,31 +44,8 @@ foreach($ar as $ar_colls) {
 
 
 //Если форма отправлена
-    /*if (isset($_POST['$filename_html'])) {
-        //Нужно загрузить файл
-        $f = fopen("files/" . $filename_html, "r");
-        //$fgets_email = fgets($f);
-        //echo "<td>".$fgets_email."</td>";
-        //$i=1;
-        $fgets = fgets($f);
-        while(!feof($f)) {
-            $fgets .= fgets($f);
-            if($i == 23){
-                $count_money = $count_money + $fgets;
-                $fgets_money = $fgets;
-            }
-            if($i == 22){
-                $count_money_potential = $count_money_potential + $fgets;
-                $fgets_money_potential = $fgets;
-            }
-            $i++;
-        }
-        fclose($f);*/
+
         $body = $body_2;
-
-
-
-
         //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -81,7 +58,6 @@ foreach($ar as $ar_colls) {
         if(isset($emailSent) && $emailSent == true) { //Если письмо отправленл ?>
             <p style="color: #e94500;font-size: 19px;"><strong>Email <?php echo $email_client; ?> успешно отправлен!</strong></p>
         <?php }
-    }
     $i++;
     $i= $i % 5;
     sleep(5);
