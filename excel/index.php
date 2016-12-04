@@ -8,7 +8,8 @@
  * 
 **/
 
-error_reporting(E_ALL);		
+error_reporting(E_ALL);
+require("../requisites.php");
 require_once ("sender.php");
 $sender = new sender;
 
