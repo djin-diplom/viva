@@ -2,6 +2,8 @@
 <?php
 require("../requisites.php");
 require("../email/build_2.php");
+set_time_limit(0);
+ob_implicit_flush();
 
 $filename = $_POST['filename'];
 function readExelFile($filepath){
