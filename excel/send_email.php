@@ -84,9 +84,12 @@ $ar_colls = $ar[$i];
         fwrite($f, $i."\n");
         fclose($f);
         sleep(10);
-        header("Location: send-email.php?nomer=".$i."&filename=".$filename);
+        header("Location: send-email.php?nomer=".$i."&filename=\'".$filename."\'");
     } else {
         $i++;
-        header("Location: send-email.php?nomer=".$i."&filename=".$filename);
+        $f = fopen('log.txt', "w");
+        fwrite($f, $i."\n");
+        fclose($f);
+        header("Location: send-email.php?nomer=".$i."&filename=\'".$filename."\'");
     }
 //}
