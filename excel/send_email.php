@@ -4,7 +4,6 @@ require("../requisites.php");
 require("../email/build_2.php");
 
 $filename = $_POST['filename'];
-$filename_html = $_POST['filename_html'];
 function readExelFile($filepath){
     require_once ("Classes/PHPExcel.php");
     $ar=array();

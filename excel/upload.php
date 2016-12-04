@@ -26,14 +26,6 @@ if(is_uploaded_file($_FILES["filename"]["tmp_name"]))
         echo ("Размер файла превышает три мегабайта");
         exit;
     }
-// Проверяем загружен ли файл
-    if(is_uploaded_file($_FILES["filename_html"]["tmp_name"]))
-    {
-        // Если файл загружен успешно, перемещаем его
-        // из временной директории в конечную
-        move_uploaded_file($_FILES["filename_html"]["tmp_name"], "../excel/files/".$_FILES["filename_html"]["name"]);
-        Echo "Файл html успешно загружен!<br>Перейти к рассылке писем.";
-        $name_file_html = $_FILES["filename_html"]["name"];
         ?>
         <form action="send_email.php" method="post">
             <input type="hidden" name="filename" value="<?php echo $name_file; ?>"><br>
@@ -42,28 +34,11 @@ if(is_uploaded_file($_FILES["filename"]["tmp_name"]))
             <input type="submit" value="Перейти"><br>
         </form>
 <?php
-    } else {
-        ?>
-        <form action="send_email.php" method="post">
-            <input type="hidden" name="filename" value="<?php echo $name_file; ?>"><br>
-            html:
-            <input type="text" name="filename_html" ><br>
-            № строки:
-            <input type="text" name="nomer" value="0"><br>
-            <input type="submit" value="Перейти"><br>
-        </form>
-        <?php
-    }
-
 } else {
     ?>
     <form action="send_email.php" method="post">
         excel:
             <input type="text" name="filename" ><br>
-        html:
-            <input type="text" name="filename_html" ><br>
-        № строки:
-        <input type="text" name="nomer" value="0"><br>
             <input type="submit" value="Перейти"><br>
         </form>
     <?php
