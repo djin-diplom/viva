@@ -12,8 +12,9 @@ class sender
     	"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
     	"port"			=> 465,						// Порт SMTP сервера
     	"username"		=> 'bazaznanij.xyz@gmail.com', // Логин на SMTP сервере
+		"fromname_1"		=> 'info@bazaznanij.xyz', // От кого посылать
     	"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
-    	"fromname"		=> 'info@bazaznanij.xyz', 		// Отображаемое имя отправителя
+    	"fromname"		=> 'bazaznanij.xyz', 		// Отображаемое имя отправителя
     	"replyto"		=> array(
     		"address"	=> 'info@bazaznanij.xyz', 	// адрес почты для ответа
     		"name"		=> 'Bazaznanij.xyz'	//отображаемое имя владельца ящика
@@ -88,7 +89,8 @@ class sender
 		$mail->SMTPSecure	= $smtp_data['secure'];
 		$mail->CharSet 		= $smtp_data['charset'];
 
-		$mail->setFrom($smtp_data['username'], $smtp_data['fromname']);
+		//$mail->setFrom($smtp_data['username'], $smtp_data['fromname']);
+		$mail->setFrom($smtp_data['fromname_1'], $smtp_data['fromname']);
 		$mail->addReplyTo($smtp_data['replyto']['address'], $smtp_data['replyto']['name']);
 		if(!empty($smtp_data['notification']['address']))
 		{

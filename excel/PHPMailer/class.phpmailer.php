@@ -1002,7 +1002,7 @@ class PHPMailer
             }
             return false;
         }
-        $this->From = "info@bazaznanij.xyz";//$address;
+        $this->From = $address;
         $this->FromName = $name;
         if ($auto) {
             if (empty($this->Sender)) {
