@@ -59,5 +59,6 @@ foreach($ar as $ar_colls) {
         <?php }
     $i++;
     $i= $i % 5;
+    //flush();
     sleep(5);
 }
