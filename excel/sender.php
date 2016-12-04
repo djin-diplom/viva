@@ -5,7 +5,9 @@
 
 class sender
 {
-	function __construct($a) {
+	public $smtp_data;
+	
+	function __construct() {
 		print "Конструктор класса BaseClass\n";
 		$smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
@@ -13,7 +15,7 @@ class sender
 			"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
 			"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
 			"port"			=> 587,					// Порт SMTP сервера
-			"username"		=> $a, // Логин на SMTP сервере
+			"username"		=> 'zakaz@bazaznanij.xyz', // Логин на SMTP сервере
 			"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
 			"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
 			"replyto"		=> array(
@@ -30,7 +32,6 @@ class sender
 		);
 	}
 
-	public $smtp_data;
 
 		//сожержимое письма(тема, шапка и подвал письма)
 	public $mail_content = array( 
