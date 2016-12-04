@@ -47,7 +47,7 @@ foreach($ar as $ar_colls) {
         $body = $body_2;
         //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
         $headers = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
         $headers .= 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email . "\r\n";
         $headers .= 'Return-Path:'. $email . "\r\n";
         $subject = "Здравствуйте, ".$name."! ".$vid_rab." за ".$pay." БЕЗ ПРЕДОПЛАТЫ от компании ".$site_name;
