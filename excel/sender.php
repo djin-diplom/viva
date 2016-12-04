@@ -11,7 +11,7 @@ class sender
 			"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
 			"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
 			"port"			=> 587,					// Порт SMTP сервера
-			"username"		=> 'zakaz@bazaznanij.xyz', // Логин на SMTP сервере
+			"username"		=> '', // Логин на SMTP сервере
 			"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
 			"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
 			"replyto"		=> array(
@@ -29,6 +29,7 @@ class sender
 
 	function __construct() {
 		print "Конструктор класса BaseClass\n";
+		$smtp_data['username'] = "zakaz@bazaznanij.xyz"; // Логин на SMTP сервере
 	}
 
 
