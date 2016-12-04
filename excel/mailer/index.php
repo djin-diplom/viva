@@ -9,7 +9,7 @@
 **/
 
 error_reporting(E_ALL);		
-require_once 'sender.php';
+require_once ("sender.php");
 $sender = new sender;
 
 if(!empty($_GET['send']))
