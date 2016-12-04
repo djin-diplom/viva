@@ -23,10 +23,10 @@ $file_path_excel = "files/".$filename;
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
 //echo $i;
-$count = count($ar);
+$count = (int)count($ar);
 
 
-if ( $i >= 3) header("Location: log.txt");
+if ( $i >= $count) header("Location: log.txt");
 $ar_colls = $ar[$i];
     $j = $i % 5;
     switch ($j){
