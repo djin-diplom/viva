@@ -22,23 +22,30 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
-//echo $i;
-$count = (int)count($ar);
+
+$count = count($ar);
 
 
-if ( $i >= $count) header("Location: log.txt");
-$ar_colls = $ar[$i];
+if ( (int)$i >= (int)$count) {
+    header("Location: log.txt");
+} else {
+    $ar_colls = $ar[$i];
     $j = $i % 5;
-    switch ($j){
-        case 0: $email = $email;
+    switch ($j) {
+        case 0:
+            $email = $email;
             break;
-        case 1: $email = $email_2;
+        case 1:
+            $email = $email_2;
             break;
-        case 2: $email = $email_3;
+        case 2:
+            $email = $email_3;
             break;
-        case 3: $email = $email_4;
+        case 3:
+            $email = $email_4;
             break;
-        case 4: $email = $email_5;
+        case 4:
+            $email = $email_5;
             break;
     }
     $email_client = $ar_colls[0];
@@ -77,14 +84,15 @@ $ar_colls = $ar[$i];
         unset($sender);
         $i++;
         $f = fopen('log.txt', "w");
-        fwrite($f, $i."\n");
+        fwrite($f, $i . "\n");
         fclose($f);
         sleep(10);
-        header("Location: send_email.php?nomer=".$i."&filename=".$filename);
+        header("Location: send_email.php?nomer=" . $i . "&filename=" . $filename);
     } else {
         $i++;
         $f = fopen('log.txt', "w");
-        fwrite($f, $i."\n");
+        fwrite($f, $i . "\n");
         fclose($f);
-        header("Location: send_email.php?nomer=".$i."&filename=".$filename);
+        header("Location: send_email.php?nomer=" . $i . "&filename=" . $filename);
     }
+}
