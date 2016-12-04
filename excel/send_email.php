@@ -25,6 +25,8 @@ $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
 print_r ($ar[0]);
 print_r ($ar[2]);
+print_r ($ar[6]);
+print_r ($ar[7]);
 //foreach($ar as $ar_colls) {
 /*
 if ($ar[$i] === Array()) header("Location: log.txt");
