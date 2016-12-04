@@ -5,13 +5,17 @@
 
 class sender
 {
-	public $smtp_data = array(
+	public $smtp_data;
+
+	public function __construct() {
+		print "Конструктор класса BaseClass\n";
+		$this->smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
 			"debug"			=> 2,						// Уровень логирования
 			"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
 			"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
 			"port"			=> 587,					// Порт SMTP сервера
-			"username"		=> '', // Логин на SMTP сервере
+			"username"		=> 'zakaz@bazaznanij.xyz', // Логин на SMTP сервере
 			"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
 			"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
 			"replyto"		=> array(
@@ -26,11 +30,8 @@ class sender
 			"charset"		=> 'UTF-8',					//кодировка отправляемых писем
 			"verify"		=> '0'						// Верификация сертификата. 0 -выкл, 1 - вкл (выключить при возникновении ошибок связанных с SSL сертификатами при отправке)
 		);
-
-	function __construct() {
-		print "Конструктор класса BaseClass\n";
-		$smtp_data['username'] = "zakaz@bazaznanij.xyz"; // Логин на SMTP сервере
 	}
+
 
 
 		//сожержимое письма(тема, шапка и подвал письма)
