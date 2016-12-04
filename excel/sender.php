@@ -11,19 +11,18 @@ class sender
     	"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
     	"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
     	"port"			=> 587,						// Порт SMTP сервера
-    	"username"		=> 'info@bazaznanij.xyz', // Логин на SMTP сервере
-		"fromname_1"		=> 'info@bazaznanij.xyz', // От кого посылать
+    	"username"		=> 'zakaz@bazaznanij.xyz', // Логин на SMTP сервере
     	"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
     	"fromname"		=> 'bazaznanij.xyz', 		// Отображаемое имя отправителя
     	"replyto"		=> array(
-    		"address"	=> 'info@bazaznanij.xyz', 	// адрес почты для ответа
-    		"name"		=> 'Bazaznanij.xyz'	//отображаемое имя владельца ящика
+    		"address"	=> '', 	// адрес почты для ответа
+    		"name"		=> ''	//отображаемое имя владельца ящика
     		),
     	"notification"	=> array(
     		"address"	=> '',	// Почта оповещения админа (не оповещать- оставить пустым)
     		"name"		=> ''	//отображаемое имя владельца ящика
     		),
-    	"secure"		=> 'ssl', 					// Тип шифрования. Например ssl или tls
+    	"secure"		=> 'starttls', 					// Тип шифрования. Например ssl или tls
     	"charset"		=> 'UTF-8',					//кодировка отправляемых писем
     	"verify"		=> '0'						// Верификация сертификата. 0 -выкл, 1 - вкл (выключить при возникновении ошибок связанных с SSL сертификатами при отправке)
     );
@@ -89,8 +88,8 @@ class sender
 		$mail->SMTPSecure	= $smtp_data['secure'];
 		$mail->CharSet 		= $smtp_data['charset'];
 
-		//$mail->setFrom($smtp_data['username'], $smtp_data['fromname']);
-		$mail->setFrom($smtp_data['fromname_1'], $smtp_data['fromname']);
+		$mail->setFrom($smtp_data['username'], $smtp_data['fromname']);
+		//$mail->setFrom($smtp_data['fromname_1'], $smtp_data['fromname']);
 		$mail->addReplyTo($smtp_data['replyto']['address'], $smtp_data['replyto']['name']);
 		if(!empty($smtp_data['notification']['address']))
 		{

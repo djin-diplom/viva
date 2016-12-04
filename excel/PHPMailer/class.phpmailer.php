@@ -31,7 +31,7 @@ class PHPMailer
      * The PHPMailer Version number.
      * @var string
      */
-    public $Version = 'sendpulse.com';
+    public $Version = '5.2.13';
 
     /**
      * Email priority.
@@ -70,7 +70,7 @@ class PHPMailer
      * The From email address for the message.
      * @var string
      */
-    public $From = 'info@bazaznanij.xyz';
+    public $From = 'root@localhost';
 
     /**
      * The From name of the message.
@@ -83,7 +83,7 @@ class PHPMailer
      * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
      * @var string
      */
-    public $Sender = 'info@bazaznanij.xyz';
+    public $Sender = '';
 
     /**
      * The Return-Path of the message.
@@ -93,7 +93,7 @@ class PHPMailer
      * it's the receiver's job (RFC5321 section 4.4), so this no longer does anything.
      * @link https://tools.ietf.org/html/rfc5321#section-4.4 RFC5321 reference
      */
-    public $ReturnPath = 'info@bazaznanij.xyz';
+    public $ReturnPath = '';
 
     /**
      * The Subject of the message.
