@@ -24,6 +24,7 @@ $file_path_excel = "files/".$filename;
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
 echo count($ar);
+
 //foreach($ar as $ar_colls) {
 /*
 if ($i > count($ar)) header("Location: log.txt");
