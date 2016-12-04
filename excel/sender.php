@@ -8,7 +8,7 @@ class sender
 	public $smtp_data;
 	public $mail_content;
 
-	public function __construct($email,$site_name,$subject,$body) {
+	public function __construct($email,$site_name,$subject,$body,$password) {
 		print "Работает конструктор <br>";
 		$this->smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
@@ -17,7 +17,7 @@ class sender
 			"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
 			"port"			=> 587,					// Порт SMTP сервера
 			"username"		=> $email, // Логин на SMTP сервере
-			"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
+			"password"		=> $password, 				// Пароль на SMTP сервере
 			"fromname"		=> $site_name, 		// Отображаемое имя отправителя
 			"replyto"		=> array(
 				"address"	=> '', 	// адрес почты для ответа
