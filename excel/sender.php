@@ -6,12 +6,12 @@
 class sender
 {
 	public $smtp_data = array(					
-		"host"			=> 'smtp.gmail.com',			// SMTP сервер
+		"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
     	"debug"			=> 2,						// Уровень логирования
     	"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
     	"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
-    	"port"			=> 465,						// Порт SMTP сервера
-    	"username"		=> 'bazaznanij.xyz@gmail.com', // Логин на SMTP сервере
+    	"port"			=> 587,						// Порт SMTP сервера
+    	"username"		=> 'info@bazaznanij.xyz', // Логин на SMTP сервере
 		"fromname_1"		=> 'info@bazaznanij.xyz', // От кого посылать
     	"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
     	"fromname"		=> 'bazaznanij.xyz', 		// Отображаемое имя отправителя
