@@ -9,7 +9,7 @@ class sender
 	public $mail_content;
 
 	public function __construct($email,$site_name,$subject,$body) {
-		print "Конструктор класса BaseClass\n";
+		print "Работает конструктор <br>";
 		$this->smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
 			"debug"			=> 2,						// Уровень логирования

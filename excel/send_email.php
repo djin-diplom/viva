@@ -27,20 +27,20 @@ foreach($ar as $ar_colls) {
     switch ($i){
         case 0: $email = $email;
             break;
-        case 1: $email = $email_1;
+        case 1: $email = $email_2;
             break;
-        case 2: $email = $email_2;
+        case 2: $email = $email_3;
             break;
-        case 3: $email = $email_3;
+        case 3: $email = $email_4;
             break;
-        case 4: $email = $email_4;
+        case 4: $email = $email_5;
             break;
     }
     $email_client = $ar_colls[0];
     $name = $ar_colls[1];
     $vid_rab = $ar_colls[2];
     $pay = $ar_colls[3];
-    echo $email_client;
+    echo "Посылаем ".$email_client."<br>";
     require("../email/build_2.php");
 
 
