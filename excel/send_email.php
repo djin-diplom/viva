@@ -1,8 +1,12 @@
 
 <?php
 require("../requisites.php");
+header('Content-Type: text/html; charset=utf-8');
+setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian');
+require("../email/build_2.php");
 
 $filename = $_POST['filename'];
+$filename_html = $_POST['filename_html'];
 function readExelFile($filepath){
     require_once ("Classes/PHPExcel.php");
     $ar=array();
@@ -40,8 +44,30 @@ foreach($ar as $ar_colls) {
 
 
 //Если форма отправлена
-    if (isset($_POST['filename'])) {
-        $body = "\"".require ('../email/build.php')."\"";
+    /*if (isset($_POST['$filename_html'])) {
+        //Нужно загрузить файл
+        $f = fopen("files/" . $filename_html, "r");
+        //$fgets_email = fgets($f);
+        //echo "<td>".$fgets_email."</td>";
+        //$i=1;
+        $fgets = fgets($f);
+        while(!feof($f)) {
+            $fgets .= fgets($f);
+            if($i == 23){
+                $count_money = $count_money + $fgets;
+                $fgets_money = $fgets;
+            }
+            if($i == 22){
+                $count_money_potential = $count_money_potential + $fgets;
+                $fgets_money_potential = $fgets;
+            }
+            $i++;
+        }
+        fclose($f);*/
+        $body = $body_2;
+
+
+
 
         //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
         $headers = 'MIME-Version: 1.0' . "\r\n";

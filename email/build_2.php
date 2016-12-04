@@ -1,18 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <?php
 
-require("../requisites.php");
-header('Content-Type: text/html; charset=utf-8');
-setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian');
-
-?>
+$body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ru">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>Круче не бывает для студентов (и их родителей): компания "<? echo $site_name; ?>!"</title>
+  <title>Круче не бывает для студентов (и их родителей): компания "'.$site_name.'"!</title>
 
   <style type="text/css">
     body {
@@ -141,7 +136,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
               <tr>
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания "<a href=<?php echo $site_url; ?>><? echo $site_name; ?></a>"
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
                     предоставит Вам часть будущей работы, которую Вы согласуете с научным руководителем, укажет
                     актуальность исследования, его практическое значение, составит список литературы.<br>
                     Скорее заказывайте работу через форму на нашем портале!</div>
@@ -160,7 +155,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                       <td class="col" valign="top" style="padding-left:12px;padding-right:12px;padding-top:18px;padding-bottom:12px">
                         <table border="0" cellpadding="0" cellspacing="0" class="img-wrapper">
                           <tr>
-                            <td style="padding-bottom:18px"><img src='<?php echo $site_url."/index_files/slider2.jpg"; ?>' border="0" alt="aкция Три Цeны" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+                            <td style="padding-bottom:18px"><img src="'.$site_url.'/index_files/slider2.jpg" border="0" alt="aкция Три Цeны" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                           </tr>
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
@@ -188,7 +183,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                       <td class="col" valign="top" style="padding-left:12px;padding-right:12px;padding-top:18px;padding-bottom:12px">
                         <table border="0" cellpadding="0" cellspacing="0" class="img-wrapper">
                           <tr>
-                            <td style="padding-bottom:18px"><img src='<?php echo $site_url."/index_files/slider4.jpg"; ?>' width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+                            <td style="padding-bottom:18px"><img src="'.$site_url.'/index_files/slider4.jpg" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                           </tr>
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
@@ -216,7 +211,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
                       <td class="col" valign="top" style="padding-left:12px;padding-right:12px;padding-top:18px;padding-bottom:12px">
                         <table border="0" cellpadding="0" cellspacing="0" class="img-wrapper">
                           <tr>
-                            <td style="padding-bottom:18px"><img src='<?php echo $site_url."/index_files/slider3.jpg"; ?>' border="0" alt="Мы продaeм только yникaльныe рaботы по прaвилy Один Тeкcт В Одни Рyки" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+                            <td style="padding-bottom:18px"><img src="'.$site_url.'/index_files/slider3.jpg" border="0" alt="Мы продaeм только yникaльныe рaботы по прaвилy Один Тeкcт В Одни Рyки" width="168" height="110" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                           </tr>
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
@@ -243,7 +238,7 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href=<?php echo $site_url."order.php"; ?>>Тут простая форма заказа нашего портала!</a><br>
+                  <a href="'.$site_url.'order.php">Тут простая форма заказа нашего портала!</a><br>
                   Поэтапная передача материала. Независимая проверка на плагиат.
                 </td>
               </tr>
@@ -269,10 +264,10 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
             </span>
 
               <span class="ios-footer">
-              Если даннoе письмо пришло к вам по oшибке, вы можете oтписаться <a href='<?php echo $site_url."otpiska.php"?>' >тут</a>.<br>
+              Если даннoе письмо пришло к вам по oшибке, вы можете oтписаться <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
-            © 2007–2016 <a href=<?php echo $site_url; ?> style="color:#aaaaaa"><?php echo $site_url; ?></a><br>
+            © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaaa">'.$site_name.'</a><br>
 
             <br><br>
 
@@ -289,3 +284,5 @@ setlocale(LC_ALL,'ru_RU.65001','rus_RUS.65001','Russian_Russia.65001','russian')
 
 </body>
 </html>
+';
+//echo $body_2;
