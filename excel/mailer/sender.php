@@ -65,7 +65,7 @@ class sender
 	**/
 	function sendMail($smtp_data, $message_data)
 	{
-		require_once('/PHPMailer/PHPMailerAutoload.php'); // подключаем PHPMailer
+		require_once('../PHPMailer/PHPMailerAutoload.php'); // подключаем PHPMailer
 		$mail = new PHPMailer;
 		$mail->isSMTP();
 		if($smtp_data['verify'] == 0)
