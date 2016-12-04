@@ -11,7 +11,7 @@
 error_reporting(E_ALL);
 require("../requisites.php");
 require_once ("sender.php");
-$sender = new sender('zakaz@bazaznanij.xyz');
+$sender = new sender('zakaz@bazaznanij.xyz','Bazaznanij.xyz','Привет, Сережа!','Тело письма тут!');
 
 if(!empty($_GET['send']))
 {

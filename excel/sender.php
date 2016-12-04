@@ -8,7 +8,7 @@ class sender
 	public $smtp_data;
 	public $mail_content;
 
-	public function __construct($email) {
+	public function __construct($email,$site_name,$subject,$body) {
 		print "Конструктор класса BaseClass\n";
 		$this->smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер
@@ -18,7 +18,7 @@ class sender
 			"port"			=> 587,					// Порт SMTP сервера
 			"username"		=> $email, // Логин на SMTP сервере
 			"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
-			"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
+			"fromname"		=> $site_name, 		// Отображаемое имя отправителя
 			"replyto"		=> array(
 				"address"	=> '', 	// адрес почты для ответа
 				"name"		=> ''	//отображаемое имя владельца ящика
@@ -33,12 +33,9 @@ class sender
 		);
 		//сожержимое письма(тема, шапка и подвал письма)
 		$this->mail_content = array(
-			'title'		=> 'Приветствие',
-			'header'	=> 'Добрый день! Это автоматиеское сообщение, отправленное по протоколу SMTP.<br />
-						<b><u>Ниже динамическая часть сообщения:</u> <br />',
-			'footer'	=> '</b><br />Нижняя статичная часть начинается отсюда<br>
-						С Уважением,
-						Это сообщение отправлено автоматически, на него не нужно отвечать.'
+			'title'		=> $subject,
+			'header'	=> $body,
+			'footer'	=> ''
 		);
 	}
 
