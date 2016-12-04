@@ -1,7 +1,6 @@
 
 <?php
 require("../requisites.php");
-require("../email/build_2.php");
 set_time_limit(0);
 ob_implicit_flush();
 
@@ -39,6 +38,7 @@ foreach($ar as $ar_colls) {
     $vid_rab = $ar_colls[2];
     $pay = $ar_colls[3];
     echo $email_client;
+    require("../email/build_2.php");
     //echo "$fio  $city  $year<br />";
 
 

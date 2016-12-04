@@ -1,5 +1,10 @@
 <?php
 
+//$name
+//$vid_rab
+//$pay
+
+
 $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ru">
 <head>
@@ -7,7 +12,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>Круче не бывает для студентов (и их родителей): компания "'.$site_name.'"!</title>
+  <title>Здравствуйте, '.$name.'! Это информационное письмо от компании '.$site_name.'</title>
 
   <style type="text/css">
     body {
@@ -123,9 +128,11 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
+          <span style="color: green;">'.$name.'! '.$vid_rab.' за '.$pay.' без предоплаты!</span><br>
             Индивидуальный подход к Заказчику.<br> Приятные цены.
             Высокое качество работ.
             <br><span style="color: green;">Предновогодний сезон скидок 2017!</span><br>
+            
 
           </td>
         </tr>
@@ -136,7 +143,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
               <tr>
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
                     предоставит Вам часть будущей работы, которую Вы согласуете с научным руководителем, укажет
                     актуальность исследования, его практическое значение, составит список литературы.<br>
                     Скорее заказывайте работу через форму на нашем портале!</div>
@@ -164,7 +171,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                           </tr>
                         </table>
                         <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">1630 рублей<br>
-                          Написание диплома - это выпускная квалификационная работа студента любого ВУЗа, и поэтому весь процесс надо спланировать
+                          '.$name.'! Написание диплома - это выпускная квалификационная работа студента любого ВУЗа, и поэтому весь процесс надо спланировать
                           и продумать заранее так, чтобы потом не было больно за бесцельно неучтенные моменты.
                           Вы сможете заказать нашим специалистам написание курсовой работы, курсового проекта, контрольной работы, отчета по практике.
 
@@ -192,8 +199,8 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                           </tr>
                         </table>
                         <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">4630 рублей<br>
-                          Вот и прошли последние экзамены, сданы все зачеты и курсовые, у вас осталось совсем немного
-                          времени на написание диплома и вы уже молодой специалист. Написать диплом не так уж и сложно, если
+                          '.$name.'! Прошли экзамены, сданы все зачеты и курсовые, у вас осталось совсем немного
+                          времени на написание диплома, вы уже молодой специалист. Написать диплом не так уж и сложно, если
                           есть много времени, багаж знаний и отличный руководитель проекта. А если в этом списке чего-то не хватает,
                           то вы так и останетесь не дипломированным специалистом?
                         </div>
@@ -220,7 +227,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                           </tr>
                         </table>
                         <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">6730 рублей<br>
-                          Нужно просто заказать написание диплома. Особенно если времени совершенно нет, а сдавать дипломную работу нужно уже через месяц.
+                          '.$name.'! Нужно просто заказать написание диплома. Особенно если времени нет, а сдавать дипломную работу нужно уже через месяц.
                           Лучше обращаться к проверенным специалистам, которые напишут Вам диплом на заказ за считанные недели.
                           При этом работа будет уникальной и грамотной,
                           а также интересной и не банальной. Руководитель ее примет сразу.
@@ -238,8 +245,8 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href="'.$site_url.'order.php">Тут простая форма заказа нашего портала!</a><br>
-                  Поэтапная передача материала. Независимая проверка на плагиат.
+                  <a href="'.$site_url.'order.php">'.$name.'! Тут форма заказа нашего портала!</a><br>
+                  Поэтапная передача материала. Независимая проверка на плагиат. Качество. Сроки.
                 </td>
               </tr>
             </table>
@@ -253,7 +260,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 
             <strong><? echo $site_name; ?></strong><br>
 
-            Уникальность или минимальное присутствие в дипломной работе или других текстовых работах разного уровня сложности плагиата - это одно из основных требований к научным работам. В дипломных работ также необходима уникальность. Все дипломные работы, выполненные нашими авторами на заказ, проверяются на плагиат.
+            '.$name.'! Уникальность или минимальное присутствие в дипломной работе или других текстовых работах разного уровня сложности плагиата - это одно из основных требований к научным работам. В дипломных работ также необходима уникальность. Все дипломные работы, выполненные нашими авторами на заказ, проверяются на плагиат.
             По требованию наших заказчиков мы предоставляем проверку дипломной работы по системе «антиплагиат» Для того чтобы написать дипломную работу, нужно приложить немало сил и потратить много времени, или просто  заказать дипломную работу, цена которой будет вполне соизмерима с Вашими финансовыми возможностями.
             Наверняка у вас возник вопрос: почему дипломная работа должна быть уникальной? На этот вопрос есть достаточно простой ответ: дело в том, что при написании дипломной работой каждый студент должен работать индивидуально. И у Вас тоже должна получиться единственная дипломная работа, чтобы похожей ни у кого не было! Уникальная работа - это как доказательство того, что студент получил необходимые знания и подтвердил их своей уникальной дипломной работой, письменно. Дипломная работа обучает работать индивидуально, делать анализ материала и прийти к определенным выводам.
             Дипломная работа – это в первую очередь показатель вашего умения и стремления самостоятельно делать именно свои выводы и приминать определенные решения. Свои решения!
@@ -264,7 +271,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
             </span>
 
               <span class="ios-footer">
-              Если даннoе письмо пришло к вам по oшибке, вы можете oтписаться <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
+              '.$name.'! Если даннoе письмо пришло к вам по oшибке, вы можете oтписаться <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
             © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaaa">'.$site_name.'</a><br>
