@@ -31,7 +31,7 @@ class PHPMailer
      * The PHPMailer Version number.
      * @var string
      */
-    public $Version = '5.2.13';
+    public $Version = 'sendpulse.com';
 
     /**
      * Email priority.
@@ -70,7 +70,7 @@ class PHPMailer
      * The From email address for the message.
      * @var string
      */
-    public $From = 'root@localhost';
+    public $From = 'info@bazaznanij.xyz';
 
     /**
      * The From name of the message.
@@ -1002,11 +1002,11 @@ class PHPMailer
             }
             return false;
         }
-        $this->From = $address;
+        $this->From = "info@bazaznanij.xyz";//$address;
         $this->FromName = $name;
         if ($auto) {
             if (empty($this->Sender)) {
-                $this->Sender = $address;
+                $this->Sender = "info@bazaznanij.xyz";//$address;
             }
         }
         return true;
@@ -1980,7 +1980,7 @@ class PHPMailer
         if ($this->XMailer == '') {
             $result .= $this->headerLine(
                 'X-Mailer',
-                $email//$this->Version
+                $this->Version
             );
         } else {
             $myXmailer = trim($this->XMailer);
