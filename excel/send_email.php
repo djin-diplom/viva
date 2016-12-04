@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once ("sender.php");
 //$sender = new sender;
 
-$filename = $_POST['filename'];
+$filename = $_GET['filename'];
 function readExelFile($filepath){
     require_once ("Classes/PHPExcel.php");
     $ar=array();
@@ -22,9 +22,12 @@ function readExelFile($filepath){
 $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
-$i = (int)$_POST['nomer'] % 5;
-foreach($ar as $ar_colls) {
-    switch ($i){
+$i = (int)$_GET['nomer'];
+//foreach($ar as $ar_colls) {
+if (empty($ar[$i])) header("Location: log.txt");
+$ar_colls = $ar[$i];
+    $j = $i % 5;
+    switch ($j){
         case 0: $email = $email;
             break;
         case 1: $email = $email_2;
@@ -77,8 +80,13 @@ foreach($ar as $ar_colls) {
         // mail($email_client, $subject, $body, $headers);
         unset($sender);
         $i++;
-        $i = $i % 5;
-        //flush();
+        $f = fopen('log.txt', "w");
+        fwrite($f, $i."\n");
+        fclose($f);
         sleep(10);
+        header("Location: send-email.php?nomer=".$i."&filename=".$filename);
+    } else {
+        $i++;
+        header("Location: send-email.php?nomer=".$i."&filename=".$filename);
     }
-}
+//}

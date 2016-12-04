@@ -27,7 +27,7 @@ if(is_uploaded_file($_FILES["filename"]["tmp_name"]))
         exit;
     }
         ?>
-        <form action="send_email.php" method="post">
+        <form action="send_email.php" method="get">
             <input type="hidden" name="filename" value="<?php echo $name_file; ?>"><br>
             <input type="hidden" name="filename_html" value="<?php echo $name_file_html; ?>"><br>
             <input type="hidden" name="nomer" value="0"><br>
@@ -36,7 +36,7 @@ if(is_uploaded_file($_FILES["filename"]["tmp_name"]))
 <?php
 } else {
     ?>
-    <form action="send_email.php" method="post">
+    <form action="send_email.php" method="get">
         excel:
             <input type="text" name="filename" ><br>
             <input type="submit" value="Перейти"><br>
