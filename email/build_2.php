@@ -128,7 +128,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-          <span style="color: green;">Здравствуйте, '.$name.'!<br>'.$vid_rab.' за '.$pay.'!</span><br>
+          <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
             Индивидуальный подход к Заказчику.<br> Приятные цены.
             Высокое качество работ.
             <br><span style="color: green;">Предновогодний сезон скидок 2017!</span><br>
