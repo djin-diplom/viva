@@ -90,6 +90,7 @@ $ar_colls = $ar[$i];
         $f = fopen('log.txt', "w");
         fwrite($f, $i."\n");
         fclose($f);
+        echo empty($ar[$i]);
         header("Location: send_email.php?nomer=".$i."&filename=".$filename);
     }
 //}
