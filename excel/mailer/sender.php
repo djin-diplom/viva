@@ -11,7 +11,7 @@ class sender
     	"debugoutput"	=> 'html',					//формат вывода лога, если включено логирование
     	"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
     	"port"			=> 465,						// Порт SMTP сервера
-    	"username"		=> 'bazaznanij.xyz@gmail.com', // Логин на SMTP сервере
+    	"username"		=> 'bazaznanij.xyz', // Логин на SMTP сервере
     	"password"		=> '123qwaszx', 				// Пароль на SMTP сервере
     	"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
     	"replyto"		=> array(
