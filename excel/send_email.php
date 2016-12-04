@@ -4,8 +4,7 @@ require("../requisites.php");
 set_time_limit(0);
 ob_implicit_flush();
 error_reporting(E_ALL);
-//require_once ("sender.php");
-//$sender = new sender;
+require_once ("sender.php");
 
 $filename = $_GET['filename'];
 function readExelFile($filepath){
@@ -23,7 +22,6 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
-//echo count($ar);
 
 
 if ($i >= count($ar)) header("Location: log.txt");
@@ -51,11 +49,7 @@ $ar_colls = $ar[$i];
 
 
         $body = $body_2;
-        //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
-        //$headers = 'MIME-Version: 1.0' . "\r\n";
-        //$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-        //$headers .= 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email . "\r\n";
-        // $headers .= 'Return-Path:'. $email . "\r\n";
+
         $subject = "Здравствуйте, " . $name . "! " . $vid_rab . " за " . $pay . " от компании " . $site_name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
@@ -78,8 +72,6 @@ $ar_colls = $ar[$i];
             echo "Ошибка при отправке :(";
         }
 
-
-        // mail($email_client, $subject, $body, $headers);
         unset($sender);
         $i++;
         $f = fopen('log.txt', "w");
