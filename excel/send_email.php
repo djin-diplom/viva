@@ -1,5 +1,6 @@
 
 <?php
+session_start();
 require("../requisites.php");
 set_time_limit(0);
 ob_implicit_flush();
@@ -7,7 +8,14 @@ error_reporting(E_ALL);
 require_once ("sender.php");
 //$sender = new sender;
 
-$filename = $_GET['filename'];
+if (!empty($_SESSION['filename'])) {
+    $filename = $_SESSION['filename'];
+    $i = (int)$_SESSION['nomer'];
+}
+else {
+    $filename = $_GET['filename'];
+    $i = (int)$_GET['nomer'];
+}
 function readExelFile($filepath){
     require_once ("Classes/PHPExcel.php");
     $ar=array();
@@ -22,7 +30,6 @@ function readExelFile($filepath){
 $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
-$i = (int)$_GET['nomer'];
 //foreach($ar as $ar_colls) {
 if (empty($ar[$i])) header("Location: log.txt");
 $ar_colls = $ar[$i];
@@ -84,12 +91,14 @@ $ar_colls = $ar[$i];
         fwrite($f, $i."\n");
         fclose($f);
         sleep(10);
-        header("Location: send-email.php?filename=\'1.xlsx\'&filename_html=&nomer=".$i);
+        $_SESSION['nomer'] = $i;
+        header("Location: send-email.php");
     } else {
         $i++;
         $f = fopen('log.txt', "w");
         fwrite($f, $i."\n");
         fclose($f);
-        header("Location: send-email.php?filename=\'1.xlsx\'&filename_html=&nomer=".$i);
+        $_SESSION['nomer'] = $i;
+        header("Location: send-email.php");
     }
 //}
