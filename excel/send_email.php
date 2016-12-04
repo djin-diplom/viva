@@ -87,12 +87,12 @@ if ( (int)$i >= (int)$count) {
         fwrite($f, $i . "\n");
         fclose($f);
         sleep(10);
-        header("Location: send_email.php?nomer=" . $i . "&filename=" . $filename);
+        header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
     } else {
         $i++;
         $f = fopen('log.txt', "w");
         fwrite($f, $i . "\n");
         fclose($f);
-        header("Location: send_email.php?nomer=" . $i . "&filename=" . $filename);
+        header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
     }
 }
