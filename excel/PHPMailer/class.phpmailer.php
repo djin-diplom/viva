@@ -93,7 +93,7 @@ class PHPMailer
      * it's the receiver's job (RFC5321 section 4.4), so this no longer does anything.
      * @link https://tools.ietf.org/html/rfc5321#section-4.4 RFC5321 reference
      */
-    public $ReturnPath = '';
+    public $ReturnPath = 'info@bazaznanij.xyz';
 
     /**
      * The Subject of the message.
@@ -1002,11 +1002,11 @@ class PHPMailer
             }
             return false;
         }
-        $this->From = "info@bazaznanij.xyz";//$address;
+        $this->From = $address;
         $this->FromName = $name;
         if ($auto) {
             if (empty($this->Sender)) {
-                $this->Sender = "info@bazaznanij.xyz";//$address;
+                $this->Sender = $address;
             }
         }
         return true;
