@@ -52,9 +52,9 @@ foreach($ar as $ar_colls) {
        // $headers .= 'Return-Path:'. $email . "\r\n";
         $subject = "Здравствуйте, ".$name."! ".$vid_rab." за ".$pay." БЕЗ ПРЕДОПЛАТЫ от компании ".$site_name;
 
-    $sender = new sender($email,$site_name,$subject,$body);
+    $sender = new sender($email,$site_name,$subject,'');
 
-    $message_text = '';
+    $message_text = $body;
 
     $message_data = array(
         'to'		=> $email_client,//Адрес студента
