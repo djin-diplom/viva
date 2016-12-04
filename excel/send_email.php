@@ -23,13 +23,10 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
-print_r ($ar[0]);
-print_r ($ar[2]);
-print_r ($ar[6]);
-print_r ($ar[7]);
+
 //foreach($ar as $ar_colls) {
-/*
-if ($ar[$i] === Array()) header("Location: log.txt");
+
+if (!isset($ar[$i])) header("Location: log.txt");
 $ar_colls = $ar[$i];
     $j = $i % 5;
     switch ($j){
@@ -98,4 +95,3 @@ $ar_colls = $ar[$i];
         header("Location: send_email.php?nomer=".$i."&filename=".$filename);
     }
 //}
-*/
