@@ -96,23 +96,21 @@ if(isset($_POST['submit'])) {
   <title>Birthday Reminders for August</title>
 </head>
 <body>
-		name: $name <br>
-		email_stud: $email_stud <br>
-		work_kind: $work_kind <br>
-		tema: $tema <br>
-		predmet : $predmet <br>
-		university: $university <br>
-		add_info: $add_info <br>
+		Имя заказчика: $name <br>
+		Почта заказчика: $email_stud <br>
+		Вид работы: $work_kind <br>
+		Тема работы: $tema <br>
+		Предмет : $predmet <br>
+		Университет: $university <br>
+		Дополнительная информация: $add_info <br>
 		</body>
 </html>
 		";
-
-
-		//$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
+		
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: '.$email. "\r\n" . 'Reply-To: ' . $email;
-		$subject = "Привет, буфет!";
+		$headers .= 'From: '.$email. "\r\n" . 'Reply-To: ' . $email_stud;
+		$subject = "Письмо от клиента!".$name;
 
 		mail($email2, $subject, $body, $headers);
 		$emailSent = true;
