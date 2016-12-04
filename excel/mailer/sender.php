@@ -12,7 +12,7 @@ class sender
     	"auth"			=> true,					// Авторизация на сервере SMTP. Если ее нет - false
     	"port"			=> 465,						// Порт SMTP сервера
     	"username"		=> 'bazaznanij.xyz@gmail.com', // Логин на SMTP сервере
-    	"password"		=> '123qwaszx', 				// Пароль на SMTP сервере
+    	"password"		=> '111qwaszx', 				// Пароль на SMTP сервере
     	"fromname"		=> 'Bazaznanij.xyz', 		// Отображаемое имя отправителя
     	"replyto"		=> array(
     		"address"	=> 'info@bazaznanij.xyz', 	// адрес почты для ответа
