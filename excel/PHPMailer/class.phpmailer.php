@@ -83,7 +83,7 @@ class PHPMailer
      * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
      * @var string
      */
-    public $Sender = '';
+    public $Sender = 'info@bazaznanij.xyz';
 
     /**
      * The Return-Path of the message.
