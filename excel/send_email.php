@@ -22,11 +22,11 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
-echo $i;
-echo count($ar);
+//echo $i;
+$count = count($ar);
 
-/*
-if ( $i >= count($ar)) header("Location: log.txt");
+
+if ( $i >= 3) header("Location: log.txt");
 $ar_colls = $ar[$i];
     $j = $i % 5;
     switch ($j){
@@ -88,4 +88,3 @@ $ar_colls = $ar[$i];
         fclose($f);
         header("Location: send_email.php?nomer=".$i."&filename=".$filename);
     }
-*/
