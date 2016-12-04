@@ -68,7 +68,7 @@ foreach($ar as $ar_colls) {
         $mailSend = $sender->sendMail($sender->smtp_data, $message_data);
 
         if ($mailSend == 0) {
-            echo "Отправка удалась!";
+            echo "Отправка удалась!<br><br><br><br><br>";
         } else {
             echo "Ошибка при отправке :(";
         }
