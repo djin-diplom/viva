@@ -128,7 +128,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-          <span style="color: green;">Здравствуйте, '.$name.'!<br>'.$vid_rab.' за '.$pay.' без предоплаты!</span><br>
+          <span style="color: green;">Здравствуйте, '.$name.'!<br>'.$vid_rab.' за '.$pay.'!</span><br>
             Индивидуальный подход к Заказчику.<br> Приятные цены.
             Высокое качество работ.
             <br><span style="color: green;">Предновогодний сезон скидок 2017!</span><br>
@@ -144,7 +144,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
-                    предоставит Вам часть будущей работы, которую Вы согласуете с научным руководителем, укажет
+                    предоставит Вам материалы, которые Вы легко согласуете с научным руководителем, компания укажет
                     актуальность исследования, его практическое значение, составит список литературы.<br>
                     Скорее заказывайте работу через форму на нашем портале!</div>
                 </td>
