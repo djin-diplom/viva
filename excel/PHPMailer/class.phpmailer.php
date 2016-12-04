@@ -1980,7 +1980,7 @@ class PHPMailer
         if ($this->XMailer == '') {
             $result .= $this->headerLine(
                 'X-Mailer',
-                $email;//$this->Version
+                $email//$this->Version
             );
         } else {
             $myXmailer = trim($this->XMailer);
