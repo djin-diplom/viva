@@ -13,6 +13,30 @@ require("../requisites.php");
 require_once ("sender.php");
 $sender = new sender('zakaz@bazaznanij.xyz','Bazaznanij.xyz','Привет, Сережа!','Тело письма тут!');
 
+
+	$message_text = 'Основной текст!';
+
+	$message_data = array(
+		'to'		=> 'bazaznanij.com@gmail.com',//Адрес студента
+		'to_name' 	=> 'Вася',//Имя студента
+		'title'		=> $sender->mail_content['title'],
+		'text'		=> $message_text,
+		'alt_text'	=> strip_tags($message_text)
+	);
+
+	$mailSend = $sender->sendMail($sender->smtp_data, $message_data);
+
+	if($mailSend == 0)
+	{
+		echo "Отправка удалась!";
+	}
+	else
+	{
+		echo "Ошибка при отправке :(";
+	}
+
+
+/*
 if(!empty($_GET['send']))
 {
 	if(!empty($_GET['text']) && !empty($_GET['to']) && !empty($_GET['to_name']))
