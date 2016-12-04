@@ -31,7 +31,10 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 //foreach($ar as $ar_colls) {
-if (empty($ar[$i])) header("Location: log.txt");
+if (empty($ar[$i])) {
+    session_destroy();
+    header("Location: log.txt");
+}
 $ar_colls = $ar[$i];
     $j = $i % 5;
     switch ($j){
