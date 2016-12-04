@@ -20,7 +20,7 @@ if ($per == 1) {
     $push_impulse = "";
 } else {
     $site_name = "Диплом-Bazaznanij.com";
-    $password = '111111qq';
+    $password = '111qwaszx';
     $site_url = "http://bazaznanij.com/";
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@bazaznanij.com";
