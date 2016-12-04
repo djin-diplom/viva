@@ -5,7 +5,7 @@ set_time_limit(0);
 ob_implicit_flush();
 error_reporting(E_ALL);
 require_once ("sender.php");
-$sender = new sender;
+//$sender = new sender;
 
 $filename = $_POST['filename'];
 function readExelFile($filepath){
@@ -42,24 +42,44 @@ foreach($ar as $ar_colls) {
     $pay = $ar_colls[3];
     echo $email_client;
     require("../email/build_2.php");
-    //echo "$fio  $city  $year<br />";
 
-
-//Если форма отправлена
 
         $body = $body_2;
         //$headers = 'From site: '.$site_name . "\r\n" . 'Reply-To: ' . $email_stud;
-        $headers = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-        $headers .= 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email . "\r\n";
-        $headers .= 'Return-Path:'. $email . "\r\n";
+        //$headers = 'MIME-Version: 1.0' . "\r\n";
+        //$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+        //$headers .= 'From: ' . $email . "\r\n" . 'Reply-To: ' . $email . "\r\n";
+       // $headers .= 'Return-Path:'. $email . "\r\n";
         $subject = "Здравствуйте, ".$name."! ".$vid_rab." за ".$pay." БЕЗ ПРЕДОПЛАТЫ от компании ".$site_name;
 
-        mail($email_client, $subject, $body, $headers);
-        $emailSent = true;
-        if(isset($emailSent) && $emailSent == true) { //Если письмо отправленл ?>
-            <p style="color: #e94500;font-size: 19px;"><strong>Email <?php echo $email_client; ?> успешно отправлен!</strong></p>
-        <?php }
+    $sender = new sender($email,$site_name,$subject,$body);
+
+    $message_text = '';
+
+    $message_data = array(
+        'to'		=> $email_client,//Адрес студента
+        'to_name' 	=> $name,//Имя студента
+        'title'		=> $sender->mail_content['title'],
+        'text'		=> $message_text,
+        'alt_text'	=> strip_tags($message_text)
+    );
+
+    $mailSend = $sender->sendMail($sender->smtp_data, $message_data);
+
+    if($mailSend == 0)
+    {
+        echo "Отправка удалась!";
+    }
+    else
+    {
+        echo "Ошибка при отправке :(";
+    }
+
+
+
+
+   // mail($email_client, $subject, $body, $headers);
+    unset($sender);
     $i++;
     $i= $i % 5;
     //flush();
