@@ -3,6 +3,9 @@
 require("../requisites.php");
 set_time_limit(0);
 ob_implicit_flush();
+error_reporting(E_ALL);
+require_once ("sender.php");
+$sender = new sender;
 
 $filename = $_POST['filename'];
 function readExelFile($filepath){
