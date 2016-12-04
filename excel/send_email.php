@@ -26,7 +26,7 @@ $i = (int)$_GET['nomer'];
 
 //foreach($ar as $ar_colls) {
 
-if (!isset($ar[$i])) header("Location: log.txt");
+if (!$ar[$i]) header("Location: log.txt");
 $ar_colls = $ar[$i];
     $j = $i % 5;
     switch ($j){
