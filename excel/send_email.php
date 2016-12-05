@@ -94,19 +94,18 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
-echo count($ar);
+print_r($ar);
         ?>
 </div>
         <script type="text/javascript">
-            window.onload = function(){
+            function func_2() {
                 var scrollinDiv = document.getElementById('scroll');
-                setInterval(function() {
                     scrollinDiv.scrollTop = 9999;
-                }, 50);
             }
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
+            setTimeout(func_2, 50);
             setTimeout(func, 9000);
         </script>
         <?php
