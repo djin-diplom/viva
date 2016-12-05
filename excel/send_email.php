@@ -88,19 +88,27 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
+        ?>
+        <script>
+            function func() {
+                return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
+            }
+            setTimeout(func, 9000);
+        </script>
+        <?php
 } else {
         $i++;
         $f = fopen('log.txt', "w");
         fwrite($f, $i . "\n");
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
+        ?>
+        <script>
+            function func() {
+                return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
+            }
+            setTimeout(func, 1000);
+        </script>
+        <?php
     }
-    ?>
-    <script>
-        function func() {
-            return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
-        }
-        setTimeout(func, 1000);
-    </script>
-    <?php
 }
