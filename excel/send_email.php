@@ -109,7 +109,7 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-        <div id="scroll">Завершение отправки.</div>
+        <div id="scroll">Пустая строка.</div>
         <script>
             var scrollinDiv = document.getElementById('scroll');
             window.onload = function(){
