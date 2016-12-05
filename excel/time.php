@@ -10,7 +10,7 @@ $i = $_GET['nomer'];
 <p>Ведется отправка <?php echo $i;?> письма.</p>
 <script>
     function func() {
-        alert( 'Привет' );
+        alert( 'Привет' ); в
         return location.href = 'send_email.php?nomer=' + <?php echo $i; ?> + '&filename=' + <?php echo $filename; ?>;
     }
     setTimeout(func, 5000);
