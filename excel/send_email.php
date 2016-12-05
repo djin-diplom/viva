@@ -94,6 +94,7 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
+echo count($ar);
         ?>
 </div>
         <script type="text/javascript">
