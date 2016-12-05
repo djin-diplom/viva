@@ -1,3 +1,7 @@
+<html>
+<head>
+</head>
+<body id="scroll">
 
 <?php
 require("../requisites.php");
@@ -89,9 +93,10 @@ if ( (int)$i >= (int)$count) {
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-
         <script>
-            setInterval("scroll(0,50)",99);
+            window.onload = function(){
+                document.getElementById('scroll').scrollTop = 9999;
+            }
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
@@ -106,7 +111,9 @@ if ( (int)$i >= (int)$count) {
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
         <script>
-        setInterval("scroll(0,50)",99);
+            window.onload = function(){
+                document.getElementById('scroll').scrollTop = 9999;
+            }
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
@@ -115,3 +122,7 @@ if ( (int)$i >= (int)$count) {
         <?php
     }
 }
+
+?>
+<body>
+</html>
