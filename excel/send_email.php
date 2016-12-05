@@ -29,7 +29,7 @@ $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
 
 $count = count($ar);
-echo count($ar);
+print_r($ar);
 
 
 if ( (int)$i >= (int)$count) {
