@@ -28,7 +28,6 @@ $ar=readExelFile($file_path_excel);
 $i = (int)$_GET['nomer'];
 
 $count = count($ar);
-print_r($ar);
 
 
 if ( (int)$i >= (int)$count) {
@@ -64,7 +63,7 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $subject = "Здравствуйте, " . $name . "! " . $vid_rab . " за " . $pay . " от компании " . $site_name;
+        $subject = "Здравствуйте, " . $name . "! " . $vid_rab . " за " . $pay . " БЕЗ ПРЕДОПЛАТЫ от компании " . $site_name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
@@ -93,12 +92,8 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
-print_r($ar);
         ?>
-        <div id="scroll">Заверешение отправки.</div>
         <script type="text/javascript">
-            var block = document.getElementById('scroll');
-            block.scrollTop = block.scrollHeight;
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
@@ -112,10 +107,7 @@ print_r($ar);
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-        <div id="scroll">Пустая строка.</div>
         <script type="text/javascript">
-            var block = document.getElementById('scroll');
-            block.scrollTop = block.scrollHeight;
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
