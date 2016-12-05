@@ -3,8 +3,10 @@
 </head>
 <body>
 <?php
-$filename = 1;//$_GET['filename'];
-$i = 2;//$_GET['nomer'];
+$filename = $_GET['filename'];
+$filename = $_GET['nomer'];
+echo $filename."<br>";
+echo $filename $i;
 ?>
 <p>Отсчет времени до следующей отправки письма.</p>
 <p>Ведется отправка <?php echo $i;?> письма.</p>
