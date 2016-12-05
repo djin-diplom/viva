@@ -1,7 +1,8 @@
 <html>
 <head>
 </head>
-<body id="scroll">
+<body >
+<div id="scroll">
 
 <?php
 require("../requisites.php");
@@ -93,7 +94,7 @@ if ( (int)$i >= (int)$count) {
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-<body>
+</div>
         <script type="text/javascript">
             window.onload = function(){
 
@@ -119,7 +120,7 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-<body>
+            </div>
         <script type="text/javascript">
             window.onload = function(){
 
@@ -143,4 +144,5 @@ if ( (int)$i >= (int)$count) {
 }
 
 ?>
+        </body>
 </html>
