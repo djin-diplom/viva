@@ -89,7 +89,13 @@ if ( (int)$i >= (int)$count) {
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
+        <div id="scroll">Завершение отправки.</div>
         <script>
+            var scrollinDiv = document.getElementById('scroll');
+            window.onload = function(){
+                var scrollinDiv = document.getElementById('scroll');
+                    scrollinDiv.scrollTop = 9999;
+            }
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
@@ -103,7 +109,13 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
+        <div id="scroll">Завершение отправки.</div>
         <script>
+            var scrollinDiv = document.getElementById('scroll');
+            window.onload = function(){
+                var scrollinDiv = document.getElementById('scroll');
+                scrollinDiv.scrollTop = 9999;
+            }
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
