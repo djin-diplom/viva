@@ -13,7 +13,7 @@ echo "Номер".$i;
 <script>
     function func() {
         alert( 'Привет' );
-        return location.href = "send_email.php?nomer=" + <?php echo $i; ?> + "&filename=4.xlsx" + <?php echo $filename; ?>;
+        return location.href = "send_email.php?nomer=" + <?php echo $i; ?> + "&filename=4.xlsx" + "<?php echo $filename; ?>";
     }
     setTimeout(func, 1000);
 </script>
