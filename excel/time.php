@@ -4,7 +4,7 @@
 <body>
 <?php
 $filename = $_GET['filename'];
-$filename = $_GET['nomer'];
+$i = $_GET['nomer'];
 echo "Файл".$filename."<br>";
 echo "Номер".$i;
 ?>
