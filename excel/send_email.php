@@ -86,7 +86,7 @@ if ( (int)$i >= (int)$count) {
         $f = fopen('log.txt', "w");
         fwrite($f, $i . "\n");
         fclose($f);
-        sleep(10);
+        sleep(9);
         header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
     } else {
         $i++;
