@@ -3,8 +3,8 @@
 </head>
 <body>
 <?php
-$filename = $_GET['filename'];
-$i = $_GET['nomer'];
+$filename = 1;//$_GET['filename'];
+$i = 2;//$_GET['nomer'];
 ?>
 <p>Отсчет времени до следующей отправки письма.</p>
 <p>Ведется отправка <?php echo $i;?> письма.</p>
@@ -13,7 +13,7 @@ $i = $_GET['nomer'];
         alert( 'Привет' );
         return location.href = 'send_email.php?nomer=' + <?php echo $i; ?> + '&filename=' + <?php echo $filename; ?>;
     }
-    setTimeout(func, 5000);
+    setTimeout(func, 1000);
 </script>
 
 </body>
