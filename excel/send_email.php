@@ -93,6 +93,7 @@ if ( (int)$i >= (int)$count) {
         //sleep(9);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
+<body>
         <script>
             window.onload = function(){
                 document.getElementById('scroll').scrollTop = 9999;
@@ -110,6 +111,7 @@ if ( (int)$i >= (int)$count) {
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
+<body>
         <script>
             window.onload = function(){
                 document.getElementById('scroll').scrollTop = 9999;
@@ -124,5 +126,4 @@ if ( (int)$i >= (int)$count) {
 }
 
 ?>
-<body>
 </html>
