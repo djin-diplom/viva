@@ -6,7 +6,7 @@
 $filename = $_GET['filename'];
 $filename = $_GET['nomer'];
 echo $filename."<br>";
-echo $filename $i;
+echo $i;
 ?>
 <p>Отсчет времени до следующей отправки письма.</p>
 <p>Ведется отправка <?php echo $i;?> письма.</p>
