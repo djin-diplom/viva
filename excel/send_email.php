@@ -2,7 +2,6 @@
 <head>
 </head>
 <body>
-<div id="scroll">
 
 <?php
 require("../requisites.php");
@@ -96,16 +95,13 @@ if ( (int)$i >= (int)$count) {
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
 print_r($ar);
         ?>
-</div>
+        <div id="scroll">Заверешение отправки.</div>
         <script type="text/javascript">
-            function func_2() {
-                var scrollinDiv = document.getElementById('scroll');
-                    scrollinDiv.scrollTop = 9999;
-            }
+            var block = document.getElementById('scroll');
+            block.scrollTop = block.scrollHeight;
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
-            setTimeout(func_2, 50);
             setTimeout(func, 9000);
         </script>
         <?php
@@ -116,14 +112,10 @@ print_r($ar);
         fclose($f);
         //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
         ?>
-</div>
-         <script type="text/javascript">
-             window.onload = function(){
-                 var scrollinDiv = document.getElementById('scroll');
-                 setInterval(function() {
-                     scrollinDiv.scrollTop = 9999;
-                 }, 50);
-             }
+        <div id="scroll">Пустая строка.</div>
+        <script type="text/javascript">
+            var block = document.getElementById('scroll');
+            block.scrollTop = block.scrollHeight;
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
