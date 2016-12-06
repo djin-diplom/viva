@@ -310,3 +310,4 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 </html>
 ';
 //echo $body_2;
+$body_2 = "Привет!";

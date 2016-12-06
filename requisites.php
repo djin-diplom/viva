@@ -7,6 +7,7 @@ if ($per == 1) {
     $password = '111qwaszx';
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@bazaznanij.xyz";
+    $email_1 = "info@bazaznanij.xyz";
     $email_2 = "info@bazaznanij.xyz";
     $email_3 = "inform@bazaznanij.xyz";
     $email_4 = "information@bazaznanij.xyz";
@@ -24,10 +25,11 @@ if ($per == 1) {
     $site_url = "http://bazaznanij.com/";
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@bazaznanij.com";
-    $email_2 = "info@bazaznanij.com";
-    $email_3 = "inform@bazaznanij.com";
-    $email_4 = "information@bazaznanij.com";
-    $email_5 = "order@bazaznanij.com";
+    $email_1 = "advertisement@bazaznanij.com";
+    $email_2 = "advertising@bazaznanij.com";
+    $email_3 = "promotion@bazaznanij.com";
+    $email_4 = "advt@bazaznanij.com";
+    $email_5 = "adt@bazaznanij.com";
     $email2 = "bazaznanij.com@gmail.com";
     $email3 = "info@bazaznanij.com";
     $adres = "197022, г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27 литер Б, оф. 134-136, ИНН 7813239461";

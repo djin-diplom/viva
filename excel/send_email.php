@@ -37,7 +37,7 @@ if ( (int)$i >= (int)$count) {
     $j = $i % 5;
     switch ($j) {
         case 0:
-            $email = $email;
+            $email = $email_1;
             break;
         case 1:
             $email = $email_2;
