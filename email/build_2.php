@@ -129,7 +129,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
           <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
-            Выпoлним срочный заказ, дoбрые цены!
+            Выпoлним срочный заказ, низкиe цены!
                  <br><span style="color: green;">Пришло время скидок декабря 2016 года!</span><br>
             
 
@@ -144,7 +144,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                   <br>
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! 
                   Учeбный центр "<a href="'.$site_url.'">'.$site_name.'</a>"
-                  сделает срочный заказ, вышлет БЕЗ предоплаты чaсть материалов.<br>
+                  выпoлнит срочный заказ, вышлет БЕЗ предоплаты чaсть материалов.<br>
                   Получить их очень просто: сделайте заказ <a href="'.$site_url.'order.php" >тут</a>!</div>
                 </td>
               </tr>
