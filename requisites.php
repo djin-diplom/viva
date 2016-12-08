@@ -35,7 +35,7 @@ if ($per == 1) {
     $adres = "197022, г. Санкт-Петeрбург, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "money.yandex.ru/to/410013596538320";
+    $url_oplata = "https://money.yandex.ru/to/410013596538320";
     $push_impulse = "";
 }
 
