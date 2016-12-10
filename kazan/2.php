@@ -1,5 +1,5 @@
 
 <?php
 require ("town.php");
-require ("../o_kompanii.php");
+require ("../2.php");
 ?>
