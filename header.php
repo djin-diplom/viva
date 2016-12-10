@@ -33,7 +33,7 @@
 	<header>
 		<section>
 			<div class="logo"><a href="index.php" ><img src="./index_files/1_logo.png" width="222" height="70" alt=""></a>
-				<br><span style="color:green; font-size:18px;">Ваш <?php echo $site_name; ?>!</span></div>
+				<br><span style="color:green; font-size:18px;"><?php echo $site_name; ?>!</span></div>
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>"><img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>С 6:00 до 22:00, без выходных</div>
 			<div class="phone">
 				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
@@ -65,6 +65,14 @@
 				<?php endif ?>
 			</div>
 		</section>
+		<div style="position: absolute; left: 580px; top: 100px;">
+			<a href="<?php echo $url_town_piter; ?>" class="jQtooltip" title="Санкт-Петербург"><img src="./index_files/book.png" width="<?php if($town == 'piter') echo '50'; else echo '40';?>" height="<?php if($town == 'piter') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_moscow; ?>" class="jQtooltip" title="Москва"><img src="./index_files/book.png" width="<?php if($town == 'moscow') echo '50'; else echo '40';?>" height="<?php if($town == 'moscow') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_kazan; ?>" class="jQtooltip" title="Казань"><img src="./index_files/book.png" width="<?php if($town == 'kazan') echo '50'; else echo '40';?>" height="<?php if($town == 'kazan') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_novosibirsk; ?>" class="jQtooltip" title="Новосибирск"><img src="./index_files/book.png" width="<?php if($town == 'novosibirsk') echo '50'; else echo '40';?>" height="<?php if($town == 'novosibirsk') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_ufa; ?>" class="jQtooltip" title="Уфа"><img src="./index_files/book.png" width="<?php if($town == 'ufa') echo '50'; else echo '40';?>" height="<?php if($town == 'ufa') echo '64'; else echo '56';?>" alt=""></a>
+		</div>
+
 		<menu>
 			<div><span><a href="o_kompanii.php">Наш Учебный центр</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Стоимость услуг</a></span></div>

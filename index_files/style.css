@@ -361,3 +361,26 @@ h2, h3 { margin: 10px 0 20px; }
 ul, ol { margin-top: 20px; margin-bottom: 20px; }
 ul, ol, li { margin-left: 20px; }
 li { margin-bottom: 10px; }
+
+.jQtooltip {
+	position: relative;
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+.jQtooltip div {
+	display: none;
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+	z-index: 1000;
+	width: 190px;
+	padding: 8px 12px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	box-shadow: 0 1px 3px #C4C4C4;
+	border: 1px solid #DBB779;
+	background: #FFF6BD;
+	border-radius: 2px;
+}

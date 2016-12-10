@@ -1,5 +1,12 @@
 <?php
 
+$url_town_piter = 'http://bazaznanij.com/';
+$url_town_moscow = 'http://moscow.bazaznanij.com/';
+$url_town_kazan = 'http://kazan.bazaznanij.com/';
+$url_town_novosibirsk = 'http://novosibirsk.bazaznanij.com/';
+$url_town_ufa = 'http://ufa.bazaznanij.com/';
+
+
 $per = 2;
 if ($per == 1) {
     $site_name = "База Знаний";
