@@ -30,6 +30,12 @@ if ($per == 1) {
     $email_3 = "promotion@bazaznanij.com";
     $email_4 = "advt@bazaznanij.com";
     $email_5 = "adt@bazaznanij.com";
+    $email_6 = "zakaz@bazaznanij.com";
+    $email_7 = "info@bazaznanij.com";
+    $email_8 = "inform@bazaznanij.com";
+    $email_9 = "information@bazaznanij.com";
+    $email_10 = "order@bazaznanij.com";
+    $email_11 = "ad@bazaznanij.com";
     $email2 = "bazaznanij.com@gmail.com";
     $email3 = "info@bazaznanij.com";
     $adres = "197022, г. Санкт-Петeрбург, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
