@@ -80,7 +80,7 @@
 			<div><span><a href="order.php">Заказать работу</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Договор</a></span></div>
-			<div><span><a href="got_rab.php">Авторам</a></span></div>
+			<div><span><a href="job_creators.php">Авторам</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 		
