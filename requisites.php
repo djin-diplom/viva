@@ -47,6 +47,35 @@ if ($per == 2) {
     $push_impulse = "";
 }
 
+if ($town == 'kazan') {
+    $site_name = "Диплом-Kazan.bazaznanij.com";
+    $password = '111qwaszx';
+    $site_url = "http://kazan.bazaznanij.com/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@kazan.bazaznanij.com";
+    $email_1 = "advertisement@bazaznanij.com";
+    $email_2 = "advertising@bazaznanij.com";
+    $email_3 = "promotion@bazaznanij.com";
+    $email_4 = "advt@bazaznanij.com";
+    $email_5 = "adt@bazaznanij.com";
+    $email_6 = "zakaz@bazaznanij.com";
+    $email_7 = "info@bazaznanij.com";
+    $email_8 = "inform@bazaznanij.com";
+    $email_9 = "information@bazaznanij.com";
+    $email_10 = "order@bazaznanij.com";
+    $email_11 = "ad@bazaznanij.com";
+    $email_12 = "publicity@bazaznanij.com";
+    $email2 = "bazaznanij.com@gmail.com";
+    $email3 = "info@kazan.bazaznanij.com";
+    $adres = "197022, г. Казань, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+    $push_impulse = "";
+}
+
+
+
 /*
 if ($per == 1) {
     $site_name = "<a href='http://vivadiplom.ru'>Да здравствует Диплом!</a>";
