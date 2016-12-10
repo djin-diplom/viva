@@ -67,9 +67,90 @@ if ($town == 'kazan') {
     $email_12 = "publicity@bazaznanij.com";
     $email2 = "bazaznanij.com@gmail.com";
     $email3 = "info@kazan.bazaznanij.com";
-    $adres = "197022, г. Казань, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "420077, г. Казань, Софийская ул, <br>дом № 16, oф. 55, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxARyM";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxARyM\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+    $push_impulse = "";
+}
+
+if ($town == 'moscow') {
+    $site_name = "Диплом-Moscow.bazaznanij.com";
+    $password = '111qwaszx';
+    $site_url = "http://moscow.bazaznanij.com/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@moscow.bazaznanij.com";
+    $email_1 = "advertisement@bazaznanij.com";
+    $email_2 = "advertising@bazaznanij.com";
+    $email_3 = "promotion@bazaznanij.com";
+    $email_4 = "advt@bazaznanij.com";
+    $email_5 = "adt@bazaznanij.com";
+    $email_6 = "zakaz@bazaznanij.com";
+    $email_7 = "info@bazaznanij.com";
+    $email_8 = "inform@bazaznanij.com";
+    $email_9 = "information@bazaznanij.com";
+    $email_10 = "order@bazaznanij.com";
+    $email_11 = "ad@bazaznanij.com";
+    $email_12 = "publicity@bazaznanij.com";
+    $email2 = "bazaznanij.com@gmail.com";
+    $email3 = "info@moscow.bazaznanij.com";
+    $adres = "119311, г. Москва ул. Строителей, <br>дом № 11, oф. 234-236, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxEQMT";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxEQMT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+    $push_impulse = "";
+}
+
+if ($town == 'novosibirsk') {
+    $site_name = "Диплом-Novosibirsk.bazaznanij.com";
+    $password = '111qwaszx';
+    $site_url = "http://novosibirsk.bazaznanij.com/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@novosibirsk.bazaznanij.com";
+    $email_1 = "advertisement@bazaznanij.com";
+    $email_2 = "advertising@bazaznanij.com";
+    $email_3 = "promotion@bazaznanij.com";
+    $email_4 = "advt@bazaznanij.com";
+    $email_5 = "adt@bazaznanij.com";
+    $email_6 = "zakaz@bazaznanij.com";
+    $email_7 = "info@bazaznanij.com";
+    $email_8 = "inform@bazaznanij.com";
+    $email_9 = "information@bazaznanij.com";
+    $email_10 = "order@bazaznanij.com";
+    $email_11 = "ad@bazaznanij.com";
+    $email_12 = "publicity@bazaznanij.com";
+    $email2 = "bazaznanij.com@gmail.com";
+    $email3 = "info@novosibirsk.bazaznanij.com";
+    $adres = "630099, г. Новосибирск, Ленина ул, <br>дом № 15, oф. 153, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxES~v";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxES~v\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+    $push_impulse = "";
+}
+
+if ($town == 'ufa') {
+    $site_name = "Диплом-Ufa.bazaznanij.com";
+    $password = '111qwaszx';
+    $site_url = "http://ufa.bazaznanij.com/";
+    $site_phone = "+7 (960) 590 95 72";
+    $email = "zakaz@ufa.bazaznanij.com";
+    $email_1 = "advertisement@bazaznanij.com";
+    $email_2 = "advertising@bazaznanij.com";
+    $email_3 = "promotion@bazaznanij.com";
+    $email_4 = "advt@bazaznanij.com";
+    $email_5 = "adt@bazaznanij.com";
+    $email_6 = "zakaz@bazaznanij.com";
+    $email_7 = "info@bazaznanij.com";
+    $email_8 = "inform@bazaznanij.com";
+    $email_9 = "information@bazaznanij.com";
+    $email_10 = "order@bazaznanij.com";
+    $email_11 = "ad@bazaznanij.com";
+    $email_12 = "publicity@bazaznanij.com";
+    $email2 = "bazaznanij.com@gmail.com";
+    $email3 = "info@ufa.bazaznanij.com";
+    $adres = "450001, г. Уфа, Пролетарская ул, <br>дом № 40, oф. 89, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxE--I";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxE--I\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014778658914";
     $push_impulse = "";
 }
