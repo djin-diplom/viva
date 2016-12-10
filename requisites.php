@@ -19,7 +19,8 @@ if ($per == 1) {
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014323801363";
     $push_impulse = "";
-} else {
+}
+if ($per == 2) {
     $site_name = "Диплом-Bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://bazaznanij.com/";

@@ -1,1 +1,3 @@
+<?php
 $town = 'kazan';
+?>
