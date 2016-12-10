@@ -6,6 +6,7 @@ $url_town_kazan = 'http://kazan.bazaznanij.com/';
 $url_town_novosibirsk = 'http://novosibirsk.bazaznanij.com/';
 $url_town_ufa = 'http://ufa.bazaznanij.com/';
 
+//$town = 'moscow';
 
 $per = 2;
 if ($per == 1) {
