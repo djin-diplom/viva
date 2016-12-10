@@ -1,5 +1,5 @@
 
 <?php
-$town = 'kazan';
+require ("town.php");
 require ("../index.php");
 ?>
