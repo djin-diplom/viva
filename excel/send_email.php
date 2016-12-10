@@ -34,7 +34,7 @@ if ( (int)$i >= (int)$count) {
     header("Location: log.txt");
 } else {
     $ar_colls = $ar[$i];
-    $j = $i % 11;
+    $j = $i % 12;
     switch ($j) {
         case 0:
             $email = $email_1;
@@ -68,6 +68,9 @@ if ( (int)$i >= (int)$count) {
             break;
         case 10:
             $email = $email_11;
+            break;
+        case 10:
+            $email = $email_12;
             break;
     }
     $email_client = $ar_colls[0];
