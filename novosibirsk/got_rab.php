@@ -1,5 +1,5 @@
 
 <?php
 require ("town.php");
-require ("../index.php");
+require ("../got_rab.php");
 ?>

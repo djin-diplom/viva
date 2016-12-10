@@ -1,4 +1,5 @@
+
 <?php
-$town = 'ufa';
+require ("town.php");
 require ("../index.php");
 ?>
