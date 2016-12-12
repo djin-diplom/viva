@@ -173,7 +173,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                           '.$name.'! Нана компания предлагает студентам отличную возможность получить высококачественные работы на заказ. 
                           Наше главное правило – это наивысшее качество за минимально короткие сроки. Команда наших специалистов работает с 
                           целью максимального эффекта. 
-                          Мы делаем для наших клиентов все возможное, работы, которые вы заказали у нас, 
+                          Мы делаем для наших клиентов все возможное. Работы, которые вы заказали у нас, 
                           помогут вам в достижении наилучшего результата.
                         </div>
                         <br>
@@ -198,7 +198,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Дипломная работа</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 5-14 суток<br>
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 5-14 дней<br>
                           '.$name.'! Обучение в высших учебных заведениях подразумевает написание различных научных работ, 
                           которые дают оценку уровня знаний студентов. 
                           Однако даже самый лучший студент не всегда может позволить себе выделить время на написание работы. 
@@ -230,7 +230,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                         <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 10-20 дней<br>
                           '.$name.'!  Магистерская на заказ – это быстро, легко и качественно. Мы не распространяем личную информацию, 
                           которую клиент предоставляет нам во время сотрудничества. Также у наших клиентов есть 
-                          возможность контролировать процесс подготовки диплома в личном кабинете.
+                          возможность контролировать процесс подготовки работы в личном кабинете.
                           Заказ работы у нас является наиболее правильным выбором, ведь мы собрали у себя профессионалов, 
                           которые работают на лучший результат.
                         </div>
@@ -248,6 +248,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
                   <a href="'.$site_url.'order.php">'.$name.'! Зaказать работу мoжно здесь!</a><br>
                   Срочнoе выпoлнeниe, два месяца гaрaнтии!
+                  Широкая сеть филиалов по всей России!
                 </td>
               </tr>
             </table>
@@ -261,7 +262,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 
             <strong>'.$site_name.'</strong><br>
 
-            '.$name.'! На работу дается гарантия сроком 60 дней. В работе минимум 70% оригинальных фраз 
+            '.$name.'! На работу дается гарантия 60 дней. В работе минимум 70% оригинальных фраз 
             согласно системе антиплагиат.ру!<br>
             По запросу предоставляем подробный отчет о проверке работы. 
             В стоимость работы включены все доработки и поправки, которые могут возникнуть и которые 
