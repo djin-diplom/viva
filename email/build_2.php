@@ -12,7 +12,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>Добрый день, '.$name.'! Это новогодняя акция от компании '.$site_url.'</title>
+  <title>'.$name.'! Скоро Новый Год! Вас поздравляет компания '.$site_name.'</title>
 
   <style type="text/css">
     body {
@@ -128,9 +128,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-          <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
-            Сделаем срочный заказ по низкой цене!
-                 <br><span style="color: green;">Наступило время скидок: скоро НГ 2017!</span><br>
+          <span style="color: green;">Добрый день, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
+            Выполним срoчный заказ по низкой цeне!
+                 <br><span style="color: green;">Не упусти акцию: 20% новогодняя скидка!</span><br>
             
 
           </td>
@@ -143,9 +143,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! 
-                  Учeбный центр "<a href="'.$site_url.'">'.$site_name.'</a>"
-                  возьмет срочный заказ, вышлeт бесплатно чaсть материалов.<br>
-                  Получить их достаточно легко: оформите заказ <a href="'.$site_url.'order.php" >тут</a>!</div>
+                  Компания"<a href="'.$site_url.'">'.$site_name.'</a>"
+                  выполнит срочный заказ, вышлeт бесплатно чaсть материалов.<br>
+                  Оформите заказ <a href="'.$site_url.'order.php" >тут</a> и получите бесплатные материалы!</div>
                 </td>
               </tr>
               <tr>
@@ -166,15 +166,15 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Курсoвaя</td>
+                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Курсовая работа</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">3-9 суток<br>
-                          '.$name.'! Молодой человек пишет диплом, старается, анализирует прорву сведений и выделяет из них крупицы необходимой 
-                          информации, а в итоге - 
-                          работа не проходит стандартную проверку на плагиат. Возникает естественный вопрос - почему?
-                          На низкое качество написания влияет отсутствие писательских навыков. Иными словами, 
-отсутствие квалификации у студента является первопричиной элементов плагиата в дипломной работе.
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">3-7 дней<br>
+                          '.$name.'! Нана компания предлагает студентам отличную возможность получить высококачественные работы на заказ. 
+                          Наше главное правило – это наивысшее качество за минимально короткие сроки. Команда наших специалистов работает с 
+                          целью максимального эффекта. 
+                          Мы делаем для наших клиентов все возможное, работы, которые вы заказали у нас, 
+                          помогут вам в достижении наилучшего результата.
                         </div>
                         <br>
                       </td>
@@ -195,15 +195,15 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Диплoмная</td>
+                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Дипломная работа</td>
                           </tr>
                         </table>
                         <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 5-14 суток<br>
-                          '.$name.'! Самостоятельное написание дипломной работы не становится гарантом успеха. 
-                          Особенно, что касается, стандартов уникальности.
-Наша компания занимается оказанием помощи людям по выполнению творческих проектов, дипломных, курсовых рефератов по различным дисциплинам.
-Один из наших приоритетов — сдача точно в срок.
-Выполнению столь амбициозной задачи способствует большая база исполнителей.
+                          '.$name.'! Обучение в высших учебных заведениях подразумевает написание различных научных работ, 
+                          которые дают оценку уровня знаний студентов. 
+                          Однако даже самый лучший студент не всегда может позволить себе выделить время на написание работы. 
+                          У нас вы сможете заказать диплом, курсовые работы, рефераты, чертежи, решение задач. 
+                          Специалисты нашего сайта - это преподаватели и профессионалы.
                         </div>
                         <br>
                       </td>
@@ -224,17 +224,15 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Мaгистерская</td>
+                            <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Магистерская работа</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 10-20 суток<br>
-                          '.$name.'!  В написании работы помогает доктор или кандидат наук.
-   Дается гарантия 2 года.
-У нас самые демократические цены.
-Предоплата по договору, возможность получения скидки 20%!
-Если вы хотите заказать диссертацию под ключ по доступной цене в нашей компании, то мы гарантируем, что доведём её до защиты.
-Все доработки от преподавателя проводятся бесплатно, если они не противоречат изначальным требованиям.
-
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 10-20 дней<br>
+                          '.$name.'!  Магистерская на заказ – это быстро, легко и качественно. Мы не распространяем личную информацию, 
+                          которую клиент предоставляет нам во время сотрудничества. Также у наших клиентов есть 
+                          возможность контролировать процесс подготовки диплома в личном кабинете.
+                          Заказ работы у нас является наиболее правильным выбором, ведь мы собрали у себя профессионалов, 
+                          которые работают на лучший результат.
                         </div>
                         <br>
                       </td>
@@ -248,8 +246,8 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Заказать рaботу мoжно здесь!</a><br>
-                  Срочное выпoлнeниe, два мeсяцa гaрaнтии!
+                  <a href="'.$site_url.'order.php">'.$name.'! Зaказать работу мoжно здесь!</a><br>
+                  Срочнoе выпoлнeниe, два месяца гaрaнтии!
                 </td>
               </tr>
             </table>
@@ -263,18 +261,18 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 
             <strong>'.$site_name.'</strong><br>
 
-            '.$name.'! Наши специалисты приступают к написанию магистерской диссертации под заказ в соответствии с  
-            Вашими требованиями по % оригинальности, либо по стандартам нашей компании. 
-            Проверка проводится по системе Антиплагиат, если не указано иное.<br>
-            К нам обращаются за помощью люди разного поколения и образования. У наших специалистов любой может 
-            оформить кандидатскую диссертацию на заказ по нужному направлению. 
-            Цена определяется исключительно сложностью выбранной тематики и сроками исполнения.<br>
-            Наша компания работает без предоплаты.<br>
+            '.$name.'! На работу дается гарантия сроком 60 дней. В работе минимум 70% оригинальных фраз 
+            согласно системе антиплагиат.ру!<br>
+            По запросу предоставляем подробный отчет о проверке работы. 
+            В стоимость работы включены все доработки и поправки, которые могут возникнуть и которые 
+          не противоречат первоначальным требованиям. Компания полностью несет ответственность за выполненную 
+            работу согласно договору.<br>
            Наша основная задача - оказать клиентам необходимую помощь по 
-           сбору информации для работы, систематизации её в нужном виде, по проведению различных 
-           исследований и описанию результатов. Если клиент решил заказать диссертацию на нашем сайте в 
-           России, то мы также оказываем консультации по проработке идей, написанию и оформлению работы, её защиты. 
-           Мы готовы оказать помощь по таким видам проектов как: научная статья, монография, автореферат, 
+           сбору информации для работы, систематизации её в нужном виде, помощь по проведению различных 
+           исследований и описанию результатов.<br>
+           Если клиент решил заказать диссертацию на нашем сайте, 
+           то мы также оказываем консультации по проработке идей, написанию и оформлению работы, её защите. 
+           Мы готовы оказать помощь по таким видам проектов, как: научная статья, монография, автореферат, 
            магистерская или кандидатская диссертации по различным предметам.<br>
             
             <span class="ios-footer">
@@ -283,7 +281,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
             </span>
 
               <span class="ios-footer">
-              '.$name.'! Если Вы не хотели получить это информационное письмо, вы можете oтписаться <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
+              '.$name.'! Если Вы не хотели пoлучить это информационное письмo, вы можете oтписаться <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
             © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaaa">'.$site_name.'</a><br>

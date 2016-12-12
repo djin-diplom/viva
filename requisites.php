@@ -55,7 +55,7 @@ if ($per == 2) {
     $push_impulse = "";
 }
 
-if ($town == 'kazan') {
+if (@$town == 'kazan') {
     $site_name = "Диплом-Kazan.bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://kazan.bazaznanij.com/";
@@ -82,7 +82,7 @@ if ($town == 'kazan') {
     $push_impulse = "";
 }
 
-if ($town == 'moscow') {
+if (@$town == 'moscow') {
     $site_name = "Диплом-Moscow.bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://moscow.bazaznanij.com/";
@@ -109,7 +109,7 @@ if ($town == 'moscow') {
     $push_impulse = "";
 }
 
-if ($town == 'novosibirsk') {
+if (@$town == 'novosibirsk') {
     $site_name = "Диплом-Novosibirsk.bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://novosibirsk.bazaznanij.com/";
@@ -136,7 +136,7 @@ if ($town == 'novosibirsk') {
     $push_impulse = "";
 }
 
-if ($town == 'ufa') {
+if (@$town == 'ufa') {
     $site_name = "Диплом-Ufa.bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://ufa.bazaznanij.com/";
