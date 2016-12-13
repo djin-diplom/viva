@@ -34,9 +34,9 @@ $url_town_ufa = 'http://ufa.'.$main_name.'/';
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014778658914";
 
+$main_name_temp = $main_name;
 
 if (@$town == 'kazan') {
-    $main_name_temp = $main_name;
     $main_name = "Kazan.".$main_name;
     $site_name = $main_name;
     $password = '111qwaszx';
