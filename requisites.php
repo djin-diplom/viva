@@ -1,7 +1,7 @@
 <?php
 
 
-$main_name = "knowbaza.ru";
+$main_name = "Knowbaza.ru";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
