@@ -32,7 +32,7 @@ $url_town_ufa = 'http://ufa.'.$main_name.'/';
     $adres = "197022, г. Санкт-Петeрбург, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZs6uQyT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+    $url_oplata = "https://money.yandex.ru/to/410013596538320";
 
 $main_name_temp = $main_name;
 
@@ -60,7 +60,7 @@ if (@$town == 'kazan') {
     $adres = "420077, г. Казань, Софийская ул, <br>дом № 16, oф. 55, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxARyM";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxARyM\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+
 }
 
 if (@$town == 'moscow') {
@@ -87,7 +87,7 @@ if (@$town == 'moscow') {
     $adres = "119311, г. Москва ул. Строителей, <br>дом № 11, oф. 234-236, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxEQMT";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxEQMT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410014778658914";
+
 }
 
 if (@$town == 'novosibirsk') {
@@ -114,8 +114,7 @@ if (@$town == 'novosibirsk') {
     $adres = "630099, г. Новосибирск, Ленина ул, <br>дом № 15, oф. 153, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxES~v";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxES~v\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410014778658914";
-    $push_impulse = "";
+
 }
 
 if (@$town == 'ufa') {
@@ -142,8 +141,7 @@ if (@$town == 'ufa') {
     $adres = "450001, г. Уфа, Пролетарская ул, <br>дом № 40, oф. 89, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxE--I";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxE--I\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410014778658914";
-    $push_impulse = "";
+
 }
 
 /*
