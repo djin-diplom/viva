@@ -130,7 +130,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
           <span style="color: green;">Привет, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
             Срочные работы по низкой стоимости!
-                 <br><span style="color: green;">Перед праздниками Вас ждем скидка 20%!</span><br>
+                 <br><span style="color: green;">Перед праздниками Вас ждет скидка 20%!</span><br>
             
 
           </td>
