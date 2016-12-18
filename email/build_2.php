@@ -12,7 +12,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>'.$name.'! Это компания-дипломэйкер '.$site_name.' </title>
+  <title>'.$name.'! Мы создаем дипломы и другие работы, компания '.$site_name.' </title>
 
   <style type="text/css">
     body {
@@ -128,9 +128,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-          <span style="color: green;">Привет, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
-            Срочные работы по низкой стоимости!
-                 <br><span style="color: green;">Перед праздниками Вас ждет скидка 20%!</span><br>
+          <span style="color: green;">Добрый день, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
+            Срочные paботы по низкой стоимoсти!
+                 <br><span style="color: green;">Перед прaздниками Вaс ждет скидкa 20 %!</span><br>
             
 
           </td>
@@ -143,9 +143,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! 
-                  Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
-                  сделает срочную работу, бесплатно предоставит часть текста.<br>
-                  Сделайте заказ <a href="'.$site_url.'order.php" >тут</a> и получите часть бесплатно!</div>
+                  Компaния "<a href="'.$site_url.'">'.$site_name.'</a>"
+                  сделает срoчную работу, бесплатно предoставит часть тeкста.<br>
+                  Сделайте зaказ <a href="'.$site_url.'order.php" >тут</a> и получите чaсть бесплатно!</div>
                 </td>
               </tr>
               <tr>
@@ -169,11 +169,11 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Курсовая</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">3-7 дней<br>
-                          '.$name.'! Оформляя заказ работы в нашей компании, Вы экономите время и получаете работу, 
-                          написанную на основе современных и актуальных материалов. 
-                          Мы всегда доводим любой заказ до полного соответствия Вашим требованиям и требованиям Вашего ВУЗа.
-                          Дипломная, контрольная, курсовая работа, рефераты, ответы на вопросы и отчеты по практике на заказ без проблем!
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">4-8 суток<br>
+                          '.$name.'! Наша помощь рассчитана на тех, кому сложно самостоятельно освоить 
+                          все требования трудной учебной программы, кто вынужден совмещать работу с учебой, кто предпочитает 
+                          использовать свободное время на не менее важные дела и кому хочется с наименьшей затратой своего времени 
+                          получить профессионально выполненные работы с гарантией качества.
                         </div>
                         <br>
                       </td>
@@ -197,16 +197,12 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 6-13 дней<br>
-                          '.$name.'! Наши преимущества: 
-оформление заявки online;
-оперативный ответ по каждой заявке;
-квалифицированные и опытные специалисты;
-доступные цены;
-возможны минимальные сроки написания дипломов, курсовых, диссертаций, рефератов;
-гарантия: юридический аспект отношений;
-сопровождение курсовых, контрольных, дипломных работ, рефератов до защиты.
-                        </div>
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 4-12 суток<br>
+                          '.$name.'! Мы всегда будем рады помочь вам в нелегком учебном процессе! Быстро и качественно 
+                          выполняем курсовые, дипломные работы абсолютно по всем дисциплинам. Гарантируем исполнение Вашего 
+                          заказа точно в срок и согласно требованиям ВУЗа. 
+                          Сопровождение работы до получения оценки. Учитываем все рекомендации научного руководителя. 
+                                                 </div>
                         <br>
                       </td>
                     </tr>
@@ -229,13 +225,12 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Магистерская</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 10-24 дней<br>
-                          '.$name.'!  У нас удобное месторасположение (пять офисов по всей России). 
-                          Наша компания отслеживает уровень качества готовых работ. 
-                          Для этого в Компании работают специалисты по контролю за качеством написанных работ. 
-                          Гарантия качества предоставляемых услуг - деятельность в рамках регистрации субъекта хозяйствования. Мы несем перед
-Клиентами юр. ответственность.
-                          
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 9-23 суток<br>
+                          '.$name.'!  Квалифицированные авторы с радостью возьмут на себя 
+                          ваши заботы по написанию отчетов по практике, творческих работ, дипломных и курсовых работ. 
+                          С легкостью быстро поможем сделать вам 
+                          реферат или контрольную работу. Сэкономим ваше время и деньги при написании диссертации. 
+                          Исправления входят в стоимость. 
                         </div>
                         <br>
                       </td>
@@ -249,9 +244,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Нажми сюда и сделай заказ!</a><br>
-                  Выполним срочно, три месяца гарантия!
-                  Пять филиалов, офисы в Москве и Питере!
+                  <a href="'.$site_url.'order.php">'.$name.'! Нажми сюдa и сделaй закaз!</a><br>
+                  Выпoлним срочнo, два месяца гaрантия!
+                  Пять филиaлов, oфисы в Мoскве и Питере!
                 </td>
               </tr>
             </table>
@@ -265,16 +260,15 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 
             <strong>'.$site_name.'</strong><br>
 
-            '.$name.'!  Узнать стоимость (цену), заказать дипломную 
-            работу, курсовую или контрольную работу, отчет о практике, статью, реферат, диссертацию пожно по нашей почте.
-Выполнение любой письменной работы, будь это контрольная, курсовая, дипломная или иная работа, 
-подразумевает под собой применение исключительно авторского, индивидуального подхода, что и гарантирует наша компания.<br>
-Для уточнения цены (оценки работы), оформления заказа на выполнение контрольной, курсовой, 
-дипломной или иной работы рекомендуем воспользоваться данным приложением и заполнить форму на нашем сайте.
-Важно максимально полно сообщить исходные данные, необходимые для написания контрольной, курсовой, 
-дипломной или иной письменной работы.<br>
-После отправки запроса мы свяжемся с Вами для получения дополнительной информации и иного сопровождения.
-При наличии уточняющих вопросов Вы также можете связаться с нами по E-mail.<br>
+            '.$name.'!  5 причин работать с нами: <br>
+            1. Безупречная репутация. 
+            50% клиентов приходят к нам заказать дипломную работу по рекомендации. <br>
+            2. Скорость— мы пишем быстро и серьезно! <br>
+            3. Проверка на плагиат по умолчанию. 
+            И контрольные работы, и реферат — мы все проверяем на плагиат. <br>
+            4. Бесплатные правки. <br>
+            5. 100% сдача выпускниками работ. Наш диплом на заказ легко защитить! 
+            Нам не все равно. Пишите нам и заказывайте работы любой сложности<br>
             
             <span class="ios-footer">
               '.$adres.'<br>
