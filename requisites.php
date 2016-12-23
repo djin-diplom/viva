@@ -1,7 +1,7 @@
 <?php
 
 
-$main_name = "Knowbaza.ru";
+$main_name = "Vivadiplom.ru";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -84,9 +84,9 @@ if (@$town == 'moscow') {
     $email_12 = "publicity@".$main_name;
     $email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "119311, г. Москва ул. Строителей, <br>дом № 11, oф. 234-236, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxEQMT";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxEQMT\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "119311, г. Москва: м. Таганская (радиальная), ул. Народная, д. 14, стр. 3, ИНН 7813239461";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZHtyGJz";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZHtyGJz\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
 
