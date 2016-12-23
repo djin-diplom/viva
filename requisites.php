@@ -2,6 +2,7 @@
 
 
 $main_name = "Vivadiplom.ru";
+$email2 = "Vivadiplom.info@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -27,7 +28,7 @@ $url_town_ufa = 'http://ufa.'.$main_name.'/';
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-    $email2 = $main_name."@gmail.com";
+    //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "197022, г. Санкт-Петeрбург, Каменноостровcкий пр-кт, <br>дом № 27 литер Б, oф. 134-136, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZs6uQyT";
@@ -55,7 +56,7 @@ if (@$town == 'kazan') {
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-    $email2 = $main_name_temp."@gmail.com";
+    //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "420077, г. Казань, Софийская ул, <br>дом № 16, oф. 55, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxARyM";
@@ -82,7 +83,7 @@ if (@$town == 'moscow') {
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-    $email2 = $main_name_temp."@gmail.com";
+    //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "119311, г. Москва: м. Таганская (радиальная), ул. Народная, д. 14, стр. 3, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZHtyGJz";
@@ -109,7 +110,7 @@ if (@$town == 'novosibirsk') {
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-    $email2 = $main_name_temp."@gmail.com";
+    //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "630099, г. Новосибирск, Ленина ул, <br>дом № 15, oф. 153, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxES~v";
@@ -136,7 +137,7 @@ if (@$town == 'ufa') {
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-    $email2 = $main_name_temp."@gmail.com";
+    //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "450001, г. Уфа, Пролетарская ул, <br>дом № 40, oф. 89, ИНН 7813239461";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZDxE--I";
