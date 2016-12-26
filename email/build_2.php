@@ -12,7 +12,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>'.$name.'! Представляем уникальные работы от компании '.$site_name.' </title>
+  <title>'.$name.'! В Новый Год представляем скидки от компании '.$site_name.' </title>
 
   <style type="text/css">
     body {
@@ -128,9 +128,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:26px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-          <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
-            Срочное выполнение по низкой цене!
-                 <br><span style="color: green;">Скоро 2017 год, Вaс ожидает скидка 20%!</span><br>
+          <span style="color: green;">Доброe утро, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
+            Сpoчнoе выпoлнeние пo низкoй цeнe!
+                 <br><span style="color: green;">В Новый Год Вac ожидает cкидка 20%!</span><br>
             
 
           </td>
@@ -143,9 +143,9 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                 <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
                   <br>
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">'.$name.'! 
-                  Компания "<a href="'.$site_url.'">'.$site_name.'</a>"
-                  выпoлнит срoчную рабoту, бесплатно предоставит матеpиалы.<br>
-                  Сделайте зaказ <a href="'.$site_url.'order.php" >тут</a> и получитe часть бeсплатно!</div>
+                  Кoмпaния "<a href="'.$site_url.'">'.$site_name.'</a>"
+                  выполнит срочную работу, бeсплaтно прeдoставит материалы.<br>
+                  Сделайтe заказ <a href="'.$site_url.'order.php" >тут</a> и получите чaсть бeсплатно!</div>
                 </td>
               </tr>
               <tr>
@@ -169,11 +169,12 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Курсовaя</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 3 дней<br>
-                          '.$name.'! Курсовая работа – квалификационная работа студента, демонстрирующая уровень знаний по специальности, 
-                          полученных за определенный период обучения в ВУЗе. Обычно является итогом учебного года. 
-                          В зависимости от требований научного руководителя и методических указаний курсовые работы 
-                          подразделяются на теоретические и курсовые с практической частью. 
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 2 суток<br>
+                          '.$name.'! Иногда возникают ситуации, когда на учебу в ВУЗе просто не хватает времени и сил. 
+                          Работа, семья или какие-либо личные проблемы могут отнимать практически все ваше время, не давая 
+                          возможности уделить достаточно внимания учебе. Однако без сдачи научной работы получение диплома просто невозможно. 
+                          Если же вы не можете по каким-либо объективным причинам написать научную 
+                          работу самостоятельно, мы предлагаем вам заказать диплом у специалистов.
                           
                           
                         </div>
@@ -199,12 +200,13 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Дипломнaя</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 6 дней<br>
-                          '.$name.'! Дипломная работа – выпускная работа студента, демонстрирующая 
-                          уровень полученных знаний по специальности. 
-                          Обращение в нашу компанию гарантирует полное соблюдение всех требований 
-                          и сопровождение клиента до последнего этапа, 
-                          включая разработку плана исследования и бесплатное выполнение доработок по замечаниям преподавателя. 
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 5 суток<br>
+                          '.$name.'! Заказ диплома – это довольно большая проблема, требующая от вас 
+                          определенных усилий и затрат. Нужно очень внимательно отнестись к выбору исполнителя, 
+                          принимая во внимание множество моментов. Некоторые, предлагая в интернете диплом на заказ, 
+                          предоставляют покупателям старые работы. 
+                          Мы не только предложим вам абсолютно оригинальный текст, но и оформим его 
+                          в соответствии с нормами и требованиями вашего ВУЗа.
                           
                                                  </div>
                         <br>
@@ -229,11 +231,12 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
                             <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">Магистерскaя</td>
                           </tr>
                         </table>
-                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 12 дней<br>
-                          '.$name.'!   Написание магистерских на заказ – серьезная и 
-                          ответственная работа, доверить которую можно только специалистам соответствующей квалификации. 
-                          В наш штат авторов входят доктора наук и кандидаты наиболее востребованных специальностей, имеющие большой опыт выполнения 
-                          работ повышенной сложности, что позволяет гарантировать высокий уровень текстов.
+                        <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">от 9 суток<br>
+                          '.$name.'!   Выполняя дипломы, мы обязуемся постоянно учитывать ваши замечания и 
+                          пожелания. Исполнитель будет предоставлять вам необходимые главы для предоставления научному руководителю, 
+                          по требованию вносить необходимые изменения. Наши сотрудники заинтересованы сдать работу в указанный срок.
+                          Написание дипломных работ – это для нас не просто работа, но и 
+                          возможность помочь вам решить эту проблему с наилучшим итогом.
                         </div>
                         <br>
                       </td>
@@ -247,8 +250,8 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
               </tr>
               <tr>
                 <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Пройдите по ссылке, для того чтобы заказать работу...</a><br>
-                   Сеть отделений по всей России, филиалы в Моcквe и Санкт-Петербурге!
+                  <a href="'.$site_url.'order.php">'.$name.'! Прoйдитe по ссылкe, для тoгo чтoбы закaзaть работу...</a><br>
+                   Сeть отделeний по всeй России, филиaлы в Моcквe и Санкт-Петербурге!
                 </td>
               </tr>
             </table>
@@ -262,21 +265,16 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
 
             <strong>'.$site_name.'</strong><br>
 
-            '.$name.'!  Мы выполняем :<br>
-рефераты<br>
- курсовые работы<br>
-дипломные работы<br>
-кандидатские, докторские диссертации<br>
-контрольные работы<br>
-тесты и переводы<br>
-отчеты по практике<br>
-задачи<br>
-и многое другое<br>
-Почему - наша компания?<br>
-индивидуальное выполнение по Вашим требованиям и пожеланиям<br>
-использование современных источников литературы<br>
-многоуровневая система контроля качества заказанных дипломов, заказанных курсовых, заказанных рефератов<br>
-бесплатная доработка по замечаниям научного руководителя<br>
+            '.$name.'!  На работу дается гарантия сроком 90 дней. В работе минимум 75% оригинальных фраз, 
+            согласно системе антиплагиат.ру! По запросу предоставляем подробный отчет, о проверке работы. 
+            В стоимость работы включены все доработки и поправки, которые могут возникнуть, не противореча 
+            первоначальным требованиям. Компания полностью несет ответственность за выполненную работу, согласно договора.<br>
+            Мы выполняем рефераты, курсовые, контрольные и дипломные работы на заказ по всей России по всем специальностям, 
+            в том числе экономическим, гуманитарным, юридическим или техническим предметам. Можем выполнить любую научную 
+            работу, которая предусмотрена программой Вашего ВУЗа, в том числе диплом на заказ (дипломные на заказ), 
+            с гарантией качества и в короткие сроки. Оформляя услугу "дипломная на заказ" останитесь довольны не только Вы, но и 
+            Ваш научный руководитель. 
+            Нами представлены услуги по выполнению всех видов студенческих работ на заказ по всей России.<br>
             
             <span class="ios-footer">
               '.$adres.'<br>
@@ -284,7 +282,7 @@ $body_2 = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:
             </span>
 
               <span class="ios-footer">
-              '.$name.'! Еcли Вы хотите отписaться, это можнo сделать <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
+              '.$name.'! Если Вы хoтите отписаться, это можно сдeлать <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
             © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaaa">'.$site_name.'</a><br>
