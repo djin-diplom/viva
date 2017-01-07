@@ -84,7 +84,7 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $subject = "Здравствуйте, " . $name . "! " . $vid_rab . " за " . $pay . " БЕЗ ПРЕДОПЛАТЫ от компании " . $site_name;
+        $subject =  $name . "! " . $vid_rab . " по цене " . $pay . " Часть бесплатно от центра " . $site_name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
