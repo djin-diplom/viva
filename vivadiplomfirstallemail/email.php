@@ -195,7 +195,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Номер заказа <?php echo $zakaz; ?><br>
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
-			Все интересующие Вас вопросы можно задать в ответе на это письмо!<br>
+			Прислать Вам бесплатно примеры работ Вашего автора?<br>
+			Обязательно ответьте на это письмо!<br>
 		</td>
 	</tr>
 	<tr>
