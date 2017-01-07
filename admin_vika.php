@@ -1,9 +1,6 @@
 <form action="kabinet/adm_panel.php" method="post" >
     <input type="submit" value="Перейти на kabinet/adm_panel.php (Редактирование данных заказчиков)"><br>
 </form>
-<form action="kabinet/clients" method="post" >
-    <input type="submit" value="Перейти на kabinet/clients (Список текущих заказчиков)"><br>
-</form>
 <form action="basa_clients.php" method="post" >
     <input type="submit" value="Перейти на basa_clients.php (Форма для создания письма оценки заказа)"><br>
 </form>
