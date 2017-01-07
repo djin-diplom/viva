@@ -2,7 +2,7 @@
 
 
 $main_name = "Bazadiplom.ru";//"Vivadiplom.ru";
-$email2 = "Bazadiplom.info@gmail.com";//"Vivadiplom.info@gmail.com";
+$email2 = "Bazadiplom.ru@gmail.com";//"Vivadiplom.info@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
