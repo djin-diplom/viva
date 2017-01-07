@@ -23,12 +23,6 @@ require("header.php");
 <!-- section of script -->
 
 
-<div style="background: url(/img/leather1.jpg) repeat-x left top; padding-top: 40px;">
-	<section class="main">
-		<?php
-		require("calc2.php");
-		?>
-		<div>
 
 <div class="v-root-terms">
 	<h2>Условия  соглашения по оказанию возмездных услуг между Заказчиком и Исполнителем</h2>

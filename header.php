@@ -56,7 +56,7 @@
 						<div>
 							<div style="text-align: right;"><label onclick="document.forms.callback.className=&#39;hidden&#39;;">Закрыть окно</label></div>
 							<p>Пароль вы должны получить по почте после заказа работы.</p>
-							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Войти в личный кабинет</button><br>
+							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Войти в кабинет</button><br>
 						</div>
 					</section>
 				</form>
