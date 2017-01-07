@@ -118,7 +118,7 @@ if ( (int)$i >= (int)$count) {
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
             }
-            setTimeout(func, 9000);
+            setTimeout(func, 19000);
         </script>
         <?php
 } else {
