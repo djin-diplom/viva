@@ -7,7 +7,7 @@ $count_text = 31;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Уникальные дипломные работы на заказ.</title
+<title>Уникальные дипломные работы на заказ.</title>
 <meta name="description" content="Компания осуществляет написание дипломных работ по всем научным направлениям.
 Мы  сопровождаем клиентов до самой защиты. Скидки и бонусы на выполнение дипломных работ на заказ.">
 <meta name="keywords" content="заказать дипломную работу, написать диплом на заказ, диплом Россия, дипломная Россия, купить дипломную работу">
@@ -34,18 +34,18 @@ $count_text = 31;
 <div class="dashedborder">Мы сделали для Заказчиков удобный личный кабинет!</div>
 <div class="dashedborder">Мы всегда согласимся с мнением вашего научного руководителя.<br>
 	Сотрудничество с нами продолжится и после того, как вы получите от нас готовое дипломное исследование.<br>
-Подойти в офис в Москве или Санкт-Петербурге сделать заказ диплома по почте и через форму сайта.</div></div>
+Подойти в офис в Москве, Санкт-Петербурге сделать заказ диплома по почте и через форму сайта.</div></div>
 
 		<menu class="advantages">
 			<span class="except"><b>Наши достоинства:</b></span>
 
 			
-<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,1);">Антиплагиат</label></span>
-<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,2);">Качество</label></span>
-<span class="active"><label onclick="changeSliderFrame(&#39;slider1&#39;,3);">Оперативность</label></span><wbr>
-<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,4);">Готовые кейсы</label></span>
-<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,5);">Гарантия</label></span>
-<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,6);">Договор</label></span>
+<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,1);">Антиплагиaт</label></span>
+<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,2);">Качествo</label></span>
+<span class="active"><label onclick="changeSliderFrame(&#39;slider1&#39;,3);">Оперативнoсть</label></span><wbr>
+<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,4);">Готовые примеры</label></span>
+<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,5);">Гарантии</label></span>
+<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,6);">Оферта</label></span>
 
 		</menu>
 		<section class="slider" id="slider1" data-frames="#slider1 &gt; div &gt; div" data-delay="10000">
