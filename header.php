@@ -1,34 +1,7 @@
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-	(function (d, w, c) {
-		(w[c] = w[c] || []).push(function() {
-			try {
-				w.yaCounter40976924 = new Ya.Metrika({
-					id:40976924,
-					clickmap:true,
-					trackLinks:true,
-					accurateTrackBounce:true
-				});
-			} catch(e) { }
-		});
 
-		var n = d.getElementsByTagName("script")[0],
-			s = d.createElement("script"),
-			f = function () { n.parentNode.insertBefore(s, n); };
-		s.type = "text/javascript";
-		s.async = true;
-		s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-		if (w.opera == "[object Opera]") {
-			d.addEventListener("DOMContentLoaded", f, false);
-		} else { f(); }
-	})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/40976924" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-<div id="marquee">Закажите работу прямо сейчас, ждем вашу заявку на почте! Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
-<div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
+<div id="marquee">Сделайте заказ сейчас, воспользуйтесь формой заказа на сайте! У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
+<div id="marquee2">У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
 <noindex>
 	<header>
 		<section>
@@ -36,7 +9,7 @@
 				<br><span style="color:green; font-size:18px;">Напишу - <?php echo $site_name; ?>!</span></div>
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>"><img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>С 6:00 до 22:00, без выходных</div>
 			<div class="phone">
-				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Без менеджеров!</div>
 				
 				<div><span><?php echo $email2; ?></span></div>
 				<?php if (empty($_SESSION['client_email'])): ?>
@@ -74,13 +47,13 @@
 		</div>
 
 		<menu>
-			<div><span><a href="o_kompanii.php">Наш Учебный центр</a></span></div>
-			<div><span><a href="uslugi_i_ceny.php">Стоимость услуг</a></span></div>
-			<div><span><a href="poriadok_zakaza.php">С чего начать</a></span></div>
-			<div><span><a href="order.php">Заказать работу</a></span></div>
+			<div><span><a href="o_kompanii.php">О компании</a></span></div>
+			<div><span><a href="uslugi_i_ceny.php">Стоимость работ</a></span></div>
+			<div><span><a href="poriadok_zakaza.php">Первые шаги</a></span></div>
+			<div><span><a href="order.php">Сделать заказ</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
-			<div><span><a href="dogovor.php">Договор</a></span></div>
-			<div><span><a href="job_creators.php">Авторам</a></span></div>
+			<div><span><a href="dogovor.php">Оферта</a></span></div>
+			<div><span><a href="job_creators.php">Авторы</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 		

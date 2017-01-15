@@ -1,15 +1,15 @@
 <?php
 
 
-$main_name = "Bazadiplom.ru";//"Vivadiplom.ru";
-$email2 = "Bazadiplom.ru@gmail.com";//"Vivadiplom.info@gmail.com";
+$main_name = "Vivastudent.ru";//"Vivadiplom.ru";
+$email2 = "Vivastudent.ru@gmail.com";//"Vivadiplom.info@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
 $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
-
+$vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
 
     $site_name = $main_name;
     $password = '111qwaszx';
