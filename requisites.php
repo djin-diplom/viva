@@ -58,9 +58,9 @@ if (@$town == 'kazan') {
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "420077, г. Казань, Софийская ул, <br>дом № 16, oф. 55, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxARyM";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxARyM\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Казань, 9 Мая ул, <br>дом № 1, oф. 55";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZXOeXIJ";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOeXIJ\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
 
@@ -85,9 +85,9 @@ if (@$town == 'moscow') {
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "119311, г. Москва: м. Таганская (радиальная), ул. Народная, <br>д. 14, стр. 3, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZHtyGJz";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZHtyGJz\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Москва: Таганская площадь, <br>д. 12, оф. 204";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiUMW";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiUMW\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
 
@@ -112,9 +112,9 @@ if (@$town == 'novosibirsk') {
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "630099, г. Новосибирск, Ленина ул, <br>дом № 15, oф. 153, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxES~v";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxES~v\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Новосибирск, проспект Димитрова, <br>дом № 2, oф. 153";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiN2V";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiN2V\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
 
@@ -139,9 +139,9 @@ if (@$town == 'ufa') {
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "450001, г. Уфа, Пролетарская ул, <br>дом № 40, oф. 89, ИНН 7813239461";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZDxE--I";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZDxE--I\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Уфа, Пархоменко ул, <br>дом № 151, oф. 204";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiN2V";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiN2V\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
 
