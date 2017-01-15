@@ -85,7 +85,7 @@ if (@$town == 'moscow') {
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name_temp."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Москва: Таганская площадь, <br>д. 12, оф. 204";
+    $adres = "г. Москва, Таганская площадь, <br>д. 12, оф. 204-205";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiUMW";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiUMW\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
