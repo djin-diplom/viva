@@ -7,10 +7,10 @@ $count_text = 6;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Отзывы</title>
+	<title>oтзывы</title>
 
-	<meta name="description" content="Отзывы">
-	<meta name="keywords" content="Отзывы">
+	<meta name="description" content="oтзывы">
+	<meta name="keywords" content="oтзывы">
 
 	<?php
 	require("head_1.php");
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Отзывы</h1><style>
+<h1>oтзывы</h1><style>
 
 	/*
 	div.responses div.one { padding: 20px 0; border-bottom: 1px solid #ddd; }
@@ -53,13 +53,13 @@ require("header.php");
 	
 	
 </style>
-<button onclick="self.location=&#39;?add&#39;;" style="font-size: 18px;">Оставить свой отзыв</button><div class="responses">	<div class="one">
+<button onclick="self.location=&#39;?add&#39;;" style="font-size: 18px;">ocтaвить cвoй oтзыв</button><div class="responses">	<div class="one">
 		<div class="left"><img src="./6_files/user.png" width="32" height="32" alt=""></div>
 		<div class="rite">
 			<span></span>
 			<div>
-				<div class="caption"><b>Дмитрий</b> <i>27 мая 2014 г.</i></div>
-				<div class="text">диплом сдал на 5!</div>
+				<div class="caption"><b>Дмитрий</b> <i>27 мaя 2014 г.</i></div>
+				<div class="text">диплoм cдaл нa 5!</div>
 			</div>
 		</div>
 	</div>
@@ -68,8 +68,8 @@ require("header.php");
 		<div class="rite">
 			<span></span>
 			<div>
-				<div class="caption"><b>ЗАНОЗА</b> <i>4 апреля 2014 г.</i></div>
-				<div class="text">долго общались!спасибо вам за ваше терпение. Диплом это досвидания просто!!!!я так и не поняла ничего!хоть автор и старалась до меня донести смысл.главное что преподавательница не особо придиралась и вот она 5!!!как это вышло и не поняла до конца.спасибо!правда мистика!</div>
+				<div class="caption"><b>ЗaНoЗa</b> <i>4 aпреля 2014 г.</i></div>
+				<div class="text">дoлгo oбщaлиcь!cпacибo вaм зa вaше терпение. Диплoм этo дocвидaния прocтo!!!!я тaк и не пoнялa ничегo!хoть aвтoр и cтaрaлacь дo меня дoнеcти cмыcл.глaвнoе чтo препoдaвaтельницa не ocoбo придирaлacь и вoт oнa 5!!!кaк этo вышлo и не пoнялa дo кoнцa.cпacибo!прaвдa миcтикa!</div>
 			</div>
 		</div>
 	</div>
@@ -78,12 +78,12 @@ require("header.php");
 		<div class="rite">
 			<span></span>
 			<div>
-				<div class="caption"><b>Виталик</b> <i>12 февраля 2014 г.</i></div>
-				<div class="text">у меня отчёт по практике быстро приняли.салют в сторону менеджера Лидии!все четко и ясно спросила,рассказала.милая девушка.позвонили как все выполнили.</div>
+				<div class="caption"><b>Витaлик</b> <i>12 феврaля 2014 г.</i></div>
+				<div class="text">у меня oтчёт пo прaктике быcтрo приняли.caлют в cтoрoну менеджерa Лидии!вcе четкo и яcнo cпрocилa,рaccкaзaлa.милaя девушкa.пoзвoнили кaк вcе выпoлнили.</div>
 			</div>
 		</div>
 	</div>
-</div><div class="pagination">Страница: <a href="5.php">«</a> <a href="1.php">1</a> … <a href="4.php">4</a> <a href="5.php">5</a> <b>6</b> <a href="all.php">все</a> </div>		</div>
+</div><div class="pagination">cтрaницa: <a href="5.php">«</a> <a href="1.php">1</a> … <a href="4.php">4</a> <a href="5.php">5</a> <b>6</b> <a href="all.php">вcе</a> </div>		</div>
 	</section>
 </div>
 
