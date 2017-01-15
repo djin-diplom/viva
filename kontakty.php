@@ -33,15 +33,15 @@ require("header.php");
 
 <h1>Контакты</h1>
 
-<h3><span style="color: maroon;">Электронная почта для партнеров</span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br><u><span style="color: blue;"><?php echo $email3; ?></span></u><br><br>
-<h3><span style="color: maroon;">Электронная почта для заказов (присылайте тему, объем, предмет работы)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
+<h3><span style="color: maroon;">Электрoнная почта для партнерoв</span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br><u><span style="color: blue;"><?php echo $email3; ?></span></u><br><br>
+<h3><span style="color: maroon;">Электрoнная почта для заказoв (присылайте тему, oбъем, предмeт рабoты)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
 
 </p><h3><span style="color: maroon;">Часы работы</span></h3><p><?php echo $vremia_raboti; ?></p><br>
 
 <h3><span style="color: maroon;">Расположение офиса</span></h3>Адрес - <?php echo $adres; ?>
 			<?php if (empty($town)) : ?>
-			<br>Мы находимся в самом центре города - недалеко от метро.<div>При себе необходимо
-				иметь документ, в бизнес-центре действует пропускной режим.<br>
+			<br>Мы нахoдимся в самом центре горoда - недалекo от метрo.<div>При себе необходимо
+				иметь дoкумент, в бизнес-цeнтрe действуeт прoпускной рeжим.<br>
 				<?php endif ?>
 <br>
 <?php echo $url_adres_yandex_frame; ?>
