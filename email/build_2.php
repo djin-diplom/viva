@@ -782,19 +782,6 @@ $body_2 = '<!DOCTYPE html>
 <html>
 
 <head>
-</head>
-<body>
-Привет!
-</body>
-</html>
-
-
-';
-
-/*'<!DOCTYPE html>
-<html>
-
-<head>
   
   <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
   
@@ -1082,7 +1069,7 @@ $body_2 = '<!DOCTYPE html>
 ';
 
 
-
+/*
 $body_2 = '<!DOCTYPE html>
 <html >
 <head>

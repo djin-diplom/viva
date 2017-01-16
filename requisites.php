@@ -1,8 +1,8 @@
 <?php
 
 
-$main_name = "Vivastudent.ru";//"Vivadiplom.ru";
-$email2 = "Vivastudent.ru@gmail.com";//"Vivadiplom.info@gmail.com";
+$main_name =  "Bazadiplom.ru"; //"Vivastudent.ru";
+$email2 = "Bazadiplom.ru@gmail.com"; //"Vivastudent.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
