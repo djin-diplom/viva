@@ -780,12 +780,18 @@ switch ($vibor_niz_case) {
 
 $body_2 = '<!DOCTYPE html>
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  <meta name="format-detection" content="telephone=no"> 
+  
+  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+  
   <title>'.$name.'! '.$title_let.$site_name.' </title>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style type="text/css">
     body {
@@ -870,7 +876,13 @@ $body_2 = '<!DOCTYPE html>
       }
     }
   </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+  <meta name="format-detection" content="telephone=no"> 
+  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
 </head>
+
+<!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
 
 <body style="margin:1; padding:1;" bgcolor="#F0F0F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
@@ -880,6 +892,7 @@ $body_2 = '<!DOCTYPE html>
 
       <br>
 
+<!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
    
       <table border="0" width="610" cellpadding="0" cellspacing="0" class="containers" style="width:610px;max-width:599px">
         <tr>
@@ -888,7 +901,7 @@ $body_2 = '<!DOCTYPE html>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
             
-
+<!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
           </td>
         </tr>
         <tr>
@@ -898,32 +911,41 @@ $body_2 = '<!DOCTYPE html>
               <tr>
                 <td class="content_wrapper" style="padding-left:23px;padding-right:23px">
                   <br>
+                  
+                  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                   <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:610;color:#374551">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
-                  <a href="'.$site_url.'order.php" >Сделать заказ</a>!</div>
+                  <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+                  <a href="'.$site_url.'order.php" >Сделать закaз</a>!</div>
                 </td>
+                <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
               </tr>
               <tr>
                 <td class="cools-wrapper" style="padding-left:12px;padding-right:12px">
 
-                 
+                 <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
 
 
                   <table width="186" align="left" class="force_row" style="width: 186px;">
                     <tr>
                       <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                         <table class="img_wrapper">
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Курсовая работа</td>
+                          <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Курсoвая работа</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' дней<br>
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' днeй<br>
                           '.$name.'! '.$text_kurs.'
                           
                           
@@ -931,6 +953,7 @@ $body_2 = '<!DOCTYPE html>
                         <br>
                       </td>
                     </tr>
+                    <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                   </table>
 
 
@@ -940,20 +963,23 @@ $body_2 = '<!DOCTYPE html>
                   <table width="186" align="left" class="force_row" style="width: 186px;">
                     <tr>
                       <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                         <table class="img_wrapper">
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
                         <table >
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Дипломная работа</td>
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Диплoмная работа</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' дней<br>
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' днeй<br>
                           '.$name.'! '.$text_dip.'
                           
                                                  </div>
+                                                 <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                         <br>
                       </td>
                     </tr>
@@ -967,16 +993,18 @@ $body_2 = '<!DOCTYPE html>
                     <tr>
                       <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
                         <table class="img_wrapper">
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
+                        <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Магистерская работа</td>
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Магистeрская рабoта</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' дней<br>
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' днeй<br>
                           '.$name.'!  '.$text_mag.'
                         </div>
                         <br>
@@ -988,10 +1016,11 @@ $body_2 = '<!DOCTYPE html>
                   
 
                 </td>
+                <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
               </tr>
               <tr>
                 <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Заказывайте тут!</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.'! Зaказывайте тут!</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1003,11 +1032,11 @@ $body_2 = '<!DOCTYPE html>
           <td class="containers-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa1;padding-left:23px;padding-right:23px">
             <br><br>
 
-
+<!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
             <strong>'.$site_name.'</strong><br>
 
             '.$name.'! '.$vibor_niz.'
-            
+            <!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
             <span class="ios_footer">
               '.$email.'<br>
 
@@ -1015,9 +1044,9 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios_footer">
-              '.$name.'! Отписаться <a href="'.$site_url.'otpiska.php" >здесь</a>.<br>
+              '.$name.'! Oтписаться <a href="'.$site_url.'otpiska.php" >здeсь</a>.<br>
             </span>
-
+<!-- и – отличники. И выражается оно в их внутренней потребности выполнять все взятые на себя  -->
             © 2008–2017 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
             
             
