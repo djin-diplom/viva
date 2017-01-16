@@ -11,7 +11,7 @@ if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%5+2;
 
 //Выбор title
 
-$title_let_case = rand(1,14);
+$title_let_case = rand(9,14);
 
 switch ($title_let_case) {
     case 1:
@@ -56,7 +56,7 @@ switch ($title_let_case) {
 
 //Выбор Выполнение по низкой цене
 
-$vibor_let_case = rand(1,13);
+$vibor_let_case = rand(9,13);
 
 switch ($vibor_let_case) {
     case 1:
@@ -104,7 +104,7 @@ switch ($vibor_let_case) {
 
 //Выбор Скидки
 
-$vibor_akc_case = rand(1,14);
+$vibor_akc_case = rand(9,14);
 
 switch ($vibor_akc_case) {
     case 1:
@@ -160,7 +160,7 @@ $sut_mag = rand(11,14);
 
 //Выбор бесплатного присылания
 
-$vibor_pris_case = rand(1,13);
+$vibor_pris_case = rand(8,13);
 
 switch ($vibor_pris_case) {
     case 1:
@@ -208,7 +208,7 @@ switch ($vibor_pris_case) {
 
 //Текст курсовой
 
-$text_kurs_case = rand(1,14);
+$text_kurs_case = rand(9,14);
 
 switch ($text_kurs_case) {
     case 1:
@@ -300,7 +300,7 @@ switch ($text_kurs_case) {
 
 //Текст дипломной
 
-$text_dip_case = rand(1,14);
+$text_dip_case = rand(9,14);
 
 switch ($text_dip_case) {
     case 1:
@@ -403,7 +403,7 @@ switch ($text_dip_case) {
 
 //Текст магистерской
 
-$text_mag_case = rand(1,14);
+$text_mag_case = rand(9,14);
 
 switch ($text_mag_case) {
     case 1:
@@ -500,7 +500,7 @@ switch ($text_mag_case) {
 
 //Выбор Скидки
 
-$vibor_filial_case = rand(1,13);
+$vibor_filial_case = rand(9,13);
 
 switch ($vibor_filial_case) {
     case 1:
@@ -550,7 +550,7 @@ switch ($vibor_filial_case) {
 
 //Выбор низа
 
-$vibor_niz_case = rand(1,14);
+$vibor_niz_case = rand(9,14);
 
 switch ($vibor_niz_case) {
     case 1:
@@ -779,7 +779,7 @@ switch ($vibor_niz_case) {
 
 
 $body_2 = '<!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -991,7 +991,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Заказывайте здесь!</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.'! Заказывайте тут!</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1015,10 +1015,10 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios_footer">
-              '.$name.'! Отписаться можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
+              '.$name.'! Отписаться <a href="'.$site_url.'otpiska.php" >здесь</a>.<br>
             </span>
 
-            © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
+            © 2008–2017 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
             
             
 
