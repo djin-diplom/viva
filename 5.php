@@ -7,10 +7,10 @@ $count_text = 5;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>oтзывы</title>
+	<title>Отзывы страница 5</title>
 
-	<meta name="description" content="oтзывы">
-	<meta name="keywords" content="oтзывы">
+	<meta name="description" content="Отзывы страница 5">
+	<meta name="keywords" content="Отзывы страница 5">
 
 	<?php
 	require("head_1.php");

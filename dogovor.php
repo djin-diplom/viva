@@ -7,10 +7,10 @@ $count_text = 25;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Порядок заказа</title>
+	<title>Договор</title>
 
-	<meta name="description" content="Порядок заказа">
-	<meta name="keywords" content="Порядок заказа">
+	<meta name="description" content="Договор">
+	<meta name="keywords" content="Договор">
 
 	<?php
 	require("head_1.php");

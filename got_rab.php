@@ -7,10 +7,10 @@ $count_text = 26;
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Для авторов</title>
+    <title>Авторам</title>
 
-    <meta name="description" content="Диплом по маркетингу">
-    <meta name="keywords" content="Диплом по маркетингу">
+    <meta name="description" content="Авторам">
+    <meta name="keywords" content="Авторам">
 
     <?php
     require("head_1.php");

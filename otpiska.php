@@ -9,8 +9,8 @@ $count_text = 44;
 
     <title>Отписаться от рассылок</title>
 
-    <meta name="description" content="Ошибка">
-    <meta name="keywords" content="Ошибка">
+    <meta name="description" content="Отписаться от рассылок">
+    <meta name="keywords" content="Отписаться от рассылок">
 
     <?php
     require("head_1.php");
