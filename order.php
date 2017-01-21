@@ -122,7 +122,18 @@ require("header.php");
 
             </td>
         </tr>
-        
+
+        <tr>
+            <td class="field">
+                Предмет
+
+            </td>
+            <td>
+                <input id="id_predmet" style="width: 50%;" type="text" name="predmet" maxlength="100">
+
+
+            </td>
+        </tr>
 
         <tr>
             <td class="field">
@@ -133,17 +144,6 @@ require("header.php");
             </td>
         </tr>
         
-        <tr>
-          <td class="field">
-            Учебное заведение
-            
-          </td>
-          <td>
-            <input id="id_university" style="width: 50%;" type="text" name="university" maxlength="100">
-
-            
-          </td>
-        </tr>
         
     
         
