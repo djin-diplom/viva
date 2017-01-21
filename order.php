@@ -122,7 +122,7 @@ require("header.php");
         <tr>
             <td class="field">
                 Сколько Вы готовы заплатить<br>
-                (мы учтем Ваши возможности)
+                (<span style="color: green;">мы учтем Ваши возможности</span>)
                 <span style="color: red;">*</span>
             </td>
             <td>
@@ -134,7 +134,7 @@ require("header.php");
         <tr>
             <td class="field">
                 С предоплатой или без?<br>
-                (Без предоплаты цена выше!)
+                (<span style="color: red;">Без предоплаты цена выше!</span>)
                 <span style="color: red;">*</span>
             </td>
             <td>
