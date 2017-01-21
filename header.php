@@ -54,6 +54,7 @@
 			<div><span><a href="order.php">Сделать заказ</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Оферта</a></span></div>
+			<div><span><a href="primeri_rabot.php">Примеры</a></span></div>
 			<div><span><a href="job_creators.php">Авторы</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
