@@ -123,21 +123,10 @@ require("header.php");
             </td>
         </tr>
         
-        <tr>
-          <td class="field">
-            Предмет
-            
-          </td>
-          <td>
-            <input id="id_predmet" style="width: 50%;" type="text" name="predmet" maxlength="100">
-
-            
-          </td>
-        </tr>
 
         <tr>
             <td class="field">
-                Срок выполнения
+                Требуемый срок выполнения
             </td>
             <td>
                 <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
