@@ -87,7 +87,7 @@ require("header.php");
 							echo "Пример " . $name_rab_text;
 						}
 					}
-					if ($col_simv > 1000) break;
+					if ($col_simv > 200) break;
 				}
 				fclose($f);
 
