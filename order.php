@@ -140,9 +140,7 @@ require("header.php");
                 Срок выполнения
             </td>
             <td>
-                <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="srok_vip"></textarea>
-
-
+                <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
             </td>
         </tr>
         
