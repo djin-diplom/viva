@@ -197,9 +197,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
 			<span style="color: red;">Выберите вариант выполнения работы и обязательно ответьте на это письмо!</span><br>
 			1) Без предоплаты (мы пришлем бесплатно часть работы,<br>
-			однако в этом случае стоимость работы будет <?php echo $zakaz_cena*1,5; ?> руб.)<br>
-			2) предоплата 50% (без скидки, стоимость <?php echo $zakaz_cena*1.25; ?> руб.),<br>
-			<span style="color: greenyellow;">3) полная предоплата со скидкой 20% (стоимость <?php echo $zakaz_cena; ?> руб.).</span><br>
+			однако в этом случае стоимость работы будет <?php echo $zakaz_cena*1.3; ?> руб.)<br>
+			2) предоплата 50% (без скидки, стоимость <?php echo $zakaz_cena; ?> руб.),<br>
+			<span style="color: greenyellow;">3) полная предоплата (со скидкой 20%, стоимость <?php echo $zakaz_cena*0.8; ?> руб.).</span><br>
 		</td>
 	</tr>
 	<tr>
@@ -217,8 +217,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena*1.25; ?> руб.</div>
-							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
 							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
 					</td>
 					<td style="width:50%">

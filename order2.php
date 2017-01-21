@@ -40,6 +40,18 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['count_1']) != $_POST['count_2']) {
 		$hasError = true;
 	}
+	//Проверка стоимости от Заказчика
+	if(trim($_POST['kli_stoimost']) == '') {
+		$hasError = true;
+	} else {
+		$kli_stoimost = trim($_POST['kli_stoimost']);
+	}
+	//Проверка предоплаты
+	if(trim($_POST['predoplata']) == '') {
+		$hasError = true;
+	} else {
+		$predoplata = trim($_POST['predoplata']);
+	}
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -100,6 +112,8 @@ if(isset($_POST['submit'])) {
 		Почта заказчика: $email_stud <br>
 		Вид работы: $work_kind <br>
 		Тема работы: $tema <br>
+		Стоимость: $kli_stoimost <br>
+		Предоплата: $predoplata <br>
 		Предмет : $predmet <br>
 		Университет: $university <br>
 		Дополнительная информация: $add_info <br>

@@ -93,8 +93,35 @@ require("header.php");
             
           </td>
         </tr>
-        
-    
+
+        <tr>
+            <td class="field">
+                Сколько Вы готовы заплатить<br>
+                (мы учтем Ваши возможности)
+                <span style="color: red;">*</span>
+            </td>
+            <td>
+                <input id="id_predmet" style="width: 50%;" type="text" name="kli_stoimost" maxlength="100">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field">
+                С предоплатой или без?<br>
+                (Без предоплаты цена выше!)
+                <span style="color: red;">*</span>
+            </td>
+            <td>
+                <select name="predoplata" id="id_work_kind">
+                    <option value="" selected="selected">---</option>
+                    <option value="s_predoplatoi">С предоплатой без наценки</option>
+                    <option value="bez_predoplati">Без предоплаты c наценкой 30%</option>
+                </select>
+
+
+            </td>
+        </tr>
         
         <tr>
           <td class="field">
