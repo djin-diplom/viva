@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 require("requisites.php");
-$count_text = 4;
+$count_text = 8;
 ?>
 <html>
 <head>
