@@ -202,7 +202,7 @@ require("header.php");
             
           </td>
           <td>
-            <textarea id="id_add_info" style="width: 80%;" rows="3" cols="10" name="add_info"></textarea>
+            <textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="add_info"></textarea>
 
             
           </td>
