@@ -37,7 +37,7 @@ require("header.php");
 				$col_simv = $col_simv + $col;
 				if ( $col > 2 ) {
 					echo $fgets . "<br />";
-					if (preg_match('/\n/', $fgets)) {
+					if (preg_match('/\n\n/', $fgets)) {
 						echo "Купить. ";
 					}
 				}
