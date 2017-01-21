@@ -82,7 +82,7 @@ require("header.php");
 					$col = iconv_strlen($fgets);
 					$col_simv = $col_simv + $col;
 					if ($col > 2) {
-						echo $fgets . "<br /><br />";
+						echo $fgets . "<br />";
 
 					}
 					if ($col_simv > 100) break;
@@ -92,7 +92,7 @@ require("header.php");
 
 				?>
 				<br><a href="z_primer_raboti_<?php echo $count; ?>.php">Смотреть
-					пример <?php echo $name_rab_text . " № " . $count; ?> далее</a>
+					пример <?php echo $name_rab_text . " № " . $count; ?> далее</a><br /><br />
 				<?php
 			}
 			?>
