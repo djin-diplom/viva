@@ -150,7 +150,7 @@ require("header.php");
 
     <tr>
         <td class="field">
-            Предмет
+            <span style="color: brown;">Предмет</span>
 
         </td>
         <td>
@@ -158,12 +158,12 @@ require("header.php");
 
 
         </td>
-        
+
     </tr>
 
     <tr>
         <td class="field">
-            Срок выполнения
+            <span style="color: brown;">Срок выполнения</span>
         </td>
         <td>
             <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
@@ -172,7 +172,7 @@ require("header.php");
 
     <tr>
         <td class="field">
-            Объем (страниц)
+            <span style="color: brown;">Объем (страниц)</span>
 
         </td>
         <td>
@@ -184,7 +184,7 @@ require("header.php");
 
     <tr>
         <td class="field">
-            Уникальность (%)
+           <span style="color: brown;">Уникальность (%)</span>
 
         </td>
         <td>
