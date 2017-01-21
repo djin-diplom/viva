@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 require("requisites.php");
-$count_text = 2;
+$count_text = 1;
 ?>
 <html>
 <head>
@@ -69,9 +69,7 @@ require("header.php");
 <!-- section of script -->
 			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
 			<?php
-
-				$count = $count_text;
-				$f = fopen("texts/new_" . $count, "r");
+				$f = fopen("texts/new_" . $count_text, "r");
 				$col_simv = 0;
 				while (!feof($f)) {
 					$fgets = fgets($f);
@@ -79,16 +77,14 @@ require("header.php");
 					$col_simv = $col_simv + $col;
 					if ($col > 2) {
 						echo $fgets . "<br /><br />";
-						if (preg_match('/\n/', $fgets)) {
-							echo "Пример " . $name_rab_text;
-						}
+
 					}
-					if ($col_simv > 1000) break;
+
 				}
 				fclose($f);
-
+			$count_text = $count_text + 1;
 			?>
-			<br><a href="znew_<?php echo $count; ?>.php">Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?> далее</a>
+			<br><a href="z_primer_raboti_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
 		</div>
 
 

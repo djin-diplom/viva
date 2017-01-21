@@ -77,14 +77,14 @@ require("header.php");
 					$col_simv = $col_simv + $col;
 					if ($col > 2) {
 						echo $fgets . "<br /><br />";
-						
+
 					}
 
 				}
 				fclose($f);
 			$count_text = $count_text + 1;
 			?>
-			<br><a href="znew_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
+			<br><a href="z_primer_raboti_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
 		</div>
 
 
