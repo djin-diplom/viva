@@ -8,8 +8,11 @@ $count_text = 1;
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<?php
-	$name_rab = Rand(1,11);
+	$name_rab = $count_text % 11;
 	switch($name_rab){
+		case 0:
+			$name_rab_text = "выпускной работы";
+			break;
 		case 1:
 			$name_rab_text = "дипломной работы";
 			break;
@@ -39,9 +42,6 @@ $count_text = 1;
 			break;
 		case 10:
 			$name_rab_text = "статьи";
-			break;
-		case 11:
-			$name_rab_text = "выпускной работы";
 			break;
 
 
