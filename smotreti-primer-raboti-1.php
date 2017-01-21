@@ -28,7 +28,7 @@ require("header.php");
 <!-- section of script -->
 			<h1>Смотреть пример работы <?php echo $count_text; ?></h1>
 			<?php
-			$count = 1+3*($count_text - 1);
+			$count = $count_text;
 			$f = fopen("texts/new_".$count, "r");
 			$col_simv = 0;
 			while(!feof($f)) {
@@ -47,52 +47,8 @@ require("header.php");
 			?>
 			<br><a href="new_<?php echo $count; ?>.php">Читать магистерскую далее</a>
 		</div>
-		<div><div class="h2">Примеры магистерских, эссе</div><a href="got_rab.php">Смотреть другие примеры</a><br>
-			<?php
-			$count++;
-			$f = fopen("texts/new_".$count, "r");
-			$col_simv = 0;
-			while(!feof($f)) {
-				$fgets = fgets($f);
-				$col = iconv_strlen($fgets);
-				$col_simv = $col_simv + $col;
-				if ( $col > 2 ) {
-					echo $fgets . "<br />";
-					if (preg_match('/\n/', $fgets)) {
-						echo "Купить. ";
-					}
-				}
-				if ($col_simv >5000) break;
-			}
-			fclose($f);
-			?>
-			<br><a href="new_<?php echo $count; ?>.php">Читать курсовую далее</a>
-		</div>
-		<div><div class="h2">Примеры рефератов и статей</div><a href="got_rab.php">Смотреть другие примеры</a><br>
-			<?php
-			$count++;
-			$f = fopen("texts/new_".$count, "r");
-			$col_simv = 0;
-			while(!feof($f)) {
-				$fgets = fgets($f);
-				$col = iconv_strlen($fgets);
-				$col_simv = $col_simv + $col;
-				if ( $col > 2 ) {
-					echo $fgets . "<br />";
-					if (preg_match('/\n/', $fgets)) {
-						echo "Купить. ";
-					}
-				}
-				if ($col_simv >5000) break;
-			}
-			fclose($f);
-			?>
-			<br>
 
 
-
-
-		</div>
 </section>
 </div>
 
