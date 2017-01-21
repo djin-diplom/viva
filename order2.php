@@ -58,6 +58,18 @@ if(isset($_POST['submit'])) {
 	} else {
 		$srok_vip= $_POST['srok_vip'];
 	}
+	//Объем
+	if(trim($_POST['objem']) == '') {
+		$objem= "пусто";
+	} else {
+		$objem= $_POST['objem'];
+	}
+	//Уникальность
+	if(trim($_POST['unik']) == '') {
+		$unik= "пусто";
+	} else {
+		$unik= $_POST['unik'];
+	}
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -121,6 +133,8 @@ if(isset($_POST['submit'])) {
 		Стоимость: $kli_stoimost <br>
 		Предоплата: $predoplata <br>
 		Предмет : $predmet <br>
+		Объем: $objem <br>
+		Уникальность: $unik <br>
 		Срок выполнения: $srok_vip <br>
 		Университет: $university <br>
 		Дополнительная информация: $add_info <br>

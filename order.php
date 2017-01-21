@@ -169,8 +169,29 @@ require("header.php");
         </td>
     </tr>
 
+    <tr>
+        <td class="field">
+            Объем (страниц)
+
+        </td>
+        <td>
+            <input id="id_predmet" style="width: 50%;" type="text" name="objem" maxlength="100">
 
 
+        </td>
+    </tr>
+
+    <tr>
+        <td class="field">
+            Уникальность (%)
+
+        </td>
+        <td>
+            <input id="id_predmet" style="width: 50%;" type="text" name="unik" maxlength="100">
+
+
+        </td>
+    </tr>
 
         
     
