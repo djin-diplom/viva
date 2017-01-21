@@ -69,22 +69,24 @@ require("header.php");
 <!-- section of script -->
 			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
 			<?php
-			$count = $count_text;
-			$f = fopen("texts/new_".$count, "r");
-			$col_simv = 0;
-			while(!feof($f)) {
-				$fgets = fgets($f);
-				$col = iconv_strlen($fgets);
-				$col_simv = $col_simv + $col;
-				if ( $col > 2 ) {
-					echo $fgets . "<br /><br />";
-					if (preg_match('/\n/', $fgets)) {
-						echo "Пример ".$name_rab_text;
+
+				$count = $count_text;
+				$f = fopen("texts/new_" . $count, "r");
+				$col_simv = 0;
+				while (!feof($f)) {
+					$fgets = fgets($f);
+					$col = iconv_strlen($fgets);
+					$col_simv = $col_simv + $col;
+					if ($col > 2) {
+						echo $fgets . "<br /><br />";
+						if (preg_match('/\n/', $fgets)) {
+							echo "Пример " . $name_rab_text;
+						}
 					}
+					if ($col_simv > 1000) break;
 				}
-				if ($col_simv >1000) break;
-			}
-			fclose($f);
+				fclose($f);
+
 			?>
 			<br><a href="new_<?php echo $count; ?>.php">Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?> далее</a>
 		</div>
