@@ -7,10 +7,51 @@ $count_text = 1;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Смотреть пример работы <?php echo $count_text; ?></title>
+	<?php
+	$name_rab = Rand(1,11);
+	switch($name_rab){
+		case 1:
+			$name_rab_text = "дипломной работы";
+			break;
+		case 2:
+			$name_rab_text = "магистерской диссертации";
+			break;
+		case 3:
+			$name_rab_text = "курсовой работы";
+			break;
+		case 4:
+			$name_rab_text = "курсовой";
+			break;
+		case 5:
+			$name_rab_text = "дипломной";
+			break;
+		case 6:
+			$name_rab_text = "магистерской";
+			break;
+		case 7:
+			$name_rab_text = "эссе";
+			break;
+		case 8:
+			$name_rab_text = "реферата";
+			break;
+		case 9:
+			$name_rab_text = "контрольной";
+			break;
+		case 10:
+			$name_rab_text = "статьи";
+			break;
+		case 11:
+			$name_rab_text = "выпускной работы";
+			break;
 
-	<meta name="description" content="Смотреть пример работы <?php echo $count_text; ?>">
-	<meta name="keywords" content="Смотреть пример работы <?php echo $count_text; ?>">
+
+	}
+	?>
+
+	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></title>
+
+	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
+	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
 
 	<?php
 	require("head_1.php");
@@ -26,7 +67,7 @@ require("header.php");
 		?>
 		<div>
 <!-- section of script -->
-			<h1>Смотреть пример работы <?php echo $count_text; ?></h1>
+			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
 			<?php
 			$count = $count_text;
 			$f = fopen("texts/new_".$count, "r");
@@ -38,14 +79,14 @@ require("header.php");
 				if ( $col > 2 ) {
 					echo $fgets . "<br /><br />";
 					if (preg_match('/\n/', $fgets)) {
-						echo "Пример диплома, курсовой, магистерской. ";
+						echo "Пример ".$name_rab_text;
 					}
 				}
 				if ($col_simv >2000) break;
 			}
 			fclose($f);
 			?>
-			<br><a href="new_<?php echo $count; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
+			<br><a href="new_<?php echo $count; ?>.php">Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?> далее</a>
 		</div>
 
 
