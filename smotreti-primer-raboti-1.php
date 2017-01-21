@@ -36,7 +36,7 @@ require("header.php");
 				$col = iconv_strlen($fgets);
 				$col_simv = $col_simv + $col;
 				if ( $col > 2 ) {
-					echo $fgets . "<br />";
+					echo $fgets . "<br /><br />";
 					if (preg_match('/\n/', $fgets)) {
 						echo "Пример диплома, курсовой, магистерской. ";
 					}
