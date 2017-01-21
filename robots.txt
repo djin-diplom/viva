@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
 Sitemap: http://bazadiplom.ru/sitemap.xml
+
+User-Agent: *
+Disallow:
+Host: www.bazadiplom.ru
