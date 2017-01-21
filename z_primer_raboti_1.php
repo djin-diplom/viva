@@ -83,12 +83,12 @@ require("header.php");
 							echo "Пример " . $name_rab_text;
 						}
 					}
-					
+
 				}
 				fclose($f);
 
 			?>
-			<br><a href="znew_<?php echo $count; ?>.php">Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?> далее</a>
+			
 		</div>
 
 
