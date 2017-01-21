@@ -69,9 +69,7 @@ require("header.php");
 <!-- section of script -->
 			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
 			<?php
-
-				$count = $count_text;
-				$f = fopen("texts/new_" . $count, "r");
+				$f = fopen("texts/new_" . $count_text, "r");
 				$col_simv = 0;
 				while (!feof($f)) {
 					$fgets = fgets($f);
@@ -86,9 +84,9 @@ require("header.php");
 
 				}
 				fclose($f);
-
+			$count_text = $count_text + 1;
 			?>
-			
+			<br><a href="znew_<?php echo $count_text; ?>.php">Смотреть пример работы $count_text; ?> далее</a>
 		</div>
 
 
