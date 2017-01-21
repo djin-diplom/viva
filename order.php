@@ -113,7 +113,7 @@ require("header.php");
               <span style="color: red;">*</span>
           </td>
           <td>
-            <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="tema"></textarea>
+            <textarea id="id_subject" style="width: 80%;" rows="2" cols="10" name="tema"></textarea>
 
             
           </td>
