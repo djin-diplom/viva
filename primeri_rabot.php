@@ -83,7 +83,7 @@ require("header.php");
 					$col_simv = $col_simv + $col;
 					if ($col > 2) {
 						echo $fgets . "<br /><br />";
-						if (preg_match('/./', $fgets)) {
+						if (preg_match('/\n/', $fgets)) {
 							echo "Пример " . $name_rab_text;
 						}
 					}
