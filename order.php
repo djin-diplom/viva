@@ -77,23 +77,7 @@ require("header.php");
 
         </td>
     </tr>
-    <tr>
-        <td class="field">
-            <?php
-            $a = rand(1,10);
-            $b = rand(1,100);
-            $c = $a+$b;
-            echo $a."+".$b."=";
-            ?>
-            <span style="color: red;">*</span>
-        </td>
-        <td>
-            <input style="width: 50%;" type="text" name="count_1">
-            <input style="width: 50%; display: none;" type="text" value=<?php echo $c?> name="count_2">
 
-
-        </td>
-    </tr>
 
     
         
@@ -163,6 +147,24 @@ require("header.php");
 
             </td>
         </tr>
+
+    <tr>
+        <td class="field">
+            <?php
+            $a = rand(1,10);
+            $b = rand(1,100);
+            $c = $a+$b;
+            echo $a."+".$b."=";
+            ?>
+            <span style="color: red;">*</span>
+        </td>
+        <td>
+            <input style="width: 50%;" type="text" name="count_1">
+            <input style="width: 50%; display: none;" type="text" value=<?php echo $c?> name="count_2">
+
+
+        </td>
+    </tr>
 
         <tr>
             <td class="field">
