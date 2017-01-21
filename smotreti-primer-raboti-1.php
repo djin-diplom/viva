@@ -37,15 +37,15 @@ require("header.php");
 				$col_simv = $col_simv + $col;
 				if ( $col > 2 ) {
 					echo $fgets . "<br />";
-					if (preg_match('/\n\n/', $fgets)) {
-						echo "Купить. ";
+					if (preg_match('/\n/', $fgets)) {
+						echo "Пример диплома, курсовой, магистерской. ";
 					}
 				}
-				if ($col_simv >5000) break;
+				if ($col_simv >2000) break;
 			}
 			fclose($f);
 			?>
-			<br><a href="new_<?php echo $count; ?>.php">Читать магистерскую далее</a>
+			<br><a href="new_<?php echo $count; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
 		</div>
 
 
