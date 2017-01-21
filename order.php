@@ -158,6 +158,10 @@ require("header.php");
 
 
         </td>
+        
+    </tr>
+
+    <tr>
         <td class="field">
             Срок выполнения
         </td>
@@ -165,8 +169,6 @@ require("header.php");
             <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
         </td>
     </tr>
-
-   
 
     <tr>
         <td class="field">
