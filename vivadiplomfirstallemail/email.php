@@ -195,8 +195,11 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Номер заказа <?php echo $zakaz; ?><br>
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
-			Прислать Вам бесплатно примеры работ Вашего автора?<br>
-			<span style="color: red;">Обязательно ответьте на это письмо!</span><br>
+			<span style="color: red;">Выберите вариант выполнения работы и обязательно ответьте на это письмо!</span><br>
+			1) Без предоплаты (мы пришлем бесплатно часть работы,<br>
+			однако в этом случае стоимость работы будет <?php echo $zakaz_cena*1,5; ?> руб.)<br>
+			2) предоплата 50% (без скидки, стоимость <?php echo $zakaz_cena*1.25; ?> руб.),<br>
+			<span style="color: greenyellow;">3) полная предоплата со скидкой 20% (стоимость <?php echo $zakaz_cena; ?> руб.).</span><br>
 		</td>
 	</tr>
 	<tr>
