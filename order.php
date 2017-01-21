@@ -121,8 +121,8 @@ require("header.php");
 
         <tr>
             <td class="field">
-                Сколько Вы готовы заплатить<br>
-                (<span style="color: green;">мы учтем Ваши возможности</span>)
+                Сколько Вы готовы заплатить?<br>
+                (<span style="color: green;">Мы учтем Ваши возможности</span>)
                 <span style="color: red;">*</span>
             </td>
             <td>
