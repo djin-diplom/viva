@@ -54,7 +54,7 @@ require("header.php");
 
     <tr>
         <td class="field">
-            Ваше имя
+            <span style="color: skyblue;">Ваше имя</span>
             <span style="color: red;">*</span>
         </td>
         <td>
@@ -68,7 +68,7 @@ require("header.php");
 
     <tr>
         <td class="field">
-            E-mail
+            <span style="color: skyblue;">E-mail</span>
             <span style="color: red;">*</span>
         </td>
         <td>
@@ -83,7 +83,7 @@ require("header.php");
         
         <tr>
           <td class="field">
-            Тип работы
+            <span style="color: skyblue;">Тип работы</span>
             <span style="color: red;">*</span>
           </td>
           <td>
@@ -109,7 +109,7 @@ require("header.php");
         
         <tr>
           <td class="field">
-            Тема работы
+            <span style="color: skyblue;">Тема работы</span>
               <span style="color: red;">*</span>
           </td>
           <td>
