@@ -150,6 +150,27 @@ require("header.php");
 
     <tr>
         <td class="field">
+            Предмет
+
+        </td>
+        <td>
+            <input id="id_predmet" style="width: 50%;" type="text" name="predmet" maxlength="100">
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="field">
+            Требуемый срок выполнения
+        </td>
+        <td>
+            <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
+        </td>
+    </tr>
+
+    <tr>
+        <td class="field">
             <?php
             $a = rand(1,10);
             $b = rand(1,100);
@@ -166,26 +187,7 @@ require("header.php");
         </td>
     </tr>
 
-        <tr>
-            <td class="field">
-                Предмет
 
-            </td>
-            <td>
-                <input id="id_predmet" style="width: 50%;" type="text" name="predmet" maxlength="100">
-
-
-            </td>
-        </tr>
-
-        <tr>
-            <td class="field">
-                Требуемый срок выполнения
-            </td>
-            <td>
-                <input id="id_predmet" style="width: 50%;" type="text" name="srok_vip" maxlength="100">
-            </td>
-        </tr>
 
         
     
