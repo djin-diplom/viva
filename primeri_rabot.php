@@ -33,7 +33,7 @@ require("header.php");
 			<h1>Смотреть примеры магистерских, дипломных, курсовых</h1>
 			<?php
 
-			for($i = 1; $i < 4; $i++) {
+			for($i = 1; $i < 5; $i++) {
 				$count = $i;
 				$name_rab = $count % 11;
 				switch ($name_rab) {
@@ -83,7 +83,7 @@ require("header.php");
 					$col_simv = $col_simv + $col;
 					if ($col > 2) {
 						echo $fgets . "<br /><br />";
-						
+
 					}
 					if ($col_simv > 100) break;
 				}
