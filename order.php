@@ -134,8 +134,17 @@ require("header.php");
             
           </td>
         </tr>
-        
-    
+
+        <tr>
+            <td class="field">
+                Срок выполнения
+            </td>
+            <td>
+                <textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="srok_vip"></textarea>
+
+
+            </td>
+        </tr>
         
         <tr>
           <td class="field">

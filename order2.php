@@ -52,6 +52,12 @@ if(isset($_POST['submit'])) {
 	} else {
 		$predoplata = trim($_POST['predoplata']);
 	}
+	//Срок выполнения
+	if(trim($_POST['srok_vip']) == '') {
+		$srok_vip= "пусто";
+	} else {
+		$srok_vip= $_POST['srok_vip'];
+	}
 	//Проверка тип работы
 	if(trim($_POST['work_kind']) == '') {
 		$hasError = true;
@@ -115,6 +121,7 @@ if(isset($_POST['submit'])) {
 		Стоимость: $kli_stoimost <br>
 		Предоплата: $predoplata <br>
 		Предмет : $predmet <br>
+		Срок выполнения: $srok_vip <br>
 		Университет: $university <br>
 		Дополнительная информация: $add_info <br>
 		</body>
