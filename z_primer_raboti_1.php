@@ -86,7 +86,7 @@ require("header.php");
 				fclose($f);
 			$count_text = $count_text + 1;
 			?>
-			<br><a href="znew_<?php echo $count_text; ?>.php">Смотреть пример работы $count_text; ?> далее</a>
+			<br><a href="znew_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
 		</div>
 
 
