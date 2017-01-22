@@ -1,5 +1,4 @@
 
 <?php
-require ("town.php");
-require ("../primeri_rabot.php");
+header("Location:../primeri_rabot.php");
 ?>
