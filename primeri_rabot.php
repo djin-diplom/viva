@@ -33,7 +33,7 @@ require("header.php");
 			<h1>Смотреть примеры магистерских, дипломных, курсовых</h1>
 			<?php
 
-			for($i = 1; $i < 9; $i++) {
+			for($i = 1; $i < 66; $i++) {
 				$count = $i;
 				$name_rab = $count % 11;
 				switch ($name_rab) {
