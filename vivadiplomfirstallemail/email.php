@@ -195,7 +195,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Номер заказа <?php echo $zakaz; ?><br>
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
-			if( $predoplata == 0) echo "<span style="color:red">Без предоплаты с наценкой 30%!</span>";?>
+			if( $predoplata == 0) echo "<span style="color:red">Заказ без предоплаты с наценкой 30%!</span>";?>
 		</td>
 	</tr>
 	<tr>
@@ -213,7 +213,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;";font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
 							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
 							<div style="font-size:14px; padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
 					</td>
@@ -243,7 +243,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				<!-- а можете подождать, пока мы пришлем Вам БЕЗ ПРЕДОПЛАТЫ<br> -->
 				<!-- пример (часть) работы нашего автора по близкой или Вашей теме.<br> -->
 				<!-- Это произойдет в течение суток или значительно раньше.<br> -->
-				Для выполнения работы следует внести предоплату 50%<br>
+				Далее для выполнения работы следует внести предоплату 50%<br>
 				<span style="color:green;">или оплатить полную стоимость, чтобы получить скидку 20%.</span><br>
 				Мы будем выполнять работу по Вашим указаниям.<br>
 				Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
