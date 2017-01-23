@@ -28,7 +28,7 @@
                 $i=1;
             while(!feof($f)) {
                 $fgets = fgets($f);
-                if($i == 12 or $i == 22 or $i == 23 or $i == 24 or $i == 2){
+                if($i == 12 or $i == 23 or $i == 24 or $i == 2){
                     echo "<td>".$fgets."</td>";
                 }
                 if($i == 23){
@@ -37,7 +37,8 @@
                 }
                 if($i == 22){
                     $count_money_potential = $count_money_potential + $fgets;
-                    $fgets_money_potential = $fgets;
+                    $fgets_money_potential = (int)$fgets*0.8;
+                    echo "<td>".$fgets_money_potential."</td>";
                 }
                 $i++;
             }
