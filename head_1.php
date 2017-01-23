@@ -1,4 +1,6 @@
-<?php session_start();?>
+<?php session_start();
+$pokazati_menu = 0;
+?>
 
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">

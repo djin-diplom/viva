@@ -2,8 +2,9 @@
 
 <div id="marquee">Сделайте заказ сейчас, воспользуйтесь формой заказа на сайте! У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
 <div id="marquee2">У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
-<noindex>
+if ($pokazati_menu == 0) {echo "<noindex>";}
 	<header>
+		if ($pokazati_menu == 1) {echo "<noindex>";}
 		<section>
 			<div class="logo"><a href="index.php" ><img src="./index_files/1_logo.png" width="222" height="70" alt=""></a>
 				<br><span style="color:green; font-size:18px;">Напишу - <?php echo $site_name; ?>!</span></div>
@@ -39,6 +40,7 @@
 				<?php endif ?>
 			</div>
 		</section>
+
 		<div style="position: absolute; left: 40%; top: 100px;">
 			<a href="<?php echo $url_town_piter; ?>" class="jQtooltip" title="Санкт-Петербург"><img src="./index_files/book.png" width="<?php if(empty($town)) echo '50'; else echo '40';?>" height="<?php if(empty($town)) echo '64'; else echo '56';?>" alt=""></a>
 			<a href="<?php echo $url_town_moscow; ?>" class="jQtooltip" title="Москва"><img src="./index_files/book.png" width="<?php if($town == 'moscow') echo '50'; else echo '40';?>" height="<?php if($town == 'moscow') echo '64'; else echo '56';?>" alt=""></a>
@@ -47,6 +49,7 @@
 			<a href="<?php echo $url_town_ufa; ?>" class="jQtooltip" title="Уфа"><img src="./index_files/book.png" width="<?php if($town == 'ufa') echo '50'; else echo '40';?>" height="<?php if($town == 'ufa') echo '64'; else echo '56';?>" alt=""></a>
 		</div>
 
+		if ($pokazati_menu == 1) {echo "</noindex>";}
 		<menu>
 			<div><span><a href="o_kompanii.php">Наша компания</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Стоимость работ</a></span></div>
@@ -60,4 +63,4 @@
         </menu>
 		
 	</header>
-	</noindex>
+if ($pokazati_menu == 0) {echo "</noindex>";}
