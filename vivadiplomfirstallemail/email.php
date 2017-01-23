@@ -198,6 +198,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<?php if( $predoplata == 0) echo "<span style='color:red;'>Заказ без предоплаты с наценкой 30%!</span><br>
 <span style='color:green;'>Вы можете снизить стоимость до <?php echo $zakaz_cena/1.3; ?>, внеся предоплату!</span><br>
 Для начала работ требуется подтвердить заказ в ответе на письмо.";?>
+			<?php if( $predoplata == 1) echo "Для начала работ требуется оплатить заказ (через личный кабинет).";?>
 		</td>
 	</tr>
 	<tr>
