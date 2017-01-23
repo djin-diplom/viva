@@ -50,8 +50,8 @@
 		<menu>
 			<div><span><a href="o_kompanii.php">Наша компания</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Стоимость работ</a></span></div>
-			<div><span><a href="poriadok_zakaza.php">Первые шаги</a></span></div>
-			<div><span><a href="order.php">Сделать заказ</a></span></div>
+			<div><span><a href="poriadok_zakaza.php">Порядок заказа</a></span></div>
+			<div><span><a href="order.php">Заказать работу</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Договор</a></span></div>
 			<div><span><a href="primeri_rabot.php">Примеры</a></span></div>

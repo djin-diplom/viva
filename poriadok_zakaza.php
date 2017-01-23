@@ -7,7 +7,7 @@ $count_text = 48;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Как сделать заказ</title>
+	<title>Порядок заказа</title>
 
 	<meta name="description" content="Как сделать заказ">
 	<meta name="keywords" content="Как сделать заказ">
