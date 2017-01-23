@@ -195,10 +195,6 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Номер заказа <?php echo $zakaz; ?><br>
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
-			<?php if( $predoplata == 0) echo "<span style='color:red;'>Заказ без предоплаты с наценкой 30%!</span><br>
-<span style='color:green;'>Вы можете снизить стоимость до ".$zakaz_cena/1.3.", внеся предоплату!</span><br>
-Для начала работ требуется подтвердить заказ в ответе на письмо.";?>
-			<?php if( $predoplata == 1) echo "Для начала работ требуется оплатить заказ (через личный кабинет).";?>
 		</td>
 	</tr>
 	<tr>
