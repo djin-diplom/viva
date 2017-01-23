@@ -136,7 +136,7 @@ fwrite($fp, $balance."\n");
 fwrite($fp, $balance_date."\n");
 
 fclose($fp);
-
+$predoplata = $_POST['predoplata'];
 $url_cabinet = $site_url."check_login.php";
 $path_img = $site_url."vivadiplomfirstallemail/";
 
@@ -212,9 +212,13 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
-							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
-							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
+							<div style="color:#98a4ab;<?php if( $predoplata == 1) echo "text-decoration:line-through;";?>
+								font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="color:green;<?php if( $predoplata == 0) echo "text-decoration:line-through;";?>
+							font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
+							<div style="font-size:14px;
+							<?php if( $predoplata == 0) echo "text-decoration:line-through;";?>padding:5px 0px 22px">
+								со скидкой 20%<br>(в случае полной предоплаты)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>

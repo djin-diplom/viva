@@ -96,7 +96,17 @@ $count_text = 13;
                 </td>
             </tr>
 
+            <tr>
+                <td class="field">
+                    Предоплата
 
+                </td>
+                <td>
+                    <input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value="1">
+
+
+                </td>
+            </tr>
 
             <tr>
                 <td class="field">
@@ -104,7 +114,7 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100">
+                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value="Не указан">
 
 
                 </td>
@@ -129,7 +139,7 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_university" style="width: 50%;" type="text" name="client_vuz" maxlength="100">
+                    <input id="id_university" style="width: 50%;" type="text" name="client_vuz" maxlength="100" value="Не указано">
 
 
                 </td>
@@ -161,7 +171,7 @@ $count_text = 13;
                     Чертежи
                 </td>
                 <td>
-                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_cherteg" maxlength="100">
+                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_cherteg" maxlength="100" value="0">
 
 
                 </td>
@@ -173,7 +183,7 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln"></textarea>
+                    <textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln" value="По методическим указаниям Заказчика"></textarea>
 
 
                 </td>
