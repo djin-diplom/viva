@@ -195,6 +195,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Номер заказа <?php echo $zakaz; ?><br>
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
+			if( $predoplata == 0) echo "<span style="color:red">Без предоплаты с наценкой 30%!</span>";?>
 		</td>
 	</tr>
 	<tr>
@@ -212,13 +213,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;<?php if( $predoplata == 1) echo "text-decoration:line-through;";?>
-								font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
-							<div style="color:green;<?php if( $predoplata == 0) echo "text-decoration:line-through;";?>
-							font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
-							<div style="font-size:14px;
-							<?php if( $predoplata == 0) echo "text-decoration:line-through;";?>padding:5px 0px 22px">
-								со скидкой 20%<br>(в случае полной предоплаты)</div>
+							<div style="color:#98a4ab;text-decoration:line-through;";font-size:36px"><?php echo $zakaz_cena; ?> руб.</div>
+							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena*0.8; ?> руб.</div>
+							<div style="font-size:14px; padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
@@ -240,7 +237,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	</tr>
 		<tr>
 			<td>
-
+				<?php if( $predoplata == 0) echo "Мы пришлем Вам бесплатно часть работы.<br>
+Для этого следует ответить на письмо и подтвердить заказ.<br>";?>
 				<!-- Вы можете внести оплату, чтобы автор начал работать,<br> -->
 				<!-- а можете подождать, пока мы пришлем Вам БЕЗ ПРЕДОПЛАТЫ<br> -->
 				<!-- пример (часть) работы нашего автора по близкой или Вашей теме.<br> -->
