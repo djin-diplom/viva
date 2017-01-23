@@ -1,5 +1,4 @@
 <?php session_start();
-$pokazati_menu = 0;
 ?>
 
 

@@ -18,7 +18,6 @@ $count_text = 31;
 	?>
 <body>
 	<?php
-	$pokazati_menu = 1;
 	require("header.php");
 	?>
 
