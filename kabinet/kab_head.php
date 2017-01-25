@@ -1,5 +1,4 @@
 <?php
-/*
 session_start();
 if (empty($_SESSION['client_email']) or empty($_SESSION['client_pass'])) header("Location:../index.php");
 
@@ -46,20 +45,17 @@ $zakaz_cherteg= $_SESSION['zakaz_cherteg'];
 $zakaz_cena = $_SESSION['zakaz_cena'];
 $balance = $_SESSION['balance'];
 $balance_date = $_SESSION['balance_date'];
-*/
 ?>
 
 
 
-<link href="564395_files/css_kab" rel="stylesheet" type="text/css">
+<link href="564395_files/css_kab.css" rel="stylesheet" type="text/css">
 <!--[if IE]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link href="564395_files/css_kab_2" rel="stylesheet" type="text/css">
+<link href="564395_files/css_kab_2.css" rel="stylesheet" type="text/css">
 <script async="" src="564395_files/analytics.js"></script>
 <script type="text/javascript" async="" src="564395_files/watch.js"></script>
 <script async="" src="564395_files/fbevents.js"></script>
-<script src="564395_files/js">
-
-</script><style type="text/css"></style>
+<script src="564395_files/js"></script>
 <script type="text/javascript" src="564395_files/share.js" charset="windows-1251"></script>
