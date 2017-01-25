@@ -97,7 +97,11 @@ if(isset($_POST['submit'])) {
 	} else {
 		$predmet= $_POST['predmet'];
 	}
-	
+	if(trim($_POST['university']) == '') {
+		$university= "пусто";
+	} else {
+		$university= $_POST['university'];
+	}
 	if(trim($_POST['add_info']) == '') {
 		$add_info= "пусто";
 	} else {

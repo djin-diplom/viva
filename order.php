@@ -222,6 +222,7 @@ require("header.php");
         <td>
             <input style="width: 50%;" type="text" name="count_1">
             <input style="width: 50%; display: none;" type="text" value=<?php echo $c?> name="count_2">
+            <input style="width: 50%; display: none;" type="text" value="Не определено" name="university">
 
 
         </td>
