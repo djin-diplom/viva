@@ -8,8 +8,8 @@
 <link rel="stylesheet" type="text/css" href="../index_files/style.css">
 <script type="text/javascript" async="" src="../index_files/watch.js"></script>
 
-<script src="../index_files/script.js"></script>
-<script src="../js/cycle.js"></script>
+<script type="text/javascript" src="../index_files/script.js"></script>
+<script type="text/javascript" src="../js/cycle.js"></script>
 <script>defineHotKey('ctrl+192','self.location="/indeego.php";');</script>
 <!--[if lt IE 9]>
 <script>
