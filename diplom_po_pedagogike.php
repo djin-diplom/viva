@@ -51,7 +51,7 @@ require("header.php");
 			</div><div><br></div><div>
 				Узнайте стоимость работы, бесплатно, заполните заявку и ждите ответ!
 			</div><div>Пишите прямо сейчас <b><?php echo $email; ?></b>. Ваше письмо Вас ни к чему не обязывает!
-			</div><div><br></div><div><a href="opder.php">Заказать диплом по педагогике</a></div>		</div>
+			</div><div><br></div><div><a href="order.php">Заказать диплом по педагогике</a></div>		</div>
 </section>
 </div>
 <!-- end of script -->
