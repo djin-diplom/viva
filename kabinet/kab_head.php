@@ -1,4 +1,5 @@
 <?php
+/*
 session_start();
 if (empty($_SESSION['client_email']) or empty($_SESSION['client_pass'])) header("Location:../index.php");
 
@@ -45,6 +46,7 @@ $zakaz_cherteg= $_SESSION['zakaz_cherteg'];
 $zakaz_cena = $_SESSION['zakaz_cena'];
 $balance = $_SESSION['balance'];
 $balance_date = $_SESSION['balance_date'];
+*/
 ?>
 
 
