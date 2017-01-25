@@ -8,7 +8,8 @@
 			<div class="logo"><a href="index.php" ><img src="./index_files/1_logo.png" width="222" height="70" alt=""></a>
 				<br><span style="color:green; font-size:18px;">Напишу - <?php echo $site_name; ?>!</span></div>
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
-					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
+					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br>
+				<?php echo $vremia_raboti; ?></div>
 			<div class="phone">
 				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Без менеджеров!</div>
 				
@@ -39,7 +40,7 @@
 				<?php endif ?>
 			</div>
 		</section>
-		
+
 
 		<menu>
 			<div><span><a href="o_kompanii.php">Наша компания</a></span></div>
@@ -52,6 +53,5 @@
 			<div><span><a href="job_creators.php">Авторы</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
-		
 	</header>
-	</noindex>
+</noindex>
