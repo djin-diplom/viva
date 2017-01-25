@@ -1,7 +1,7 @@
 <?php
 
 
-$main_name =  "localhost/projects/landingpages/site/"; //"Bazadiplom.ru"; // "Vivastudent.ru";
+$main_name =  "Bazadiplom.ru"; // "Vivastudent.ru";
 $email2 = "Bazadiplom.ru@gmail.com"; //"Vivastudent.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
