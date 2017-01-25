@@ -1,7 +1,7 @@
 <?php
 
 
-$main_name =  "Bazadiplom.ru"; //"Vivastudent.ru";
+$main_name =  "localhost/projects/landingpages/site/"; //"Bazadiplom.ru"; // "Vivastudent.ru";
 $email2 = "Bazadiplom.ru@gmail.com"; //"Vivastudent.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
@@ -34,7 +34,7 @@ $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZXKFQ5T";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXKFQ5T\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410013671278550";
-
+/*
 $main_name_temp = $main_name;
 
 if (@$town == 'kazan') {
@@ -137,10 +137,11 @@ if (@$town == 'ufa') {
     $email_10 = "order@".$main_name;
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
-  
+
     $email3 = "info@".$main_name;
     $adres = "г. Уфа, Пархоменко ул, <br>дом № 151, oф. 204";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiN2V";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiN2V\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
+*/
