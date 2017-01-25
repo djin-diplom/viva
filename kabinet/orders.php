@@ -216,14 +216,14 @@ require ("kab_header.php");
 	
 			<div class="full-price">
 				<div class="amount-text">Стоимость работы </div>
-				<div class="amount column"><?php echo $zakaz_cena; ?><span class="rouble">p</span>
+				<div class="amount column"><?php echo $zakaz_cena*1.25; ?><span class="rouble">p</span>
 </div>
 				<div class="splitter"></div>
 			</div>
 		<div class="amount-line price-amount">
 				<div class="amount-text">Цена со скидкой 20%</div>
 			<div class="amount">
-				<?php echo $zakaz_cena*0.8; ?><span class="rouble">p</span>
+				<?php echo $zakaz_cena; ?><span class="rouble">p</span>
 
 			</div>
 			<div class="splitter"></div>
