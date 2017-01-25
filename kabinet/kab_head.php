@@ -49,15 +49,15 @@ $balance_date = $_SESSION['balance_date'];
 
 
 
-<link href="../564395_files/css" rel="stylesheet" type="text/css">
+<link href="./564395_files/css" rel="stylesheet" type="text/css">
 <!--[if IE]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link href="../564395_files/css(1)" rel="stylesheet" type="text/css">
-<script async="" src="../564395_files/analytics.js.Без названия"></script>
-<script type="text/javascript" async="" src="../564395_files/watch.js.Без названия"></script>
-<script async="" src="../564395_files/fbevents.js.Без названия"></script>
-<script src="../564395_files/js">
+<link href="./564395_files/css(1)" rel="stylesheet" type="text/css">
+<script async="" src="./564395_files/analytics.js.Без названия"></script>
+<script type="text/javascript" async="" src="./564395_files/watch.js.Без названия"></script>
+<script async="" src="./564395_files/fbevents.js.Без названия"></script>
+<script src="./564395_files/js">
 
 </script><style type="text/css"></style>
-<script type="text/javascript" src="../564395_files/share.js.Без названия" charset="windows-1251"></script>
+<script type="text/javascript" src="./564395_files/share.js.Без названия" charset="windows-1251"></script>
