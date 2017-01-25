@@ -39,7 +39,13 @@
 				<?php endif ?>
 			</div>
 		</section>
-		
+		<div style="position: absolute; left: 40%; top: 100px;">
+			<a href="<?php echo $url_town_piter; ?>" class="jQtooltip" title="Санкт-Петербург"><img src="./index_files/book.png" width="<?php if(empty($town)) echo '50'; else echo '40';?>" height="<?php if(empty($town)) echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_moscow; ?>" class="jQtooltip" title="Москва"><img src="./index_files/book.png" width="<?php if($town == 'moscow') echo '50'; else echo '40';?>" height="<?php if($town == 'moscow') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_kazan; ?>" class="jQtooltip" title="Казань"><img src="./index_files/book.png" width="<?php if($town == 'kazan') echo '50'; else echo '40';?>" height="<?php if($town == 'kazan') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_novosibirsk; ?>" class="jQtooltip" title="Новосибирск"><img src="./index_files/book.png" width="<?php if($town == 'novosibirsk') echo '50'; else echo '40';?>" height="<?php if($town == 'novosibirsk') echo '64'; else echo '56';?>" alt=""></a>
+			<a href="<?php echo $url_town_ufa; ?>" class="jQtooltip" title="Уфа"><img src="./index_files/book.png" width="<?php if($town == 'ufa') echo '50'; else echo '40';?>" height="<?php if($town == 'ufa') echo '64'; else echo '56';?>" alt=""></a>
+		</div>
 
 		<menu>
 			<div><span><a href="o_kompanii.php">Наша компания</a></span></div>

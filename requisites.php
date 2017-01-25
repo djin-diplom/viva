@@ -34,7 +34,7 @@ $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZXKFQ5T";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXKFQ5T\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410013671278550";
-/*
+
 $main_name_temp = $main_name;
 
 if (@$town == 'kazan') {
@@ -144,4 +144,3 @@ if (@$town == 'ufa') {
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiN2V\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
-*/
