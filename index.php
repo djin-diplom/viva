@@ -59,7 +59,7 @@ $count_text = 31;
 		<h3>Начиная с ГОСТов оформления и заканчивая изысками психологии членов аттестационной комиссии.</h3></div>
 </div>
 					<div style="background: url(index_files/slider2.jpg) right top no-repeat; z-index: 1; opacity: 0;">
-	<div><br><h3>Ваша дипломная работа будет оформлена в чётком соответствии с требованиями вуза.</h3><h3>Большинствo сдаёт на «отличнo»</h3></div>
+	<div><br><h3>Ваша дипломная работа будет оформлена<br>в чётком соответствии с требованиями вуза.</h3><h3>Большинствo сдаёт на «отличнo»</h3></div>
 </div><div style="background: url(index_files/slider3.jpg) left top no-repeat; z-index: 2; opacity: 1;">
 	<div style="width: 329px;"></div>
 	<div><br><h3>Все работы — точно в срок</h3></div>
