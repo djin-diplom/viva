@@ -53,7 +53,56 @@ require("header.php");
 	
 	
 </style>
-<button onclick="self.location=&#39;?add&#39;;" style="font-size: 18px;">ocтaвить cвoй oтзыв</button><div class="responses">	<div class="one">
+			<?php
+			if(!empty($_GET['add']))
+			{ if (!empty($_SESSION['client_name'])) {
+			?>
+			<div id="request_div">
+				<form id="request_form" method="post" enctype="multipart/form-data" action="consult.php">
+					<div style="display:none"><input type="hidden" name="csrfmiddlewaretoken"
+													 value="oBlyEDpYaBC7PNlqaGEbTOT3xFrlrCTL"></div>
+					<table class="order">
+						<tbody>
+						<?php echo $_SESSION['client_name']; ?>, оставьте отзыв!
+						<tr>
+							<td class="field">
+								Отзыв
+								<span style="color: red;">*</span>
+							</td>
+							<td>
+								<textarea id="id_subject" style="width: 80%;" rows="3" cols="10" name="tema"></textarea>
+
+
+							</td>
+						</tr>
+						<tr>
+							<td class="field">&nbsp;</td>
+							<td><span style="color: red;">*</span> — обязательные поля</td>
+						</tr>
+						<tr>
+							<td class="field">&nbsp;</td>
+							<td>
+								<button type="submit" name="submit" class="blue" style="font-size: 18px;">
+									Оставить отзыв
+								</button>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</form>
+
+				<?php
+				} else echo "Доступно только для Заказчиков!";
+				} else {?>
+
+					<button onclick="self.location=&#39;?add=1&#39;;" style="font-size: 18px;">Оставить свой отзыв</button>
+					<?php
+				}
+				?>
+
+			<div class="responses">
+
+				<div class="one">
 		<div class="left"><img src="./6_files/user.png" width="32" height="32" alt=""></div>
 		<div class="rite">
 			<span></span>
