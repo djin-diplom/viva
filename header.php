@@ -59,14 +59,14 @@
 		</div>
 
 		<menu>
-			<div><span><a href="o_kompanii.php">Наша компания</a></span></div>
-			<div><span><a href="uslugi_i_ceny.php">Стоимость работ</a></span></div>
-			<div><span><a href="poriadok_zakaza.php">Порядок заказа</a></span></div>
+			<div><span><a href="o_kompanii.php">О компании</a></span></div>
+			<div><span><a href="uslugi_i_ceny.php">Стоимость</a></span></div>
+			<div><span><a href="poriadok_zakaza.php">Порядок</a></span></div>
 			<div><span><a href="order.php">Заказать работу</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Договор</a></span></div>
 			<div><span><a href="primeri_rabot.php">Примеры</a></span></div>
-			
+			<div><span><a href="job_creators.php">Авторы</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 

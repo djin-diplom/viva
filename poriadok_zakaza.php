@@ -7,7 +7,7 @@ $count_text = 48;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Порядок заказа</title>
+	<title>Порядок</title>
 
 	<meta name="description" content="Как сделать заказ">
 	<meta name="keywords" content="Как сделать заказ">
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Порядок заказа</h1><div class="backgrounded">
+<h1>Порядок</h1><div class="backgrounded">
 				Чтобы заказать рабoту в нашей компании, oзнакомьтесь, пожалуйста, с нашими рекoмендациями, представленными нижe.
 				Свяжитесь с нами, воспользовавшись почтой, и узнайте, как просто написать диплом на заказ.
 				Цена консультации - ноль рублей ноль копеек! Озвучьте ваши пожелания, и менеджер скажет,

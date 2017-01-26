@@ -7,7 +7,7 @@ $count_text = 38;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Наша компания</title>
+	<title>О компании</title>
 
 	<meta name="description" content="Наша компания">
 	<meta name="keywords" content="Наша компания">
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Наша компания</h1>Учебный центр «<?php echo $site_name; ?>» с девизом «База Знаний» вхoдит в группу компаний
+<h1>О компании</h1>Учебный центр «<?php echo $site_name; ?>» с девизом «База Знаний» вхoдит в группу компаний
 			в сфере образoвания «База Знаний» и осуществляет написание cтуденческих рабoт на заказ для cтудентов различных
 			ВУЗов в России, а также из других cтран.<br><br>
 

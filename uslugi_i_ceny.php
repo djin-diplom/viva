@@ -7,7 +7,7 @@ $count_text = 58;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Стоимость работ</title>
+	<title>Стоимость</title>
 
 	<meta name="description" content="Стоимость работ">
 	<meta name="keywords" content="Стоимость работ">
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Стоимость работ</h1>
+<h1>Стоимость</h1>
 <style>
 
 	table.prices { width: 100%; }
