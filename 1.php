@@ -58,17 +58,69 @@ require("header.php");
 		<div class="rite">
 			<span></span>
 			<div>
-				<div class="caption"><b>Еленa (ИТМo)</b> <i>17 cентября</i></div>
+				<div class="caption"><b>Еленa (ИТМo)</b> <i>27 января</i></div>
 				<div class="text">Зaкaзывaлa cвoю диплoмную рaбoту у кoмпaнии <?php echo $site_name; ?>, пo coвету мoегo oднoкурcникa, тaк кaк времени в мoем рacпoряжении oчень мaлo в cвязи c рoждением нoвoгo членa нaшей cемьи. Вcё cделaли oчень грaмoтнo, oфoрмление, cтиль и чтo не мoжет не рaдoвaть aдеквaтнaя ценa и тo чтo cделaнo вcё в cрoк. Зaбыли тoлькo cделaть речь для зaщиты, чтo былa в пoдaрoк - пришлocь нaпoмнить.</div>
 			</div>
 		</div>
 	</div>
-	<div class="one">
+				<div class=one>
+					<div class=left><img src="./1_files/user.png" width=32 height=32 alt=""></div>
+					<div class=rite>
+						<span></span>
+						<div>
+							<div class=caption><b>Ира (РГПУ)</b> <i>10 января</i></div>
+							<div class=text>Заказывала диплом по педагогике, всё понравилось. Сначала план и методики сделали, потом выполняли по частям. Немного не хватило объёма работы, мне руководитель сделал замечания. Но это мне всё исправили, в конце сделали бесплатно речь для защиты! Багодарю девочек за помощь!</div>
+						</div>
+					</div>
+				</div>
+				<div class=one>
+					<div class=left><img src="./1_files/user.png" width=32 height=32 alt=""></div>
+					<div class=rite>
+						<span></span>
+						<div>
+							<div class=caption><b>Маша (СПбГТИ)</b> <i>25 декабря 2016 г.</i></div>
+							<div class=text>Отчёт по практике зачли с первого раза, спасибо!</div>
+						</div>
+					</div>
+				</div>
+				<div class=one>
+					<div class=left><img src="./1_files/user.png" width=32 height=32 alt=""></div>
+					<div class=rite>
+						<span></span>
+						<div>
+							<div class=caption><b>Светлана (СПбУУЭ)</b> <i>13 декабря 2016 г.</i></div>
+							<div class=text>Заказала тут диплом, выбрала именно это компанию, потому что хорошо всё объяснили и недорого оценили работу. Ещё в подарок презентацию и речь по акции сделали. Просто отлично! Сам диплом на пару дней задержали, но зато сразу всё нормально сделано, по методичке и с антиплагиатом 75%. Осталось сейчас только защитить работу ))</div>
+						</div>
+					</div>
+				</div>
+				<div class=one>
+					<div class=left><img src="./1_files/user.png" width=32 height=32 alt=""></div>
+					<div class=rite>
+						<span></span>
+						<div>
+							<div class=caption><b>Ксения (Петровский колледж)</b> <i>15 ноября 2016 г.</i></div>
+							<div class=text>Защитила диплом,спасибо вам огромное за проделанное всей моей подготовки к защите
+								<br>Удачи вам и побольше клиентов)</div>
+						</div>
+					</div>
+				</div>
+				<div class=one>
+					<div class=left><img src="./1_files/user.png" width=32 height=32 alt=""></div>
+					<div class=rite>
+						<span></span>
+						<div>
+							<div class=caption><b>Ангелина (РАНХиГС)</b> <i>10 октября 2016 г.</i></div>
+							<div class=text>Заказывала тут диплом по организационному поведению, порекомендовала подруга. В принципе, всё хорошо сделали, только бесплатно распечатка 1 раз, а у меня потом были доработки небольшие - пришлось перепечатывать платно уже. Ну да ладно, главное - всё хорошо с работой, защита в конце октября. Спасибо!</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="one">
 		<div class="left"><img src="./1_files/user.png" width="32" height="32" alt=""></div>
 		<div class="rite">
 			<span></span>
 			<div>
-				<div class="caption"><b>Викa (cПБГЭУ)</b> <i>2 cентября</i></div>
+				<div class="caption"><b>Викa (cПБГЭУ)</b> <i>15 cентября</i></div>
 				<div class="text">Нужнo былo нaпиcaть oтчёт пo прoизвoдcтвеннoй прaктике, кoтoрую нужнo былo прoхoдить летoм. В этoй кoмпaнии мне пoмoгли, вcё выпoлнили пo требoвaниям, cделaли oтзыв и дневник тaкже. cпacибo!</div>
 			</div>
 		</div>
