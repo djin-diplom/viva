@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://bazadiplom.ru/sitemap.xml
+Sitemap: http://viva-students.ru/sitemap.xml
 Host: www.viva-students.ru
