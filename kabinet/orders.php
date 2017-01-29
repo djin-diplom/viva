@@ -217,7 +217,7 @@ require ("kab_header.php");
 			<div class="<?php if ($predoplata == 0) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 				<div class="amount-text">Цена без предоплаты</div>
 				<div class="<?php if ($predoplata == 0) echo 'amount'; else echo 'amount column'; ?>">
-					<?php echo (int)$predoplata; ?><span class="rouble">p</span>
+					<?php echo (int)$zakaz_cena; ?><span class="rouble">p</span>
 </div>
 				<div class="splitter"></div>
 			</div>
