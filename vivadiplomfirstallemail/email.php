@@ -215,15 +215,15 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 							<div <?php if( $predoplata == 0) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 							else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 							><?php echo $zakaz_cena; ?> руб.</div>
-						<div style="font-size:8px; padding:5px 0px 22px">(без предоплаты без скидки)</div>
+						<div style="font-size:8px; padding:5px 0px 5px">(без скидки и без предоплаты)</div>
 							<div <?php if( $predoplata == 1) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 								else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 							><?php echo $zakaz_cena*0.9; ?> руб.</div>
-						<div style="font-size:8px; padding:5px 0px 22px">(со скидкой 10% при предоплате 50%)</div>
+						<div style="font-size:8px; padding:5px 0px 5px">(со скидкой 10% при предоплате 50%)</div>
 						<div <?php if( $predoplata == 2) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 						else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 						><?php echo $zakaz_cena*0.8; ?> руб.</div>
-							<div style="font-size:8px; padding:5px 0px 22px">(со скидкой 20% при полной предоплате)</div>
+							<div style="font-size:8px; padding:5px 0px 5px">(со скидкой 20% при полной предоплате)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
