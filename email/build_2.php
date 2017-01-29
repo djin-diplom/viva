@@ -11,7 +11,7 @@ if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%5+2;
 
 //Выбор title
 
-$title_let_case = rand(1,10);
+$title_let_case = rand(11,12);
 
 switch ($title_let_case) {
     case 1:
@@ -43,6 +43,12 @@ switch ($title_let_case) {
         break;
     case 10:
         $title_let = "Наш учебный центр приветствует Вас!";
+        break;
+    case 11:
+        $title_let = $vid_rab." без предоплаты за ".$pay." со скидкой от ";
+        break;
+    case 12:
+        $title_let = $vid_rab." по акции за ".$pay." часть бесплатно от ";
         break;
 
 
