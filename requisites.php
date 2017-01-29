@@ -33,7 +33,7 @@ $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
     $adres = "г. Санкт-Петeрбург, ул. Рентгена, <br>дом № 2, oф. 105-107";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZd8a856";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZd8a856\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410013671278550";
+    $url_oplata = "https://money.yandex.ru/to/410014913035462";
 
 $main_name_temp = $main_name;
 
