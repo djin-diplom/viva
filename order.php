@@ -134,14 +134,13 @@ require("header.php");
         <tr>
             <td class="field">
                 С предоплатой или без?<br>
-                (<span style="color: red;">Без предоплаты цена выше!</span>)
                 <span style="color: red;">*</span>
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
-                    <option value="" selected="selected">---</option>
-                    <option value="s_predoplatoi">С предоплатой без наценки</option>
-                    <option value="bez_predoplati">Без предоплаты c наценкой 30%</option>
+                    <option value="bez_predoplat">Без предоплаты (часть бесплатно)</option>
+                    <option value="s_predoplatoi_50">Предоплата 50% (со скидкой 10%)</option>
+                    <option value="s_predoplati_100" selected="selected">Полная предоплата (со скидкой 20%)</option>
                 </select>
 
 
