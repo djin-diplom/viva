@@ -213,21 +213,29 @@ require ("kab_header.php");
 </svg>
 
 <div class="w-order-price4 has-value" data-id="02d8677a-add2-44e6-b893-d2e8039bd9f3">
-	
-			<div class="full-price">
-				<div class="amount-text">Стоимость работы </div>
-				<div class="amount column"><?php echo $zakaz_cena; ?><span class="rouble">p</span>
+
+			<div class="<?php if ($predoplata == 0) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
+				<div class="amount-text">Стоимость работы без предоплаты</div>
+				<div class="<?php if ($predoplata == 0) echo 'amount column'; else echo 'amount'; ?>">
+					<?php echo (int)$zakaz_cena; ?><span class="rouble">p</span>
 </div>
 				<div class="splitter"></div>
 			</div>
-		<div class="amount-line price-amount">
-				<div class="amount-text">Цена со скидкой 20%</div>
-			<div class="amount">
-				<?php echo $zakaz_cena*0.8; ?><span class="rouble">p</span>
-
-			</div>
-			<div class="splitter"></div>
+	<div class="<?php if ($predoplata == 1) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
+		<div class="amount-text">Стоимость работы с предоплатой 50%</div>
+		<div class="<?php if ($predoplata == 1) echo 'amount column'; else echo 'amount'; ?>">
+			<?php echo (int)($zakaz_cena*0.9); ?><span class="rouble">p</span>
 		</div>
+		<div class="splitter"></div>
+	</div>
+	<div class="<?php if ($predoplata == 2) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
+		<div class="amount-text">Стоимость работы с полной предоплатой</div>
+		<div class="<?php if ($predoplata == 2) echo 'amount column'; else echo 'amount'; ?>">
+			<?php echo (int)($zakaz_cena*0.8); ?><span class="rouble">p</span>
+		</div>
+		<div class="splitter"></div>
+	</div>
+
 				<div class="discount-date">
 					Акция до <span title="17 октября 2016 г."><?php echo $zakaz_akcia; ?></span>
 				</div>
