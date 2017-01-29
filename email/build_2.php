@@ -669,23 +669,26 @@ switch ($vibor_niz_case) {
 
 $body_2 = '<!DOCTYPE html>
 <html>
-
 <head>
-  
-  
-  
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <title>'.$name.'! '.$title_let.$site_name.' </title>
   
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   
   
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="format-detection" content="telephone=no"> 
 
   <style type="text/css">
+  
     body {
       margin: 0;
       padding: 0;
+      
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
     }
@@ -698,10 +701,6 @@ $body_2 = '<!DOCTYPE html>
       border-collapse: collapse;
     }
 
-    
-
-    
-
     table {
       mso-table-lspace: 0pt;
       mso-table-rspace: 0pt;
@@ -713,67 +712,71 @@ $body_2 = '<!DOCTYPE html>
 
     
 
-    @media screen and (max-width: 599px) {
-      .force_row,
-      .containers {
+    @media screen and (max-width: 598px) {
+      .force2_row2,
+      .contain22 {
         width: 99% !important;
         max-width: 99% !important;
       }
     }
+    
     @media screen and (max-width: 399px) {
-      .containers-padding {
+      .contain22-padding {
         padding-left: 12px !important;
         padding-right: 12px !important;
       }
+      
     }
-    .ios_footer a {
+    
+    .ios23_foot434 a {
       color: #aaaaaa !important;
       text-decoration: underline;
     }
 
-    @media screen and (max-width: 599px) {
-      .cool {
+    @media screen and (max-width: 598px) {
+      .coo332l {
         width: 100% !important;
         border-top: 2px solid #eee;
+        
         padding-bottom: 0 !important;
       }
 
-      .cools-wrapper {
+      .coo332ls-wrapper {
         padding-top: 16px;
       }
 
-      .img_wrapper {
+      .im3g_wrap25per {
         float: right;
+        
         max-width: 41% !important;
         height: auto !important;
         margin-left: 12px;
       }
 
-      .subtittle {
+      .sub3tit4tle {
         margin-top: 0 !important;
       }
     }
+    
     @media screen and (max-width: 399px) {
-      .cools-wrapper {
+      .coo332ls-wrapper {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
 
-      .content_wrapper {
+      .con3tent_w43rapper {
         padding-left: 12px !important;
         padding-right: 12px !important;
       }
     }
   </style>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  
-  <meta name="format-detection" content="telephone=no"> 
+ 
 
 </head>
 
 
 
-<body style="margin:1; padding:1;" bgcolor="#F0F0F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
+<body style="margin:1; padding:1;" bgcolor="#F0F1F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
 <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F0F1F0">
   <tr>
@@ -783,9 +786,9 @@ $body_2 = '<!DOCTYPE html>
 
 
    
-      <table border="0" width="610" cellpadding="0" cellspacing="0" class="containers" style="width:610px;max-width:599px">
+      <table border="0" width="609" cellpadding="0" cellspacing="0" class="contain22" style="width:609px;max-width:598px">
         <tr>
-          <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+          <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
                   <span style="color: green;">'.$name.'! '.$vid_rab.' по акции от '.$pay.'!</span><br>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
@@ -796,13 +799,13 @@ $body_2 = '<!DOCTYPE html>
         <tr>
           <td class="content" align="left" style="padding-top:12px;padding-bottom:12px;background-color:#ffffff">
 
-            <table width="610" border="0" cellpadding="0" cellspacing="0" class="force_row" style="width: 610px;">
+            <table width="609" border="0" cellpadding="0" cellspacing="0" class="force2_row2" style="width: 609px;">
               <tr>
-                <td class="content_wrapper" style="padding-left:23px;padding-right:23px">
+                <td class="con3tent_w43rapper" style="padding-left:23px;padding-right:23px">
                   <br>
                   
                   
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:610;color:#374551">'.$name.'! 
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:609;color:#374552">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
@@ -811,16 +814,16 @@ $body_2 = '<!DOCTYPE html>
                 
               </tr>
               <tr>
-                <td class="cools-wrapper" style="padding-left:12px;padding-right:12px">
+                <td class="coo332ls-wrapper" style="padding-left:12px;padding-right:12px">
 
                  
 
 
-                  <table width="186" align="left" class="force_row" style="width: 186px;">
+                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
                     <tr>
-                      <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
                       
-                        <table class="img_wrapper">
+                        <table class="im3g_wrap25per">
                         
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
@@ -830,85 +833,90 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Курсовая</td>
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Курсовая</td>
                           </tr>
                         </table>
                         
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' суток<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' суток<br>
                           '.$name.'! '.$text_kurs.'
                           
                           
                         </div>
                         <br>
+                        
                       </td>
                     </tr>
                     
                   </table>
 
-
-                 
-
-
-                  <table width="186" align="left" class="force_row" style="width: 186px;">
+                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
                     <tr>
-                      <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                    
+                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
                       
-                        <table class="img_wrapper">
+                        <table class="im3g_wrap25per">
                           <tr>
+                          
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
+                          
                         </table>
+                        
                         <table >
                         
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Дипломная</td>
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' суток<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' суток<br>
                           '.$name.'! '.$text_dip.'
                           
                                                  </div>
                                                  
                         <br>
                       </td>
+                      
                     </tr>
+                    
                   </table>
+                
 
-
-                  
-
-
-                  <table width="186" align="left" class="force_row" style="width: 186px;">
+                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
                     <tr>
-                      <td class="cool"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
-                        <table class="img_wrapper">
+                    
+                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                        <table class="im3g_wrap25per">
                         
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
+                          
                         </table>
                         
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Магистерская</td>
+                          
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Магистерская</td>
                           </tr>
+                          
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' суток<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' суток<br>
                           '.$name.'!  '.$text_mag.'
                         </div>
                         <br>
+                        
                       </td>
+                      
                     </tr>
                   </table>
 
-
-                  
+               
 
                 </td>
                 
               </tr>
               <tr>
-                <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+                <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
                   <a href="'.$site_url.'order.php">'.$name.'! Заказать здесь!</a><br>
                    '.$vibor_filial.'
                 </td>
@@ -918,32 +926,37 @@ $body_2 = '<!DOCTYPE html>
           </td>
         </tr>
         <tr>
-          <td class="containers-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa1;padding-left:23px;padding-right:23px">
-            <br><br>
+        
+          <td class="contain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa2;padding-left:23px;padding-right:23px">
+            <br>
+            <br>
 
 
             <strong>'.$site_name.'</strong><br>
 
             '.$name.'! '.$vibor_niz.'
             
-            <span class="ios_footer">
+            <span class="ios23_foot434">
               '.$email.'<br>
 
             </span>
 
               
-            <span class="ios_footer">
+            <span class="ios23_foot434">
               '.$name.'! Отказаться от рассылки можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
-            © 2009–2017 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
+            © 2009–2017 <a href="'.$site_url.'" style="color:#aaaaa2">'.$site_name.'</a><br>
             
             
 
-            <br><br>
+            <br>
+            <br>
 
           </td>
+          
         </tr>
+        
       </table>
       
 
@@ -1000,52 +1013,52 @@ $body_2 = '<!DOCTYPE html>
     
 
     @media screen and (max-width: 598px) {
-      .force_row,
-      .containers {
+      .force2_row2,
+      .contain22 {
         width: 99% !important;
         max-width: 99% !important;
       }
     }
     @media screen and (max-width: 399px) {
-      .containers-padding {
+      .contain22-padding {
         padding-left: 13px !important;
         padding-right: 13px !important;
       }
     }
-    .ios_footer a {
+    .ios23_foot434 a {
       color: #aaaaaa !important;
       text-decoration: underline;
     }
 
     @media screen and (max-width: 598px) {
-      .cool {
+      .coo332l {
         width: 99% !important;
         border-top: 2px solid #eee;
         padding-bottom: 0 !important;
       }
 
-      .cools-wrapper {
+      .coo332ls-wrapper {
         padding-top: 17px;
       }
 
-      .img_wrapper {
+      .im3g_wrap25per {
         float: right;
         max-width: 41% !important;
         height: auto !important;
         margin-left: 13px;
       }
 
-      .subtittle {
+      .sub3tit4tle {
         margin-top: 0 !important;
       }
     }
     @media screen and (max-width: 399px) {
-      .cools-wrapper {
+      .coo332ls-wrapper {
         padding-left: 1 !important;
         padding-right: 1 !important;
       }
 
-      .content_wrapper {
+      .con3tent_w43rapper {
         padding-left: 13px !important;
         padding-right: 13px !important;
       }
@@ -1053,7 +1066,7 @@ $body_2 = '<!DOCTYPE html>
   </style>
 </head>
 
-<body style="margin:1; padding:1;" bgcolor="#F0F0F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
+<body style="margin:1; padding:1;" bgcolor="#F0F1F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
 <table border="0" width="99%" height="99%" cellpadding="1" cellspacing="1" bgcolor="#F0F1F0">
   <tr>
@@ -1062,9 +1075,9 @@ $body_2 = '<!DOCTYPE html>
       <br>
 
    
-      <table border="0" width="599" cellpadding="0" cellspacing="0" class="containers" style="width:601px;max-width:601px">
+      <table border="0" width="598" cellpadding="0" cellspacing="0" class="contain22" style="width:601px;max-width:601px">
         <tr>
-          <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+          <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
           <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
@@ -1075,36 +1088,36 @@ $body_2 = '<!DOCTYPE html>
         <tr>
           <td class="content" align="left" style="padding-top:12px;padding-bottom:12px;background-color:#ffffff">
 
-            <table width="601" border="0" cellpadding="0" cellspacing="0" class="force_row" style="width: 601px;">
+            <table width="601" border="0" cellpadding="0" cellspacing="0" class="force2_row2" style="width: 601px;">
               <tr>
-                <td class="content_wrapper" style="padding-left:23px;padding-right:23px">
+                <td class="con3tent_w43rapper" style="padding-left:23px;padding-right:23px">
                   <br>
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:601;color:#374551">'.$name.'! 
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:601;color:#374552">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   <a href="'.$site_url.'order.php" >Сделать заказ</a>!</div>
                 </td>
               </tr>
               <tr>
-                <td class="cools-wrapper" style="padding-left:12px;padding-right:12px">
+                <td class="coo332ls-wrapper" style="padding-left:12px;padding-right:12px">
 
                  
 
 
-                  <table width="189" align="left" class="force_row" style="width: 189px;">
+                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
                     <tr>
-                      <td class="cool"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="img_wrapper">
+                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
+                        <table class="im3g_wrap25per">
                           <tr>
                             <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="167" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Курсовая работа</td>
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Курсовая работа</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_kurs.' дней<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_kurs.' дней<br>
                           '.$name.'! '.$text_kurs.'
                           
                           
@@ -1118,20 +1131,20 @@ $body_2 = '<!DOCTYPE html>
                   <!--[if mso]></td><td width="192" style="width: 192px;" valign="top"><![endif]-->
 
 
-                  <table width="189" align="left" class="force_row" style="width: 189px;">
+                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
                     <tr>
-                      <td class="cool"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="img_wrapper">
+                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
+                        <table class="im3g_wrap25per">
                           <tr>
                             <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="167" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Дипломная работа</td>
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Дипломная работа</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_dip.' дней<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_dip.' дней<br>
                           '.$name.'! '.$text_dip.'
                           
                                                  </div>
@@ -1144,20 +1157,20 @@ $body_2 = '<!DOCTYPE html>
                   <!--[if mso]></td><td width="192" style="width: 192px;" valign="top"><![endif]-->
 
 
-                  <table width="189" align="left" class="force_row" style="width: 189px;">
+                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
                     <tr>
-                      <td class="cool"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="img_wrapper">
+                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
+                        <table class="im3g_wrap25per">
                           <tr>
                             <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="167" height="112" style="max-width:99%; " class="image"></td>
                           </tr>
                         </table>
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Магистерская работа</td>
+                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Магистерская работа</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_mag.' дней<br>
+                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_mag.' дней<br>
                           '.$name.'!  '.$text_mag.'
                         </div>
                         <br>
@@ -1171,7 +1184,7 @@ $body_2 = '<!DOCTYPE html>
                 </td>
               </tr>
               <tr>
-                <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+                <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
                   <a href="'.$site_url.'order.php">'.$name.'! Заказывайте здесь!</a><br>
                    '.$vibor_filial.'
                 </td>
@@ -1181,7 +1194,7 @@ $body_2 = '<!DOCTYPE html>
           </td>
         </tr>
         <tr>
-          <td class="containers-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa1;padding-left:23px;padding-right:23px">
+          <td class="contain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa2;padding-left:23px;padding-right:23px">
             <br><br>
 
 
@@ -1189,16 +1202,16 @@ $body_2 = '<!DOCTYPE html>
 
             '.$name.'! '.$vibor_niz.'
             
-            <span class="ios_footer">
+            <span class="ios23_foot434">
               '.$email.'<br>
 
             </span>
 
-              <span class="ios_footer">
+              <span class="ios23_foot434">
               '.$name.'! Отписаться можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
-            © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
+            © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaa2">'.$site_name.'</a><br>
 
             <br><br>
 
