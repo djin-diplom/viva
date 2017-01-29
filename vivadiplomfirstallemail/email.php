@@ -200,7 +200,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					break;
 				case 1: echo "<span style='color: red;'>Ждем предоплату 50% (".($zakaz_cena*0.9*0.5)." руб.), чтобы начать работу!</span><br>";
 					break;
-				case 2: echo "<span style='color: red;'>Ждем полную оплату заказа (".($zakaz_cena*0.8)." руб.), чтобы начать работу!</span><br>";
+				case 2: echo "<span style='color: red;'>Ждем оплату заказа (".($zakaz_cena*0.8)." руб.), чтобы начать работу!</span><br>";
 					break;
 			}?>
 		</td>
