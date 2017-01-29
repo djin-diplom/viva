@@ -196,11 +196,11 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
 			<?php switch ($predoplata) {
-				case 0: echo "<span style='color: blue;'>Вы должны ответить на это письмо, чтобы получить часть работы бесплатно!</span>><br>";
+				case 0: echo "<span style='color: blue;'>Вы должны ответить на это письмо, чтобы получить часть работы бесплатно!</span><br>";
 					break;
-				case 1: echo "<span style='color: blue;'>Ждем предоплату 50%, чтобы начать работу (оплата через личный кабинет)!</span>><br>";
+				case 1: echo "<span style='color: blue;'>Ждем предоплату 50%, чтобы начать работу (оплата через личный кабинет)!</span><br>";
 					break;
-				case 2: echo "<span style='color: blue;'>Ждем оплату заказа, чтобы начать работу (оплата через личный кабинет)!</span>><br>";
+				case 2: echo "<span style='color: blue;'>Ждем оплату заказа, чтобы начать работу (оплата через личный кабинет)!</span><br>";
 					break;
 			}?>
 		</td>
