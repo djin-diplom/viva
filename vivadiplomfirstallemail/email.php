@@ -218,7 +218,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 						<div style="font-size:8px; padding:5px 0px 22px">(без предоплаты без скидки)</div>
 							<div <?php if( $predoplata == 1) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 								else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
-							><?php echo $zakaz_cena*0.8; ?> руб.</div>
+							><?php echo $zakaz_cena*0.9; ?> руб.</div>
 						<div style="font-size:8px; padding:5px 0px 22px">(со скидкой 10% при предоплате 50%)</div>
 						<div <?php if( $predoplata == 2) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 						else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
