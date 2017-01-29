@@ -259,7 +259,6 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				Корректировки по замечаниям руководителя бесплатны.<br>
 				Гарантия на работу два месяца.<br>
 				Для получения всей работы требуется оплатить заказ.<br>
-				Это можно сделать через платежные системы.<br>
 
 <a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
