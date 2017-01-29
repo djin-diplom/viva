@@ -94,10 +94,10 @@ switch ($vibor_let_case) {
         $vibor_let = 'Гарантии, малые сроки, низкая стоимость! ';
         break;
     case 12:
-        $vibor_let = 'Уникальная акция в честь 8-летия компании!';
+        $vibor_let = 'Уникальные скидки на 8-летие компании!';
         break;
     case 13:
-        $vibor_let = 'Нашему центру 8 лет, уникальная акция!';
+        $vibor_let = 'Нашему центру 8 лет – ура новым скидкам!';
         break;
 
 
@@ -106,7 +106,7 @@ switch ($vibor_let_case) {
 
 //Выбор Скидки
 
-$vibor_akc_case = rand(1,10);
+$vibor_akc_case = rand(11,12);
 
 switch ($vibor_akc_case) {
     case 1:
@@ -139,6 +139,12 @@ switch ($vibor_akc_case) {
     case 10:
         $vibor_akc = 'Напишем работу на заказ со скидкой 20%!';
         break;
+    case 11:
+        $vibor_akc = 'Без phone-менеджеров цена в 2 раза ниже!';
+        break;
+    case 12:
+        $vibor_akc = 'Цены упали в 2 раза без телефонных услуг!';
+        break;
 
 }
 
@@ -150,7 +156,7 @@ $sut_mag = rand(11,14);
 
 //Выбор бесплатного присылания
 
-$vibor_pris_case = rand(1,10);
+$vibor_pris_case = rand(11,12);
 
 switch ($vibor_pris_case) {
     case 1:
@@ -183,6 +189,14 @@ switch ($vibor_pris_case) {
     case 10:
         $vibor_pris = ' даст без предоплаты ознакомиться с примерами работ Вашего автора. ';
         break;
+    case 11:
+        $vibor_pris = ' работает официально по договору оферты с 2009 года. Мы сделали более 50 тысяч работ.
+        Возможен индвидуальный договор, чек об оплате.';
+        break;
+    case 12:
+        $vibor_pris = ' выполнила более 40000 заказов. Мы в интернете с 2009 года, оформляем заказы 
+        официально по договору публичной оферты, подтверждаем оплату чеком.';
+        break;
 
 
 }
@@ -190,7 +204,7 @@ switch ($vibor_pris_case) {
 
 //Текст курсовой
 
-$text_kurs_case = rand(1,10);
+$text_kurs_case = rand(11,12);
 
 switch ($text_kurs_case) {
     case 1:
@@ -254,12 +268,18 @@ switch ($text_kurs_case) {
         Именно поэтому, мы со всей ответственностью подходим к выполнению работы и с каждым клиентом, 
         с каждым дипломом, курсовой работаем отдельно.';
         break;
+    case 11:
+        $text_kurs = 'Мы будем выполнять работу по Вашим указаниям. Гарантия на работу два месяца.';
+        break;
+    case 12:
+        $text_kurs = 'Предоставляем гарантию 2 месяца на все работы. Работаем по указанию Заказчика.';
+        break;
 
 }
 
 //Текст дипломной
 
-$text_dip_case = rand(1,10);
+$text_dip_case = rand(11,12);
 
 switch ($text_dip_case) {
     case 1:
@@ -330,12 +350,18 @@ switch ($text_dip_case) {
         Мы готовы разработать для каждого заказчика индивидуальный план: написать дипломную работу по частям, корректировать 
         ее в ходе работы, устанавливать для каждой части индивидуальные сроки.';
         break;
+    case 11:
+        $text_dip = 'Мы пришлем бесплатно примеры работ. Корректировки по Вашим замечаниям бесплатны.';
+        break;
+    case 12:
+        $text_dip = 'Исправим бесплатно работу. Ознакомим с примерами текстов без предоплаты.';
+        break;
 
 }
 
 //Текст магистерской
 
-$text_mag_case = rand(1,10);
+$text_mag_case = rand(11,12);
 
 switch ($text_mag_case) {
     case 1:
@@ -404,12 +430,18 @@ switch ($text_mag_case) {
         Оформить работу на заказ у нас - значит доверить себя в надежные руки, так как каждая заказанная работа в 
         нашей компании оригинальна и выполнена по всем требованиям, канонам, оформлена по ГОСТу.';
         break;
+    case 11:
+        $text_mag = 'Пришлем Вам данные наших центров "База знаний". Удобный линый кабинет!';
+        break;
+    case 12:
+        $text_mag = 'Этапы выполнения в личном кабинете! Предоставим реквизиты центра "База знаний"!';
+        break;
 
 }
 
 //Выбор Скидки
 
-$vibor_filial_case = rand(1,10);
+$vibor_filial_case = rand(11,12);
 
 switch ($vibor_filial_case) {
     case 1:
@@ -444,6 +476,12 @@ switch ($vibor_filial_case) {
     case 10:
         $vibor_filial = 'Мы пишем курсовые и дипломные работы по всем предметам!';
         break;
+    case 11:
+        $vibor_filial = 'За нами Санкт-Петербург, Москва и  Казань!';
+        break;
+    case 12:
+        $vibor_filial = 'Мы построили офисы в 5 городах России.';
+        break;
 
 
 }
@@ -451,7 +489,7 @@ switch ($vibor_filial_case) {
 
 //Выбор низа
 
-$vibor_niz_case = rand(1,10);
+$vibor_niz_case = rand(11,12);
 
 switch ($vibor_niz_case) {
     case 1:
@@ -603,6 +641,27 @@ switch ($vibor_niz_case) {
 Убедиться в справедливости всего здесь сказанного, а также составить личное мнение о команде нашей компании, вы сможете, если выберете 
 время и посетите наш офис.<br>';
         break;
+    case 11:
+        $vibor_niz = '<br>Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
+				Сайт работает с 2009 года. Мы сделали более 50 тысяч работ.<br>
+				Мы работаем официально по договору публичной оферты.<br>
+				Корректировки по замечаниям руководителя бесплатны.<br>
+				Мы можем заключить с Вами индивидуальный договор.<br>
+				Мы будем выполнять работу по Вашим указаниям.<br>
+				Мы можем прислать Вам чек об оплате заказа.<br>
+				Гарантия на работу два месяца.<br>';
+        break;
+    case 12:
+        $vibor_niz = '<br>Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
+Корректировки по замечаниям руководителя бесплатны.<br>
+				Мы можем заключить с Вами индивидуальный договор.<br>
+				Мы сделали более 50 тысяч работ. Сайт работает с 2009 года.<br>
+				Мы работаем официально по договору публичной оферты.<br>
+				Мы можем прислать Вам чек об оплате заказа.<br>
+				Мы будем выполнять работу по Вашим указаниям.<br>
+				
+				Гарантия на работу два месяца.<br>';
+        break;
     
 
 }
@@ -727,7 +786,7 @@ $body_2 = '<!DOCTYPE html>
       <table border="0" width="610" cellpadding="0" cellspacing="0" class="containers" style="width:610px;max-width:599px">
         <tr>
           <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-                  <span style="color: green;">Приветствуем Вас, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
+                  <span style="color: green;">'.$name.'! '.$vid_rab.' по акции от '.$pay.'!</span><br>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
             
@@ -771,11 +830,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Курсoвая работа</td>
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Курсовая</td>
                           </tr>
                         </table>
                         
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' днeй<br>
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' суток<br>
                           '.$name.'! '.$text_kurs.'
                           
                           
@@ -802,10 +861,10 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                         
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Диплoмная работа</td>
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' днeй<br>
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' суток<br>
                           '.$name.'! '.$text_dip.'
                           
                                                  </div>
@@ -831,10 +890,10 @@ $body_2 = '<!DOCTYPE html>
                         
                         <table >
                           <tr>
-                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Магистeрская рабoта</td>
+                            <td class="subtittle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:610;color:#2469A1;padding-bottom:7px">Магистерская</td>
                           </tr>
                         </table>
-                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' днeй<br>
+                        <div class="cool-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' суток<br>
                           '.$name.'!  '.$text_mag.'
                         </div>
                         <br>
@@ -850,7 +909,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="containers-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Зaказывайте тут!</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.'! Заказать здесь!</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -874,10 +933,10 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios_footer">
-              '.$name.'! Oтписаться <a href="'.$site_url.'otpiska.php" >здeсь</a>.<br>
+              '.$name.'! Отказаться от рассылки можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
-            © 2008–2017 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
+            © 2009–2017 <a href="'.$site_url.'" style="color:#aaaaa1">'.$site_name.'</a><br>
             
             
 
