@@ -198,9 +198,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<?php switch ($predoplata) {
 				case 0: echo "<span style='color: red;'>Вы должны ответить на это письмо,<br> чтобы получить часть работы бесплатно!</span><br>";
 					break;
-				case 1: echo "<span style='color: red;'>Ждем предоплату 50% (".($zakaz_cena*0.9*0.5)." руб.), чтобы начать работу!</span><br>";
+				case 1: echo "<span style='color: red;'>Ждем предоплату 50% (".((int)$zakaz_cena*0.9*0.5)." руб.), чтобы начать работу!</span><br>";
 					break;
-				case 2: echo "<span style='color: red;'>Ждем оплату заказа (".($zakaz_cena*0.8)." руб.), чтобы начать работу!</span><br>";
+				case 2: echo "<span style='color: red;'>Ждем оплату заказа (".((int)$zakaz_cena*0.8)." руб.), чтобы начать работу!</span><br>";
 					break;
 			}?>
 		</td>
@@ -222,15 +222,15 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					<td style="width:50%">
 							<div <?php if( $predoplata == 0) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 							else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
-							><?php echo $zakaz_cena; ?> руб.</div>
+							><?php echo (int)$zakaz_cena; ?> руб.</div>
 						<div style="font-size:10px; padding:0px 0px 3px">(без скидки и без предоплаты)</div>
 							<div <?php if( $predoplata == 1) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 								else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
-							><?php echo $zakaz_cena*0.9; ?> руб.</div>
+							><?php echo (int)$zakaz_cena*0.9; ?> руб.</div>
 						<div style="font-size:10px; padding:0px 0px 3px">(со скидкой 10% при предоплате 50%)</div>
 						<div <?php if( $predoplata == 2) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 						else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
-						><?php echo $zakaz_cena*0.8; ?> руб.</div>
+						><?php echo (int)$zakaz_cena*0.8; ?> руб.</div>
 							<div style="font-size:10px; padding:0px 0px 3px">(со скидкой 20% при полной предоплате)</div>
 					</td>
 					<td style="width:50%">
