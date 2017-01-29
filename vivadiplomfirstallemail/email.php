@@ -261,6 +261,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				Мы будем выполнять работу по Вашим указаниям.<br>
 				Мы можем прислать Вам чек об оплате заказа.<br>
 				Гарантия на работу два месяца.<br>
+				Оплата через системы:<br>
 
 <a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
