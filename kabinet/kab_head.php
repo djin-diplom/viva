@@ -21,6 +21,7 @@ if ($fp) {
 
 
 fclose($fp);
+$client_predoplata = $_SESSION['predoplata'];
 $client_pass = $_SESSION['client_pass'];
 $client_name = $_SESSION['client_name'];
 $client_last_name = $_SESSION['client_last_name'];

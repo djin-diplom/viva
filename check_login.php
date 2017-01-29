@@ -95,6 +95,9 @@ $_SESSION['client_email']= $client_email;
                 case 24:
                     $_SESSION['balance_date'] = $mytext;
                     break;
+                case 25:
+                    $_SESSION['predoplata'] = $mytext;
+                    break;
             }
             $i++;
         }

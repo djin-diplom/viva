@@ -134,9 +134,10 @@ fwrite($fp, $zakaz_cena."\n");
 fwrite($fp, $balance."\n");
 	$balance_date = date("d.m.y");
 fwrite($fp, $balance_date."\n");
+$predoplata = $_POST['predoplata'];
+fwrite($fp, $predoplata."\n");
 
 fclose($fp);
-$predoplata = $_POST['predoplata'];
 $url_cabinet = $site_url."check_login.php";
 $path_img = $site_url."vivadiplomfirstallemail/";
 

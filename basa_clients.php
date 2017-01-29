@@ -102,7 +102,7 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value="1">
+                    <input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value="2">
 
 
                 </td>
