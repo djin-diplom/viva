@@ -138,7 +138,7 @@ require("header.php");
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
-                    <option value="bez_predoplat">Без предоплаты (введение бесплатно)</option>
+                    <option value="bez_predoplat">Без предоплаты (часть бесплатно)</option>
                     <option value="s_predoplatoi_50">Предоплата 50% (со скидкой 10%)</option>
                     <option value="s_predoplati_100" selected="selected">Полная предоплата (со скидкой 20%)</option>
                 </select>
