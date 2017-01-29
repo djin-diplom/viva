@@ -133,7 +133,7 @@ require("header.php");
 
         <tr>
             <td class="field">
-                С предоплатой или без?<br>
+                С предоплатой или без?
                 <span style="color: red;">*</span>
             </td>
             <td>
