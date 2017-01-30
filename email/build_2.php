@@ -832,7 +832,9 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
+                            <td style="padding-bottom:16px">
+                            <img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; ">
+                            </td>
                           </tr>
                         </table>
                         
@@ -863,7 +865,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " class="image"></td>
+                            <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " ></td>
                           </tr>
                           
                         </table>
@@ -894,7 +896,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
+                            <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; "></td>
                           </tr>
                           
                         </table>
