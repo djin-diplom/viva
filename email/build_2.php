@@ -94,10 +94,12 @@ switch ($vibor_let_case) {
         $vibor_let = 'Гарантии, малые сроки, низкая стоимость! ';
         break;
     case 12:
-        $vibor_let = 'Предоставляем скидки на 8-летие компании!';
+        $chislo = rand(12345,23456);
+        $vibor_let = 'При заказе используйте промокод ip'.$chislo.'h';
         break;
     case 13:
-        $vibor_let = 'Нашему центру 8 лет – время новых скидок!';
+        $chislo = rand(12345,23456);
+        $vibor_let = 'Ваш персональный промокод ip'.$chislo.'h';
         break;
 
 
@@ -140,10 +142,10 @@ switch ($vibor_akc_case) {
         $vibor_akc = 'Напишем работу на заказ со скидкой 20%!';
         break;
     case 11:
-        $vibor_akc = 'Автоматизация наших услуг снизила цены!';
+        $vibor_akc = 'Возможно выполнение без предоплаты!';
         break;
     case 12:
-        $vibor_akc = 'Цены упали благодаря автоматизации услуг!';
+        $vibor_akc = 'Можем прислать часть бесплатно!';
         break;
 
 }
@@ -190,11 +192,11 @@ switch ($vibor_pris_case) {
         $vibor_pris = ' даст без предоплаты ознакомиться с примерами работ Вашего автора. ';
         break;
     case 11:
-        $vibor_pris = ' работает официально по договору оферты с 2009 года. Мы сделали более 50 тысяч работ.
+        $vibor_pris = ' работает официально по договору оферты. Мы делаем только качественные работы.
         Возможен индвидуальный договор, чек об оплате.';
         break;
     case 12:
-        $vibor_pris = ' выполнила более 40000 заказов. Мы в интернете с 2009 года, оформляем заказы 
+        $vibor_pris = ' выполняет работы точно в срок. Оформляем заказы 
         официально по договору публичной оферты, подтверждаем оплату чеком.';
         break;
 
@@ -477,10 +479,10 @@ switch ($vibor_filial_case) {
         $vibor_filial = 'Мы пишем курсовые и дипломные работы по всем предметам!';
         break;
     case 11:
-        $vibor_filial = 'За нами Санкт-Петербург, Москва и  Казань!';
+        $vibor_filial = 'За нами Санкт-Петербург, Москва, Казань, Уфа.';
         break;
     case 12:
-        $vibor_filial = 'Мы построили офисы в 5 городах России.';
+        $vibor_filial = 'Наши офисы есть в крупнейших городах РФ.';
         break;
 
 
@@ -642,29 +644,33 @@ switch ($vibor_niz_case) {
 время и посетите наш офис.<br>';
         break;
     case 11:
+        $chislo = rand(15, 40);
         $vibor_niz = '<br>Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
-				Сайт работает с 2009 года. Мы сделали более 50 тысяч работ.<br>
 				Мы работаем официально по договору публичной оферты.<br>
 				Корректировки по замечаниям руководителя бесплатны.<br>
 				Мы можем заключить с Вами индивидуальный договор.<br>
 				Мы будем выполнять работу по Вашим указаниям.<br>
 				Мы можем прислать Вам чек об оплате заказа.<br>
+				Мы сделали более '.$chislo.' тысяч работ.<br>
 				Гарантия на работу два месяца.<br>';
         break;
     case 12:
+        $chislo = rand(15, 40);
         $vibor_niz = '<br>Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
 Корректировки по замечаниям руководителя бесплатны.<br>
 				Мы можем заключить с Вами индивидуальный договор.<br>
-				Мы сделали более 50 тысяч работ. Сайт работает с 2009 года.<br>
+				Мы сделали более '.$chislo.' тысяч работ.<br>
 				Мы работаем официально по договору публичной оферты.<br>
 				Мы можем прислать Вам чек об оплате заказа.<br>
 				Мы будем выполнять работу по Вашим указаниям.<br>
-				
 				Гарантия на работу два месяца.<br>';
         break;
     
 
 }
+
+
+$style_1 = rand(3234, 2343).'adfdpt';
 
 
 $body_2 = '<!DOCTYPE html>
@@ -713,39 +719,39 @@ $body_2 = '<!DOCTYPE html>
     
 
     @media screen and (max-width: 598px) {
-      .force2_row2,
-      .contain22 {
+      .force2_row2'.$style_1.',
+      .cont'.$style_1.'ain22 {
         width: 99% !important;
         max-width: 99% !important;
       }
     }
     
     @media screen and (max-width: 399px) {
-      .contain22-padding {
+      .cont'.$style_1.'ain22-padding {
         padding-left: 12px !important;
         padding-right: 12px !important;
       }
       
     }
     
-    .ios23_foot434 a {
+    .ios23'.$style_1.'foot434 a {
       color: #aaaaaa !important;
       text-decoration: underline;
     }
 
     @media screen and (max-width: 598px) {
-      .coo332l {
+      .coo'.$style_1.'332l {
         width: 100% !important;
         border-top: 2px solid #eee;
         
         padding-bottom: 0 !important;
       }
 
-      .coo332ls-wrapper {
+      .coo'.$style_1.'332ls-wrapper {
         padding-top: 16px;
       }
 
-      .im3g_wrap25per {
+      .im3g'.$style_1.'wrap25per {
         float: right;
         
         max-width: 41% !important;
@@ -753,18 +759,18 @@ $body_2 = '<!DOCTYPE html>
         margin-left: 12px;
       }
 
-      .sub3tit4tle {
+      .sub'.$style_1.'3tit4tle {
         margin-top: 0 !important;
       }
     }
     
     @media screen and (max-width: 399px) {
-      .coo332ls-wrapper {
+      .coo'.$style_1.'332ls-wrapper {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
 
-      .con3tent_w43rapper {
+      .con3tent'.$style_1.'w43rapper {
         padding-left: 12px !important;
         padding-right: 12px !important;
       }
@@ -786,9 +792,9 @@ $body_2 = '<!DOCTYPE html>
 
 
    
-      <table border="0" width="609" cellpadding="0" cellspacing="0" class="contain22" style="width:609px;max-width:598px">
+      <table border="0" width="609" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:609px;max-width:598px">
         <tr>
-          <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
                   <span style="color: green;">'.$name.'! '.$vid_rab.' по акции от '.$pay.'!</span><br>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
@@ -799,9 +805,9 @@ $body_2 = '<!DOCTYPE html>
         <tr>
           <td class="content" align="left" style="padding-top:12px;padding-bottom:12px;background-color:#ffffff">
 
-            <table width="609" border="0" cellpadding="0" cellspacing="0" class="force2_row2" style="width: 609px;">
+            <table width="609" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: 609px;">
               <tr>
-                <td class="con3tent_w43rapper" style="padding-left:23px;padding-right:23px">
+                <td class="con3tent'.$style_1.'w43rapper" style="padding-left:23px;padding-right:23px">
                   <br>
                   
                   
@@ -814,16 +820,16 @@ $body_2 = '<!DOCTYPE html>
                 
               </tr>
               <tr>
-                <td class="coo332ls-wrapper" style="padding-left:12px;padding-right:12px">
+                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left:12px;padding-right:12px">
 
                  
 
 
-                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
+                  <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
                     <tr>
-                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
                       
-                        <table class="im3g_wrap25per">
+                        <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
@@ -833,11 +839,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Курсовая</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Курсовая</td>
                           </tr>
                         </table>
                         
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_kurs.' суток<br>
                           '.$name.'! '.$text_kurs.'
                           
                           
@@ -849,12 +855,12 @@ $body_2 = '<!DOCTYPE html>
                     
                   </table>
 
-                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
+                  <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
                     <tr>
                     
-                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
                       
-                        <table class="im3g_wrap25per">
+                        <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " class="image"></td>
@@ -865,10 +871,10 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                         
                           <tr>
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Дипломная</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_dip.' суток<br>
                           '.$name.'! '.$text_dip.'
                           
                                                  </div>
@@ -881,11 +887,11 @@ $body_2 = '<!DOCTYPE html>
                   </table>
                 
 
-                  <table width="185" align="left" class="force2_row2" style="width: 185px;">
+                  <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
                     <tr>
                     
-                      <td class="coo332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
-                        <table class="im3g_wrap25per">
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                        <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
                             <td style="padding-bottom:16px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; " class="image"></td>
@@ -896,11 +902,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Магистерская</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2469A1;padding-bottom:7px">Магистерская</td>
                           </tr>
                           
                         </table>
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">От '.$sut_mag.' суток<br>
                           '.$name.'!  '.$text_mag.'
                         </div>
                         <br>
@@ -916,7 +922,7 @@ $body_2 = '<!DOCTYPE html>
                 
               </tr>
               <tr>
-                <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
+                <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
                   <a href="'.$site_url.'order.php">'.$name.'! Заказать здесь!</a><br>
                    '.$vibor_filial.'
                 </td>
@@ -927,7 +933,7 @@ $body_2 = '<!DOCTYPE html>
         </tr>
         <tr>
         
-          <td class="contain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa2;padding-left:23px;padding-right:23px">
+          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa2;padding-left:23px;padding-right:23px">
             <br>
             <br>
 
@@ -936,17 +942,17 @@ $body_2 = '<!DOCTYPE html>
 
             '.$name.'! '.$vibor_niz.'
             
-            <span class="ios23_foot434">
+            <span class="ios23'.$style_1.'foot434">
               '.$email.'<br>
 
             </span>
 
               
-            <span class="ios23_foot434">
+            <span class="ios23'.$style_1.'foot434">
               '.$name.'! Отказаться от рассылки можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
             </span>
 
-            © 2009–2017 <a href="'.$site_url.'" style="color:#aaaaa2">'.$site_name.'</a><br>
+            © 2017 <a href="'.$site_url.'" style="color:#aaaaa2">'.$site_name.'</a><br>
             
             
 
