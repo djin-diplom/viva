@@ -671,7 +671,7 @@ switch ($vibor_niz_case) {
 
 
 $style_1 = rand(3234, 2343).'adfdpt';
-
+$path_img = $site_url."email/";
 
 $body_2 = '<!DOCTYPE html>
 <html>
@@ -833,7 +833,7 @@ $body_2 = '<!DOCTYPE html>
                         
                           <tr>
                             <td style="padding-bottom:16px">
-                            <img alt="Курсовая" src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; ">
+                            <img alt="Курсовая" src="'.$path_img.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112" style="max-width:99%; ">
                             </td>
                           </tr>
                         </table>
@@ -865,7 +865,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:16px"><img alt="Дипломная" src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " ></td>
+                            <td style="padding-bottom:16px"><img alt="Дипломная" src="'.$path_img.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " ></td>
                           </tr>
                           
                         </table>
@@ -896,7 +896,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img alt="Магистерская" src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; "></td>
+                            <td style="padding-bottom:16px"><img alt="Магистерская" src="'.$path_img.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; "></td>
                           </tr>
                           
                         </table>
