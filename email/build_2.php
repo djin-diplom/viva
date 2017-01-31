@@ -833,7 +833,7 @@ $body_2 = '<!DOCTYPE html>
                         
                           <tr>
                             <td style="padding-bottom:16px"><a>
-                            <img alt="Курсовая" src="https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486097728&h=YmIKp-pQOOez4qgx6KePAA&url171=dml2YS1zdHVkZW50cy5ydS92aXZhZGlwbG9tZmlyc3RhbGxlbWFpbC9pbmRleF9maWxlcy8xX2xvZ28ucG5n&is_https=0" border="0"  width="164" height="112" style="max-width:99%;" >
+                            <img alt="Курсовая" src="https://cloud.mail.ru/public/6vVi/pqrVtCtup" border="0"  width="164" height="112" style="max-width:99%;" >
                             </a>
                             </td>
                           </tr>
