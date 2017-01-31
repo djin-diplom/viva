@@ -673,6 +673,16 @@ switch ($vibor_niz_case) {
 $style_1 = rand(3234, 2343).'adfdpt';
 $path_img = $site_url."email/";
 
+$img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=eU_VzDeRixbmS2VKqd9Rcw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1VREVDc3RjT3BkVmpMXzFPb2VJZV9nJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU1pNXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
+$img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=VMb9qcjFxuvp3UW8RRwb5Q&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1VWGRQV3J2TkFyYTFLckpyOUo1WklnJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU5DNXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
+$img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=XelFj2Nh5ewMRaBrbu-qEw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1EYV9HMVhqMjBTZGNrRTBGRkVCQV9RJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU15NXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
+$img_mail_4 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146764&h=5_YQCqE9SNnjM3UtVHeJvw&url171=dml2YS1zdHVkZW50cy5ydS92aXZhZGlwbG9tZmlyc3RhbGxlbWFpbC9pbmRleF9maWxlcy8xX2xvZ28ucG5n&is_https=0';
+$img_mail_5 = '';
+$img_mail_6 = '';
+$img_mail_7 = '';
+
+
+
 $body_2 = '<!DOCTYPE html>
 <html>
 <head>
@@ -833,7 +843,7 @@ $body_2 = '<!DOCTYPE html>
                         
                           <tr>
                             <td style="padding-bottom:16px"><a>
-                            <img alt="Курсовая" src="https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486099113&h=UDECstcOpdVjL_1OoeIe_g&url171=dml2YS1zdHVkZW50cy5ydS9lbWFpbC8vaW5kZXhfZmlsZXMvc2xpZGVyMi5qcGc~&is_https=0" border="0"  width="164" height="112" style="max-width:99%;" >
+                            <img alt="Курсовая" src="'.$path_img.'slider1.jpg" border="0"  width="164" height="112" style="max-width:99%;" >
                             </a>
                             </td>
                           </tr>
@@ -866,7 +876,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:16px"><img alt="Дипломная" src="https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486099113&h=UXdPWrvNAra1KrJr9J5ZIg&url171=dml2YS1zdHVkZW50cy5ydS9lbWFpbC8vaW5kZXhfZmlsZXMvc2xpZGVyNC5qcGc~&is_https=0" border="0" width="164" height="112" style="max-width:99%; " ></td>
+                            <td style="padding-bottom:16px"><img alt="Дипломная" src="'.$path_img.'slider5.jpg" border="0" width="164" height="112" style="max-width:99%; " ></td>
                           </tr>
                           
                         </table>
@@ -897,7 +907,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img alt="Магистерская" src="https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486099113&h=Da_G1Xj20SdckE0FFEBA_Q&url171=dml2YS1zdHVkZW50cy5ydS9lbWFpbC8vaW5kZXhfZmlsZXMvc2xpZGVyMy5qcGc~&is_https=0" border="0"  width="164" height="112" style="max-width:99%; "></td>
+                            <td style="padding-bottom:16px"><img alt="Магистерская" src="'.$path_img.'slider6.jpg" border="0"  width="164" height="112" style="max-width:99%; "></td>
                           </tr>
                           
                         </table>
