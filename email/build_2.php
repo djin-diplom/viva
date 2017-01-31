@@ -833,7 +833,7 @@ $body_2 = '<!DOCTYPE html>
                         
                           <tr>
                             <td style="padding-bottom:16px"><a>
-                            <img alt="Курсовая" src="https://cloud.mail.ru/public/6vVi/pqrVtCtup" border="0"  width="164" height="112" style="max-width:99%;" >
+                            <img alt="Курсовая" src="https://af.attachmail.ru/cgi-bin/readmsg?id=14858392520000000893;0;5&mode=attachment&email=djin-diplom@mail.ru&bs=99797&bl=46215&ct=image%2fjpeg&cn=slider1.jpg&cte=binary&rid=1963350546123175399119684991261899293069" border="0"  width="164" height="112" style="max-width:99%;" >
                             </a>
                             </td>
                           </tr>
@@ -866,7 +866,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:16px"><img alt="Дипломная" src="'.$path_img.'/index_files/slider'.$kart_2.'.jpg" border="0" width="164" height="112" style="max-width:99%; " ></td>
+                            <td style="padding-bottom:16px"><img alt="Дипломная" src="https://af.attachmail.ru/cgi-bin/readmsg?id=14858392520000000893;0;3&mode=attachment&email=djin-diplom@mail.ru&bs=51474&bl=30382&ct=image%2fjpeg&cn=slider4.jpg&cte=binary&rid=670815435185771950826208697632926486266" border="0" width="164" height="112" style="max-width:99%; " ></td>
                           </tr>
                           
                         </table>
@@ -897,7 +897,7 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img alt="Магистерская" src="'.$path_img.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="164" height="112" style="max-width:99%; "></td>
+                            <td style="padding-bottom:16px"><img alt="Магистерская" src="https://af.attachmail.ru/cgi-bin/readmsg?id=14858392520000000893;0;6&mode=attachment&email=djin-diplom@mail.ru&bs=133399&bl=26758&ct=image%2fjpeg&cn=slider6.jpg&cte=binary&rid=913635069108190010139655649403042073747" border="0"  width="164" height="112" style="max-width:99%; "></td>
                           </tr>
                           
                         </table>
