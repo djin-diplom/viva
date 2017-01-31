@@ -832,9 +832,8 @@ $body_2 = '<!DOCTYPE html>
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><a>
+                            <td style="padding-bottom:16px">
                             <img alt="Курсовая" src="'.$path_img.'/index_files/slider'.$kart_1.'.jpg"  >
-                            </a>
                             </td>
                           </tr>
                         </table>
