@@ -833,7 +833,7 @@ $body_2 = '<!DOCTYPE html>
                         
                           <tr>
                             <td style="padding-bottom:16px"><a>
-                            <img alt="Курсовая" src="'.$path_img.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="164" height="112"; ">
+                            <img alt="Курсовая" src="'.$path_img.'/index_files/slider'.$kart_1.'.jpg"  >
                             </a>
                             </td>
                           </tr>
