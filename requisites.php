@@ -39,7 +39,7 @@ $main_name_temp = $main_name;
 
 if (@$town == 'kazan') {
     $main_name = "Kazan.".$main_name;
-    $site_name = $main_name;
+    $site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -66,7 +66,7 @@ if (@$town == 'kazan') {
 
 if (@$town == 'moscow') {
     $main_name = "Moscow.".$main_name;
-    $site_name = $main_name;
+    $site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -93,7 +93,7 @@ if (@$town == 'moscow') {
 
 if (@$town == 'novosibirsk') {
     $main_name = "Novosibirsk.".$main_name;
-    $site_name = $main_name;
+    $site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -120,7 +120,7 @@ if (@$town == 'novosibirsk') {
 
 if (@$town == 'ufa') {
     $main_name = "Ufa.".$main_name;
-    $site_name = $main_name;
+    $site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
