@@ -208,15 +208,19 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	</tr>
 	<tr>
 		<td style="padding:0px">
-			<table style="width:100%;height:317px;text-align:center;border-collapse:separate;background:url(<?php echo $path_img; ?>index_files/unnamed.png) no-repeat;line-height:normal">
-				<tbody><tr>
+			<table style="width:100%;height:100px;text-align:center;border-collapse:separate;background-color: #F0F0F0;line-height:normal">
+				<tbody>
+				<tr>
+					<img alt="Стоимость и срок" src="index_files/unnamed_2.png">
+				</tr>
+				<tr>
 					<td style="width:50%">
-						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:130px">
+						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:0px">
 							СТОИМОСТЬ РАБОТЫ
 						</div>
 					</td>
 					<td style="width:50%">
-						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:130px">СРОК ВЫПОЛНЕНИЯ</div>
+						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:0px">СРОК ВЫПОЛНЕНИЯ</div>
 					</td>
 				</tr>
 				<tr>
