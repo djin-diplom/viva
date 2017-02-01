@@ -211,7 +211,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<table style="width:100%;height:100px;text-align:center;border-collapse:separate;background-color: #F0F0F0;line-height:normal">
 				<tbody>
 				<tr>
-					<img alt="Стоимость и срок" src="index_files/unnamed_2.png">
+					<img alt="Стоимость и срок" src="<?php echo $path_img; ?>index_files/unnamed_2.png">
 				</tr>
 				<tr>
 					<td style="width:50%">
