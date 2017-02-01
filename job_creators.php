@@ -6,10 +6,10 @@ $count_text = 32;
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Для авторов</title>
+	<title>Авторы</title>
 
-	<meta name="description" content="Для авторов">
-	<meta name="keywords" content="Для авторов">
+	<meta name="description" content="Для авторов <?php echo $site_name;?>">
+	<meta name="keywords" content="Для авторов <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
@@ -28,8 +28,9 @@ require("header.php");
 		require("calc2.php");
 		?>
 		<div>
-
-<h1>Мы приглашаем Вас к сотрудничеству!</h1>В любых видах работ и объемах, устраивающих Вас.<br>
+<h1>Авторы</h1>
+<h2><?php echo $site_name;?> приглашает Вас к сотрудничеству!</h2>
+			В любых видах работ и объемах, устраивающих Вас.<br>
 			Во время сотрудничества все Ваши требования по соблюдению конфиденциальности,
 			если таковые имеются, гарантированно строго выполняются.<br>
 			Мы ценим Ваше время и квалификацию, отдаваемые нашим с Вами клиентам,

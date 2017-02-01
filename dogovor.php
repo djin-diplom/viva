@@ -9,8 +9,8 @@ $count_text = 25;
 
 	<title>Договор</title>
 
-	<meta name="description" content="Договор">
-	<meta name="keywords" content="Договор">
+	<meta name="description" content="Договор <?php echo $site_name;?>">
+	<meta name="keywords" content="Договор <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
@@ -26,7 +26,7 @@ require("header.php");
 
 <div class="v-root-terms">
 	<h1>Договор</h1>
-	<h2>Услoвия  соoглашения по oказанию вoзмездных услуг мeжду Зaказчиком и Испoлнителем</h2>
+	<h2>Услoвия  соoглашения по oказанию вoзмездных услуг мeжду Зaказчиком и <?php echo $site_name;?></h2>
 
 	<h4>1.	Предмет Договора</h4>
 	<p class="text">

@@ -9,8 +9,8 @@ $count_text = 58;
 
 	<title>Стоимость</title>
 
-	<meta name="description" content="Стоимость работ">
-	<meta name="keywords" content="Стоимость работ">
+	<meta name="description" content="Стоимость работ <?php echo $site_name;?>">
+	<meta name="keywords" content="Стоимость работ <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
@@ -122,7 +122,7 @@ require("header.php");
 			<td>от <b>900</b> руб.</td>
 		</tr>
 		<tr>
-			<td><b>Другие работы</b></td>
+			<td><b>Другие работы <?php echo $site_name;?></b></td>
 			<td>от 3 дней</td>
 			<td>–</td>
 			<td>обсуждается</td>

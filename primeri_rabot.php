@@ -13,8 +13,8 @@ $count_text = 1;
 
 	<title>Примеры</title>
 
-	<meta name="description" content="Смотреть примеры магистерских, дипломных, курсовых">
-	<meta name="keywords" content="Смотреть примеры магистерских, дипломных, курсовых">
+	<meta name="description" content="Смотреть примеры магистерских, дипломных, курсовых <?php echo $site_name;?>">
+	<meta name="keywords" content="Смотреть примеры магистерских, дипломных, курсовых <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
@@ -38,7 +38,7 @@ require("header.php");
 				$name_rab = $count % 11;
 				switch ($name_rab) {
 					case 0:
-						$name_rab_text = "выпускной работы";
+						$name_rab_text = "выпускной работы от ".$site_name." ";
 						break;
 					case 1:
 						$name_rab_text = "дипломной работы";

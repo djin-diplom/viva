@@ -4,7 +4,7 @@
 
 //Выбор title
 
-$title_let_case = rand(11,12);
+$title_let_case = rand(11,14);
 
 switch ($title_let_case) {
     case 1:
@@ -38,10 +38,16 @@ switch ($title_let_case) {
         $title_let = "Наш учебный центр приветствует Вас!";
         break;
     case 11:
-        $title_let = $vid_rab." без предоплаты за ".$pay." со скидкой от ";
+        $title_let = $vid_rab." без предоплаты за ".$pay.", со скидкой от ";
         break;
     case 12:
-        $title_let = $vid_rab." по акции за ".$pay." часть бесплатно от ";
+        $title_let = $vid_rab." по акции за ".$pay.", часть бесплатно от ";
+        break;
+    case 13:
+        $title_let = $vid_rab." часть бесплатно за ".$pay." со скидкой, ";
+        break;
+    case 14:
+        $title_let = $vid_rab." по акции за ".$pay.", никакой предоплаты, ";
         break;
 
 
@@ -88,11 +94,11 @@ switch ($vibor_let_case) {
         break;
     case 12:
         $chislo = rand(12345,23456);
-        $vibor_let = 'При заказе используйте промокод ip'.$chislo.'h';
+        $vibor_let = 'Используйте скидочный промокод IT'.$chislo.'R';
         break;
     case 13:
         $chislo = rand(12345,23456);
-        $vibor_let = 'Ваш персональный промокод ip'.$chislo.'h';
+        $vibor_let = 'Назовите код IT'.$chislo.'R и получите скидку';
         break;
 
 
@@ -135,10 +141,10 @@ switch ($vibor_akc_case) {
         $vibor_akc = 'Напишем работу на заказ со скидкой 20%!';
         break;
     case 11:
-        $vibor_akc = 'Возможно выполнение без предоплаты!';
+        $vibor_akc = 'Возможно сделать заказ без предоплаты!';
         break;
     case 12:
-        $vibor_akc = 'Можем прислать часть бесплатно!';
+        $vibor_akc = 'Можем сделать часть работы бесплатно!';
         break;
 
 }
@@ -151,7 +157,7 @@ $sut_mag = rand(11,14);
 
 //Выбор бесплатного присылания
 
-$vibor_pris_case = rand(11,12);
+$vibor_pris_case = rand(11,13);
 
 switch ($vibor_pris_case) {
     case 1:
@@ -192,6 +198,10 @@ switch ($vibor_pris_case) {
         $vibor_pris = ' выполняет работы точно в срок. Оформляем заказы 
         официально по договору публичной оферты, подтверждаем оплату чеком.';
         break;
+    case 13:
+        $vibor_pris = ' зарегирирована в реестре компаний Российской Федерации. Мы заключаем с 
+        Заказчиками договор. Выдаем чек оплаты. Работу выполняют специалисты. ';
+        break;
 
 
 }
@@ -199,7 +209,7 @@ switch ($vibor_pris_case) {
 
 //Текст курсовой
 
-$text_kurs_case = rand(11,12);
+$text_kurs_case = rand(11,13);
 
 switch ($text_kurs_case) {
     case 1:
@@ -269,12 +279,15 @@ switch ($text_kurs_case) {
     case 12:
         $text_kurs = 'Предоставляем гарантию 2 месяца на все работы. Работаем по указанию Заказчика.';
         break;
+    case 13:
+        $text_kurs = 'Мы выполняем курсовые работы по методическим указаниям Заказчика, даем гарантии.';
+        break;
 
 }
 
 //Текст дипломной
 
-$text_dip_case = rand(11,12);
+$text_dip_case = rand(11,13);
 
 switch ($text_dip_case) {
     case 1:
@@ -351,12 +364,15 @@ switch ($text_dip_case) {
     case 12:
         $text_dip = 'Исправим бесплатно работу. Ознакомим с примерами текстов без предоплаты.';
         break;
+    case 13:
+        $text_dip = 'Мы доводим дипломные до успешной сдачи. Предоставляем примеры дипломов авторов.';
+        break;
 
 }
 
 //Текст магистерской
 
-$text_mag_case = rand(11,12);
+$text_mag_case = rand(11,13);
 
 switch ($text_mag_case) {
     case 1:
@@ -431,12 +447,15 @@ switch ($text_mag_case) {
     case 12:
         $text_mag = 'Этапы выполнения в личном кабинете! Предоставим реквизиты центра "База знаний"!';
         break;
+    case 13:
+        $text_mag = 'Мы открываем удобный личный кабинет, чтобы следить за этапами выполнения магистерской.';
+        break;
 
 }
 
 //Выбор Скидки
 
-$vibor_filial_case = rand(11,12);
+$vibor_filial_case = rand(11,13);
 
 switch ($vibor_filial_case) {
     case 1:
@@ -477,6 +496,9 @@ switch ($vibor_filial_case) {
     case 12:
         $vibor_filial = 'Наши офисы есть в крупнейших городах РФ.';
         break;
+    case 13:
+        $vibor_filial = 'Можно сделать заказ в офисах 5 городов РФ.';
+        break;
 
 
 }
@@ -484,7 +506,7 @@ switch ($vibor_filial_case) {
 
 //Выбор низа
 
-$vibor_niz_case = rand(11,12);
+$vibor_niz_case = 3;
 
 switch ($vibor_niz_case) {
     case 1:
@@ -649,18 +671,28 @@ switch ($vibor_niz_case) {
         break;
     case 12:
         $chislo = rand(15, 40);
-        $vibor_niz = '<br>Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
-Корректировки по замечаниям руководителя бесплатны.<br>
-				Мы можем заключить с Вами индивидуальный договор.<br>
-				Мы сделали более '.$chislo.' тыс. работ.<br>
-				Мы работаем официально по договору публичной оферты.<br>
-				Мы можем прислать Вам чек об оплате заказа.<br>
-				Мы будем выполнять работу по Вашим указаниям.<br>
-				Гарантия на работу два месяца.<br>';
+        $vibor_niz = '<br>
+        '.$title_let.'<br>
+        '.$vibor_let.'<br>
+        '.$vibor_akc.'<br>
+        '.$vibor_pris.'<br>
+        '.$text_kurs.'<br>
+        '.$text_dip.'<br>
+        '.$text_mag.'<br>
+        '.$vibor_filial.'<br>
+        <br>';
         break;
-    
-
 }
+$vibor_niz = '<br>
+        '.$title_let.$site_name.'<br>
+        '.$vibor_let.'<br>
+        '.$vibor_akc.'<br>
+        '.$vibor_pris.'<br>
+        '.$text_kurs.'<br>
+        '.$text_dip.'<br>
+        '.$text_mag.'<br>
+        '.$vibor_filial.'<br>
+        <br>';
 
 
 $style_1 = rand(3234, 2343).'adfdpt';

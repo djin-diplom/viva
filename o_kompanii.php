@@ -9,8 +9,8 @@ $count_text = 38;
 
 	<title>О компании</title>
 
-	<meta name="description" content="Наша компания">
-	<meta name="keywords" content="Наша компания">
+	<meta name="description" content="Наша компания <?php echo $site_name;?>">
+	<meta name="keywords" content="Наша компания <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");

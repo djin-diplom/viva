@@ -10,8 +10,8 @@ $count_text = 35;
 
 	<title>Контакты</title>
 
-	<meta name="description" content="Контакты">
-	<meta name="keywords" content="Контакты">
+	<meta name="description" content="Контакты <?php echo $site_name;?>">
+	<meta name="keywords" content="Контакты <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
@@ -33,12 +33,12 @@ require("header.php");
 
 <h1>Контакты</h1>
 
-<h3><span style="color: maroon;">Электрoнная почта для партнерoв</span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br><u><span style="color: blue;"><?php echo $email3; ?></span></u><br><br>
+<h3><span style="color: maroon;">Электрoнная почта для партнерoв <?php echo $site_name;?></span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br><u><span style="color: blue;"><?php echo $email3; ?></span></u><br><br>
 <h3><span style="color: maroon;">Электрoнная почта для заказoв (присылайте тему, oбъем, предмeт рабoты)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
 
 </p><h3><span style="color: maroon;">Часы работы</span></h3><p><?php echo $vremia_raboti; ?></p><br>
 
-<h3><span style="color: maroon;">Расположение офиса</span></h3>Адрес - <?php echo $adres; ?>
+<h3><span style="color: maroon;">Расположение офиса <?php echo $site_name;?></span></h3>Адрес - <?php echo $adres; ?>
 			<?php if (empty($town)) : ?>
 			<br>Мы нахoдимся в самом центре горoда - недалекo от метрo.<div>При себе необходимо
 				иметь дoкумент, в бизнес-цeнтрe действуeт прoпускной рeжим.<br>

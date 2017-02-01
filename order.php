@@ -10,8 +10,8 @@ $count_text = 41;
 
 	<title>Заказать работу</title>
 
-	<meta name="description" content="Заказать работу">
-	<meta name="keywords" content="Заказать работу">
+	<meta name="description" content="Заказать работу в <?php echo $site_name;?>">
+	<meta name="keywords" content="Заказать работу в <?php echo $site_name;?>">
 
     <?php
     require("head_1.php");
@@ -31,8 +31,8 @@ require("header.php");
         ?>
         <div>
 
-<h1>Заказать рабoту</h1>Сделайте запрoс или узнайте об услуге подрoбнее, заполнив фoрму.&nbsp;<br>
-            Не зaбудьте указать Ваши контактные данные, чтoбы мы мoгли oперативно с Вaми связаться.<br>
+<h1>Заказать работу</h1>Сделайте запрос или узнайте об услуге <?php echo $site_name;?> подробнее, заполнив форму.&nbsp;<br>
+            Не зaбудьте указать Ваши контактные данные, чтобы мы могли оперативно с Вами связаться.<br>
 
 <style>
 	form#request_form { width: 75%; }

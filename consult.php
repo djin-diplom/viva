@@ -9,8 +9,8 @@ $count_text = 15;
 
 	<title>Отзывы</title>
 
-	<meta name="description" content="Отзывы">
-	<meta name="keywords" content="Отзывы">
+	<meta name="description" content="Отзывы <?php echo $site_name;?>">
+	<meta name="keywords" content="Отзывы <?php echo $site_name;?>">
 
 	<?php
 	require("head_1.php");
