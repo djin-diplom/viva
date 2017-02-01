@@ -1,6 +1,25 @@
 <?php
 
 
+//Выбор названия сайта
+$per_site = rand(1, 6);
+
+switch ($per_site){
+    case 1: $site_name = $site_name;
+        break;
+    case 2: $site_name = $site_name_2;
+        break;
+    case 3: $site_name = $site_name_3;
+        break;
+    case 4: $site_name = $site_name_4;
+        break;
+    case 5: $site_name = $site_name_5;
+        break;
+    case 6: $site_name = $site_name_6;
+        break;
+
+}
+
 
 //Выбор title
 
@@ -362,7 +381,7 @@ switch ($text_dip_case) {
         $text_dip = 'Мы пришлем бесплатно примеры работ. Корректировки по Вашим замечаниям бесплатны.';
         break;
     case 12:
-        $text_dip = 'Исправим бесплатно работу. Ознакомим с примерами текстов без предоплаты.';
+        $text_dip = 'Исправим бесплатно работу. Ознакомим с примерами дипломных работ без предоплаты.';
         break;
     case 13:
         $text_dip = 'Мы доводим дипломные до успешной сдачи. Предоставляем примеры дипломов авторов.';
@@ -687,7 +706,7 @@ $vibor_niz = '<br>
         '.$title_let.$site_name.'<br>
         '.$vibor_let.'<br>
         '.$vibor_akc.'<br>
-        '.$vibor_pris.'<br>
+        '.$site_name.$vibor_pris.'<br>
         '.$text_kurs.'<br>
         '.$text_dip.'<br>
         '.$text_mag.'<br>
@@ -915,7 +934,7 @@ $body_2 = '<!DOCTYPE html>
                         </table>
                         
                         <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">От '.$sut_kurs.' суток<br>
-                          '.$name.'! '.$text_kurs.'
+                          '.$name.'!<br>'.$text_kurs.'
                           
                           
                         </div>
@@ -946,7 +965,7 @@ $body_2 = '<!DOCTYPE html>
                           </tr>
                         </table>
                         <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">От '.$sut_dip.' суток<br>
-                          '.$name.'! '.$text_dip.'
+                          '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
                                                  
@@ -978,7 +997,7 @@ $body_2 = '<!DOCTYPE html>
                           
                         </table>
                         <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">От '.$sut_mag.' суток<br>
-                          '.$name.'!  '.$text_mag.'
+                          '.$name.'!<br>'.$text_mag.'
                         </div>
                         <br>
                         
@@ -994,7 +1013,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Заказать здесь!</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', закажи!</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1020,7 +1039,7 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios23'.$style_1.'foot434">
-              '.$name.'! Отказ от получения писем <a href="'.$site_url.'otpiska.php" >здесь</a>.<br>
+              '.$name.'! Вот <a href="'.$site_url.'otpiska.php" >отписка</a>.<br>
             </span>
 
             © 2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
