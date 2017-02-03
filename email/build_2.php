@@ -23,7 +23,7 @@ switch ($per_site){
 
 //Выбор title
 
-$title_let_case = rand(11,14);
+$title_let_case = rand(11,15);
 
 switch ($title_let_case) {
     case 1:
@@ -68,6 +68,9 @@ switch ($title_let_case) {
     case 14:
         $title_let = $vid_rab." по акции за ".$pay.", никакой предоплаты, ";
         break;
+    case 15:
+        $title_let = $vid_rab." за ".$pay.", пришлем часть бесплатно, образовательный центр";
+        break;
 
 
 }
@@ -75,7 +78,7 @@ switch ($title_let_case) {
 
 //Выбор Выполнение по низкой цене
 
-$vibor_let_case = rand(12,13);
+$vibor_let_case = rand(14,15);
 
 switch ($vibor_let_case) {
     case 1:
@@ -119,6 +122,14 @@ switch ($vibor_let_case) {
         $chislo = rand(12345,23456);
         $vibor_let = 'Назовите код IT'.$chislo.'R и получите скидку';
         break;
+    case 14:
+        $chislo = rand(12345,23456);
+        $vibor_let = 'Подберем автора под Ваши возможности.';
+        break;
+    case 15:
+        $chislo = rand(12345,23456);
+        $vibor_let = 'Найдем исполнителя по Вашим средствам.';
+        break;
 
 
 }
@@ -126,7 +137,7 @@ switch ($vibor_let_case) {
 
 //Выбор Скидки
 
-$vibor_akc_case = rand(11,12);
+$vibor_akc_case = rand(11,13);
 
 switch ($vibor_akc_case) {
     case 1:
@@ -160,10 +171,13 @@ switch ($vibor_akc_case) {
         $vibor_akc = 'Напишем работу на заказ со скидкой 20%!';
         break;
     case 11:
-        $vibor_akc = 'Возможно сделать заказ без предоплаты!';
+        $vibor_akc = 'Возможно сделать заказ без предоплаты.';
         break;
     case 12:
-        $vibor_akc = 'Можем сделать часть работы бесплатно!';
+        $vibor_akc = 'Можем сделать часть работы бесплатно.';
+        break;
+    case 13:
+        $vibor_akc = 'Работаем без предоплаты, скидки до 20%.';
         break;
 
 }
@@ -474,7 +488,7 @@ switch ($text_mag_case) {
 
 //Выбор Скидки
 
-$vibor_filial_case = rand(11,13);
+$vibor_filial_case = rand(11,14);
 
 switch ($vibor_filial_case) {
     case 1:
@@ -518,6 +532,9 @@ switch ($vibor_filial_case) {
     case 13:
         $vibor_filial = 'Можно сделать заказ в офисах 5 городов РФ.';
         break;
+    case 14:
+        $vibor_filial = 'Филиалы в Москве и крупных городах России.';
+        break;
 
 
 }
@@ -525,7 +542,7 @@ switch ($vibor_filial_case) {
 
 //Выбор низа
 
-$vibor_niz_case = 3;
+$vibor_niz_case = rand(1, 12);
 
 switch ($vibor_niz_case) {
     case 1:
@@ -689,20 +706,7 @@ switch ($vibor_niz_case) {
 				Гарантия на работу два месяца.<br>';
         break;
     case 12:
-        $chislo = rand(15, 40);
         $vibor_niz = '<br>
-        '.$title_let.'<br>
-        '.$vibor_let.'<br>
-        '.$vibor_akc.'<br>
-        '.$vibor_pris.'<br>
-        '.$text_kurs.'<br>
-        '.$text_dip.'<br>
-        '.$text_mag.'<br>
-        '.$vibor_filial.'<br>
-        <br>';
-        break;
-}
-$vibor_niz = '<br>
         '.$title_let.$site_name.'<br>
         '.$vibor_let.'<br>
         '.$vibor_akc.'<br>
@@ -712,6 +716,9 @@ $vibor_niz = '<br>
         '.$text_mag.'<br>
         '.$vibor_filial.'<br>
         <br>';
+        break;
+}
+
 
 
 $style_1 = rand(3234, 2343).'adfdpt';
@@ -882,7 +889,7 @@ $body_2 = '<!DOCTYPE html>
       <table border="0" width="609" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:609px;max-width:598px">
         <tr>
           <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <span style="color: green;">'.$name.'! '.$vid_rab.' по акции от '.$pay.'!</span><br>
+                  <span style="color: green;">'.$name.'! '.$vid_rab.' по цене '.$pay.' рублей.</span><br>
             '.$vibor_let.'
                  <br><span style="color: green;">'.$vibor_akc.'</span><br>
             
@@ -902,7 +909,7 @@ $body_2 = '<!DOCTYPE html>
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
-                  <a href="'.$site_url.'order.php" >Сделать закaз</a>!</div>
+                  <a href="'.$site_url.'order.php" >Сделать закaз</a></div>
                 </td>
                 
               </tr>
@@ -1013,7 +1020,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.', закажи!</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', заказ работы тут</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1042,7 +1049,7 @@ $body_2 = '<!DOCTYPE html>
               '.$name.'! Вот <a href="'.$site_url.'otpiska.php" >отписка</a>.<br>
             </span>
 
-            © 2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
+            © 2009-2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
 
