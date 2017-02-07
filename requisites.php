@@ -11,7 +11,7 @@ $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
 
-    $site_name = 'Вива-Студентс.ру';
+    $site_name = 'Viva-students.ru';
 $site_name_2 = 'www.Viva-students.ru';
 $site_name_3 = 'Вива-Студентс-ру';
 $site_name_4 = 'Вива-Студентс.ру';
