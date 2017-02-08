@@ -12,11 +12,11 @@ $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
 
     $site_name = 'Viva-students.ru';
-$site_name_2 = 'www.viva-students.ru';
+$site_name_2 = 'Вива-студентс.ру';
 $site_name_3 = 'Вива-Студентс-ру';
 $site_name_4 = 'Вива-Студентс.ру';
 $site_name_5 = 'Viva-students.ru';
-$site_name_6 = 'Viva-students.ru';
+$site_name_6 = 'Вива-Студентс-ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";

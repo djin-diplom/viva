@@ -251,7 +251,7 @@ switch ($text_kurs_case) {
         break;
     case 3:
         $text_kurs = 'Написание курсовой - это квалификационная работа студента любого ВУЗа, и поэтому весь процесс надо спланировать
-                          и продумать заранее так, чтобы потом не было больно за бесцельно неучтенные моменты.
+                          и продумать заранее так, чтобы потом не было больно за неучтенные моменты.
                           ';
         break;
     case 4:
@@ -976,7 +976,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.', закажите здесь</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', заказ тут</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1002,7 +1002,7 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios23'.$style_1.'foot434">
-              '.$name.'! Вот <a href="'.$site_url.'otpiska.php" >отписка</a>.<br>
+              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписаться тут</a>.<br>
             </span>
 
             © 2009-2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
