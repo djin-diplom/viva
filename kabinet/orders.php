@@ -216,27 +216,36 @@ require ("kab_header.php");
 
 			<div class="<?php if ($client_predoplata == 0) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 				<div class="amount-text">Цена без предоплаты</div>
-				<div class="<?php if ($client_predoplata == 0) echo 'amount'; else echo 'amount column'; ?>">
-					<?php $zakaz_cena_yand = $zakaz_cena;
-					echo (int)$zakaz_cena_yand; ?>
+				<div class="<?php if ($client_predoplata == 0) {
+					$zakaz_cena_yand = $zakaz_cena;
+					echo 'amount';
+				} else echo 'amount column'; ?>">
+					<?php
+					echo (int)$zakaz_cena; ?>
 					<span class="rouble">p</span>
 </div>
 				<div class="splitter"></div>
 			</div>
 	<div class="<?php if ($client_predoplata == 1) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 		<div class="amount-text">Цена с предоплатой 50%</div>
-		<div class="<?php if ($client_predoplata == 1) echo 'amount'; else echo 'amount column'; ?>">
-			<?php $zakaz_cena_yand = $zakaz_cena*0.9;
-			echo (int)$zakaz_cena_yand; ?>
+		<div class="<?php if ($client_predoplata == 1) {
+			$zakaz_cena_yand = $zakaz_cena*0.9;
+			echo 'amount';
+		} else echo 'amount column'; ?>">
+			<?php
+			echo (int)($zakaz_cena*0.9); ?>
 			<span class="rouble">p</span>
 		</div>
 		<div class="splitter"></div>
 	</div>
 	<div class="<?php if ($client_predoplata == 2) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 		<div class="amount-text">Цена с полной предоплатой</div>
-		<div class="<?php if ($client_predoplata == 2) echo 'amount'; else echo 'amount column'; ?>">
-			<?php $zakaz_cena_yand = $zakaz_cena*0.8;
-			echo (int)$zakaz_cena_yand; ?>
+		<div class="<?php if ($client_predoplata == 2) {
+			$zakaz_cena_yand = $zakaz_cena*0.8;
+		echo 'amount';
+		} else echo 'amount column'; ?>">
+			<?php
+			echo (int)($zakaz_cena*0.8); ?>
 			<span class="rouble">p</span>
 		</div>
 		<div class="splitter"></div>
