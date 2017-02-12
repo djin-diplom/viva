@@ -217,21 +217,27 @@ require ("kab_header.php");
 			<div class="<?php if ($client_predoplata == 0) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 				<div class="amount-text">Цена без предоплаты</div>
 				<div class="<?php if ($client_predoplata == 0) echo 'amount'; else echo 'amount column'; ?>">
-					<?php echo (int)$zakaz_cena; ?><span class="rouble">p</span>
+					<?php $zakaz_cena_yand = $zakaz_cena;
+					echo (int)$zakaz_cena_yand; ?>
+					<span class="rouble">p</span>
 </div>
 				<div class="splitter"></div>
 			</div>
 	<div class="<?php if ($client_predoplata == 1) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 		<div class="amount-text">Цена с предоплатой 50%</div>
 		<div class="<?php if ($client_predoplata == 1) echo 'amount'; else echo 'amount column'; ?>">
-			<?php echo (int)($zakaz_cena*0.9); ?><span class="rouble">p</span>
+			<?php $zakaz_cena_yand = $zakaz_cena*0.9;
+			echo (int)$zakaz_cena_yand; ?>
+			<span class="rouble">p</span>
 		</div>
 		<div class="splitter"></div>
 	</div>
 	<div class="<?php if ($client_predoplata == 2) echo 'amount-line price-amount'; else echo 'full-price'; ?>">
 		<div class="amount-text">Цена с полной предоплатой</div>
 		<div class="<?php if ($client_predoplata == 2) echo 'amount'; else echo 'amount column'; ?>">
-			<?php echo (int)($zakaz_cena*0.8); ?><span class="rouble">p</span>
+			<?php $zakaz_cena_yand = $zakaz_cena*0.8;
+			echo (int)$zakaz_cena_yand; ?>
+			<span class="rouble">p</span>
 		</div>
 		<div class="splitter"></div>
 	</div>
@@ -240,7 +246,7 @@ require ("kab_header.php");
 					Акция до <span title="17 октября 2016 г."><?php echo $zakaz_akcia; ?></span>
 				</div>
 			<div class="payment-wrapper">
-				<a href="<?php echo $url_oplata; ?>" class="button" data-name="payment">
+				<a href="<?php echo $url_oplata."/".$zakaz_cena_yand; ?>" class="button" data-name="payment">
 					<?php if ($balance == 0): ?>Оплатить заказ<?php elseif ($balance < $zakaz_cena): ?> В работе, доплатить<?php else: ?> В работе <?php endif ?><svg role="img" class="icon"><use xlink:href="#icon-next-arrow"></use></svg> </a>
 			</div>
 </div></div>
