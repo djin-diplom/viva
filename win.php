@@ -6,6 +6,6 @@
 			<?php } ?>
 			<?php if(isset($emailSent) && $emailSent == true) { //Если письмо отправленл ?>
 			<p style="color: #e94500;font-size: 19px;"><strong>Email успешно отправлен!</strong></p>
-			<p  style="font-size: 17px;"><strong><?php echo $name;?></strong>, спасибо за использование контактной формы! Мы свяжемся с Вами в кратчайшие сроки.</p>
+			<p  style="font-size: 17px;"><strong><?php echo $name;?></strong>, спасибо за использование контактной формы! На Вашу почту в течение часа придет письмо с оценкой работы.</p>
 			<?php } ?><br>
 			
