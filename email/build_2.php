@@ -23,7 +23,7 @@ switch ($per_site){
 
 //Выбор title
 
-$title_let_case = rand(1,15);
+$title_let_case = rand(1,16);
 
 switch ($title_let_case) {
     case 1:
@@ -72,6 +72,9 @@ switch ($title_let_case) {
     case 15:
         $title_let = $vid_rab." за ".$pay.", доставим часть без предоплаты, учебный центр ";
         break;
+    case 16:
+        $title_let = $vid_rab." за ".$pay.", часть материалов бесплатно от ";
+        break;
 
 
 }
@@ -79,7 +82,7 @@ switch ($title_let_case) {
 
 //Выбор Выполнение по низкой цене
 
-$vibor_let_case = rand(1,13);
+$vibor_let_case = rand(1,14);
 
 switch ($vibor_let_case) {
     case 1:
@@ -116,16 +119,20 @@ switch ($vibor_let_case) {
         $vibor_let = 'Назовите код IT'.$chislo.'R и получите скидку';
         break;
     case 11:
-        $chislo = rand(12345,23456);
+
         $vibor_let = 'Подберем автора под Ваши возможности.';
         break;
     case 12:
-        $chislo = rand(12345,23456);
+
         $vibor_let = 'Найдем исполнителя по Вашим средствам.';
         break;
     case 13:
-        $chislo = rand(12345,23456);
+
         $vibor_let = 'Вы назначаете цену сами, мы выполняем.';
+        break;
+    case 14:
+
+        $vibor_let = 'Найдем автора по выбранной Вами цене.';
         break;
 
 
@@ -134,7 +141,7 @@ switch ($vibor_let_case) {
 
 //Выбор Скидки
 
-$vibor_akc_case = rand(1,14);
+$vibor_akc_case = rand(1,15);
 
 switch ($vibor_akc_case) {
     case 1:
@@ -179,6 +186,9 @@ switch ($vibor_akc_case) {
     case 14:
         $vibor_akc = 'Получите часть работы без всякой оплаты.';
         break;
+    case 15:
+        $vibor_akc = 'Бесплатно предоставим часть материалов.';
+        break;
 
 }
 
@@ -190,7 +200,7 @@ $sut_mag = rand(11,14);
 
 //Выбор бесплатного присылания
 
-$vibor_pris_case = rand(1,11);
+$vibor_pris_case = rand(1,12);
 
 switch ($vibor_pris_case) {
     case 1:
@@ -230,6 +240,10 @@ switch ($vibor_pris_case) {
         $vibor_pris = ' зарегирирована в реестре компаний Российской Федерации. Мы заключаем с 
         Заказчиками договор. Выдаем чек оплаты. Работу выполняют специалисты. ';
         break;
+    case 12:
+        $vibor_pris = ' официально работает с 2009 года.  Возможно заключение договора. В компании
+         есть экспертный отдел, который проверяет работы перед отправкой Заказчику.';
+        break;
 
 
 }
@@ -237,7 +251,7 @@ switch ($vibor_pris_case) {
 
 //Текст курсовой
 
-$text_kurs_case = rand(1,13);
+$text_kurs_case = rand(1,14);
 
 switch ($text_kurs_case) {
     case 1:
@@ -300,12 +314,16 @@ switch ($text_kurs_case) {
         $text_kurs = 'Мы выполняем курсовые работы по методическим указаниям Заказчика, даем гарантии.
         ';
         break;
+    case 14:
+        $text_kurs = 'Курсовые работы выполняются аспирантами, преподавателями, проверяются в нашем экспертном отделе.
+        ';
+        break;
 
 }
 
 //Текст дипломной
 
-$text_dip_case = rand(1,13);
+$text_dip_case = rand(1,14);
 
 switch ($text_dip_case) {
     case 1:
@@ -369,12 +387,16 @@ switch ($text_dip_case) {
         $text_dip = 'Мы доводим дипломные до успешной сдачи. Предоставляем примеры дипломов авторов.
         ';
         break;
+    case 14:
+        $text_dip = 'Дипломные работы выполняются только квалифицированными специалистами. Строгий контроль уровня уникальности.
+        ';
+        break;
 
 }
 
 //Текст магистерской
 
-$text_mag_case = rand(1,13);
+$text_mag_case = rand(1,14);
 
 switch ($text_mag_case) {
     case 1:
@@ -441,12 +463,17 @@ switch ($text_mag_case) {
         $text_mag = 'Мы открываем удобный личный кабинет, чтобы следить за этапами выполнения магистерской.
         ';
         break;
+    case 14:
+        $text_mag = 'Следить за выполнением магистерской диссертации можно через личный кабинет.
+        Мы оперативно уведомляем Заказчика о всех этапах выполнения работы.
+        ';
+        break;
 
 }
 
 //Выбор Скидки
 
-$vibor_filial_case = rand(1,13);
+$vibor_filial_case = rand(1,14);
 
 switch ($vibor_filial_case) {
     case 1:
@@ -491,6 +518,9 @@ switch ($vibor_filial_case) {
     case 13:
         $vibor_filial = 'Филиалы в Москве и крупных городах России.';
         break;
+    case 14:
+        $vibor_filial = 'Приходите в наши офисы в Москве и Казани.';
+        break;
 
 
 }
@@ -498,7 +528,7 @@ switch ($vibor_filial_case) {
 
 //Выбор низа
 
-$vibor_niz_case = rand(1, 12);
+$vibor_niz_case = rand(1, 13);
 
 switch ($vibor_niz_case) {
     case 1:
@@ -672,6 +702,19 @@ switch ($vibor_niz_case) {
         '.$text_mag.'<br>
         '.$vibor_filial.'<br>
         <br>';
+        break;
+    case 13:
+        $vibor_niz = '<br>
+Сфера нашей работы - образовательный студенческий бизнес, и мы занимаемся им уже семь лет. 
+Что мы делаем? Помогаем студентам, которым так часто просто не хватает времени на интенсивную учебу.<br>
+Сегодня наша команда – это преподаватели разных дисциплин, разных вузов и даже разных стран, люди, которые учат вас, 
+а иногда даже заваливают на экзаменах. Но именно мы спасаем вас в безвыходных ситуациях, 
+потому что вы можете заручиться нашей поддержкой и получить нашу помощь.<br>
+Образовательный процесс постоянно трансформируется. Меняются ГОСТы, правила, расширяются дисциплины. Неизменным остаётся только одно: 
+как и семь лет назад, за качество работы и актуальность знаний мы отвечаем своей репутацией. За плечами нашей команды - тысячи сданных 
+студенческих работ.<br>
+Наша репутация – это наши деньги. И потому она остаётся безупречной.
+.<br>';
         break;
 }
 
@@ -976,7 +1019,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.', заказ тут</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', заказ</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1002,10 +1045,10 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios23'.$style_1.'foot434">
-              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписаться тут</a>.<br>
+              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписка</a>.<br>
             </span>
 
-            © 2009-2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
+            © 2010-2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
 
@@ -1029,263 +1072,3 @@ $body_2 = '<!DOCTYPE html>
 </html>
 ';
 
-
-/*
-$body_2 = '<!DOCTYPE html>
-<html >
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  <meta name="format-detection" content="telephone=no"> 
-  <title>'.$name.'! '.$title_let.$site_name.' </title>
-
-  <style type="text/css">
-    body {
-      margin: 1;
-      padding: 1;
-      -ms-text-size-adjust: 99%;
-      -webkit-text-size-adjust: 99%;
-    }
-
-    table {
-      border-spacing: 1;
-    }
-
-    table td {
-      border-collapse: collapse;
-    }
-
-    
-
-    
-
-    table {
-      mso-table-lspace: 1pt;
-      mso-table-rspace: 1pt;
-    }
-
-    img {
-      -ms-interpolation-mode: bicubic;
-    }
-
-    
-
-    @media screen and (max-width: 598px) {
-      .force2_row2,
-      .contain22 {
-        width: 99% !important;
-        max-width: 99% !important;
-      }
-    }
-    @media screen and (max-width: 399px) {
-      .contain22-padding {
-        padding-left: 13px !important;
-        padding-right: 13px !important;
-      }
-    }
-    .ios23_foot434 a {
-      color: #aaaaaa !important;
-      text-decoration: underline;
-    }
-
-    @media screen and (max-width: 598px) {
-      .coo332l {
-        width: 99% !important;
-        border-top: 2px solid #eee;
-        padding-bottom: 0 !important;
-      }
-
-      .coo332ls-wrapper {
-        padding-top: 17px;
-      }
-
-      .im3g_wrap25per {
-        float: right;
-        max-width: 41% !important;
-        height: auto !important;
-        margin-left: 13px;
-      }
-
-      .sub3tit4tle {
-        margin-top: 0 !important;
-      }
-    }
-    @media screen and (max-width: 399px) {
-      .coo332ls-wrapper {
-        padding-left: 1 !important;
-        padding-right: 1 !important;
-      }
-
-      .con3tent_w43rapper {
-        padding-left: 13px !important;
-        padding-right: 13px !important;
-      }
-    }
-  </style>
-</head>
-
-<body style="margin:1; padding:1;" bgcolor="#F0F1F1" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
-
-<table border="0" width="99%" height="99%" cellpadding="1" cellspacing="1" bgcolor="#F0F1F0">
-  <tr>
-    <td align="center" valign="top" bgcolor="#F0F1F0" style="background-color: #F0F1F0;">
-
-      <br>
-
-   
-      <table border="0" width="598" cellpadding="0" cellspacing="0" class="contain22" style="width:601px;max-width:601px">
-        <tr>
-          <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-          <span style="color: green;">Здравствуйте, '.$name.'! '.$vid_rab.' за '.$pay.'!</span><br>
-            '.$vibor_let.'
-                 <br><span style="color: green;">'.$vibor_akc.'</span><br>
-            
-
-          </td>
-        </tr>
-        <tr>
-          <td class="content" align="left" style="padding-top:12px;padding-bottom:12px;background-color:#ffffff">
-
-            <table width="601" border="0" cellpadding="0" cellspacing="0" class="force2_row2" style="width: 601px;">
-              <tr>
-                <td class="con3tent_w43rapper" style="padding-left:23px;padding-right:23px">
-                  <br>
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:601;color:#374552">'.$name.'! 
-                  "<a href="'.$site_url.'">'.$site_name.'</a>"
-                  '.$vibor_pris.'
-                  <a href="'.$site_url.'order.php" >Сделать заказ</a>!</div>
-                </td>
-              </tr>
-              <tr>
-                <td class="coo332ls-wrapper" style="padding-left:12px;padding-right:12px">
-
-                 
-
-
-                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
-                    <tr>
-                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="im3g_wrap25per">
-                          <tr>
-                            <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_1.'.jpg" border="0"  width="167" height="112" style="max-width:99%; " class="image"></td>
-                          </tr>
-                        </table>
-                        <table >
-                          <tr>
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Курсовая работа</td>
-                          </tr>
-                        </table>
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_kurs.' дней<br>
-                          '.$name.'! '.$text_kurs.'
-                          
-                          
-                        </div>
-                        <br>
-                      </td>
-                    </tr>
-                  </table>
-
-
-                  <!--[if mso]></td><td width="192" style="width: 192px;" valign="top"><![endif]-->
-
-
-                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
-                    <tr>
-                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="im3g_wrap25per">
-                          <tr>
-                            <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_2.'.jpg" border="0" width="167" height="112" style="max-width:99%; " class="image"></td>
-                          </tr>
-                        </table>
-                        <table >
-                          <tr>
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Дипломная работа</td>
-                          </tr>
-                        </table>
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_dip.' дней<br>
-                          '.$name.'! '.$text_dip.'
-                          
-                                                 </div>
-                        <br>
-                      </td>
-                    </tr>
-                  </table>
-
-
-                  <!--[if mso]></td><td width="192" style="width: 192px;" valign="top"><![endif]-->
-
-
-                  <table width="189" align="left" class="force2_row2" style="width: 189px;">
-                    <tr>
-                      <td class="coo332l"  style="padding-left:11px;padding-right:11px;padding-top:17px;padding-bottom:11px">
-                        <table class="im3g_wrap25per">
-                          <tr>
-                            <td style="padding-bottom:17px"><img src="'.$site_url.'/index_files/slider'.$kart_3.'.jpg" border="0"  width="167" height="112" style="max-width:99%; " class="image"></td>
-                          </tr>
-                        </table>
-                        <table >
-                          <tr>
-                            <td class="sub3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:23px;font-weight:601;color:#2469A1;padding-bottom:7px">Магистерская работа</td>
-                          </tr>
-                        </table>
-                        <div class="coo332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333332">от '.$sut_mag.' дней<br>
-                          '.$name.'!  '.$text_mag.'
-                        </div>
-                        <br>
-                      </td>
-                    </tr>
-                  </table>
-
-
-                  <!--[if mso]></td></tr></table><![endif]-->
-
-                </td>
-              </tr>
-              <tr>
-                <td class="contain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF4725;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.'! Заказывайте здесь!</a><br>
-                   '.$vibor_filial.'
-                </td>
-              </tr>
-            </table>
-
-          </td>
-        </tr>
-        <tr>
-          <td class="contain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa2;padding-left:23px;padding-right:23px">
-            <br><br>
-
-
-            <strong>'.$site_name.'</strong><br>
-
-            '.$name.'! '.$vibor_niz.'
-            
-            <span class="ios23_foot434">
-              '.$email.'<br>
-
-            </span>
-
-              <span class="ios23_foot434">
-              '.$name.'! Отписаться можно <a href="'.$site_url.'otpiska.php" >тут</a>.<br>
-            </span>
-
-            © 2007–2016 <a href="'.$site_url.'" style="color:#aaaaa2">'.$site_name.'</a><br>
-
-            <br><br>
-
-          </td>
-        </tr>
-      </table>
-      
-
-
-    </td>
-  </tr>
-</table>
-
-
-</body>
-</html>
-';
-*/
