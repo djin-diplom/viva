@@ -1,5 +1,6 @@
 <?php session_start();
 ?>
+<meta name="yandex-verification" content="17804d2ad311daf9" />
 <meta name="yandex-verification" content="a1d4839128ca9e06" />
 <meta name="yandex-verification" content="f00b337cb1083d8e" />
 <meta name="yandex-verification" content="526e187ad8458260" />
