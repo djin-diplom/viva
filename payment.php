@@ -5,7 +5,7 @@
     <div><a href="/oplata/#mastercard"><img class=desaturated src="/img/pay2.gif" width=62 height=37 alt=""></a></div>
     -->
 
-    <div><a href="oplata.php"><img class="desaturated" src="./index_files/pay4.gif" width="70" height="70" alt=""></a></div> <!-- width="122" height="37" -->
+    <div><a href="oplata.php"><img class="desaturated" src="./index_files/pay4.gif" width="40" height="40" alt=""></a></div> <!-- width="122" height="37" -->
     <div><a href="oplata.php"><img class="desaturated" src="./index_files/pay3.gif" width="85" height="37" alt=""></a></div>
     <div><a href="oplata.php"><img class="desaturated" src="./index_files/pay6.gif" width="135" height="37" alt=""></a></div>
     <div><a href="oplata.php"><img class="desaturated" src="./index_files/pay5.gif" width="76" height="37" alt=""></a></div>
