@@ -1,8 +1,8 @@
 <?php
 
 
-$main_name = "Viva-students.ru"; // "Bazadiplom.ru";
-$email2 =  "Vivastudent.ru@gmail.com"; //"Bazadiplom.ru@gmail.com";
+$main_name = "Studrabota.com"; // "Bazadiplom.ru";
+$email2 =  "Studrabota.com@gmail.com"; //"Bazadiplom.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -11,12 +11,12 @@ $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
 
-    $site_name = 'Viva-students.ru';
-$site_name_2 = 'Вива-студентс.ру';
-$site_name_3 = 'Вива-Студентс-ру';
-$site_name_4 = 'Вива-Студентс.ру';
-$site_name_5 = 'Viva-students.ru';
-$site_name_6 = 'Вива-Студентс-ру';
+    $site_name = 'Studrabota.com';
+$site_name_2 = 'Studrabota com';
+$site_name_3 = 'Stud Rabota Com';
+$site_name_4 = 'Stud rabota.com';
+$site_name_5 = 'www.Studrabota.com';
+$site_name_6 = 'www Studrabota com';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -35,9 +35,9 @@ $site_name_6 = 'Вива-Студентс-ру';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петeрбург, ул. Рентгена, <br>дом № 2, oф. 105-107";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZd8a856";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZd8a856\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Санкт-Петeрбург, пр. Каменноостровский, <br>дом № 27, oф. 102-103";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CZtSbC18";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZtSbC18\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014980039098";
 
 $main_name_temp = $main_name;

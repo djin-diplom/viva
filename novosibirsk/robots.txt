@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://novosibirsk.viva-students.ru/sitemap.xml
-Host: www.viva-students.ru
+Host: www.studrabota.com

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://viva-students.ru/sitemap.xml
-Host: www.viva-students.ru
+Sitemap: http://www.studrabota.com/sitemap.xml
+Host: www.studrabota.com
