@@ -2,7 +2,7 @@
 
 
 $main_name = "Studrabota.com"; // "Bazadiplom.ru";
-$email2 =  "Studrabota.com@gmail.com"; //"Bazadiplom.ru@gmail.com";
+$email2 =  "Info.Studrabota@gmail.com"; //"Bazadiplom.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';

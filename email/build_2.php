@@ -1034,7 +1034,7 @@ $body_2 = '<!DOCTYPE html>
             <br>
 
 
-            <strong>'.$site_name.'</strong><br>
+            <strong><a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br></strong><br>
 
             '.$name.'! '.$vibor_niz.'
             
@@ -1048,7 +1048,7 @@ $body_2 = '<!DOCTYPE html>
               '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписка</a>.<br>
             </span>
 
-            © 2010-2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
+            © 2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
 
