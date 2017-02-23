@@ -724,13 +724,13 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=eU_VzDeRixbmS2VKqd9Rcw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1VREVDc3RjT3BkVmpMXzFPb2VJZV9nJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU1pNXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=VMb9qcjFxuvp3UW8RRwb5Q&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1VWGRQV3J2TkFyYTFLckpyOUo1WklnJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU5DNXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146606&h=XelFj2Nh5ewMRaBrbu-qEw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1EYV9HMVhqMjBTZGNrRTBGRkVCQV9RJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU15NXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486146764&h=5_YQCqE9SNnjM3UtVHeJvw&url171=dml2YS1zdHVkZW50cy5ydS92aXZhZGlwbG9tZmlyc3RhbGxlbWFpbC9pbmRleF9maWxlcy8xX2xvZ28ucG5n&is_https=0';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486147269&h=XUkvPiHz2Ahbin9kZgVHDw&url171=dml2YS1zdHVkZW50cy5ydS9pbmRleF9maWxlcy9zbGlkZXIxLmpwZw~~&is_https=0';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486147269&h=upCzUqO9xyiO0CjaOy00PQ&url171=dml2YS1zdHVkZW50cy5ydS9pbmRleF9maWxlcy9zbGlkZXI1LmpwZw~~&is_https=0';
-    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1486147269&h=TJyC_gg38gHefLP3iI3Vpg&url171=dml2YS1zdHVkZW50cy5ydS9pbmRleF9maWxlcy9zbGlkZXI2LmpwZw~~&is_https=0';
+    $img_mail_1 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;6&mode=attachment&email=djin-diplom@mail.ru&bs=121168&bl=46215&ct=image%2fjpeg&cn=slider1.jpg&cte=binary';
+    $img_mail_2 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;4&mode=attachment&email=djin-diplom@mail.ru&bs=76234&bl=29306&ct=image%2fjpeg&cn=slider3.jpg&cte=binary';
+    $img_mail_3 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;3&mode=attachment&email=djin-diplom@mail.ru&bs=53688&bl=27119&ct=image%2fjpeg&cn=slider2.jpg&cte=binary';
+    $img_mail_4 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;1&mode=attachment&email=djin-diplom@mail.ru&bs=3813&bl=30382&ct=image%2fjpeg&cn=slider4.jpg&cte=binary';
+    $img_mail_5 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;2&mode=attachment&email=djin-diplom@mail.ru&bs=28565&bl=33429&ct=image%2fjpeg&cn=slider5.jpg&cte=binary';
+    $img_mail_6 = 'https://af12.mail.ru/cgi-bin/readmsg?id=14878238580000000648;0;5&mode=attachment&email=djin-diplom@mail.ru&bs=99805&bl=26758&ct=image%2fjpeg&cn=slider6.jpg&cte=binary';
+
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
             break;
@@ -744,19 +744,18 @@ function kart_vibor ($var) {
             break;
         case 6: $var_2 = $img_mail_6;
             break;
-        case 7: $var_2 = $img_mail_7;
-            break;
+
     }
 return $var_2;
 }
 
 // Выбор картинок
-$kart_1 = rand(1, 1000000)%7+1;
-$kart_2 = rand(1, 1000000)%7+1;
-if ( $kart_1 == $kart_2) $kart_2 = rand(1, 1000000)%7+1;
-$kart_3 = rand(1, 1000000)%7+1;
-if ( $kart_1 == $kart_3) $kart_3 = rand(1, 1000000)%7+1;
-if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%7+1;
+$kart_1 = rand(1, 1000000)%6+1;
+$kart_2 = rand(1, 1000000)%6+1;
+if ( $kart_1 == $kart_2) $kart_2 = rand(1, 1000000)%6+1;
+$kart_3 = rand(1, 1000000)%6+1;
+if ( $kart_1 == $kart_3) $kart_3 = rand(1, 1000000)%6+1;
+if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%6+1;
 
 $kart_1 = kart_vibor($kart_1);
 $kart_2 = kart_vibor($kart_2);
@@ -908,7 +907,7 @@ $body_2 = '<!DOCTYPE html>
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
-                  <a href="'.$site_url.'order.php" >Заказать</a></div>
+                  <a href="'.$site_url.'order.php" >Сделать заказ</a></div>
                 </td>
                 
               </tr>
@@ -935,11 +934,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовой проект</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовая работа</td>
                           </tr>
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">От '.$sut_kurs.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">От '.$sut_kurs.' дней<br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
@@ -967,10 +966,10 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                         
                           <tr>
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Диплом</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломная работа</td>
                           </tr>
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">От '.$sut_dip.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">От '.$sut_dip.' дней<br>
                           '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
@@ -998,11 +997,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Диссертация</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Магистерская работа</td>
                           </tr>
                           
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">От '.$sut_mag.' суток<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">От '.$sut_mag.' дней<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
                         <br>
@@ -1019,7 +1018,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.', заказ</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', сделайте заказ</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
