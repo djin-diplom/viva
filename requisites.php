@@ -38,9 +38,9 @@ $site_name_6 = 'www Bazaznanij com';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петeрбург, ул. Ленина, <br>дом № 40, oф. 126-127";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZtSbC18";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZtSbC18\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Санкт-Петeрбург, ул. Гатчинская, <br>дом № 28, oф. 126-127";
+    $url_adres_yandex = "https://yandex.ru/maps/-/C6AZIXZz";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6AZIXZz\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410015026519581";
 
 $main_name_temp = $main_name;
