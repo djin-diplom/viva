@@ -1,24 +1,25 @@
 <?php
 
 
-$main_name = "Studrabota.com"; // "Bazadiplom.ru";
-$email2 =  "Info.Studrabota@gmail.com"; //"Bazadiplom.ru@gmail.com";
+$main_name = "Bazaznanij.com";
+$email2 =  "Bazaznanij.com@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
 $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
-$vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
+$vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 
 $img_path_1 = "./index_files/1_logo.jpg";
+$img_path_2 = "1_logo.jpg";
 
-    $site_name = 'Studrabota.com';
-$site_name_2 = 'Studrabota com';
-$site_name_3 = 'Stud Rabota Com';
-$site_name_4 = 'Stud rabota.com';
-$site_name_5 = 'www.Studrabota.com';
-$site_name_6 = 'www Studrabota com';
+    $site_name = 'Bazaznanij.com';
+$site_name_2 = 'Bazaznanij com';
+$site_name_3 = 'Baza Znanij com';
+$site_name_4 = 'Baza Znanij.com';
+$site_name_5 = 'www.Bazaznanij.com';
+$site_name_6 = 'www Bazaznanij com';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -37,7 +38,7 @@ $site_name_6 = 'www Studrabota com';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петeрбург, пр. Каменноостровский, <br>дом № 27, oф. 102-103";
+    $adres = "г. Санкт-Петeрбург, ул. Ленина, <br>дом № 40, oф. 126-127";
     $url_adres_yandex = "https://yandex.ru/maps/-/CZtSbC18";
     $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZtSbC18\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410015026519581";
