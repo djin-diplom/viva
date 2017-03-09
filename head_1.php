@@ -34,12 +34,11 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter42913114 = new Ya.Metrika({
-                    id:42913114,
+                w.yaCounter43338239 = new Ya.Metrika({
+                    id:43338239,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
+                    accurateTrackBounce:true
                 });
             } catch(e) { }
         });
@@ -56,6 +55,6 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/42913114" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/43338239" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
