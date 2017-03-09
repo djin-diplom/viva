@@ -11,6 +11,8 @@ $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 20:00, выходной воскресенье";
 
+$img_path_1 = "./index_files/1_logo.jpg";
+
     $site_name = 'Studrabota.com';
 $site_name_2 = 'Studrabota com';
 $site_name_3 = 'Stud Rabota Com';
