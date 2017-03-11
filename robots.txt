@@ -1,4 +1,4 @@
-User-agent: *
-Allow: /
-Sitemap: http://www.studrabota.com/sitemap.xml
+User-Agent: *
+Disallow:
+Sitemap: http://www.bazaznanij.com/sitemap.xml
 Host: www.bazaznanij.com
