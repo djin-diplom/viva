@@ -100,6 +100,19 @@ require("header.php");
 				}
 				?>
 			<div class="responses">
+				<div class="one">
+					<div class="left"><img src="./consult_files/user.png" width="32" height="32" alt=""></div>
+					<div class="rite">
+						<span></span>
+						<div>
+							<div class="caption"><b>Марина - РАНХиГС</b> <i>18 февраля</i></div>
+							<div class="text">Мне нужно было срочно написать диплом по маркетингу. Обычно, я пишу все работы сама,
+								но тут времени катастрофически не хватало. Сделали всё очень качественно, грамотно, точно по теме и
+								в установленные сроки. Диплом удостоился похвалы моего весьма строгого и придирчивого преподавателя.
+								Здорово, что ребята помогли подготовить речь для защиты. Защитилась на "отлично"! Спасибо!</div>
+						</div>
+					</div>
+				</div>
 	<div class="one">
 		<div class="left"><img src="./1_files/user.png" width="32" height="32" alt=""></div>
 		<div class="rite">

@@ -1,7 +1,8 @@
 
 
-<div id="marquee">Сделайте заказ сейчас, воспользуйтесь формой заказа на сайте! У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
-<div id="marquee2">У нас нет телефонных менеджеров, они увеличивают цену работы!</div>
+<div id="marquee">Закажите работу прямо сейчас, ждем Вашу заявку на почте!
+	Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
+<div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
 <noindex>
 	<header>
 		<section>
@@ -10,7 +11,7 @@
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
 					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
 			<div class="phone">
-				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Без менеджеров!</div>
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
 				
 				<div><span><?php echo $email2; ?></span></div>
 				<?php if (empty($_SESSION['client_email'])): ?>
