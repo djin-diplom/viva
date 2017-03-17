@@ -760,13 +760,13 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488389683&h=FWhluXw88oZg_6EcdOyk5w&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYwOTkxMTMmaD1VREVDc3RjT3BkVmpMXzFPb2VJZV9nJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOWxiV0ZwYkM4dmFXNWtaWGhmWm1sc1pYTXZjMnhwWkdWeU1pNXFjR2N-JmlzX2h0dHBzPTA~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488389446&h=2U5Bj9W-pPaVhp2FEl3EMw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYxNDY2MDYmaD1WTWI5cWNqRnh1dnAzVVc4UlJ3YjVRJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXUnFhVzR0Wkdsd2JHOXRKVFF3YldGcGJDNXlkU1psUFRFME9EWXdPVGt4TVRNbWFEMVZXR1JRVjNKMlRrRnlZVEZMY2tweU9VbzFXa2xuSm5WeWJERTNNVDFrYld3eVdWTXhlbVJJVm10YVZ6VXdZM2sxZVdSVE9XeGlWMFp3WWtNNGRtRlhOV3RhV0dobVdtMXNjMXBZVFhaak1uaHdXa2RXZVU1RE5YRmpSMk4tSm1selgyaDBkSEJ6UFRBfiZpc19odHRwcz0x&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488389446&h=JiwQrJN8MmbNA7kFIZiF8g&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYxNDY2MDYmaD1YZWxGajJOaDVld01SYUJyYnUtcUV3JnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXUnFhVzR0Wkdsd2JHOXRKVFF3YldGcGJDNXlkU1psUFRFME9EWXdPVGt4TVRNbWFEMUVZVjlITVZocU1qQlRaR05yUlRCR1JrVkNRVjlSSm5WeWJERTNNVDFrYld3eVdWTXhlbVJJVm10YVZ6VXdZM2sxZVdSVE9XeGlWMFp3WWtNNGRtRlhOV3RhV0dobVdtMXNjMXBZVFhaak1uaHdXa2RXZVUxNU5YRmpSMk4tSm1selgyaDBkSEJ6UFRBfiZpc19odHRwcz0x&is_https=1';
+    $img_mail_1 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/99287409cef99dadb2394c6290c86516.jpg';
+    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/39cbdaed7f236b18d6f396380e4385f8.jpg';
+    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/ec7013def976f0bcc4dc8339377bd5f5.jpg';
 
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488390096&h=YQ4No4Mr2wy9vb2KjAvfQQ&url171=c3R1ZHJhYm90YS5jb20vdml2YWRpcGxvbWZpcnN0YWxsZW1haWwvaW5kZXhfZmlsZXMvMV9sb2dvLnBuZw~~&is_https=0';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488389586&h=AFvBYHs6gguZdpPnalWnmQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYxNDcyNjkmaD11cEN6VXFPOXh5aU8wQ2phT3kwMFBRJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOXBibVJsZUY5bWFXeGxjeTl6Ykdsa1pYSTFMbXB3Wnd-fiZpc19odHRwcz0w&is_https=1';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1488389586&h=HkWVITWHKRgD2LV23ftO3Q&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0ODYxNDcyNjkmaD1USnlDX2dnMzhnSGVmTFAzaUkzVnBnJnVybDE3MT1kbWwyWVMxemRIVmtaVzUwY3k1eWRTOXBibVJsZUY5bWFXeGxjeTl6Ykdsa1pYSTJMbXB3Wnd-fiZpc19odHRwcz0w&is_https=1';
+    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/8c3c771de84fe5ec89aa39c4c264f9cd.jpg';
+    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/309d846872a1e87003974babe1fbe2fa.jpg';
+    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/b54484dd0c54813f939dc9a0fb7828fa.jpg';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
