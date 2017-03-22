@@ -15,11 +15,11 @@ $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
     $site_name = 'Bazaznanij.com';
-$site_name_2 = 'Bazaznanij com';
-$site_name_3 = 'Baza Znanij com';
-$site_name_4 = 'Baza Znanij.com';
+$site_name_2 = 'www.Bazaznanij.com';
+$site_name_3 = 'BazaZnanij.Com';
+$site_name_4 = 'BazaZnanij.com';
 $site_name_5 = 'www.Bazaznanij.com';
-$site_name_6 = 'www Bazaznanij com';
+$site_name_6 = 'Bazaznanij.com';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";

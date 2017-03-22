@@ -419,13 +419,13 @@ $text_mag_case = rand(1,14);
 
 switch ($text_mag_case) {
     case 1:
-        $text_mag = 'Вопрос качества и уникальности должен стоять превыше вопроса о том, сколько стоит магистерская работа, 
-        но в любом случае, Вы можете сэкономить до 30-50% от конечной стоимости диссертации, воспользовавшись нашими услугами.
+        $text_mag = 'Вопросы качества и уникальности должны быть выше того вопроса, сколько стоит магистерская работа, 
+        но при любом итоге, Вы можете сэкономить до 30-50% от конечной стоимости диссертации, воспользовавшись нашими услугами.
         ';
         break;
     case 2:
-        $text_mag = 'Мы дорожим нашими заказчиками и стараемся обеспечить каждому всестороннюю поддержку и индивидуальный 
-        подход. Вы получите магистерскую работы, полностью соответствующую требованиям Вашего университета и ГОСТу.
+        $text_mag = 'Мы дорожим нашими заказчиками и всегда обеспечиваем каждому всестороннюю поддержку и индивидуальный 
+        подход. Вы получите магистерскую работу, полностью соответствующую требованиям Вашего университета и ГОСТу.
         ';
         break;
     case 3:
@@ -790,12 +790,12 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 function kart_vibor ($var) {
     $img_mail_1 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/99287409cef99dadb2394c6290c86516.jpg';
-    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/39cbdaed7f236b18d6f396380e4385f8.jpg';
-    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/ec7013def976f0bcc4dc8339377bd5f5.jpg';
+    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/8400d88ecbee8e853e969c62d51ac77e.jpg';
+    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/7a67a7d41a516168e05d34f40b6a2616.jpg';
 
-    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/8c3c771de84fe5ec89aa39c4c264f9cd.jpg';
-    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/309d846872a1e87003974babe1fbe2fa.jpg';
-    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/b54484dd0c54813f939dc9a0fb7828fa.jpg';
+    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/810c892b9d8b9d8f2e9f1cecf0f4fd08.jpg';
+    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/756fa293ac1d68dae768f24a938209c5.jpg';
+    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/3afb0369c3e4c952f37e1c5fbe2ef4b6.jpg';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -973,7 +973,7 @@ $body_2 = '<!DOCTYPE html>
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
-                  <a href="'.$site_url.'order.php" >Сделать заказ</a></div>
+                  <a href="'.$site_url.'order.php" >Заказать</a></div>
                 </td>
                 
               </tr>
@@ -1000,11 +1000,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовая работа</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовая</td>
                           </tr>
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">От '.$sut_kurs.' дней<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">От '.$sut_kurs.' суток<br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
@@ -1032,10 +1032,10 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                         
                           <tr>
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломная работа</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломная</td>
                           </tr>
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">От '.$sut_dip.' дней<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">От '.$sut_dip.' суток<br>
                           '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
@@ -1063,11 +1063,11 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Магистерская работа</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Магистерская</td>
                           </tr>
                           
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">От '.$sut_mag.' дней<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">От '.$sut_mag.' суток<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
                         <br>
@@ -1084,7 +1084,7 @@ $body_2 = '<!DOCTYPE html>
               </tr>
               <tr>
                 <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <a href="'.$site_url.'order.php">'.$name.', сделайте заказ</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', закажите тут</a><br>
                    '.$vibor_filial.'
                 </td>
               </tr>
@@ -1110,7 +1110,7 @@ $body_2 = '<!DOCTYPE html>
 
               
             <span class="ios23'.$style_1.'foot434">
-              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписка</a>.<br>
+              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписаться</a>.<br>
             </span>
 
             © 2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
