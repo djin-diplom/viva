@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
-Sitemap: http://www.bazaznanij.com/sitemap.xml
-Host: www.bazaznanij.com
+Sitemap: http://www.knowbaza.com.com/sitemap.xml
+Host: www.knowbaza.com
