@@ -1,8 +1,8 @@
 <?php
 
 
-$main_name = "Bazaznanij.com";
-$email2 =  "Bazaznanij.info@gmail.com";
+$main_name = "knowbaza.ru";
+$email2 =  "knowbaza.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -14,12 +14,12 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
-    $site_name = 'Bazaznanij.com';
-$site_name_2 = 'www.Bazaznanij.com';
-$site_name_3 = 'BazaZnanij.Com';
-$site_name_4 = 'BazaZnanij.com';
-$site_name_5 = 'www.Bazaznanij.com';
-$site_name_6 = 'Bazaznanij.com';
+    $site_name = 'knowbaza.ru';
+$site_name_2 = 'www.knowbaza.ru';
+$site_name_3 = 'knowbaza.ru';
+$site_name_4 = 'knowbaza.ru';
+$site_name_5 = 'www.knowbaza.ru';
+$site_name_6 = 'knowbaza.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
