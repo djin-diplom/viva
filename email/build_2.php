@@ -789,13 +789,13 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor ($var) {
-    $img_mail_1 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/99287409cef99dadb2394c6290c86516.jpg';
-    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/8400d88ecbee8e853e969c62d51ac77e.jpg';
-    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/7a67a7d41a516168e05d34f40b6a2616.jpg';
+    $img_mail_1 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/fe3c7a7e603dd48b4298cccb2b7cb8c1.jpg';
+    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/32272132c7c012798c984c798811bdb0.jpg';
+    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/b23eafdb39dd8426405845b02267a9da.jpg';
 
-    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/810c892b9d8b9d8f2e9f1cecf0f4fd08.jpg';
-    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/756fa293ac1d68dae768f24a938209c5.jpg';
-    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/3afb0369c3e4c952f37e1c5fbe2ef4b6.jpg';
+    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/a4f624acea47d5acdb921ec8a5f0d284.jpg';
+    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/5f0e75c4249f6420dfae61234c5b0807.jpg';
+    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/022c3c87910e273a21a699278470c10e.jpg';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
