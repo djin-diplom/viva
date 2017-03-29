@@ -280,11 +280,14 @@ $color_rand = rand(0, 9);
 
 $body_2 = '<!DOCTYPE html>
 <html>
+
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>'.$name.'! '.$title_let.$site_name.' </title>
+  
+  <meta name="format-detection" content="telephone=no"> 
   
    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   
@@ -292,7 +295,9 @@ $body_2 = '<!DOCTYPE html>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta name="format-detection" content="telephone=no"> 
+  
+
+
 
   <style type="text/css">
   
@@ -305,36 +310,46 @@ $body_2 = '<!DOCTYPE html>
     }
 
     table {
+    
       border-spacing: 0;
     }
 
     table td {
+    
       border-collapse: collapse;
     }
 
+img {
+    
+      -ms-interpolation-mode: bicubic;
+    }
+
+
     table {
+    
       mso-table-lspace: 0pt;
       mso-table-rspace: 0pt;
     }
 
-    img {
-      -ms-interpolation-mode: bicubic;
-    }
-
+    
     
 
-    @media screen and (max-width: 598px) {
+    @media screen and (max-width: 599px) {
+    
       .force2_row2'.$style_1.',
       .cont'.$style_1.'ain22 {
         width: 99% !important;
+        
         max-width: 99% !important;
       }
     }
     
     @media screen and (max-width: 399px) {
+    
       .cont'.$style_1.'ain22-padding {
-        padding-left: 12px !important;
-        padding-right: 12px !important;
+        padding-left: 11px !important;
+        
+        padding-right: 11px !important;
       }
       
     }
@@ -344,16 +359,17 @@ $body_2 = '<!DOCTYPE html>
       text-decoration: underline;
     }
 
-    @media screen and (max-width: 598px) {
+    @media screen and (max-width: 599px) {
       .coo'.$style_1.'332l {
         width: 100% !important;
+        
         border-top: 2px solid #eee;
         
         padding-bottom: 0 !important;
       }
 
       .coo'.$style_1.'332ls-wrapper {
-        padding-top: 16px;
+        padding-top: 15px;
       }
 
       .im3g'.$style_1.'wrap25per {
@@ -361,7 +377,7 @@ $body_2 = '<!DOCTYPE html>
         
         max-width: 41% !important;
         height: auto !important;
-        margin-left: 12px;
+        margin-left: 11px;
       }
 
       .sub'.$style_1.'3tit4tle {
@@ -372,12 +388,14 @@ $body_2 = '<!DOCTYPE html>
     @media screen and (max-width: 399px) {
       .coo'.$style_1.'332ls-wrapper {
         padding-left: 0 !important;
+        
         padding-right: 0 !important;
       }
 
       .con3tent'.$style_1.'w43rapper {
-        padding-left: 12px !important;
-        padding-right: 12px !important;
+      
+        padding-left: 11px !important;
+        padding-right: 11px !important;
       }
     }
   </style>
@@ -390,75 +408,101 @@ $body_2 = '<!DOCTYPE html>
 <body style="margin:1; padding:1;" bgcolor="#F0F1F'.$color_rand.'" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
 <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F'.$color_rand.'F1F0">
+
   <tr>
+  
     <td align="center" valign="top" bgcolor="#F0F'.$color_rand.'F0" style="background-color: #F0F1F'.$color_rand.';">
 
       <br>
 
 
    
-      <table border="0" width="609" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:609px;max-width:598px">
+      <table border="0" width="608" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:608px;max-width:599px">
         <tr>
-          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
-                  <span style="color: green;">'.$name.'! '.$vid_rab.' оплата '.$pay.' р.</span><br>
+        
+          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand. '5;padding-left:23px;padding-right:23px">
+          
+                  <span style="color: #1d8007;">' .$name.'! '.$vid_rab.' оплата '.$pay.' р.</span><br>
+                  
             '.$vibor_let.'
-                 <br><span style="color: green;">'.$vibor_akc.'</span><br>
+                 <br><span style="color: #1d8007;">'.$vibor_akc.'</span><br>
             
 
           </td>
+          
         </tr>
+        
         <tr>
-          <td class="content" align="left" style="padding-top:12px;padding-bottom:12px;background-color:#ffffff">
+        
+          <td class="content" align="left" style="padding-top:11px;padding-bottom:11px;background-color:#ffffff">
 
-            <table width="609" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: 609px;">
+            <table width="608" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: 608px;">
+            
               <tr>
+              
                 <td class="con3tent'.$style_1.'w43rapper" style="padding-left:23px;padding-right:23px">
+                
                   <br>
                   
                   
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:609;color:#374'.$color_rand.'52">'.$name.'! 
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:608;color:#374'.$color_rand.'52">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
                   <a href="'.$site_url.'order.php" >Перейти к заказу</a></div>
+                  
                 </td>
                 
               </tr>
+              
               <tr>
-                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left:12px;padding-right:12px">
+              
+                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left:11px;padding-right:11px">
 
                  
 
 
                   <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
+                  
                     <tr>
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                    
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><a>
+                          
+                            <td style="padding-bottom:15px"><a>
+                            
                             <img alt="" src="'.$kart_1.'" border="0"  width="164" height="112" style="max-width:99%;" >
+                            
                             </a>
+                            
                             </td>
+                            
                           </tr>
+                          
                         </table>
                         
                         <table >
+                        
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовой проект</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовой проект</td>
                           </tr>
+                          
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
                         </div>
+                        
                         <br>
                         
                       </td>
+                      
                     </tr>
                     
                   </table>
@@ -466,12 +510,12 @@ $body_2 = '<!DOCTYPE html>
                   <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:16px"><img alt="" src="'.$kart_2.'" border="0" width="164" height="112" style="max-width:99%; " ></td>
+                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_2.'" border="0" width="164" height="112" style="max-width:99%; " ></td>
                           </tr>
                           
                         </table>
@@ -479,15 +523,17 @@ $body_2 = '<!DOCTYPE html>
                         <table >
                         
                           <tr>
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломный проект</td>
+                          
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломный проект</td>
                           </tr>
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
                           '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
                                                  
                         <br>
+                        
                       </td>
                       
                     </tr>
@@ -496,32 +542,38 @@ $body_2 = '<!DOCTYPE html>
                 
 
                   <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
+                  
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:16px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
+                      
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
-                            <td style="padding-bottom:16px"><img alt="" src="'.$kart_3.'" border="0"  width="164" height="112" style="max-width:99%; "></td>
+                          
+                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_3.'" border="0"  width="164" height="112" style="max-width:99%; "></td>
                           </tr>
                           
                         </table>
                         
                         <table >
+                        
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:609;color:#2'.$color_rand.'69A1;padding-bottom:7px">Диссертация</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#2'.$color_rand.'69A1;padding-bottom:7px">Диссертация</td>
                           </tr>
                           
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
+                        
                         <br>
                         
                       </td>
                       
                     </tr>
+                    
                   </table>
 
                
@@ -534,15 +586,18 @@ $body_2 = '<!DOCTYPE html>
                   <a href="'.$site_url.'order.php">'.$name.', переход на сайт</a><br>
                    '.$vibor_filial.'
                 </td>
+                
               </tr>
+              
             </table>
 
           </td>
         </tr>
         <tr>
         
-          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:16px;color:#aaaaa'.$color_rand.';padding-left:23px;padding-right:23px">
+          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:15px;color:#aaaaa'.$color_rand.';padding-left:23px;padding-right:23px">
             <br>
+            
             <br>
 
 
@@ -565,7 +620,9 @@ $body_2 = '<!DOCTYPE html>
             
 
             <br>
+            
             <br>
+            
 
           </td>
           
@@ -576,11 +633,14 @@ $body_2 = '<!DOCTYPE html>
 
 
     </td>
+    
   </tr>
+  
 </table>
 
 
 </body>
+
 </html>
 ';
 
