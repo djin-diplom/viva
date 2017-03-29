@@ -299,14 +299,15 @@ $body_2 = '<!DOCTYPE html>
 
 
 
-  <style type="text/css">
+  <style  type="text/css" >
   
     body {
+    
       margin: 0;
       padding: 0;
       
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 99%;
+      -webkit-text-size-adjust: 99%;
     }
 
     table {
@@ -327,8 +328,9 @@ img {
 
     table {
     
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
+      mso-table-lspace: 1pt;
+      
+      mso-table-rspace: 1pt;
     }
 
     
@@ -338,9 +340,9 @@ img {
     
       .force2_row2'.$style_1.',
       .cont'.$style_1.'ain22 {
-        width: 99% !important;
+        width: 100% !important;
         
-        max-width: 99% !important;
+        max-width: 100% !important;
       }
     }
     
@@ -359,9 +361,10 @@ img {
       text-decoration: underline;
     }
 
-    @media screen and (max-width: 599px) {
+    @media screen and ( max-width: 599px) {
+    
       .coo'.$style_1.'332l {
-        width: 100% !important;
+        width: 99% !important;
         
         border-top: 2px solid #eee;
         
@@ -369,14 +372,16 @@ img {
       }
 
       .coo'.$style_1.'332ls-wrapper {
+      
         padding-top: 15px;
       }
 
       .im3g'.$style_1.'wrap25per {
         float: right;
         
-        max-width: 41% !important;
+        max-width: 40% !important;
         height: auto !important;
+        
         margin-left: 11px;
       }
 
@@ -387,6 +392,7 @@ img {
     
     @media screen and (max-width: 399px) {
       .coo'.$style_1.'332ls-wrapper {
+      
         padding-left: 0 !important;
         
         padding-right: 0 !important;
@@ -417,10 +423,12 @@ img {
 
 
    
-      <table border="0" width="608" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:608px;max-width:599px">
+      <table border="0" width="608" cellpadding="0" cellspacing="0" class="cont'.$style_1.'ain22" style="width:608px; max-width:599px">
         <tr>
         
-          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:25px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand. '5;padding-left:23px;padding-right:23px">
+          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: Helvetica, Arial, sans-serif; 
+          font-size: 25px; font-weight: bold; padding-bottom: 13px; 
+          color:#DF47'.$color_rand. '5; padding-left: 23px; padding-right: 23px">
           
                   <span style="color: #1d8007;">' .$name.'! '.$vid_rab.' оплата '.$pay.' р.</span><br>
                   
@@ -434,22 +442,25 @@ img {
         
         <tr>
         
-          <td class="content" align="left" style="padding-top:11px;padding-bottom:11px;background-color:#ffffff">
+          <td class="content" align="left" style="padding-top: 11px; padding-bottom: 11px; background-color: #ffffff">
 
             <table width="608" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: 608px;">
             
               <tr>
               
-                <td class="con3tent'.$style_1.'w43rapper" style="padding-left:23px;padding-right:23px">
+                <td class="con3tent'.$style_1.'w43rapper" style="padding-left: 23px; padding-right: 23px">
                 
                   <br>
                   
                   
-                  <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:17px;font-weight:608;color:#374'.$color_rand.'52">'.$name.'! 
+                  <div class="title" style="font-family:Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 608; 
+                  color: #374'.$color_rand.'52">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
-                  <a href="'.$site_url.'order.php" >Перейти к заказу</a></div>
+                  <a href="'.$site_url.'order.php" >Перейти к заказу</a>
+                  
+                  </div>
                   
                 </td>
                 
@@ -457,7 +468,7 @@ img {
               
               <tr>
               
-                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left:11px;padding-right:11px">
+                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left: 11px; padding-right: 11px">
 
                  
 
@@ -466,7 +477,8 @@ img {
                   
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
+                      padding-bottom: 10px">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                         
@@ -488,12 +500,14 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#24'.$color_rand.'9A1;padding-bottom:7px">Курсовой проект</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family: Helvetica, Arial, sans-serif; font-size:13px; 
+                            line-height: 22px; font-weight: 608; color: #24'.$color_rand.'9A1; padding-bottom:7px">Курсовой проект</td>
                           </tr>
                           
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif; 
+                        font-size: 11px; line-height: 21px; text-align: left; color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
@@ -510,12 +524,13 @@ img {
                   <table width="185" align="left" class="force2_row2'.$style_1.'" style="width: 185px;">
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px ;padding-top:15px; padding-bottom:10px">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_2.'" border="0" width="164" height="112" style="max-width:99%; " ></td>
+                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_2.'" border="0" width="164" height="112" 
+                            style="max-width: 99%; " ></td>
                           </tr>
                           
                         </table>
@@ -524,10 +539,12 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#2'.$color_rand.'69A1;padding-bottom:7px">Дипломный проект</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; 
+                            line-height: 22px; font-weight: 608; color: #2'.$color_rand.'69A1; padding-bottom: 7px">Дипломный проект</td>
                           </tr>
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; 
+                        line-height: 21px; text-align: left; color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
                           '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
@@ -545,13 +562,15 @@ img {
                   
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
+                      padding-bottom: 10px">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_3.'" border="0"  width="164" height="112" style="max-width:99%; "></td>
+                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_3.'" border="0"  width="164" height="112" 
+                            style="max-width: 99%; "></td>
                           </tr>
                           
                         </table>
@@ -560,11 +579,13 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;font-weight:608;color:#2'.$color_rand.'69A1;padding-bottom:7px">Диссертация</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Helvetica, Arial, sans-serif;font-size: 13px; 
+                            line-height: 22px; font-weight: 608;color:#2'.$color_rand.'69A1; padding-bottom: 7px">Диссертация</td>
                           </tr>
                           
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:21px;text-align:left;color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; 
+                        line-height: 21px; text-align: left; color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
                         
@@ -582,7 +603,9 @@ img {
                 
               </tr>
               <tr>
-                <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;padding-bottom:13px;color:#DF47'.$color_rand.'5;padding-left:23px;padding-right:23px">
+                <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 23px; 
+                font-weight: bold; padding-bottom: 13px; color: #DF47'.$color_rand.'5;padding-left: 23px; padding-right: 23px">
+                
                   <a href="'.$site_url.'order.php">'.$name.', переход на сайт</a><br>
                    '.$vibor_filial.'
                 </td>
@@ -595,7 +618,8 @@ img {
         </tr>
         <tr>
         
-          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:15px;color:#aaaaa'.$color_rand.';padding-left:23px;padding-right:23px">
+          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family: Helvetica, Arial, sans-serif; 
+          font-size: 11px; line-height: 15px; color:#aaaaa'.$color_rand.'; padding-left: 23px; padding-right: 23px">
             <br>
             
             <br>
@@ -615,7 +639,7 @@ img {
               '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписывание</a>.<br>
             </span>
 
-            © 2017 <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br>
+            ©2010-2017 <a href="'.$site_url.'" style="color: #aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
 
