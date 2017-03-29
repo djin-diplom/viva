@@ -85,7 +85,7 @@ $vibor_pris_case = rand(1,3);
 
 switch ($vibor_pris_case) {
     case 1:
-        $vibor_pris = ' выполняет заказы на официальной основе. Заказику по договору гарантированы 
+        $vibor_pris = ' выполняет заказы на официальной основе. Заказчику по договору гарантированы 
 		качество,
  уникальность текста, бесплатные доработки и многое другое. После внесения средств выдаём чек. ';
         break;
@@ -236,13 +236,13 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor ($var) {
-    $img_mail_1 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/3c19033b8b022f5bb16b23ec1b2a0e41.jpg';
-    $img_mail_2 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/d825b79faf363a593e48f602da9db973.jpg';
-    $img_mail_3 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/be7a31da7c339e887ce47ef0736336c2.jpg';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=Itd8HgBGnaph9yAIual4NA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzc1NmZhMjkzYWMxZDY4ZGFlNzY4ZjI0YTkzODIwOWM1LmpwZw~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=qQ-RL1GniJYD9uk9t1rh_A&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzdhNjdhN2Q0MWE1MTYxNjhlMDVkMzRmNDBiNmEyNjE2LmpwZw~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=kUQLFos9jAMumcNuOL95qw&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzk5Mjg3NDA5Y2VmOTlkYWRiMjM5NGM2MjkwYzg2NTE2LmpwZw~~&is_https=1';
 
-    $img_mail_4 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/741baf5f4fee57aa2cf46316f4f9d48a.jpg';
-    $img_mail_5 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/ba74fe33790dca8f7a4d90f6e2f34873.jpg';
-    $img_mail_6 = 'https://s8.hostingkartinok.com/uploads/images/2017/03/c7d36363a06b76ac696cb39a3e8828be.jpg';
+    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069904&h=GSOVAVyeGMhNOOCDVcR7lg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2VjNzAxM2RlZjk3NmYwYmNjNGRjODMzOTM3N2JkNWY1LmpwZw~~&is_https=1';
+    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069904&h=0fAh6v5sB9w0k4b9YY6D9w&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzM5Y2JkYWVkN2YyMzZiMThkNmYzOTYzODBlNDM4NWY4LmpwZw~~&is_https=1';
+    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069951&h=pKv_k3tx1v1_0zZXbxlqqg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzMwOWQ4NDY4NzJhMWU4NzAwMzk3NGJhYmUxZmJlMmZhLmpwZw~~&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -259,7 +259,7 @@ function kart_vibor ($var) {
             break;
 
     }
-    $var_2 = '';
+
 return $var_2;
 }
 
