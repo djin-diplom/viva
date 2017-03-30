@@ -1752,21 +1752,7 @@ img {
                       <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
                       padding-bottom: 10px">
                       
-                        <table class="im3g'.$style_1.'wrap25per">
                         
-                          <tr>
-                          
-                            <td style="padding-bottom: 14px"><a>
-                            
-                            <img alt="" src="'.$kart_1.'" border="0"  width="163" height="111" style="max-width:99%;" >
-                            
-                            </a>
-                            
-                            </td>
-                            
-                          </tr>
-                          
-                        </table>
                         
                         <table >
                         
@@ -1799,15 +1785,7 @@ img {
                     
                       <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px ;padding-top:15px; padding-bottom:10px">
                       
-                        <table class="im3g'.$style_1.'wrap25per">
-                          <tr>
-                          
-                            <td style="padding-bottom: 14px">
-                            <img alt="" src="'.$kart_2.'" border="0" width="163" height="111" 
-                            style="max-width: 99%; " ></td>
-                          </tr>
-                          
-                        </table>
+                        
                         
                         <table >
                         
@@ -1841,17 +1819,7 @@ img {
                       <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
                       padding-bottom: 10px">
                       
-                        <table class="im3g'.$style_1.'wrap25per">
                         
-                          <tr>
-                          
-                            <td style="padding-bottom: 14px"><img alt="" src="'.$kart_3.'" border="0"  width="163" height="111" 
-                            style="max-width: 99%; ">
-                            </td>
-                            
-                          </tr>
-                          
-                        </table>
                         
                         <table >
                         
