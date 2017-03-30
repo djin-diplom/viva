@@ -1756,7 +1756,7 @@ img {
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><a>
+                            <td style="padding-bottom: 14px"><a>
                             
                             <img alt="" src="'.$kart_1.'" border="0"  width="163" height="111" style="max-width:99%;" >
                             
@@ -1802,7 +1802,8 @@ img {
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom: 15px"><img alt="" src="'.$kart_2.'" border="0" width="163" height="111" 
+                            <td style="padding-bottom: 14px">
+                            <img alt="" src="'.$kart_2.'" border="0" width="163" height="111" 
                             style="max-width: 99%; " ></td>
                           </tr>
                           
@@ -1844,7 +1845,7 @@ img {
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_3.'" border="0"  width="163" height="111" 
+                            <td style="padding-bottom: 14px"><img alt="" src="'.$kart_3.'" border="0"  width="163" height="111" 
                             style="max-width: 99%; ">
                             </td>
                             
