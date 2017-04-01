@@ -1945,6 +1945,6 @@ img {
 </html>
 ';
 
-$body_2 = str_replace('с','c',$body_2);
+//$body_2 = str_replace('с','c',$body_2);
 $body_2 = str_replace('о','o',$body_2);
-$body_2 = str_replace('е','e',$body_2);
+//$body_2 = str_replace('е','e',$body_2);
