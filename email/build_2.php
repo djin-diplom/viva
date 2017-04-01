@@ -232,7 +232,7 @@ switch ($vibor_let_case) {
         break;
     case 27:
         $chislo = rand(12345,23456);
-        $vibor_let = 'Запоминте промо-код IT'.$chislo.'R для скидки.';
+        $vibor_let = 'Запомните промо-код IT'.$chislo.'R для скидки.';
         break;
     case 28:
 
@@ -1546,6 +1546,35 @@ $kart_2 = kart_vibor($kart_2);
 $kart_3 = kart_vibor($kart_3);
 
 
+$arr_img_text = Array("diploma", "sheepskin", "patent", "coursework", "essay", "outline", "study", "experience", " experiment",
+    "etude", "study", "essay", "attempt", "try", "effort", "endeavor", "trial", "sketch", "outline", "draft", "drawing", "rough draft",
+"try", "sample", "test", "trial", "probe", "article", "paper", "item", "clause", "entry", "contribution",
+    "product", "article", "fabric", "brummagem", "job", "make",
+"thing", "article", "object", "work", "entity", "shebang",
+    "subject", "thing", "object", "matter", "article", "theme", "paragraph", "item", "point", "clause", "station",
+"control", "certificate", "evidence", "testimony", "witness", "document", "expose", "subject", "put",
+"process", "subordinate", "submit", "subject", "subdue", "subjugate", "conquer",
+"topic", "theme", "subject", "text", "chapter", "burden" );
+
+$count = array_rand($arr_img_text, 11);
+$temp_arr_img = '';
+for($i = 0; $i<11; $i++){
+    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+}
+$img_text_1 = $temp_arr_img;
+$count = array_rand($arr_img_text, 11);
+$temp_arr_img = '';
+for($i = 0; $i<11; $i++){
+    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+}
+$img_text_2 = $temp_arr_img;
+$count = array_rand($arr_img_text, 11);
+$temp_arr_img = '';
+for($i = 0; $i<11; $i++){
+    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+}
+$img_text_3 = $temp_arr_img;
+
 
 $color_rand = rand(0, 9);
 
@@ -1701,7 +1730,7 @@ img {
           font-size: 25px; font-weight: bold; padding-bottom: 13px; 
           color:#DF47'.$color_rand. '5; padding-left: 22px; padding-right: 22px">
           
-                  <span style="color: #298007;">' .$name.'! '.$vid_rab.' оплата '.$pay.' р.</span><br>
+                  <span style="color: #298007;">' .$name.'! '.$vid_rab.' ценой '.$pay.' р.</span><br>
                   
             '.$vibor_let.'
                  <br><span style="color: #298007;">'.$vibor_akc.'</span><br>
@@ -1758,7 +1787,7 @@ img {
                           
                             <td style="padding-bottom:15px"><a>
                             
-                            <img alt="" src="'.$kart_1.'" border="0"  width="163" height="111" style="max-width:99%;" >
+                            <img alt="'.$img_text_1.'" src="'.$kart_1.'" border="0"  width="163" height="111" style="max-width:99%;" >
                             
                             </a>
                             
@@ -1802,7 +1831,7 @@ img {
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom: 15px"><img alt="" src="'.$kart_2.'" border="0" width="163" height="111" 
+                            <td style="padding-bottom: 15px"><img alt="'.$img_text_2.'" src="'.$kart_2.'" border="0" width="163" height="111" 
                             style="max-width: 99%; " ></td>
                           </tr>
                           
@@ -1844,7 +1873,7 @@ img {
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><img alt="" src="'.$kart_3.'" border="0"  width="163" height="111" 
+                            <td style="padding-bottom:15px"><img alt="'.$img_text_3.'" src="'.$kart_3.'" border="0"  width="163" height="111" 
                             style="max-width: 99%; ">
                             </td>
                             
@@ -1945,6 +1974,12 @@ img {
 </html>
 ';
 
-//$body_2 = str_replace('с','c',$body_2);
-$body_2 = str_replace('о','o',$body_2);
-//$body_2 = str_replace('е','e',$body_2);
+$per_str_rep = rand(1, 2);
+
+switch ($per_str_rep){
+    case 1: $body_2 = str_replace('о','o',$body_2);
+        break;
+    case 2: $body_2 = str_replace('с','c',$body_2);
+        $body_2 = str_replace('е','e',$body_2);
+        break;
+}
