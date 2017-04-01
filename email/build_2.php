@@ -1529,7 +1529,7 @@ function kart_vibor ($var) {
             break;
 
     }
-
+    $var_2 = '';
 return $var_2;
 }
 
