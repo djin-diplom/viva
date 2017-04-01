@@ -1556,22 +1556,24 @@ $arr_img_text = Array("diploma", "sheepskin", "patent", "coursework", "essay", "
 "process", "subordinate", "submit", "subject", "subdue", "subjugate", "conquer",
 "topic", "theme", "subject", "text", "chapter", "burden" );
 
-$count = array_rand($arr_img_text, 11);
+$count_2 = array_rand($arr_img_text, 11);
 $temp_arr_img = '';
 for($i = 0; $i<11; $i++){
-    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+    $temp_arr_img .= $arr_img_text[$count_2[$i]].' ';
 }
 $img_text_1 = $temp_arr_img;
-$count = array_rand($arr_img_text, 11);
+
+$count_2 = array_rand($arr_img_text, 11);
 $temp_arr_img = '';
 for($i = 0; $i<11; $i++){
-    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+    $temp_arr_img .= $arr_img_text[$count_2[$i]].' ';
 }
 $img_text_2 = $temp_arr_img;
-$count = array_rand($arr_img_text, 11);
+
+$count_2 = array_rand($arr_img_text, 11);
 $temp_arr_img = '';
 for($i = 0; $i<11; $i++){
-    $temp_arr_img .= $arr_img_text[$count[$i]].' ';
+    $temp_arr_img .= $arr_img_text[$count_2[$i]].' ';
 }
 $img_text_3 = $temp_arr_img;
 
