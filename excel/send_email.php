@@ -84,7 +84,79 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $subject =  $name . "! " . $vid_rab . " стоимостью " . $pay . " и никакой предоплаты в студии " . $site_name;
+        $sub_1 = rand(1,10);
+
+    switch ($sub_1) {
+
+        case 1:
+            $sub_1_text = ' оплата ';
+            break;
+        case 2:
+            $sub_1_text = ' за ';
+            break;
+        case 3:
+            $sub_1_text = ' по ';
+            break;
+        case 4:
+            $sub_1_text = ' от ';
+            break;
+        case 5:
+            $sub_1_text = ' до ';
+            break;
+        case 6:
+            $sub_1_text = ' цена ';
+            break;
+        case 7:
+            $sub_1_text = ' по цене ';
+            break;
+        case 8:
+            $sub_1_text = ' стоимость ';
+            break;
+        case 9:
+            $sub_1_text = ' ценой ';
+            break;
+        case 10:
+            $sub_1_text = ' стоимостью ';
+            break;
+    }
+
+        $sub_2 = rand(1,10);
+
+    switch ($sub_2) {
+        case 1:
+            $sub_2_text = ' бeз прeдоплаты от компании ';
+            break;
+        case 2:
+            $sub_2_text = ' без предоплаты, образовательный центр ';
+            break;
+        case 3:
+            $sub_2_text = ' 6ез предoплаты предлагает учебная студия ';
+            break;
+        case 4:
+            $sub_2_text = ' без предоплaты от ';
+            break;
+        case 5:
+            $sub_2_text = ' без пpедоплаты, компания ';
+            break;
+        case 6:
+            $sub_2_text = ', бе3 предоплаты УЦ ';
+            break;
+        case 7:
+            $sub_2_text = ', без предoплаты услуга сервиса ';
+            break;
+        case 8:
+            $sub_2_text = ', нет предоплат на сайте ';
+            break;
+        case 9:
+            $sub_2_text = ', никаких прeдоплат на студенческом портале ';
+            break;
+        case 10:
+            $sub_2_text = ', не требуем предоплату, ООО ';
+            break;
+    }
+
+
+        $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . $sub_2_text . $site_name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
