@@ -1703,7 +1703,7 @@ switch ($rand_nom_3) {
     case 3:
         $rand_nom_text_3_1 = 'Курсовая работа';
         $rand_nom_text_3_2 = 'Дипломная работа';
-        $rand_nom_text_3_3 = 'Магистерская диссертация';
+        $rand_nom_text_3_3 = 'Маг. диссертация';
         break;
     case 4:
         $rand_nom_text_3_1 = 'Курсовой проект';
@@ -1978,6 +1978,27 @@ switch ($rand_nom_16) {
         break;
 }
 
+$rand_nom_17 = rand(1,5);
+
+switch ($rand_nom_17) {
+
+    case 1:
+        $rand_nom_text_17 = ' д.';
+        break;
+    case 2:
+        $rand_nom_text_17 = ' дн.';
+        break;
+    case 3:
+        $rand_nom_text_17 = ' с.';
+        break;
+    case 4:
+        $rand_nom_text_17 = ' сут.';
+        break;
+    case 5:
+        $rand_nom_text_17 = ' суток';
+        break;
+}
+
 
 $color_rand = rand(0, 9);
 
@@ -2143,7 +2164,7 @@ img {
                         </table>
                         
                         <div class="coo'.$style_1.'332l-copy" style="font-family:'.$rand_nom_text_9.'; 
-                        font-size: '.$rand_nom_text_12.'; line-height: 21px; text-align: left; color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
+                        font-size: '.$rand_nom_text_12.'; line-height: 21px; text-align: left; color:#3333'.$color_rand.'2">'.$sut_kurs.$rand_nom_text_17.' <br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
@@ -2182,7 +2203,7 @@ img {
                         </table>
                         
                         <div class="coo'.$style_1.'332l-copy" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_12.'; 
-                        line-height: 21px; text-align: left; color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
+                        line-height: 21px; text-align: left; color:#333'.$color_rand.'32">'.$sut_dip.$rand_nom_text_17.'<br>
                           '.$name.'!<br>'.$text_dip.'
                           
                                                  </div>
@@ -2225,7 +2246,7 @@ img {
                           
                         </table>
                         <div class="coo'.$style_1.'332l-copy" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_12.'; 
-                        line-height: 21px; text-align: left; color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
+                        line-height: 21px; text-align: left; color:#33'.$color_rand.'332">'.$sut_mag.$rand_nom_text_17.'<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
                         
