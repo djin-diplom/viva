@@ -1608,6 +1608,377 @@ for($i_2 = 0; $i_2<2; $i_2++){
 $img_text_3 = $temp_arr_img;
 
 
+$rand_cg = rand(1,10);
+
+switch ($rand_cg) {
+    case 1:
+        $rand_color_green = '#298007';
+        break;
+    case 2:
+        $rand_color_green = '#298017';
+        break;
+    case 3:
+        $rand_color_green = '#298107';
+        break;
+    case 4:
+        $rand_color_green = '#299007';
+        break;
+    case 5:
+        $rand_color_green = '#288007';
+        break;
+    case 6:
+        $rand_color_green = '#398007';
+        break;
+    case 7:
+        $rand_color_green = '#298008';
+        break;
+    case 8:
+        $rand_color_green = '#298027';
+        break;
+    case 9:
+        $rand_color_green = '#298207';
+        break;
+    case 10:
+        $rand_color_green = '#198007';
+        break;
+}
+
+$rand_nom_1 = rand(1,5);
+
+switch ($rand_nom_1) {
+
+    case 1:
+        $rand_nom_text_1 = '608';
+        break;
+    case 2:
+        $rand_nom_text_1 = '607';
+        break;
+    case 3:
+        $rand_nom_text_1 = '606';
+        break;
+    case 4:
+        $rand_nom_text_1 = '605';
+        break;
+    case 5:
+        $rand_nom_text_1 = '609';
+        break;
+}
+
+
+$rand_nom_2 = rand(1,5);
+
+switch ($rand_nom_2) {
+
+    case 1:
+        $rand_nom_text_2 = '183';
+        break;
+    case 2:
+        $rand_nom_text_2 = '182';
+        break;
+    case 3:
+        $rand_nom_text_2 = '184';
+        break;
+    case 4:
+        $rand_nom_text_2 = '185';
+        break;
+    case 5:
+        $rand_nom_text_2 = '181';
+        break;
+}
+
+$rand_nom_3 = rand(1,5);
+
+switch ($rand_nom_3) {
+
+    case 1:
+        $rand_nom_text_3_1 = 'Курсовая';
+        $rand_nom_text_3_2 = 'Дипломная';
+        $rand_nom_text_3_3 = 'Магистерская';
+        break;
+    case 2:
+        $rand_nom_text_3_1 = 'Курсовой';
+        $rand_nom_text_3_2 = 'Диплом';
+        $rand_nom_text_3_3 = 'Диссертация';
+        break;
+    case 3:
+        $rand_nom_text_3_1 = 'Курсовая работа';
+        $rand_nom_text_3_2 = 'Дипломная работа';
+        $rand_nom_text_3_3 = 'Магистерская диссертация';
+        break;
+    case 4:
+        $rand_nom_text_3_1 = 'Курсовой проект';
+        $rand_nom_text_3_2 = 'Дипломный проект';
+        $rand_nom_text_3_3 = 'Диссертация';
+        break;
+    case 5:
+        $rand_nom_text_3_1 = 'Курсовые';
+        $rand_nom_text_3_2 = 'Дипломные';
+        $rand_nom_text_3_3 = 'Магистерские';
+        break;
+}
+
+
+$rand_nom_4 = rand(1,5);
+
+switch ($rand_nom_4) {
+
+    case 1:
+        $rand_nom_text_4 = 'Сделать заказ';
+        break;
+    case 2:
+        $rand_nom_text_4 = 'Заказать';
+        break;
+    case 3:
+        $rand_nom_text_4 = 'Перейти к заказу';
+        break;
+    case 4:
+        $rand_nom_text_4 = 'Форма заказа';
+        break;
+    case 5:
+        $rand_nom_text_4 = 'Оформить заказы';
+        break;
+}
+
+$rand_nom_5 = rand(1,5);
+
+switch ($rand_nom_5) {
+
+    case 1:
+        $rand_nom_text_5 = 'сделать заказ';
+        break;
+    case 2:
+        $rand_nom_text_5 = 'заказать';
+        break;
+    case 3:
+        $rand_nom_text_5 = 'перейти на сайт';
+        break;
+    case 4:
+        $rand_nom_text_5 = 'форма заказа';
+        break;
+    case 5:
+        $rand_nom_text_5 = 'оформить через портал';
+        break;
+}
+
+$rand_nom_6 = rand(1,5);
+
+switch ($rand_nom_6) {
+
+    case 1:
+        $rand_nom_text_6 = 'Отписка';
+        break;
+    case 2:
+        $rand_nom_text_6 = 'Отказаться от рассылки';
+        break;
+    case 3:
+        $rand_nom_text_6 = 'Отписаться';
+        break;
+    case 4:
+        $rand_nom_text_6 = 'Отписывание';
+        break;
+    case 5:
+        $rand_nom_text_6 = 'Не получать письма';
+        break;
+}
+
+$rand_nom_7 = rand(1,5);
+
+switch ($rand_nom_7) {
+
+    case 1:
+        $rand_nom_text_7 = '2008';
+        break;
+    case 2:
+        $rand_nom_text_7 = '2009';
+        break;
+    case 3:
+        $rand_nom_text_7 = '2010';
+        break;
+    case 4:
+        $rand_nom_text_7 = '2011';
+        break;
+    case 5:
+        $rand_nom_text_7 = '2012';
+        break;
+}
+
+$rand_nom_8 = rand(1,10);
+
+switch ($rand_nom_8) {
+    case 1:
+            $rand_nom_text_8 = ' оплата ';
+            break;
+        case 2:
+            $rand_nom_text_8 = ' за ';
+            break;
+        case 3:
+            $rand_nom_text_8 = ' по ';
+            break;
+        case 4:
+            $rand_nom_text_8 = ' от ';
+            break;
+        case 5:
+            $rand_nom_text_8 = ' до ';
+            break;
+        case 6:
+            $rand_nom_text_8 = ' цена ';
+            break;
+        case 7:
+            $rand_nom_text_8 = ' по цене ';
+            break;
+        case 8:
+            $rand_nom_text_8 = ' стоимость ';
+            break;
+        case 9:
+            $rand_nom_text_8 = ' ценой ';
+            break;
+        case 10:
+            $rand_nom_text_8 = ' стоимостью ';
+            break;
+    }
+
+
+$rand_nom_9 = rand(1,5);
+
+switch ($rand_nom_9) {
+
+    case 1:
+        $rand_nom_text_9 = 'Helvetica, Аrial, sans-serif';
+        break;
+    case 2:
+        $rand_nom_text_9 = 'sans-serif, Helvetica, Аrial';
+        break;
+    case 3:
+        $rand_nom_text_9 = 'Аrial, sans-serif, Helvetica';
+        break;
+    case 4:
+        $rand_nom_text_9 = 'Аrial, Helvetica, sans-serif';
+        break;
+    case 5:
+        $rand_nom_text_9 = 'Helvetica, sans-serif, Аrial';
+        break;
+}
+
+$rand_nom_10 = rand(1,5);
+
+switch ($rand_nom_10) {
+
+    case 1:
+        $rand_nom_text_10 = '22px';
+        break;
+    case 2:
+        $rand_nom_text_10 = '21px';
+        break;
+    case 3:
+        $rand_nom_text_10 = '20px';
+        break;
+    case 4:
+        $rand_nom_text_10 = '23px';
+        break;
+    case 5:
+        $rand_nom_text_10 = '24px';
+        break;
+}
+
+$rand_nom_11 = rand(1,4);
+
+switch ($rand_nom_11) {
+
+    case 1:
+        $rand_nom_text_11 = '163';
+        break;
+    case 2:
+        $rand_nom_text_11 = '164';
+        break;
+    case 3:
+        $rand_nom_text_11 = '162';
+        break;
+    case 4:
+        $rand_nom_text_11 = '161';
+        break;
+}
+
+
+$rand_nom_12 = rand(1,3);
+
+switch ($rand_nom_12) {
+
+    case 1:
+        $rand_nom_text_12 = '11px';
+        break;
+    case 2:
+        $rand_nom_text_12 = '12px';
+        break;
+    case 3:
+        $rand_nom_text_12 = '10px';
+        break;
+}
+
+$rand_nom_13 = rand(1,3);
+
+switch ($rand_nom_13) {
+
+    case 1:
+        $rand_nom_text_13 = '10px';
+        break;
+    case 2:
+        $rand_nom_text_13 = '11px';
+        break;
+    case 3:
+        $rand_nom_text_13 = '9px';
+        break;
+}
+
+$rand_nom_14 = rand(1,3);
+
+switch ($rand_nom_14) {
+
+    case 1:
+        $rand_nom_text_14 = '15px';
+        break;
+    case 2:
+        $rand_nom_text_14 = '16px';
+        break;
+    case 3:
+        $rand_nom_text_14 = '14px';
+        break;
+}
+
+$rand_nom_15 = rand(1,3);
+
+switch ($rand_nom_15) {
+
+    case 1:
+        $rand_nom_text_15 = '111';
+        break;
+    case 2:
+        $rand_nom_text_15 = '112';
+        break;
+    case 3:
+        $rand_nom_text_15 = '110';
+        break;
+}
+
+
+$rand_nom_16 = rand(1,4);
+
+switch ($rand_nom_16) {
+
+    case 1:
+        $rand_nom_text_16 = ' р.';
+        break;
+    case 2:
+        $rand_nom_text_16 = ' руб.';
+        break;
+    case 3:
+        $rand_nom_text_16 = ' рублей.';
+        break;
+    case 4:
+        $rand_nom_text_16 = '.';
+        break;
+}
+
+
 $color_rand = rand(0, 9);
 
 $body_2 = '<!DOCTYPE html>
@@ -1667,75 +2038,6 @@ img {
 
     
     
-
-    @media screen and (max-width: 599px) {
-    
-      .force2_row2'.$style_1.',
-      .cont'.$style_1.'ain22 {
-        width: 100% !important;
-        
-        max-width: 100% !important;
-      }
-    }
-    
-    @media screen and (max-width: 399px) {
-    
-      .cont'.$style_1.'ain22-padding {
-        padding-left: 11px !important;
-        
-        padding-right: 11px !important;
-      }
-      
-    }
-    
-    .ios23'.$style_1.'foot434 a {
-      color: #aaaa'.$color_rand.'a !important;
-      text-decoration: underline;
-    }
-
-    @media screen and ( max-width: 599px) {
-    
-      .coo'.$style_1.'332l {
-        width: 99% !important;
-        
-        border-top: 2px solid #eee;
-        
-        padding-bottom: 0 !important;
-      }
-
-      .coo'.$style_1.'332ls-wrapper {
-      
-        padding-top: 15px;
-      }
-
-      .im3g'.$style_1.'wrap25per {
-        float: right;
-        
-        max-width: 40% !important;
-        height: auto !important;
-        
-        margin-left: 11px;
-      }
-
-      .sub'.$style_1.'3tit4tle {
-        margin-top: 0 !important;
-      }
-    }
-    
-    @media screen and (max-width: 399px) {
-      .coo'.$style_1.'332ls-wrapper {
-      
-        padding-left: 0 !important;
-        
-        padding-right: 0 !important;
-      }
-
-      .con3tent'.$style_1.'w43rapper {
-      
-        padding-left: 11px !important;
-        padding-right: 11px !important;
-      }
-    }
   </style>
  
 
@@ -1755,17 +2057,17 @@ img {
 
 
    
-      <table border="0" width="608"  cellpadding="0" cellspacing="0"  class="cont'.$style_1.'ain22" style="width: 608px; max-width: 599px">
+      <table border="0" width="'.$rand_nom_text_1.'"  cellpadding="0" cellspacing="0"  class="cont'.$style_1.'ain22" style="width: '.$rand_nom_text_1.'px; max-width: 599px">
         <tr>
         
-          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: Аrial; 
+          <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: '.$rand_nom_text_9.'; 
           font-size: 25px; font-weight: bold; padding-bottom: 13px; 
-          color:#DF47'.$color_rand. '5; padding-left: 22px; padding-right: 22px">
+          color:#DF47'.$color_rand. '5; padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
           
-                  <span style="color: #298007;">' .$name.'! '.$vid_rab.' ценой '.$pay.' р.</span><br>
+                  <span style="color: '.$rand_color_green.';">' .$name.'! '.$vid_rab.$rand_nom_text_8.$pay.$rand_nom_text_16.'</span><br>
                   
             '.$vibor_let.'
-                 <br><span style="color: #298007;">'.$vibor_akc.'</span><br>
+                 <br><span style="color: '.$rand_color_green.';">'.$vibor_akc.'</span><br>
             
 
           </td>
@@ -1774,24 +2076,24 @@ img {
         
         <tr>
         
-          <td class="content"  align="left" style=" padding-top: 11px; padding-bottom: 11px; 
+          <td class="content"  align="left" style=" padding-top: '.$rand_nom_text_12.'; padding-bottom: '.$rand_nom_text_12.'; 
           background-color:  #ffffff">
 
-            <table width="608" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: 608px;">
+            <table width="'.$rand_nom_text_1.'" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_1.'px;">
             
               <tr>
               
-                <td class="con3tent'.$style_1.'w43rapper" style="padding-left: 22px; padding-right: 22px">
+                <td class="con3tent'.$style_1.'w43rapper" style="padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
                 
                   <br>
                   
                   
-                  <div class="title" style="font-family:Аrial; font-size: 17px; font-weight: 608; 
+                  <div class="title" style="font-family:'.$rand_nom_text_9.'; font-size: 17px; font-weight: '.$rand_nom_text_1.'; 
                   color: #374'.$color_rand.'52">'.$name.'! 
                   "<a href="'.$site_url.'">'.$site_name.'</a>"
                   '.$vibor_pris.'
                   
-                  <a href="'.$site_url.'order.php" >Перейти к заказу</a>
+                  <a href="'.$site_url.'order.php" >'.$rand_nom_text_4.'</a>
                   
                   </div>
                   
@@ -1801,25 +2103,25 @@ img {
               
               <tr>
               
-                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left: 11px; padding-right: 11px">
+                <td class="coo'.$style_1.'332ls-wrapper" style="padding-left: '.$rand_nom_text_12.'; padding-right: '.$rand_nom_text_12.'">
 
                  
 
 
-                  <table width="183" align="left" class="force2_row2'.$style_1.'" style="width: 183px;">
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
                   
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
-                      padding-bottom: 10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
+                      padding-bottom: '.$rand_nom_text_13.'">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><a>
+                            <td style="padding-bottom:'.$rand_nom_text_14.'"><a>
                             
-                            <img alt="'.$img_text_1.'" src="'.$kart_1.'" border="0"  width="163" height="111" style="max-width:99%;" >
+                            <img alt="'.$img_text_1.'" src="'.$kart_1.'" border="0"  width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" style="max-width:99%;" >
                             
                             </a>
                             
@@ -1833,15 +2135,15 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family: Аrial; font-size: 13px; 
-                            line-height: 22px; font-weight: 608; color: #24'.$color_rand.'9A1; padding-bottom:7px">Курсовой проект
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family: '.$rand_nom_text_9.'; font-size: 13px; 
+                            line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.'; color: #24'.$color_rand.'9A1; padding-bottom:7px">'.$rand_nom_text_3_1.'
                             </td>
                           </tr>
                           
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family:Аrial; 
-                        font-size: 11px; line-height: 21px; text-align: left; color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
+                        <div class="coo'.$style_1.'332l-copy" style="font-family:'.$rand_nom_text_9.'; 
+                        font-size: '.$rand_nom_text_12.'; line-height: 21px; text-align: left; color:#3333'.$color_rand.'2">'.$sut_kurs.' дн.<br>
                           '.$name.'!<br>'.$text_kurs.'
                           
                           
@@ -1855,15 +2157,15 @@ img {
                     
                   </table>
 
-                  <table width="183" align="left" class="force2_row2'.$style_1.'" style="width: 183px;">
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px ;padding-top:15px; padding-bottom:10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.' ;padding-top:'.$rand_nom_text_14.'; padding-bottom:'.$rand_nom_text_13.'">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                           <tr>
                           
-                            <td style="padding-bottom: 15px"><img alt="'.$img_text_2.'" src="'.$kart_2.'" border="0" width="163" height="111" 
+                            <td style="padding-bottom: '.$rand_nom_text_14.'"><img alt="'.$img_text_2.'" src="'.$kart_2.'" border="0" width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
                             style="max-width: 99%; " ></td>
                           </tr>
                           
@@ -1873,13 +2175,13 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family: Аrial; font-size: 13px; 
-                            line-height: 22px; font-weight: 608; color: #2'.$color_rand.'69A1; padding-bottom: 7px">Дипломный проект</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family: '.$rand_nom_text_9.'; font-size: 13px; 
+                            line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.'; color: #2'.$color_rand.'69A1; padding-bottom: 7px">'.$rand_nom_text_3_2.'</td>
                           </tr>
                           
                         </table>
                         
-                        <div class="coo'.$style_1.'332l-copy" style="font-family: Аrial; font-size: 11px; 
+                        <div class="coo'.$style_1.'332l-copy" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_12.'; 
                         line-height: 21px; text-align: left; color:#333'.$color_rand.'32">'.$sut_dip.' дн.<br>
                           '.$name.'!<br>'.$text_dip.'
                           
@@ -1894,18 +2196,18 @@ img {
                   </table>
                 
 
-                  <table width="183" align="left" class="force2_row2'.$style_1.'" style="width: 183px;">
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
                   
                     <tr>
                     
-                      <td class="coo'.$style_1.'332l"  style="padding-left: 10px; padding-right: 10px; padding-top: 15px; 
-                      padding-bottom: 10px">
+                      <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
+                      padding-bottom: '.$rand_nom_text_13.'">
                       
                         <table class="im3g'.$style_1.'wrap25per">
                         
                           <tr>
                           
-                            <td style="padding-bottom:15px"><img alt="'.$img_text_3.'" src="'.$kart_3.'" border="0"  width="163" height="111" 
+                            <td style="padding-bottom:'.$rand_nom_text_14.'"><img alt="'.$img_text_3.'" src="'.$kart_3.'" border="0"  width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
                             style="max-width: 99%; ">
                             </td>
                             
@@ -1917,12 +2219,12 @@ img {
                         
                           <tr>
                           
-                            <td class="sub'.$style_1.'3tit4tle" style="font-family:Аrial;font-size: 13px; 
-                            line-height: 22px; font-weight: 608;color:#2'.$color_rand.'69A1; padding-bottom: 7px">Диссертация</td>
+                            <td class="sub'.$style_1.'3tit4tle" style="font-family:'.$rand_nom_text_9.';font-size: 13px; 
+                            line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.';color:#2'.$color_rand.'69A1; padding-bottom: 7px">'.$rand_nom_text_3_3.'</td>
                           </tr>
                           
                         </table>
-                        <div class="coo'.$style_1.'332l-copy" style="font-family: Аrial; font-size: 11px; 
+                        <div class="coo'.$style_1.'332l-copy" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_12.'; 
                         line-height: 21px; text-align: left; color:#33'.$color_rand.'332">'.$sut_mag.' дн.<br>
                           '.$name.'!<br>'.$text_mag.'
                         </div>
@@ -1941,10 +2243,10 @@ img {
                 
               </tr>
               <tr>
-                <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: Аrial; font-size: 22px; 
-                font-weight: bold; padding-bottom: 13px; color: #DF47'.$color_rand.'5;padding-left: 22px; padding-right: 22px">
+                <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_10.'; 
+                font-weight: bold; padding-bottom: 13px; color: #DF47'.$color_rand.'5;padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
                 
-                  <a href="'.$site_url.'order.php">'.$name.', переход на сайт</a><br>
+                  <a href="'.$site_url.'order.php">'.$name.', '.$rand_nom_text_5.'</a><br>
                    '.$vibor_filial.'
                 </td>
                 
@@ -1956,8 +2258,8 @@ img {
         </tr>
         <tr>
         
-          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family: Аrial; 
-          font-size: 11px; line-height: 15px; color:#aaaaa'.$color_rand.'; padding-left: 22px; padding-right: 22px">
+          <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family: '.$rand_nom_text_9.'; 
+          font-size: '.$rand_nom_text_12.'; line-height: '.$rand_nom_text_14.'; color:#aaaaa'.$color_rand.'; padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
             <br>
             
             <br>
@@ -1974,10 +2276,10 @@ img {
 
               
             <span class="ios23'.$style_1.'foot434">
-              '.$name.'! <a href="'.$site_url.'otpiska.php" >Отписывание</a>.<br>
+              '.$name.'! <a href="'.$site_url.'otpiska.php" >'.$rand_nom_text_6.'</a>.<br>
             </span>
 
-            ©2010-2017 <a href="'.$site_url.'" style="color: #aaaaa'.$color_rand.'">'.$site_name.'</a><br>
+            ©'.$rand_nom_text_7.'-2017 <a href="'.$site_url.'" style="color: #aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
 
