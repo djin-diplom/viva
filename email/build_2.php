@@ -1506,13 +1506,25 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=Itd8HgBGnaph9yAIual4NA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzc1NmZhMjkzYWMxZDY4ZGFlNzY4ZjI0YTkzODIwOWM1LmpwZw~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=qQ-RL1GniJYD9uk9t1rh_A&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzdhNjdhN2Q0MWE1MTYxNjhlMDVkMzRmNDBiNmEyNjE2LmpwZw~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069729&h=kUQLFos9jAMumcNuOL95qw&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzk5Mjg3NDA5Y2VmOTlkYWRiMjM5NGM2MjkwYzg2NTE2LmpwZw~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin4%40mail.ru&e=1491367525&h=LkDD-23gJQnPaZ_iHoxStg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2VjNzAxM2RlZjk3NmYwYmNjNGRjODMzOTM3N2JkNWY1LmpwZw~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin4%40mail.ru&e=1491367525&h=fHXOLNEqiy6qzfZdjFqIWA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2I1NDQ4NGRkMGM1NDgxM2Y5MzlkYzlhMGZiNzgyOGZhLmpwZw~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin4%40mail.ru&e=1491368181&h=6kMnIaUu2KPDO9DZcN-edw&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzhjM2M3NzFkZTg0ZmU1ZWM4OWFhMzljNGMyNjRmOWNkLmpwZw~~&is_https=1';
 
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069904&h=GSOVAVyeGMhNOOCDVcR7lg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2VjNzAxM2RlZjk3NmYwYmNjNGRjODMzOTM3N2JkNWY1LmpwZw~~&is_https=1';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069904&h=0fAh6v5sB9w0k4b9YY6D9w&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzM5Y2JkYWVkN2YyMzZiMThkNmYzOTYzODBlNDM4NWY4LmpwZw~~&is_https=1';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1491069951&h=pKv_k3tx1v1_0zZXbxlqqg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzMwOWQ4NDY4NzJhMWU4NzAwMzk3NGJhYmUxZmJlMmZhLmpwZw~~&is_https=1';
+    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin4%40mail.ru&e=1491368181&h=vOPV-7Nh_ea2_GISGkY4BQ&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzM5Y2JkYWVkN2YyMzZiMThkNmYzOTYzODBlNDM4NWY4LmpwZw~~&is_https=1';
+    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin4%40mail.ru&e=1491368181&h=587B4SWhQRZF9eLznf0_3g&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzMwOWQ4NDY4NzJhMWU4NzAwMzk3NGJhYmUxZmJlMmZhLmpwZw~~&is_https=1';
+
+    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin3%40mail.ru&e=1491368370&h=mVvUftj7toIVYC08K4IaLA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzhjM2M3NzFkZTg0ZmU1ZWM4OWFhMzljNGMyNjRmOWNkLmpwZw~~&is_https=1';
+    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin3%40mail.ru&e=1491368370&h=lrMJ4wt9dSsCUYn13Qx77g&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzM5Y2JkYWVkN2YyMzZiMThkNmYzOTYzODBlNDM4NWY4LmpwZw~~&is_https=1';
+    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin3%40mail.ru&e=1491368370&h=9c3q3ryU8_Eq4raf7bvaxA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzMwOWQ4NDY4NzJhMWU4NzAwMzk3NGJhYmUxZmJlMmZhLmpwZw~~&is_https=1';
+    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin3%40mail.ru&e=1491368386&h=la3CS2BxfrudgRyTQ0SOJQ&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2VjNzAxM2RlZjk3NmYwYmNjNGRjODMzOTM3N2JkNWY1LmpwZw~~&is_https=1';
+    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin3%40mail.ru&e=1491368386&h=vWQ35tLg1JpfA5dnc_akgg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2I1NDQ4NGRkMGM1NDgxM2Y5MzlkYzlhMGZiNzgyOGZhLmpwZw~~&is_https=1';
+
+    $img_mail_11 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1491368673&h=LoWoEYV1zOtxWMthn0xcRg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2VjNzAxM2RlZjk3NmYwYmNjNGRjODMzOTM3N2JkNWY1LmpwZw~~&is_https=1';
+    $img_mail_12 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1491368673&h=xY0FgFfX81AJ9Y8mi8Mp1A&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzL2I1NDQ4NGRkMGM1NDgxM2Y5MzlkYzlhMGZiNzgyOGZhLmpwZw~~&is_https=1';
+    $img_mail_13 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1491368671&h=Cb7c7OFecpmbdZ2yfCrggg&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzhjM2M3NzFkZTg0ZmU1ZWM4OWFhMzljNGMyNjRmOWNkLmpwZw~~&is_https=1';
+    $img_mail_14 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1491368671&h=eOEonthXIfwp29A0wRPU5g&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzM5Y2JkYWVkN2YyMzZiMThkNmYzOTYzODBlNDM4NWY4LmpwZw~~&is_https=1';
+    $img_mail_15 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1491368671&h=z8hPYLm81W6mrsOEbiATrA&url171=czguaG9zdGluZ2thcnRpbm9rLmNvbS91cGxvYWRzL2ltYWdlcy8yMDE3LzAzLzMwOWQ4NDY4NzJhMWU4NzAwMzk3NGJhYmUxZmJlMmZhLmpwZw~~&is_https=1';
+
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -1527,19 +1539,37 @@ function kart_vibor ($var) {
             break;
         case 6: $var_2 = $img_mail_6;
             break;
+        case 7: $var_2 = $img_mail_7;
+            break;
+        case 8: $var_2 = $img_mail_8;
+            break;
+        case 9: $var_2 = $img_mail_9;
+            break;
+        case 10: $var_2 = $img_mail_10;
+            break;
+        case 11: $var_2 = $img_mail_11;
+            break;
+        case 12: $var_2 = $img_mail_12;
+            break;
+        case 13: $var_2 = $img_mail_13;
+            break;
+        case 14: $var_2 = $img_mail_14;
+            break;
+        case 15: $var_2 = $img_mail_15;
+            break;
 
     }
-    $var_2 = '';
+
 return $var_2;
 }
 
 // Выбор картинок
-$kart_1 = rand(1, 1000000)%6+1;
-$kart_2 = rand(1, 1000000)%6+1;
-if ( $kart_1 == $kart_2) $kart_2 = rand(1, 1000000)%6+1;
-$kart_3 = rand(1, 1000000)%6+1;
-if ( $kart_1 == $kart_3) $kart_3 = rand(1, 1000000)%6+1;
-if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%6+1;
+$kart_1 = rand(1, 1000000)%15+1;
+$kart_2 = rand(1, 1000000)%15+1;
+if ( $kart_1 == $kart_2) $kart_2 = rand(1, 1000000)%15+1;
+$kart_3 = rand(1, 1000000)%15+1;
+if ( $kart_1 == $kart_3) $kart_3 = rand(1, 1000000)%15+1;
+if ( $kart_2 == $kart_3) $kart_3 = rand(1, 1000000)%15+1;
 
 $kart_1 = kart_vibor($kart_1);
 $kart_2 = kart_vibor($kart_2);
