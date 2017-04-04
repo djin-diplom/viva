@@ -11,10 +11,13 @@ $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 
-$img_path_1 = "./index_files/1_logo.jpg";
-$img_path_2 = "1_logo.jpg";
 
-    $site_name = 'vivastudent.ru';
+$img_path_1 = "./index_files/1_logo_55 (2).png";
+$img_path_2 = "1_logo_55 (2).png";
+//$img_path_1 = "./index_files/1_logo.jpg";
+//$img_path_2 = "1_logo.jpg";
+
+    $site_name = 'Vivastudent.ru';
 $site_name_2 = 'www.vivastudent.ru';
 $site_name_3 = 'vivastudent.ru';
 $site_name_4 = 'vivastudent.ru';
@@ -39,6 +42,7 @@ $site_name_6 = 'vivastudent.ru';
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
     $adres = "г. Санкт-Петeрбург, ул. Пушкина, <br>дом № 30, oф. 116-117";
+//$adres = "г. Санкт-Петeрбург, ул. Ораниенбаумская, <br>дом № 29, oф. 116-117";
 $url_adres_yandex = "https://yandex.by/maps/-/C6UMy8Ju";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ua/frame/v1/-/C6UMy8Ju\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     //$url_adres_yandex = "https://yandex.ru/maps/-/C6QkzZ-H";
