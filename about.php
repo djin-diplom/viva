@@ -1,0 +1,1 @@
+header("Location: o_kompanii.php");
