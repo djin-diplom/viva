@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
-Sitemap: http://www.bazaznanij.com/sitemap.xml
-Host: www.bazaznanij.com
+Sitemap: http://www.vivastudent.ru/sitemap.xml
+Host: www.vivastudent.ru
