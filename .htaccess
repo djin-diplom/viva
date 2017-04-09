@@ -6,6 +6,9 @@
 
 RewriteBase /
 
+Redirect 301 about.php http://www.vivastudent.ru/o_kompanii.php
+
 # Return 404
 ErrorDocument 404 /404.php
 DirectoryIndex index.php
+
