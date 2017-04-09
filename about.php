@@ -1,3 +1,3 @@
 <php?
-header("Location: o_kompanii.php");
+header("Location: http://www.vivastudent.ru/o_kompanii.php");
 ?>
