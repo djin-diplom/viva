@@ -6,9 +6,8 @@
 
 RewriteBase /
 
-RewriteRule ^about.php$ http://www.vivastudent.ru/o_kompanii.php [R=301,L]
-
 # Return 404
 ErrorDocument 404 /404.php
 DirectoryIndex index.php
 
+RewriteRule http://www.vivastudent.ru/about.php http://www.vivastudent.ru/o_kompanii.php [R=301,L]
