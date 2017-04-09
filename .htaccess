@@ -6,7 +6,7 @@
 
 RewriteBase /
 
-Redirect 301 about.php http://www.vivastudent.ru/o_kompanii.php
+RewriteRule ^about.php$ http://www.vivastudent.ru/o_kompanii.php [R=301,L]
 
 # Return 404
 ErrorDocument 404 /404.php
