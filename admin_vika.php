@@ -7,6 +7,6 @@
 <form action="excel/upload_file.php" method="post" >
     <input type="submit" value="Перейти на excel/upload_file.php (Массовая рассылка заказчикам)"><br>
 </form>
-<form action="excel/upload_file.php" method="post" >
+<form action="excel/upload_file_2.php" method="post" >
     <input type="submit" value="Перейти на excel/upload_file_2.php (Массовая для компаний)"><br>
 </form>
