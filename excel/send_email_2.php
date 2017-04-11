@@ -79,7 +79,7 @@ if ( (int)$i >= (int)$count) {
         $vid_rab = $ar_colls[2];
         $pay = $ar_colls[3];
         echo "Посылаем " . $email_client . "<br>";
-        require("../email/build_2.php");
+        require("../email/build_3.php");
 
 
         $body = $body_3;
