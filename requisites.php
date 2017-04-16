@@ -1,8 +1,8 @@
 <?php
 
 
-$main_name = "Vivamagister.ru";//"vivastudent.ru";
-$email2 =  "Vivamagister.ru@gmail.com";//"vivastudents.ru@gmail.com";
+$main_name = "Viva-magisters.ru";//"vivastudent.ru";
+$email2 =  "Viva-magisters.ru@gmail.com";//"vivastudents.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -17,12 +17,12 @@ $img_path_2 = "1_logo_55 (2).png";
 //$img_path_1 = "./index_files/1_logo.jpg";
 //$img_path_2 = "1_logo.jpg";
 
-    $site_name = "Vivamagister.ru";//'Vivastudent.ru';
-$site_name_2 = "Vivamagister.ru";//'www.vivastudent.ru';
-$site_name_3 = "Vivamagister.ru";//'vivastudent.ru';
-$site_name_4 = "Vivamagister.ru";//'vivastudent.ru';
-$site_name_5 = "Vivamagister.ru";//'www.vivastudent.ru';
-$site_name_6 = "Vivamagister.ru";//'vivastudent.ru';
+    $site_name = "Viva-magisters.ru";//'Vivastudent.ru';
+$site_name_2 = "Viva-magisters.ru";//'www.vivastudent.ru';
+$site_name_3 = "Viva-magisters.ru";//'vivastudent.ru';
+$site_name_4 = "Viva-magisters.ru";//'vivastudent.ru';
+$site_name_5 = "Viva-magisters.ru";//'www.vivastudent.ru';
+$site_name_6 = "Viva-magisters.ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -41,7 +41,7 @@ $site_name_6 = "Vivamagister.ru";//'vivastudent.ru';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петeрбург, ул. Николая I, <br>дом № 14, oф. 162-163";
+    $adres = "г. Санкт-Петeрбург, ул. Петра I, <br>дом № 18, oф. 131-132";
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";
 $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
