@@ -1,6 +1,8 @@
 <?php session_start();
 ?>
 <meta name="yandex-verification" content="754703cfbd04b9f3" />
+<meta name="yandex-verification" content="94178653a470db35" />
+<meta name="google-site-verification" content="T7uUu2hRnTmW_duqn8_mPP6630c8XcMXexADZJhu4Nc" />
 <meta name="google-site-verification" content="pVSW6pVb_5dlBJ5Zuc19jXuNo5MjfzgZNbZt6Q2EE9U" />
 <meta name="yandex-verification" content="ce4c9e6f4f0c8756" />
 <meta name="google-site-verification" content="9iB_AD80IlNFd-bcqLsSVL4MBCMzZFGmimFPiT-r2ww" />
