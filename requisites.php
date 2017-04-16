@@ -41,7 +41,7 @@ $site_name_6 = "Vivamagister.ru";//'vivastudent.ru';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петeрбург, ул. Николая Первого, <br>дом № 14, oф. 162-163";
+    $adres = "г. Санкт-Петeрбург, ул. Николая I, <br>дом № 14, oф. 162-163";
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";
 $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
