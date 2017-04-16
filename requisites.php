@@ -47,7 +47,7 @@ $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     //$url_adres_yandex = "https://yandex.ru/maps/-/C6QkzZ-H";
     //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6QkzZ-H\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410015073686834";
+    $url_oplata = "https://money.yandex.ru/to/410015147640511";
 
 $main_name_temp = $main_name;
 
