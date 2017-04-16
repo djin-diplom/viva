@@ -1,4 +1,2 @@
 User-Agent: *
 Disallow:
-Sitemap: http://www.vivastudent.ru/sitemap.xml
-Host: www.vivastudent.ru
