@@ -1,9 +1,9 @@
 <?php
 
-$main_name = "Viva-magisters.ru";
+$main_name = "Vivazachet.ru";
 //$main_name = "Vivamagister.ru";
 //$main_name = "Vivazachet.ru";//"Vivastudent.ru";
-$email2 =  "Viva-magisters.ru@gmail.com";//"Vivastudents.ru@gmail.com";
+$email2 =  "Vivazachet.ru@gmail.com";//"Vivastudents.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -18,12 +18,12 @@ $img_path_2 = "1_logo_55 (2).png";
 //$img_path_1 = "./index_files/1_logo.jpg";
 //$img_path_2 = "1_logo.jpg";
 
-    $site_name = "Viva-magisters.ru";//'Vivastudent.ru';
-$site_name_2 = "Viva-magisters.ru";//'www.vivastudent.ru';
-$site_name_3 = "Viva-magisters.ru";//'vivastudent.ru';
-$site_name_4 = "Viva-magisters.ru";//'vivastudent.ru';
-$site_name_5 = "Viva-magisters.ru";//'www.vivastudent.ru';
-$site_name_6 = "Viva-magisters.ru";//'vivastudent.ru';
+    $site_name = "Vivazachet.ru";//'Vivastudent.ru';
+$site_name_2 = "Vivazachet";//'www.vivastudent.ru';
+$site_name_3 = "Www.vivazachet.ru";//'vivastudent.ru';
+$site_name_4 = "Vivazachet-ru";//'vivastudent.ru';
+$site_name_5 = "Viva Zachet";//'www.vivastudent.ru';
+$site_name_6 = "Viva Zachet Ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -42,16 +42,16 @@ $site_name_6 = "Viva-magisters.ru";//'vivastudent.ru';
     $email_12 = "publicity@".$main_name;
     //$email2 = $main_name."@gmail.com";
     $email3 = "info@".$main_name;
-     $adres = "г. Санкт-Петeрбург, ул.  Ефимова, <br>дом № 5, oф. 138-139";//Viva-magisters.ru
+     //$adres = "г. Санкт-Петeрбург, ул.  Ефимова, <br>дом № 5, oф. 138-139";//Viva-magisters.ru
     //$adres = "г. Санкт-Петeрбург, ул. Будапештская, <br>дом № 19, oф. 278-279";//Vivamagister.ru
-    //$adres = "г. Санкт-Петeрбург, ул. Савушкина, <br>дом № 37, oф. 118-119";//vivazachet
+    $adres = "г. Санкт-Петeрбург, ул. Савушкина, <br>дом № 37, oф. 118-119";//vivazachet
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";//'vivastudent.ru';
-//$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
+$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azzK~w"; //Vivamagister.ru
-$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
-//$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
+//$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
+$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azzK~w\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Vivamagister.ru
-$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
+//$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
     //$url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
     //$url_adres_yandex_frame = "<iframe src="https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk" width="560" height="400" frameborder="0"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410015147640511";
