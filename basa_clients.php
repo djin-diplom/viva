@@ -47,9 +47,13 @@ $count_text = 13;
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="client_name" id="id_name">
-
-
+                    <?php
+                    if(trim($_GET['name']) == '') {
+                        echo  '<input style="width: 50%;" type="text" name="client_name" id="id_name">';
+                    } else {
+                        echo  '<input style="width: 50%;" type="text" name="client_name" id="id_name" value='.$_GET['name'].' >';
+                    }
+                    ?>
                 </td>
             </tr>
 
@@ -59,7 +63,14 @@ $count_text = 13;
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="client_email" id="id_email">
+                    <?php
+                    if(trim($_GET['email_stud']) == '') {
+                        echo  '<input style="width: 50%;" type="text" name="client_email" id="id_email">';
+                    } else {
+                        echo  '<input style="width: 50%;" type="text" name="client_email" id="id_email" value='.$_GET['email_stud'].' >';
+                    }
+                    ?>
+
 
                 </td>
             </tr>
@@ -69,7 +80,14 @@ $count_text = 13;
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="zakaz_cena" id="id_name">
+                    <?php
+                    if(trim($_GET['kli_stoimost']) == '') {
+                        echo  '<input style="width: 50%;" type="text" name="zakaz_cena" id="id_name">';
+                    } else {
+                        echo  '<input style="width: 50%;" type="text" name="zakaz_cena" id="id_name" value='.$_GET['kli_stoimost'].' >';
+                    }
+                    ?>
+
 
                 </td>
             </tr>
@@ -79,7 +97,15 @@ $count_text = 13;
                     <span style="color: red;">*</span>
                 </td>
                 <td>
-                    <input style="width: 50%;" type="text" name="srok_vipoln" id="id_name">
+
+                    <?php
+                    if(trim($_GET['srok_vip']) == '') {
+                        echo  '<input style="width: 50%;" type="text" name="srok_vipoln" id="id_name">';
+                    } else {
+                        echo  '<input style="width: 50%;" type="text" name="srok_vipoln" id="id_name" value='.$_GET['srok_vip'].' >';
+                    }
+                    ?>
+
 
                 </td>
             </tr>
@@ -90,8 +116,14 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <textarea id="id_subject" style="width: 80%;" rows="2" cols="10" name="zakaz_teme"></textarea>
 
+                    <?php
+                    if(trim($_GET['tema']) == '') {
+                        echo  '<textarea id="id_subject" style="width: 80%;" rows="2" cols="10" name="zakaz_teme"></textarea>';
+                    } else {
+                        echo  '<textarea id="id_subject" style="width: 80%;" rows="2" cols="10" name="zakaz_teme" >'.$_GET['tema'].'</textarea>';
+                    }
+                    ?>
 
                 </td>
             </tr>
@@ -102,7 +134,15 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value="2">
+
+                    <?php
+                    if(trim($_GET['predoplata']) == '') {
+                        echo  '<input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value="2">';
+                    } else {
+                        echo  '<input id="id_predmet" style="width: 50%;" type="text" name="predoplata" maxlength="100" value='.$_GET['predoplata'].' >';
+                    }
+                    ?>
+
 
 
                 </td>
@@ -114,8 +154,14 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value="Не указан">
 
+                    <?php
+                    if(trim($_GET['predmet']) == '') {
+                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value="Не указан">';
+                    } else {
+                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value='.$_GET['predmet'].' >';
+                    }
+                    ?>
 
                 </td>
             </tr>
@@ -125,9 +171,14 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_predmet" style="width: 50%;" type="text" name="zakaz_type" maxlength="100">
 
-
+                    <?php
+                    if(trim($_GET['work_kind']) == '') {
+                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_type" maxlength="100">';
+                    } else {
+                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_type" maxlength="100" value='.$_GET['work_kind'].'  >';
+                    }
+                    ?>
                 </td>
             </tr>
 
@@ -139,9 +190,8 @@ $count_text = 13;
 
                 </td>
                 <td>
+
                     <input id="id_university" style="width: 50%;" type="text" name="client_vuz" maxlength="100" value="Не указано">
-
-
                 </td>
             </tr>
             <tr>
@@ -150,9 +200,14 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_unik" maxlength="100">
 
-
+                    <?php
+                    if(trim($_GET['unik']) == '') {
+                        echo   '<input id="id_university" style="width: 50%;" type="text" name="zakaz_unik" maxlength="100">';
+                    } else {
+                        echo   '<input id="id_university" style="width: 50%;" type="text" name="zakaz_unik" maxlength="100" value='.$_GET['unik'].' >';
+                    }
+                    ?>
                 </td>
             </tr>
             <tr>
@@ -161,7 +216,14 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <input id="id_university" style="width: 50%;" type="text" name="zakaz_pages" maxlength="100">
+
+                    <?php
+                    if(trim($_GET['objem']) == '') {
+                        echo   '<input id="id_university" style="width: 50%;" type="text" name="zakaz_pages" maxlength="100">';
+                    } else {
+                        echo   '<input id="id_university" style="width: 50%;" type="text" name="zakaz_pages" maxlength="100" value='.$_GET['objem'].' >';
+                    }
+                    ?>
 
 
                 </td>
@@ -183,7 +245,15 @@ $count_text = 13;
 
                 </td>
                 <td>
-                    <textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln" value="По методическим указаниям Заказчика"></textarea>
+
+                    <?php
+                    if(trim($_GET['add_info']) == '') {
+                        echo    '<textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln" >По методическим указаниям Заказчика</textarea>';
+                    } else {
+                        echo    '<textarea id="id_add_info" style="width: 80%;" rows="2" cols="10" name="zakaz_dopoln" >'.$_GET['add_info'].'</textarea>';
+                    }
+                    ?>
+
 
 
                 </td>

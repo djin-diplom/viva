@@ -54,19 +54,19 @@ if(isset($_POST['submit'])) {
 	}
 	//Срок выполнения
 	if(trim($_POST['srok_vip']) == '') {
-		$srok_vip= "пусто";
+		$srok_vip= "Произвольный";
 	} else {
 		$srok_vip= $_POST['srok_vip'];
 	}
 	//Объем
 	if(trim($_POST['objem']) == '') {
-		$objem= "пусто";
+		$objem= "Произвольный";
 	} else {
 		$objem= $_POST['objem'];
 	}
 	//Уникальность
 	if(trim($_POST['unik']) == '') {
-		$unik= "пусто";
+		$unik= "Стандартная";
 	} else {
 		$unik= $_POST['unik'];
 	}
@@ -93,17 +93,17 @@ if(isset($_POST['submit'])) {
 		$tema= $_POST['tema'];
 	}
 	if(trim($_POST['predmet']) == '') {
-		$predmet= "пусто";
+		$predmet= "Нет";
 	} else {
 		$predmet= $_POST['predmet'];
 	}
 	if(trim($_POST['university']) == '') {
-		$university= "пусто";
+		$university= "Нет";
 	} else {
 		$university= $_POST['university'];
 	}
 	if(trim($_POST['add_info']) == '') {
-		$add_info= "пусто";
+		$add_info= "Нет";
 	} else {
 		$add_info= $_POST['add_info'];
 	}
@@ -136,8 +136,9 @@ if(isset($_POST['submit'])) {
 		Объем: $objem <br>
 		Уникальность: $unik <br>
 		Срок выполнения: $srok_vip <br>
-		Университет: $university <br>
 		Дополнительная информация: $add_info <br>
+		
+		<a href=\"$main_name/basa_clients.php?name=$name&email_stud=$email_stud&work_kind=$work_kind&tema=$tema&kli_stoimost=$kli_stoimost&predoplata=$predoplata&predmet=$predmet&objem=$objem&unik=$unik&srok_vip=$srok_vip&add_info=$add_info\">Ссылка</a>
 		</body>
 </html>
 		";

@@ -89,16 +89,16 @@ require("header.php");
           <td>
             <select name="work_kind" id="id_work_kind">
 <option value="" selected="selected">---</option>
-<option value="kontrolnaia">Контрольная работа</option>
-<option value="referat">Реферат</option>
-<option value="esse">Эссе</option>
-<option value="kursovaia">Курсовая работа</option>
-<option value="otchot">Отчет по практике</option>
-<option value="diploma">Диплом</option>
-<option value="magister_dissertation">Магистерская диссертация</option>
-<option value="drawings">Чертежи</option>
-<option value="other">Прочее</option>
-<option value="complex">Комплексный заказ</option>
+<option value="Контрольная">Контрольная работа</option>
+<option value="Реферат">Реферат</option>
+<option value="Эссе">Эссе</option>
+<option value="Курсовая">Курсовая работа</option>
+<option value="Отчет">Отчет по практике</option>
+<option value="Диплом">Диплом</option>
+<option value="Магистерская">Магистерская диссертация</option>
+<option value="Чертежи">Чертежи</option>
+<option value="Прочее">Прочее</option>
+<option value="Комплекс">Комплексный заказ</option>
 </select>
 
             
@@ -138,9 +138,9 @@ require("header.php");
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
-                    <option value="bez_predoplat">Без предоплаты (часть бесплатно)</option>
-                    <option value="s_predoplatoi_50">Предоплата 50% (со скидкой 10%)</option>
-                    <option value="s_predoplati_100" selected="selected">Полная предоплата (со скидкой 20%)</option>
+                    <option value="0">Без предоплаты (часть бесплатно)</option>
+                    <option value="1">Предоплата 50% (со скидкой 10%)</option>
+                    <option value="2" selected="selected">Полная предоплата (со скидкой 20%)</option>
                 </select>
 
 
@@ -231,7 +231,7 @@ require("header.php");
 
     <tr>
       <td class="field">&nbsp;</td>
-      <td><span style="color: red;">*</span> — обязательные поля</td>
+      <td><span style="color: red;">*</span>обязательные поля</td>
     </tr>
 
     <tr>
