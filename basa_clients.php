@@ -156,10 +156,15 @@ $count_text = 13;
                 <td>
 
                     <?php
+                    //if(trim($_GET['predmet']) == '') {
+                    //    echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value="Не указан">';
+                    //} else {
+                    //    echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value='.$_GET['predmet'].' >';
+                    //}
                     if(trim($_GET['predmet']) == '') {
-                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value="Не указан">';
+                        echo  '<textarea id="id_predmet" style="width: 50%;" rows="2" cols="10" name="zakaz_predmet"></textarea>';
                     } else {
-                        echo   '<input id="id_predmet" style="width: 50%;" type="text" name="zakaz_predmet" maxlength="100" value='.$_GET['predmet'].' >';
+                        echo  '<textarea id="id_predmet" style="width: 50%;" rows="2" cols="10" name="zakaz_predmet" >'.$_GET['predmet'].'</textarea>';
                     }
                     ?>
 
