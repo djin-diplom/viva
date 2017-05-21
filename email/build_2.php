@@ -2727,7 +2727,7 @@ img {
           font-size: 25px; font-weight: bold; padding-bottom: 13px; 
           color:#DF47'.$color_rand. '5; padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
           
-                  <span style="color: '.$rand_color_green.';">' .$name.'! '.$vid_rab.$rand_nom_text_8.$pay.$rand_nom_text_16.'</span><br>
+                  <span style="color: '.$rand_color_green.';">' .$name.'!<br>'.$vid_rab.$rand_nom_text_8.$pay.$rand_nom_text_16.'</span><br>
                   
             '.$vibor_let.'
                  <br><span style="color: '.$rand_color_green.';">'.$vibor_akc.'</span><br>

@@ -91,6 +91,7 @@ if(isset($_POST['submit'])) {
 		$hasError = true;
 	} else {
 		$tema= $_POST['tema'];
+		$tema = str_replace('\"','', $tema);
 	}
 	if(trim($_POST['predmet']) == '') {
 		$predmet= "Нет";

@@ -77,10 +77,54 @@ if ( (int)$i >= (int)$count) {
     $email_client = $ar_colls[0];
     if (strlen($email_client) > 5) {
         $name = $ar_colls[1];
-        $vid_rab = $ar_colls[2];
-        $pay = $ar_colls[3];
+        //$vid_rab = $ar_colls[2];
+        //$pay = $ar_colls[3];
         echo "Посылаем " . $email_client . "<br>";
+
+        $sub_vid_rab = rand(1,11);
+
+        switch ($sub_vid_rab) {
+
+            case 1:
+                $vid_rab = ' Диплом ';
+                break;
+            case 2:
+                $vid_rab = ' Курсовые-дипломные ';
+                break;
+            case 3:
+                $vid_rab = ' Диплом-магистерская ';
+                break;
+            case 4:
+                $vid_rab = ' Диссертации-Дипломы ';
+                break;
+            case 5:
+                $vid_rab= ' Курсовой-дипломная ';
+                break;
+            case 6:
+                $vid_rab = ' Курсовая, дипломная работа ';
+                break;
+            case 7:
+                $vid_rab = ' Курсовой и ВКР ';
+                break;
+            case 8:
+                $vid_rab = ' ВКР ';
+                break;
+            case 9:
+                $vid_rab = ' Выпускная работа ';
+                break;
+            case 10:
+                $vid_rab = ' Дипломная ';
+                break;
+            case 11:
+                $vid_rab = ' Дипломная работа ';
+                break;
+        }
+
+        $pay = (rand(20,50)*100).'-'.(rand(90,150)*100);
+
+
         require("../email/build_2.php");
+
 
 
         $body = $body_2;
