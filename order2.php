@@ -92,7 +92,7 @@ if(isset($_POST['submit'])) {
 	} else {
 		$tema= $_POST['tema'];
 		$tema = str_replace('"','', $tema);
-		$tema = str_replace('\n','', $tema);
+		$tema = str_replace('\n',' ', $tema);
 	}
 	if(trim($_POST['predmet']) == '') {
 		$predmet= "Нет";
@@ -109,7 +109,7 @@ if(isset($_POST['submit'])) {
 	} else {
 		$add_info= $_POST['add_info'];
 		$add_info = str_replace('"','', $add_info);
-		$add_info = str_replace('\n','', $add_info);
+		$add_info = str_replace('\n',' ', $add_info);
 	}
 
 
