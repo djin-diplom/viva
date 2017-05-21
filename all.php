@@ -103,6 +103,55 @@ require("header.php");
 
 			<div class="responses">
 				<div class="one">
+					<div class="left"><img src="./consult_files/user.png" width="32" height="32" alt=""></div>
+					<div class="rite">
+						<span></span>
+						<div>
+							<div class="caption"><b>Ксения (Аграрный)</b> <i>18 мая</i></div>
+							<div class="text">Заказала диплом тут, мне его выполняли по частям. Как получила часть, проверила -
+								сразу порекомендовала подруге. Сейчас у нас работы готовы, всё проверили, немного исправили.
+								Всё хорошо, ждём теперь презентации и речи и на защиту! Рекомендую!</div>
+						</div>
+					</div>
+				</div>
+				<div class="one">
+					<div class="left"><img src="./consult_files/user.png" width="32" height="32" alt=""></div>
+					<div class="rite">
+						<span></span>
+						<div>
+							<div class="caption"><b>Александр (МИЭП)</b> <i>29 апреля</i></div>
+							<div class="text">Нужно было сделать отчёт по учебной практике - тут помогли, всё отлично!!!!
+								Теперь буду заказывать тут преддипломную практику и диплом на следующий год.
+								Очень удобно расположен офис в центре рядом с метро.</div>
+						</div>
+					</div>
+				</div>
+				<div class="one">
+					<div class="left"><img src="./consult_files/user.png" width="32" height="32" alt=""></div>
+					<div class="rite">
+						<span></span>
+						<div>
+							<div class="caption"><b>Студент </b> <i>15 апреля</i></div>
+							<div class="text">Спасибо, спасибо! Особенно менеджеру Ане за терпение )) Мне попался очень вредный научник,
+								постоянно что-то изменял и просил переделывать в дипломе.
+								В итоге всё ок, предзащиту прошла, скоро защита. Я привела ещё двух одногруппников сюда, всем помогли.</div>
+						</div>
+					</div>
+				</div>
+				<div class="one">
+					<div class="left"><img src="./consult_files/user.png" width="32" height="32" alt=""></div>
+					<div class="rite">
+						<span></span>
+						<div>
+							<div class="caption"><b>Марина - РАНХиГС</b> <i>18 февраля</i></div>
+							<div class="text">Мне нужно было срочно написать диплом по маркетингу. Обычно, я пишу все работы сама,
+								но тут времени катастрофически не хватало. Сделали всё очень качественно, грамотно, точно по теме и
+								в установленные сроки. Диплом удостоился похвалы моего весьма строгого и придирчивого преподавателя.
+								Здорово, что ребята помогли подготовить речь для защиты. Защитилась на "отлично"! Спасибо!</div>
+						</div>
+					</div>
+				</div>
+				<div class="one">
 					<div class="left"><img src="./all_files/user.png" width="32" height="32" alt=""></div>
 					<div class="rite">
 						<span></span>
