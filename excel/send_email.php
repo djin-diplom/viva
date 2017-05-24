@@ -89,7 +89,7 @@ if ( (int)$i >= (int)$count) {
                 $vid_rab = ' Диплом ';
                 break;
             case 2:
-                $vid_rab = ' Курсовые-дипломные ';
+                $vid_rab = ' Выпускные-дипломные ';
                 break;
             case 3:
                 $vid_rab = ' Диплом-магистерская ';
@@ -98,13 +98,13 @@ if ( (int)$i >= (int)$count) {
                 $vid_rab = ' Диссертации-Дипломы ';
                 break;
             case 5:
-                $vid_rab= ' Курсовой-дипломная ';
+                $vid_rab = ' Магистерская-дипломная ';
                 break;
             case 6:
-                $vid_rab = ' Курсовая, дипломная работа ';
+                $vid_rab = ' Выпускная, дипломная работа ';
                 break;
             case 7:
-                $vid_rab = ' Курсовой и ВКР ';
+                $vid_rab = ' Диссертации и ВКР ';
                 break;
             case 8:
                 $vid_rab = ' ВКР ';
@@ -119,8 +119,9 @@ if ( (int)$i >= (int)$count) {
                 $vid_rab = ' Дипломная работа ';
                 break;
         }
+        $rand_nach_mla_mla = rand(47,69)*100;
 
-        $pay = (rand(20,50)*100).'-'.(rand(90,150)*100);
+        $pay = $rand_nach_mla_mla.'-'.($rand_nach_mla_mla+3000);
 
 
         require("../email/build_2.php");

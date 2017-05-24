@@ -1428,294 +1428,236 @@ $vibor_niz_case = rand(1, 30);
 
 switch ($vibor_niz_case) {
     case 1:
-        $vibor_niz = 'Восьмой год работает наша компания в сфере образовательных услуг, 
-        основным направлением которой является выполнение дипломов, курсовых и рефератов на заказ.<br>
-        И наше появление в Нижнем Новгороде, городе знаменитом и авторитетном, нас радует. <br>
-        Почти 8 лет в наше стремительно несущееся в будущее время – срок немалый.<br>
-         За этот срок в компании 
-        сформировался костяк исполнителей работ высокой квалификации,<br> состоящий главным образом из преподавателей 
-        престижных высших учебных заведений, <br>
-        людей с учеными степенями, авторами многочисленных научных работ в своих областях.<br>
+        $vibor_niz = 'Мы оказываем услуги по написанию макетов студенческих работ вот уже более 6 лет и зарекомендовали 
+        себя как фирма, в штате которой работают авторы, <br>
+        специализирующиеся на самых различных учебных дисциплинах – от гуманитарной до технической направленности.<br>
 ';
         break;
     case 2:
-        $vibor_niz = 'Огромный опыт в написании дипломов, курсовых, рефератах на заказ позволяет нашим сотрудникам быстро 
-        и качественно выполнять все заявки,<br>
-         причем все работы имеют свое индивидуальное лицо, свой неповторимый почерк.<br>
-Прежде чем наши специалисты начнут работать над вашим проектом, мы заключаем с вами договор на оказание услуг, <br>
-в котором прописаны все детали и нюансы ваших требований, обязанности нашей компании.<br>
- Стоимость работ и сроки исполнения 
-дипломов, курсовых и рефератов, указанные в договоре, всегда соответствуют действительности.<br>
+        $vibor_niz = 'Обратившись в нашу компанию, Вы получите в  руки макет работы, соответствующей методическим рекомендациям 
+        научного руководителя и вашим пожеланиям.<br>
+         Каждая работа составляется на основе актуальных литературных источников, 
+        в обязательном порядке проходит<br> 
+        проверку на плагиат, наличие грамматических и стилистических ошибок в работе исключено.<br>
 ';
         break;
     case 3:
-        $vibor_niz = 'Бывает иногда так, что выполненная работа требует поправок, дополнений. <br>
-В этих редких случаях мы без 
-        лишних вопросов сделаем доработку бесплатно. <br>
-        Такие правила в нашей компании. <br>
+        $vibor_niz = 'Мы предлагаем вам высокое качество исполнения работ за вполне разумную цену.<br> Для вас предусмотрена 
+        простая форма заказа работы и различные схемы оплаты.<br>
 
-Вы можете быть абсолютно уверены: все дипломы, курсовые, рефераты на заказ в нашей компании будут уникальны, <br>
-то есть 
-в одном единственном экземпляре.<br>
+Команда наших авторов всегда рада новым клиентам.<br> 
+А для постоянных заказчиков существуют дополнительные привилегии в виде гибких скидок!<br>
 ';
         break;
     case 4:
-        $vibor_niz = 'Если для выполнения дипломов, курсовых и рефератов потребуется от вас личная информация, тайна ее гарантируется. <br>
-        Никто и никогда не узнает от нас о том, что вы заказывали диплом, курсовую или реферат.<br> Все работы в обязательном порядке 
-        проходят проверку программой «Антиплагиат».<br>
+        $vibor_niz = 'Наша компания более 9 лет оказывает услуги по подготовке студенческих работ.<br>
 
-И еще. <br>В жизни всегда происходят перемены, появляются новые приоритеты, законы и разработки.<br> Все последние изменения, касающиеся 
-вашей тематики, будут иметь отражение в заказанных вами дипломах, курсовых работах и рефератах.<br>
+За это время мы заслужили безукоризненную репутацию среди своих студентов,<br> которые советуют наше агентство дипломных друзьям.<br>
+
+Из более чем 50000 выполненных заказов 100% работ сданы в срок.
 ';
         break;
     case 5:
-        $vibor_niz = 'Наша компания создавалась для простых и очень востребованных задач, а именно — экономии Вашего времени. <br>
-        Мы отлично понимаем, как в современном мире приходится студентам совмещать работу и учебу, а это очень не просто.<br>
+        $vibor_niz = '100% работ успешно защищены на высокий балл.<br>
 
-Именно поэтому и была создана наша компания.<br> Мы помогли уже тысячам студентам и продолжаем радовать 
-Вас отличными оценками и хорошим настроением.<br>
+Наше агентство курсовых оказывает консультационные услуги по экономическим, правовым и гуманитарным дисциплинам.<br>
+
+Мы охватываем все дисциплины всех ВУЗов, и если мы беремся за работу, то Вы можете быть уверены, что мы выполним ее лучше всех.<br>
+
+Мы не используем бесплатные материалы интернета за исключением нормативно-правовых актов и официальной статистики.<br>
 ';
         break;
     case 6:
-        $vibor_niz = 'Мы знаем, что помогая Вам написать курсовую или диплом, мы дарим Вам время,<br> которое Вы можете потратить на себя. <br>
-        При этом, стоит помнить, что для Вас работают настоящие преподаватели и живые люди,<br> а не роботы или электронные биржы.<br>
-
-Мы дарим Вам самое ценное — Ваше время!<br>
+        $vibor_niz = 'Наша компания – проект по оказанию консультационных и репетиторских услуг в сфере образования.<br>
+        При создании нашей компании нами была поставлена цель – создать в России и странах СНГ студенческий 
+        информационный портал,<br> который бы смог обеспечить качественный сервис и ответить современным 
+        требованиям, тенденциям и направлениям системы образования.<br>
 ';
         break;
     case 7:
-        $vibor_niz = 'Все наши курсовые и дипломы уникальны!<br> Потому что мы пишем их исключительно по Вашим требованиям. <br>
-        Заказывая курсовую или дипломную работу в нашей компании,<br> Вы можете быть уверены, что ее не скачали с интернета или базы рефератов.<br>
-
-Мы не продаем и не покупаем готовые работы.<br>
+        $vibor_niz = 'На сегодняшний день нами созданы условия, которые помогают студентам и аспирантам облегчить поиск 
+        информации по написанию всех видов студенческих и научно-исследовательских работ.<br> Мы оказываем весь спектр репетиторских 
+        и консультационных услуг в сфере образования.<br> Мы признательны и благодарны 
+        нашим клиентам и партнерам, которые помогли воплотить мечту в реальность.<br>
 ';
         break;
     case 8:
-        $vibor_niz = 'Как известно, студенческие годы – лучшие в жизни.<br> Будучи студентом, Вы можете сами выбирать, чем 
-        Вам заниматься – начинать делать карьеру,<br> устраивать личную жизнь или веселиться и отдыхать с друзьями. <br>Наша задача – 
-        сделать так, чтобы у Вас было больше свободного времени, <br>
-        поэтому мы предлагаем Вам услуги, необходимые каждому студенту!<br>
+        $vibor_niz = 'Деятельность информационно-консультационного центра помощи студентам и аспирантам началась в 2007 году.<br> 
+        За время своей работы мы помогли десяткам тысяч наших клиентов в написании эссе, <br>
+        контрольных, курсовых работ, защите дипломных, магистерских диссертаций, дипломов МВА. <br>
 ';
         break;
     case 9:
-        $vibor_niz = 'Мы сами были студентами и знаем, что далеко не всегда лекции отвечают на все вопросы студента. <br>
-        Мы также знаем, что у трудностей с подготовкой дипломной, курсовой или контрольной работы есть множество причин, <br>
-        среди которых и некомпетентность некоторых педагогов, и отсутствие внимания со стороны научного руководителя и далеко не всегда 
-        объективная учебная нагрузка. <br>
-        Поэтому собственную работу мы привыкли рассматривать как профессиональную помощь.<br>
+        $vibor_niz = 'Мы помогали консультациями тем, кто хотел получить научные степени, пройдя защиту кандидатских и 
+        докторских диссертаций.<br> Наша компания несёт перед каждым своим заказчиком юридическую ответственность за оказанные услуги, <br>
+        предусмотренную законодательством Российской Федерации.<br>
+Мы гарантируем Вам высокое качество оказываемых услуг и надеемся на дальнейшее плодотворное сотрудничество.<br>
 ';
         break;
     case 10:
-        $vibor_niz = 'Чем ближе сессия, тем становится понятнее, что времени на выполнение и сдачу курсовой работы, категорически не хватает. <br>
-Причем, так случается почти всегда.<br>
-Если даже на подготовку будет отведено полгода, все равно, написание курсовой, начнется в самый последний момент,<br>
- а ведь нужен объем не менее 25 страниц,<br> 
-по заданной теме и в сжатые сроки, а это – нелегкая задача.<br>
-Тонкий ум студента подсказывает, что лучше всего, в таком случае, заказать курсовую работу у профессионалов. <br>
-Но встает вопрос, как правильно выбрать компанию, чтобы остаться довольным результатом? Да еще, и по оптимальной цене!<br>
+        $vibor_niz = 'Наша компания постоянно совершенствует свой профессиональный уровень для того, чтобы наши клиенты всегда 
+        были довольны результатом нашего сотрудничества. Многолетний опыт работы и понимание потребностей и проблем наших клиентов - 
+        это те основные факторы, которые являются определяющими в нашей работе.
 
 ';
         break;
     case 11:
-        $vibor_niz = 'Где лучше заказать работу? Конечно у нас!<br>
-Наша фирма имеет многолетний опыт по написанию научно-исследовательских работ, по любым дисциплинам, различного уровня сложности.<br>
-Высокое качество работ и оптимальные сроки исполнения, по достоинству оценены нашими многочисленными постоянными клиентами. <br>
-Действительно, заказ работы решит одну из самых важных проблем - у вас останется свободное время! <br>
-Ведь Вам не потребуется изучать материал для написания работы, сидеть ночами в поисках нужной литературы.<br>
+        $vibor_niz = 'Принципы нашей работы – высокое качество, удобный сервис, честность и порядочность.<br>
+ На протяжении 
+        15 лет нашей плодотворной работы очень многие студенты и аспиранты успели убедиться в этом.<br>
+         Наша компания 
+        работает со всеми городами Российской Федерации и стран СНГ.<br>
 
 ';
         break;
     case 12:
-        $vibor_niz = 'Мы знаем, как написать работу, чтобы она получила высокий балл!<br>
-Заказ работы у нас гарантирует, что тема будет полностью раскрыта с научной точки зрения,<br>
- в ней будет присутствовать не только теоретическая часть, но и анализ исследований, проведенный специально по Вашим требованиям. <br>
-Заказать работу в нашей компании, это прежде всего, доверить написание работы профессионалам своего дела.<br>
+        $vibor_niz = 'Оформить заказ на оказание услуг на нашем портале – это просто, быстро и надёжно.<br>
+ Для этого необходимо 
+        оформить заявку на нашем сайте и указать все Ваши пожелания, которые мы обязательно учтём при оказании наших 
+        консультационных услуг.<br> После этого с Вами свяжется наш научный консультант и более подробно обсудит условия консультаций или занятий.<br> 
+        Мы работаем для того, чтобы Ваши студенческие годы прошли беззаботно и интересно!<br>
 ';
         break;
     case 13:
-        $vibor_niz = 'У нас работают не только дипломированные специалисты, которые разбираются во многих областях науки, <br>
- но и высококвалифицированный обслуживающий персонал, способный дать ответ на любой вопрос, возникший у студента.<br>
-  В распоряжении наших авторов, имеется обширная база материалов и запас накопленных знаний.<br>
-   Доступ к различным источникам литературы, включая закрытые библиотеки и обширные научные издания.<br>
+        $vibor_niz = 'При обращении к нам и оплате наших услуг каждый наш клиент присоединяется к договору присоединения 
+        по возмездному оказанию консультационно-образовательных услуг.<br> Заказчик приобретает консультационно-образовательные 
+        услуги в соответствии с тематическим заданием<br>
+        (заявка на сайте приравнивается к тематическому заданию).<br> Договор гарантирует защиту Ваших прав.<br>
 ';
         break;
     case 14:
-        $vibor_niz = 'Как только, вы заполните форму на сайте, <br>
-Ваш заказ работы поступает к нам базу, наши менеджеры распределят его по теме, а авторы проведут экспресс-анализ,<br>
- на предмет материалов и актуальной информации. <br>
- Пишется и оформляется работа всегда в соответствии с требованиями и пожеланиями  заказчика. <br>
- Поэтому стоимость работы напрямую зависит от Ваших пожеланий.  <br>
-Мы заботимся о своей репутации и рады долгосрочному сотрудничеству,<br>
- специально для этого мы разработали гибкую систему скидок, которая позволит Вам экономить на последующих заказах!<br>
+        $vibor_niz = 'Мы обеспечиваем каждому нашему клиенту безопасность и конфиденциальность сделки на 100 %.<br>
+        Каждый наш клиент имеет возможность позвонить нам в офис или написать по электронной почте,<br> чтобы уточнить, 
+        на какой стадии находится его заказ. <br>
+        Мы в любое время с радостью проинформируем Вас об оказываемых нами услугах.<br>
 
 ';
         break;
     case 15:
-        $vibor_niz = 'Наша компания от всей души приветствует жителей России, <br>
-        стремящихся к повышению уровня своего образования!<br>
-
-Наша благородная миссия оказания посильной помощи студентам на территории всей России продолжается уже более 7 лет,<br> и 
-мы очень рады открыть свое представительство в таких колоритных городах, как Москва, СПБ. Казань и других.<br>
-
-В составе нашей компании трудятся специалисты, которые в совершенстве владеют предметами, по которым вам можно заказать <br>
-дипломы, курсовые, рефераты.<br> Именно поэтому мы с полной ответственностью гарантируем выполнение порученных нам на заказ дипломов, <br>
-курсовых и рефератов в обозначенные сроки, со всеми указанными вами требованиями к работам.<br>
+        $vibor_niz = 'Наши клиенты — это наша гордость, <br>и мы делаем всё, чтобы клиенты оставались довольны нашим сотрудничеством.<br> 
+        Мы искренне благодарны каждому нашему клиенту за Ваш выбор.<br> Мы всегда стараемся оправдывать Ваши надежды, <br>
+        чтобы число довольных и счастливых студентов и аспирантов с каждым годом росло.<br>
 
 ';
         break;
     case 16:
-        $vibor_niz = 'Наши исполнители студенческих работ работают в высших учебных заведениях нашей страны достаточно давно и <br>
-        успели зарекомендовать себя блестящими виртуозными преподавателями. <br>
-        Для них предметы, по которым они создают для вас на заказ дипломы, курсовые, рефераты, являются не только профессиональной 
-        стезей, но и любимым хобби.<br>
-
-Мы работаем абсолютно официально,<br> и в каждом случае заключаем договор на оказание заказанной услуги:<br> будь то диплом, курсовая или реферат.<br> 
-Полный список оказываемых нашей компанией услуг гораздо шире,<br> его вы можете посмотреть на нашей главной странице.<br>
+        $vibor_niz = 'Основным направлением нашей деятельности является предоставление услуг по написанию дипломных, <br>
+        курсовых, контрольных работ и рефератов.<br> Также наша компания предлагает услуги по выполнению диссертационных исследований.<br> 
+        Основным принципом нашей деятельности является БЕЗУПРЕЧНОЕ КАЧЕСТВО выполняемых работ.<br>
 
 ';
         break;
     case 17:
-        $vibor_niz = 'Заказав нашим специалистам дипломы, курсовые и рефераты,<br> вы можете быть совершенно уверены:<br> сам факт 
-        нашего сотрудничества останется в тайне, <br>конфиденциальность мы гарантируем – ведь это наша репутация,<br> 
-        которая столь важна в любом бизнесе.<br>
-
-Мы искренне радуемся успехам наших заказчиков,<br> ведь это говорит о компетентности и профессионализме наших сотрудников.<br> 
-Оценка «отлично» - вот истинный критерий деятельности нашей компании.<br>
+        $vibor_niz = 'Уважаемые наши клиенты, мы очень ценим Вас, и для нас очень важна обратная связь с Вами. <br>
+        По получению работы либо после ее проверки Вашим научным руководителем,<br> просим выразить Ваше мнение о нашей работе, в качестве отзыва.<br> 
+        Обратите внимание, что доступ к добавлению отзыва, дается только нашим клиентам, после создания личного кабинета. <br>
 
 ';
         break;
     case 18:
-        $vibor_niz = 'Наша компания основана в 2001 году в г. СПБ. <br>
-        Основным направлением деятельности компании является предоставление высококачественных услуг в сфере образования, <br>
-        помощь студентам в подготовке и написании любого рода письменных работ на заказ <br>(дипломные и курсовые работы, 
-        рефераты и контрольные, задачи и тесты и др.).<br>
+        $vibor_niz = 'Абсолютно все работы выполняются специалистами самой высокой квалификации,<br> имеющими огромный опыт в своей 
+        области науки и написании учебных работ.<br> Для выполнения дипломных, курсовых и прочих научных работ на заказ мы 
+        используем только новейшие литературные источники, <br>
+        периодические и научные издания, а также монографии, опубликованные за последние 3-5 лет.<br>
 
 ';
         break;
     case 19:
-        $vibor_niz = 'Индивидуальный подход к каждому клиенту,<br> команда высокопрофессиональных авторов разного профиля, <br>
-        и система контроля качества, доказавшая свою эффективность за длительный срок своего существования,<br> помогают нам успешно 
-        удовлетворять любые требования наших клиентов.<br>
-
-Все работы выполняются специалистами высокого уровня.<br> Над Вашей темой будет работать специалист именно нужного профиля. <br>
+        $vibor_niz = 'Все авторы, работающие в нашей компании, проходят сложную систему отбора и контроля:<br> прежде, чем приступить 
+        к выполнению любого заказа, они получают тестовые задания, проходят собеседование.<br> Кроме этого, авторы получают бонусные 
+        поощрения за выдающиеся работы,<br> и штрафы – за недопустимые ошибки. <br>Затем работы проверяются менеджерами контроля качества 
+        (вычитка текста, соответствие теме, уникальность текста по системе antiplagiat или eTXT и т.д.).<br>
 
 ';
         break;
     case 20:
-        $vibor_niz = 'Наша компания приходит на помощь студентам более 5 лет. <br>
-        Мы пишем дипломы на заказ, курсовые, контрольные, <br>
-        рефераты, решаем задачи по всем предметам.<br>
-
-Персональный подход к каждому клиенту, высокое качество выполнения работ <br>
-и доступные цены для каждого студента<br> — вот одни из самых главных преимуществ нашей компании. <br>
-Мы помогаем студентам по всем тематикам,<br> будь то технические работы, либо гуманитарные.<br>
+        $vibor_niz = '90% авторов – действующие преподаватели ВУЗов всей страны, <br>которые выполняют все дипломные работы, курсовые и отчеты, <br>
+        остальные аспиранты или магистранты для более простых контрольных и рефератов, но качество при этом остается на высоте.<br>
+        
 
 ';
         break;
     case 21:
-        $vibor_niz = 'При выполнении работ мы используем только специальную литературу (научную, учебную), <br>
-        монографии, диссертации, актуальные публикации по вопросам в работе (в научно периодических изданиях, журналах и газетах), <br>
-        а также используем статистические справочники для фактических данных.<br>
-
-Работа, написанная для Вас проходит проверку на плагиат,<br> тем самым мы исключаем возможность копирования работ из сети Интернет.<br>
-
-Наш центр помощи студентам выполнит работу практически на любую необходимую для Вас тему.<br> Повтороное обращение студентов 
-и положительные отзывы говорят о качестве и доверии к нашей компании.<br>
+        $vibor_niz = 'Гарантия на переделку действует в течение 1-го месяца. <br>
+        Если работа написана больше 1-го месяца назад <br>– она уже забывается и ее приходится перечитывать заново, <br>
+        вспоминать, что и как там было… поэтому в данном случае – мы берем дополнительную оплату за переделку работ.<br> 
+        Что бы разобраться в работе, написанной больше месяца назад – потребуется столько же времени, сколько и написать новую!<br>
 
 ';
         break;
     case 22:
-        $vibor_niz = 'Наша компания предоставляет Вам услуги высококвалифицированных авторов различных дисциплин, <br>которые 
-        готовы выполнить различные студенческие задания.<br>
-         Имея огромный опыт по написанию дипломных, курсовых, <br>
-        проведению исследований и решения срочных контрольных  любого уровня сложности,<br> мы можем гарантировать своим 
-        клиентам отличное качество выполняемых заказов, доступность изложения материала,<br> уникальность 
-        и полное соответствие заказа заявленным требованиям клиента.<br>
+        $vibor_niz = 'Переделка работы осуществляется в кратчайшие сроки.<br> Но, придти и сказать, что работа вам нужна завтра – 
+        просто нереально!<br> Для ускорения процесса доработки работы – лучше писать на почту,<br> 
+        т.к. в этом случае мы можем более оперативно передать ее автору.<br>
 
 ';
         break;
     case 23:
-        $vibor_niz = 'Уже более 10 лет наша компания дает возможность студентам не просиживать все свое свободное время 
-за книгами в библиотеке,<br> а просто сделать заказ в нашей фирме. <br>Наши клиенты - 
-это студенты ведущих ВУЗов страны.<br>
-Мы предлагаем Вам преобрести без плагиата и по доступной цене любую научную работу,<br> будь то дипломная, контрольная, 
-курсовая, отчет по практике либо другое задание.<br> Все наши тексты пишутся на базе новейших данных, <br>научных 
-трудов и содержимого лучших электронных и традиционных библиотек.<br>
+        $vibor_niz = 'Мы работаем на рынке образовательных услуг уже более 9 лет.<br> Накопленный за время успешной деятельности опыт, 
+        позволяет нам оказывать весь спектр образовательных услуг на высоком уровне.<br>
+        Наша компания — это коллектив профессиональных и опытных авторов, специалистов с высшей квалификацией, которые 
+        всегда готовы выполнить для Вас. <br>
+        студенческую научно-исследовательскую работу любого уровня сложности (от реферата до диссертации).<br>
 
 ';
         break;
     case 24:
-        $vibor_niz = 'Наш профиль охватывает практически все отрасли науки<br> - от всевозможных общеобразовательных 
-        дисциплин до узконаправленных тематик специфических наук.<br>
-         Перечень предоставляемых услуг также значителен - от стандартного реферата 
-        20 листов до многотомной диссертации,<br> от ответов на экзаменационные вопросы до научной публикации.<br>
-        Исполнение заказов доверяются только лучшим специалистам,<br> которые 
-        обладают не только необходимыми знаниями и практическим опытом в определенной области, но и творческим подходом.<br>
+        $vibor_niz = 'Мы являемся официально зарегистрированным субъектом предпринимательской деятельности,<br> что позволяет 
+        нам предоставлять заказчикам полный комплекс гарантий на качество оказываемых услуг. <br>
+        Мы ответственно и серьезно подходим к выполнению поставленных перед нами задач.<br>
 ';
         break;
     case 25:
-        $vibor_niz = 'Мы делаем упор на индивидуальный подход к каждому клиенту,<br> качество работ, ответственное отношение 
-        к взятым на себя обязательствам. <br>
-        Ценовая политика, которой придерживается наша компания,<br> делает возможным 
-        заказ рефератов, курсовых и дипломных работ для студентов с любым уровнем дохода.<br>
-        Работа пишется на основе научной, учебной и справочной литературы и актуальных статей из периодических изданий.<br> 
-        Все работы выполняются в соответствии с требованиями, указанными при оформлении заказа.<br>
+        $vibor_niz = 'Все выполняемые на заказ курсовые, дипломные и контрольные работы проходят тщательную проверку и редактуру. <br>
+        Каждая работа проверяется на <br>
+        сайте antiplagiat.ru на факт заимствований из интернета.<br> Мы не скачиваем работы из интернета!<br>
 
 ';
         break;
     case 26:
-        $vibor_niz = 'Наша компания является официально зарегистрированной организацией.<br> Это означает, что наша деятельность легальна, <br>
-        мы платим налоги и несем ответственность по своим обязательствам.<br> Условия нашего с Вами сотрудничества просты и доступны.<br>
-        Мы не помогаем избежать учёбы, мы помогаем – учиться!<br>
-
-Кроме того, хотим обратить Ваше внимание на то, <br>что в нашей компании существует система скидок постоянным клиентам,<br>
- а также их друзьям на последующий заказ.<br>
+        $vibor_niz = 'Мы постоянно совершенствуем свои возможности,<br> внимательно изучая Ваши отзывы и пожелания.<br> Мы всегда 
+        открыты к конструктивному диалогу со студентами, <br>
+        аспирантами, и готовы предложить наиболее удобные для Вас условия сотрудничества.<br>
 
 ';
         break;
     case 27:
-        $vibor_niz = 'Оформив заказ на нашем сайте,<br> вы начнёте сотрудничество с командою профессионалов, которая работает 
-        на рынке образовательных услуг более 10-ти лет. <br>
-        За это время под нашим началом десятки тысяч студентов успешно сдали <br>
-        свои контрольные, курсовые, рефераты и другие виды студенческих работ.<br>
-         Работаем практически с любыми предметами и заданиями <br>
-        любой сложности. <br>Работы пишут проверенные временем преподаватели и аспиранты ВУЗов, <br>
-        которые неоднократно зарекомендовали себя настоящими профессионалами своего дела.<br>
+        $vibor_niz = 'Мы делаем работы на заказ в качестве макета для ознакомления либо оказываем консультационную поддержку 
+        в процессе написания по всем дисциплинам и темам в образовательной сфере.<br>
+
+Каждый написанный нами текст уникален, не имеет своих аналогов в сети интернет и проверяется службой контроля качества. <br>
+Для проверки оригинальности  работ мы используем программу  Антиплагиат.<br>
+
+Каждому заказчику мы уделяем максимальное внимание и сопровождаем вас до полной сдачи научному руководителю. <br>
+Если вашу работу необходимо будет откорректировать, то мы поможем вам осуществить это абсолютно бесплатно и оперативно.<br>
 
 ';
         break;
     case 28:
-        $vibor_niz = 'Мы очень дорожим нашими клиентами, ищем индивидуальный подход к каждому.<br>
- Наши профессиональные 
-        менеджеры за годы работы научились максимально выслушивать и учитывать все пожелания заказчика,<br> а также подробно 
-        отвечать на ваши вопросы и давать необходимые консультации.<br>
-         Для тех, кто с нами сотрудничает на постоянной основе,<br> 
-        реализована система скидок.<br> Поэтому большинство клиентов обращаются 
-        к нам снова и снова,<br> заказывая работы не только для себя, но и для друзей, знакомых, одногруппников.<br>
+        $vibor_niz = 'Наши менеджеры имеют огромнейший опыт в сфере  ведения клиентов от момента принятия  работы до 
+        ее защиты у преподавателя.<br> Наша компания дорожит своей репутацией, поэтому постоянно совершенствует профессиональный уровень.<br>
+
+Мы гарантируем абсолютную конфиденциальность.<br>
 
 ';
         break;
     case 29:
-        $vibor_niz = 'Наша компания официально зарегистрирована в РФ<br> и несёт юридическую ответственность 
-        в пределах законодательства данной страны.<br> В сфере оказания услуг репутация – это один из главных привилегий, <br>
-        поэтому мы максимально заинтересованы в оказании услуги точно отвечающий запросам заказчика.<br> 
-        Мы настолько уверены в качестве предоставленных работ,<br> что готовы сделать возврат средств, 
-        если вас не удовлетворит её качество. <br>
-        Больше о гарантиях сотрудничества с нами вы можете прочитать на нашем сайте.<br>
+        $vibor_niz = 'У нас действует накопительная система скидок  для постоянных клиентов,<br> причем свою 
+        дисконтную карту вы сможете передавать в пользование своим друзьям и однокурсникам.<br>
 
-Будем очень рады видеть вас в числе наших клиентов!<br>
+Мы предлагаем обслуживание вас как VIP-клиента,<br> что даст вам отличную возможность учиться, совмещая этот процесс с учебой. <br>
+
+ Мы искренне будем вам благодарны за то, что вы выберете именно нас и доверитесь нашей компании!<br>
 
 ';
         break;
     case 30:
-        $vibor_niz = 'Мы – это опытная слаженная команда преподавателей,<br> переводчиков, бизнес-тренеров и менеджеров.<br>
+        $vibor_niz = 'Наш научно-консультационный центр студенческих исследований осуществляет помощь 
+        студентам в написании на заказ дипломных и курсовых работ,<br> рефератов и контрольных, докладов и отчетов по практике.<br>
 
-Мы делаем любые студенческие работы.<br>
-
-Наши клиенты уверены в высоком качестве работ и преподавательском таланте наших авторов;<br> ведь они легко защищаются с 
-нашей помощью на 4 и 5! <br>
-Причём такие успешные клиенты в нашей компании на протяжении многих лет стабильно составляют 96,8 – 97,3 процента!<br> 
-Все они чётко выполняют наши проверенные временем рекомендации по успешной защите диплома.<br>
+Наша компания даёт гарантии качества (договор на оказание услуг) на наши работы.<br> Каждый заказ курсовой или дипломной работы 
+сопровождается договором оказания услуг и кассовым чеком.<br> Вы не покупаете кота в мешке — перед оплатой заказанной работы, <br>
+Вы проверяете работу на соответствие требованиям и пожеланиям.<br>
 
 ';
         break;
@@ -1729,16 +1671,16 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor_1 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127046&h=lTlHmiOnTbZ-SgQvxp9-Dg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2NzUyNSZoPUxrREQtMjNnSlFuUGFaX2lIb3hTdGcmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekwyVmpOekF4TTJSbFpqazNObVl3WW1Oak5HUmpPRE16T1RNM04ySmtOV1kxTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127096&h=vxHaE0AcvXqRtPBmeJc-EA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2NzUyNSZoPUxrREQtMjNnSlFuUGFaX2lIb3hTdGcmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekwyVmpOekF4TTJSbFpqazNObVl3WW1Oak5HUmpPRE16T1RNM04ySmtOV1kxTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127144&h=iNgO8ldh58TxYvqsvfb7fA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2NzUyNSZoPUxrREQtMjNnSlFuUGFaX2lIb3hTdGcmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekwyVmpOekF4TTJSbFpqazNObVl3WW1Oak5HUmpPRE16T1RNM04ySmtOV1kxTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127175&h=phTcb1IFkCm9rLswQauNYg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2NzUyNSZoPUxrREQtMjNnSlFuUGFaX2lIb3hTdGcmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekwyVmpOekF4TTJSbFpqazNObVl3WW1Oak5HUmpPRE16T1RNM04ySmtOV1kxTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127197&h=JBTp9PhYnnxqP8MVVk2exQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2NzUyNSZoPUxrREQtMjNnSlFuUGFaX2lIb3hTdGcmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekwyVmpOekF4TTJSbFpqazNObVl3WW1Oak5HUmpPRE16T1RNM04ySmtOV1kxTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493533960&h=pNhcTMmEDuOhj8TvE7U-UQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPXBoVGNiMUlGa0NtOXJMc3dRYXVOWWcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534069&h=xiy85nb0gSJa1KUw43p7ww&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPXBoVGNiMUlGa0NtOXJMc3dRYXVOWWcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534152&h=3RYUTVX8VTUHRRzJWLPZ3g&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPXBoVGNiMUlGa0NtOXJMc3dRYXVOWWcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534235&h=eiRTYIADeOWPjNyp56yNAw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPXBoVGNiMUlGa0NtOXJMc3dRYXVOWWcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534308&h=Bde9UzWKkyzmdnekxWBDHA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPXBoVGNiMUlGa0NtOXJMc3dRYXVOWWcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=yWQ1caV7CLsT9o8lM6Yj0A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDIzNSZoPWVpUlRZSUFEZU9XUGpOeXA1NnlOQXcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUzTlNab1BYQm9WR05pTVVsR2EwTnRPWEpNYzNkUllYVk9XV2NtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=WEvsfAUu1ZiraU_gORWq9w&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPXZ4SGFFMEFjdlhxUnRQQm1lSmMtRUEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=Ph172nssmx1qiBECSeulVw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE5NyZoPUpCVHA5UGhZbm54cVA4TVZWazJleFEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=t5jgw6yItbti3rwWoxM1fA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDE1MiZoPTNSWVVUVlg4VlRVSFJSekpXTFBaM2cmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUzTlNab1BYQm9WR05pTVVsR2EwTnRPWEpNYzNkUllYVk9XV2NtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495869143&h=4XyKBmnkWpfikuuk9RP7bw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVBoMTcybnNzbXgxcWlCRUNTZXVsVncmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekU1Tnlab1BVcENWSEE1VUdoWmJtNTRjVkE0VFZaV2F6SmxlRkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=dfSUAx2xkeg6VXNsSDj4dA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPWlOZ084bGRoNThUeFl2cXN2ZmI3ZkEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=Z3q4b5ixIiPoG9ZlZk9TGg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzMzk2MCZoPXBOaGNUTW1FRHVPaGo4VHZFN1UtVVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUzTlNab1BYQm9WR05pTVVsR2EwTnRPWEpNYzNkUllYVk9XV2NtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=dfSUAx2xkeg6VXNsSDj4dA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPWlOZ084bGRoNThUeFl2cXN2ZmI3ZkEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=WEvsfAUu1ZiraU_gORWq9w&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPXZ4SGFFMEFjdlhxUnRQQm1lSmMtRUEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJOelV5TlNab1BVeHJSRVF0TWpOblNsRnVVR0ZhWDJsSWIzaFRkR2NtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVrd3lWbXBPZWtGNFRUSlNiRnBxYXpOT2JWbDNXVzFPYWs1SFVtcFBSRTE2VDFSTk0wNHlTbXRPVjFreFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495869143&h=UukGYtHfalkNAHLDnNLGBw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVdFdnNmQVV1MVppcmFVX2dPUldxOXcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BYWjRTR0ZGTUVGamRsaHhVblJRUW0xbFNtTXRSVUVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -1767,16 +1709,16 @@ return $var_2;
 }
 
 function kart_vibor_2 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127046&h=bBiBW9eBUJNM-uvGpAdvWA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2ODE4MSZoPTU4N0I0U1doUVJaRjllTHpuZjBfM2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TXdPV1E0TkRZNE56SmhNV1U0TnpBd016azNOR0poWW1VeFptSmxNbVpoTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127096&h=gE6ZvjRXcy9oWW2pHABUuQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2ODE4MSZoPTU4N0I0U1doUVJaRjllTHpuZjBfM2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TXdPV1E0TkRZNE56SmhNV1U0TnpBd016azNOR0poWW1VeFptSmxNbVpoTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127144&h=Z3ro3DeDXrImTnGLSEqdyQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2ODE4MSZoPTU4N0I0U1doUVJaRjllTHpuZjBfM2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TXdPV1E0TkRZNE56SmhNV1U0TnpBd016azNOR0poWW1VeFptSmxNbVpoTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127175&h=GVyd958fAuMR85bblhbJww&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2ODE4MSZoPTU4N0I0U1doUVJaRjllTHpuZjBfM2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TXdPV1E0TkRZNE56SmhNV1U0TnpBd016azNOR0poWW1VeFptSmxNbVpoTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127197&h=uAc1rgM1AxUq-dX5FKjZgA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjQlNDBtYWlsLnJ1JmU9MTQ5MTM2ODE4MSZoPTU4N0I0U1doUVJaRjllTHpuZjBfM2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TXdPV1E0TkRZNE56SmhNV1U0TnpBd016azNOR0poWW1VeFptSmxNbVpoTG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493533960&h=dDeDDbwT90W0UxD8M9bN0A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPWdFNlp2alJYY3k5b1dXMnBIQUJVdVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534069&h=j6X2MoWU0hqPcVRnoZzEbA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPWdFNlp2alJYY3k5b1dXMnBIQUJVdVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534152&h=CfMOEL8dzsRv7y4ggPMY6g&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPWdFNlp2alJYY3k5b1dXMnBIQUJVdVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534235&h=yG2WZnBXGyunXA53T9seNg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPWdFNlp2alJYY3k5b1dXMnBIQUJVdVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534308&h=FDvTXarFBdn5Zlc4hQNTAw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPWdFNlp2alJYY3k5b1dXMnBIQUJVdVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=YZS34EUrp2HPuZsjTx_psA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDE1MiZoPUNmTU9FTDhkenNSdjd5NGdnUE1ZNmcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=gJDvsZMdQY03LRGbWX1p2g&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDA2OSZoPWo2WDJNb1dVMGhxUGNWUm5vWnpFYkEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=PHKxLrQKv3SozHqBbEsYjw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDIzNSZoPXlHMldabkJYR3l1blhBNTNUOXNlTmcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=8zY6fPs6H6fNu82fp8c7lA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVozcm8zRGVEWHJJbVRuR0xTRXFkeVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=QhZM74th58ZpK6NV8hMQBQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA0NiZoPWJCaUJXOWVCVUpOTS11dkdwQWR2V0EmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=8zY6fPs6H6fNu82fp8c7lA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVozcm8zRGVEWHJJbVRuR0xTRXFkeVEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqUWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPREU0TVNab1BUVTROMEkwVTFkb1VWSmFSamxsVEhwdVpqQmZNMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUWGRQVjFFMFRrUlpORTU2U21oTlYxVTBUbnBCZDAxNmF6Tk9SMHBvV1cxVmVGcHRTbXhOYlZwb1RHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=qIdbgQJJ1c07mfNp-BfD2Q&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDMwOCZoPUZEdlRYYXJGQmRuNVpsYzRoUU5UQXcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=YZS34EUrp2HPuZsjTx_psA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDE1MiZoPUNmTU9FTDhkenNSdjd5NGdnUE1ZNmcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=YIC4nYl8MYP2gBSWcVuuyg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzMzk2MCZoPWREZUREYndUOTBXMFV4RDhNOWJOMEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekE1Tmlab1BXZEZObHAyYWxKWVkzazViMWRYTW5CSVFVSlZkVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495869143&h=yG93BnDBUSLD1KfKs7D5rQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPXFJZGJnUUpKMWMwN21mTnAtQmZEMlEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16VXpORE13T0Nab1BVWkVkbFJZWVhKR1FtUnVOVnBzWXpSb1VVNVVRWGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVdXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTE2UlhsT2VrRTFUbWxhYjFCWFpFWk9iSEF5WVd4S1dWa3phelZpTVdSWVRXNUNTVkZWU2xaa1ZrVnRaRmhLYzAxVVkzaFFWMDVKVTI1YWJGTkhkREZaVm1ONFltMU5lVTFYYUdoV00yUXhXVEkxVm1Sc1FYbFdibEphVmpKNGVsVkdaRWROVjFKSVQxaHNhMkpVYkhwWmFrcFRZMGRLY1ZWWGVFOVNSVW93VjFaa2MyTXdlSFZUYWtaTFlsWlZOVlJXVWxKT1ZURlZWRlJLVUZKRlZUQlVWazVoWWpGQ1ZWWlVVazlOUld0M1ZsUkdhMkl4VmxkVGJVWlRZVzE0YzFaRmFIZGtWbkJ4VVcxYVRrMXRUblJhUm1oTFl6QXhWVmt6YUZGV01EUXlWMnBPVjJGR1NqWmlSRnBoVWxkU2VscEdXblpsVjFKSVlVZHdhV0pGY0ROWFZ6QjNUbGRPY21WSVVsVmliSEJ3Vmxod2NtVkdhM2RhUkZKcllrZDRXVlpYTlhkVVZURjBaVVJDV0ZadFVuSlphMlJQVGxVNVNXSkZOVk5TVmxZMlZrVm9kMUZ0Vm5KbFJGcFZWMGRTVVZacVJrWk5SbEp5Vld4d1QxSlVWVEpWTWpGdlZHeFplRlpVUWxWaWJrSkRXa1JCZUU1dFJqWlVhemxUVFVoQ2RsWXhZM2hXYlZaSFkwaFNWR0pZYUU5WmJGcDNZakZTU0UxWVpHdE5XRUY2V20wME1HSlhSbGxVYlZwb1UwWkpkMWt3YUU1UFZURlNabTQwYldGWVRtWmhTRkl3WTBoTk9VMVJmbjRtYVhOZmFIUjBjSE05TVF-fiZpc19odHRwcz0x&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -1805,16 +1747,16 @@ function kart_vibor_2 ($var) {
 }
 
 function kart_vibor_3 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127046&h=_PwB9nGL6nKHLKLrPV_lOQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjMlNDBtYWlsLnJ1JmU9MTQ5MTM2ODM3MCZoPWxyTUo0d3Q5ZFNzQ1VZbjEzUXg3N2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TTVZMkprWVdWa04yWXlNelppTVRoa05tWXpPVFl6T0RCbE5ETTROV1k0TG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127096&h=BRXDgTnQqEpQjO2GyOIBfw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjMlNDBtYWlsLnJ1JmU9MTQ5MTM2ODM3MCZoPWxyTUo0d3Q5ZFNzQ1VZbjEzUXg3N2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TTVZMkprWVdWa04yWXlNelppTVRoa05tWXpPVFl6T0RCbE5ETTROV1k0TG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127144&h=U4E-rThigC03PloHMi-X0w&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjMlNDBtYWlsLnJ1JmU9MTQ5MTM2ODM3MCZoPWxyTUo0d3Q5ZFNzQ1VZbjEzUXg3N2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TTVZMkprWVdWa04yWXlNelppTVRoa05tWXpPVFl6T0RCbE5ETTROV1k0TG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127175&h=oxq3I8E4X1YtEX3Q-Hye8A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjMlNDBtYWlsLnJ1JmU9MTQ5MTM2ODM3MCZoPWxyTUo0d3Q5ZFNzQ1VZbjEzUXg3N2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TTVZMkprWVdWa04yWXlNelppTVRoa05tWXpPVFl6T0RCbE5ETTROV1k0TG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493127197&h=5iIgWyoEKSwvo35UgigM8A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjMlNDBtYWlsLnJ1JmU9MTQ5MTM2ODM3MCZoPWxyTUo0d3Q5ZFNzQ1VZbjEzUXg3N2cmdXJsMTcxPWN6Z3VhRzl6ZEdsdVoydGhjblJwYm05ckxtTnZiUzkxY0d4dllXUnpMMmx0WVdkbGN5OHlNREUzTHpBekx6TTVZMkprWVdWa04yWXlNelppTVRoa05tWXpPVFl6T0RCbE5ETTROV1k0TG1wd1p3fn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493533960&h=srHYQmlURPKQpCt7MXJBcQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534069&h=ll4TC3D8k74dclRWxlkf2Q&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534152&h=8r7Btcl0L4qTsMYQOTJf4A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534235&h=bEkpo_fpLvU69WTuajas7w&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin6%40mail.ru&e=1493534308&h=lVdTy_wYppH8h4ws8bw77A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=4DOxJF-VgSCJT6VpBaPWdw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDA2OSZoPWxsNFRDM0Q4azc0ZGNsUld4bGtmMlEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495869143&h=yvjlM6duXgZk_jA77iDLpA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPWo0dWU0UUdLaUZWWWhJbXhsd2tFalEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUzTlNab1BXOTRjVE5KT0VVMFdERlpkRVZZTTFFdFNIbGxPRUVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=j4ue4QGKiFVYhImxlwkEjQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE3NSZoPW94cTNJOEU0WDFZdEVYM1EtSHllOEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_4 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=mT_OS0OOTt720mAZN2i5kg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDE1MiZoPThyN0J0Y2wwTDRxVHNNWVFPVEpmNEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_5 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=mT_OS0OOTt720mAZN2i5kg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDE1MiZoPThyN0J0Y2wwTDRxVHNNWVFPVEpmNEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_6 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=4DOxJF-VgSCJT6VpBaPWdw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzUzNDA2OSZoPWxsNFRDM0Q4azc0ZGNsUld4bGtmMlEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_7 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=42d06nPsAeO0ocLLebVfxw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA0NiZoPV9Qd0I5bkdMNm5LSExLTHJQVl9sT1EmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_8 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=b9qtg3qFgCluaBsmK-jq4A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzA5NiZoPUJSWERnVG5RcUVwUWpPMkd5T0lCZncmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_9 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495868087&h=SmDR9D5RcT1jp3uKhefF4A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjYlNDBtYWlsLnJ1JmU9MTQ5MzEyNzE0NCZoPVU0RS1yVGhpZ0MwM1Bsb0hNaS1YMHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqTWxOREJ0WVdsc0xuSjFKbVU5TVRRNU1UTTJPRE0zTUNab1BXeHlUVW8wZDNRNVpGTnpRMVZaYmpFelVYZzNOMmNtZFhKc01UY3hQV042WjNWaFJ6bDZaRWRzZFZveWRHaGpibEp3WW0wNWNreHRUblppVXpreFkwZDRkbGxYVW5wTU1teDBXVmRrYkdONU9IbE5SRVV6VEhwQmVreDZUVFZaTWtwcldWZFdhMDR5V1hsTmVscHBUVlJvYTA1dFdYcFBWRmw2VDBSQ2JFNUVUVFJPVjFrMFRHMXdkMXAzZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_10 = 'https://proxy.imgsmail.ru/?email=autorvolodin2%40mail.ru&e=1495869143&h=zgIkiMrtDFzOutmzNISDpQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPTRET3hKRi1WZ1NDSlQ2VnBCYVBXZHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16VXpOREEyT1Nab1BXeHNORlJETTBRNGF6YzBaR05zVWxkNGJHdG1NbEVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVdXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTE2UlhsT2VrVXdUa05hYjFCV1ZUQlNVekY1Vmtkb2NGb3dUWGROTVVKellqQm9UbUZUTVZsTlNHTnRaRmhLYzAxVVkzaFFWMDVKVTI1YWJGTkhkREZaVm1ONFltMU5lVTFYYUdoV00yUXhXVEkxVm1Sc1FYbFdibEphVmpKNGVsVkdaRWROVjFKSVQxaHNhMkpVYkhwWmFrcFRZMGRLY1ZSWGVFOVNSVW93VjFaa2MyTXdlSFZUYWtaTFlsWlZOVlJXVWxKT1ZURlZWRlJLVUZKRk1IcFVWVTVoWWpGQ1dHVkliRlZXVnpoM1drUk9VazVXY0VkVWJuQlNUVlphWVZsdGNFWmxiRlpaV25wT1QwMXRUblJhUm1oTFl6QXhWVmt6YUZGV01EUXlWMnBPVjJGR1NqWmlSRnBoVWxkU2VscEdXblpsVjFKSVlVZHdhV0pGY0ROWFZ6QjNUbGRPY21WSVVsVmliSEJ3Vmxod2NtVkdhM2RhUkZKcllrZDRXVlpYTlhkVVZURjBaVVJDV0ZadFVuSlphMlJQVGxVNVNXSkZOVk5TVmxZMlZrVm9kMUZ0Vm5KbFJGcFZWa1phWVZSWGRIZGpiR1JYV2taa2FFMUVValZXTVdoelZHMVdjMk5JUWxWV2JFcDJXVlJCTVdSR1pGbGpSa0pYVW0xM01sWkVRbE5STWtwR1RsVldWVlpHU2xCV2FrWnlUVVpTU0UxWVpHdE5XRUY2V20wME1HSlhSbGxVYlZwb1UwWkpkMWt3YUU1UFZURlNabTQwYldGWVRtWmhTRkl3WTBoTk9VMVJmbjRtYVhOZmFIUjBjSE05TVF-fiZpc19odHRwcz0x&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
