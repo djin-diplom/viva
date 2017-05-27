@@ -45,16 +45,16 @@ $site_name_6 = "Know Baza Ru";//'vivastudent.ru';
     $email3 = "info@".$main_name;
      //$adres = "г. Санкт-Петeрбург, ул.  Ефимова, <br>дом № 5, oф. 138-139";//Viva-magisters.ru
     //$adres = "г. Санкт-Петeрбург, ул. Будапештская, <br>дом № 19, oф. 278-279";//Vivamagister.ru
-     $adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27, oф. 124-125";//Knowbaza.ru
+     $adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 29, oф. 124-125";//Knowbaza.ru
     //$adres = "г. Санкт-Петeрбург, ул. Савушкина, <br>дом № 37, oф. 118-119";//vivazachet
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";//'vivastudent.ru';
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azzK~w"; //Vivamagister.ru
-$url_adres_yandex = "https://yandex.ru/maps/-/C6dMZHYJ"; //Knowbaza.ru
+$url_adres_yandex = "https://yandex.ru/maps/-/C6dQzW74"; //Knowbaza.ru
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azzK~w\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Vivamagister.ru
-$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dMZHYJ\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Knowbaza.ru
+$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dQzW74\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Knowbaza.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
     //$url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
     //$url_adres_yandex_frame = "<iframe src="https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk" width="560" height="400" frameborder="0"></iframe>";
