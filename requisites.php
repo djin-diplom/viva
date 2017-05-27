@@ -50,11 +50,11 @@ $site_name_6 = "Know Baza Ru";//'vivastudent.ru';
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";//'vivastudent.ru';
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azzK~w"; //Vivamagister.ru
-$url_adres_yandex = "https://yandex.ru/maps/-/C6dQzW74"; //Knowbaza.ru
+$url_adres_yandex = "https://yandex.ru/maps/-/C6dUMUL2"; //Knowbaza.ru
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azzK~w\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Vivamagister.ru
-$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dQzW74\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Knowbaza.ru
+$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dUMUL2\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Knowbaza.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
     //$url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
     //$url_adres_yandex_frame = "<iframe src="https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk" width="560" height="400" frameborder="0"></iframe>";
