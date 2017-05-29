@@ -77,54 +77,60 @@ if ( (int)$i >= (int)$count) {
     $email_client = $ar_colls[0];
     if (strlen($email_client) > 5) {
         $name = $ar_colls[1];
-        //$vid_rab = $ar_colls[2];
-        //$pay = $ar_colls[3];
+        $vid_rab = $ar_colls[2];
+        $pay = $ar_colls[3];
         echo "Посылаем " . $email_client . "<br>";
 
-        $sub_vid_rab = rand(1,11);
+        if ($vid_rab == 0) {
 
-        switch ($sub_vid_rab) {
+            $sub_vid_rab = rand(1, 11);
 
-            case 1:
-                $vid_rab = ' Диплом ';
-                break;
-            case 2:
-                $vid_rab = ' Выпускные-дипломные ';
-                break;
-            case 3:
-                $vid_rab = ' Диплом-магистерская ';
-                break;
-            case 4:
-                $vid_rab = ' Диссертации-Дипломы ';
-                break;
-            case 5:
-                $vid_rab = ' Магистерская-дипломная ';
-                break;
-            case 6:
-                $vid_rab = ' Выпускная, дипломная работа ';
-                break;
-            case 7:
-                $vid_rab = ' Диссертации и ВКР ';
-                break;
-            case 8:
-                $vid_rab = ' ВКР ';
-                break;
-            case 9:
-                $vid_rab = ' Выпускная работа ';
-                break;
-            case 10:
-                $vid_rab = ' Дипломная ';
-                break;
-            case 11:
-                $vid_rab = ' Дипломная работа ';
-                break;
+            switch ($sub_vid_rab) {
+
+                case 1:
+                    $vid_rab = ' Диплом ';
+                    break;
+                case 2:
+                    $vid_rab = ' Выпускные-дипломные ';
+                    break;
+                case 3:
+                    $vid_rab = ' Диплом-магистерская ';
+                    break;
+                case 4:
+                    $vid_rab = ' Диссертации-Дипломы ';
+                    break;
+                case 5:
+                    $vid_rab = ' Магистерская-дипломная ';
+                    break;
+                case 6:
+                    $vid_rab = ' Выпускная, дипломная работа ';
+                    break;
+                case 7:
+                    $vid_rab = ' Диссертации и ВКР ';
+                    break;
+                case 8:
+                    $vid_rab = ' ВКР ';
+                    break;
+                case 9:
+                    $vid_rab = ' Выпускная работа ';
+                    break;
+                case 10:
+                    $vid_rab = ' Дипломная ';
+                    break;
+                case 11:
+                    $vid_rab = ' Дипломная работа ';
+                    break;
+            }
+            $rand_nach_mla_mla = rand(47, 69) * 100;
+
+            $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 3000);
         }
-        $rand_nach_mla_mla = rand(47,69)*100;
 
-        $pay = $rand_nach_mla_mla.'-'.($rand_nach_mla_mla+3000);
 
 
         require("../email/build_2.php");
+
+        $vid_rab = rand_podstav_smv($vid_rab);
 
 
 
@@ -165,41 +171,44 @@ if ( (int)$i >= (int)$count) {
             $sub_1_text = ' стоимостью ';
             break;
     }
+        $sub_1_text = rand_podstav_smv($sub_1_text);
 
         $sub_2 = rand(1,10);
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' бeз прeдоплаты от компании ';
+            $sub_2_text = ' бeз предоплаты от компании ';
             break;
         case 2:
             $sub_2_text = ' без предоплаты, образовательный центр ';
             break;
         case 3:
-            $sub_2_text = ' 6ез предoплаты предлагает учебная студия ';
+            $sub_2_text = ' 6ез предоплаты предлагает учебная студия ';
             break;
         case 4:
-            $sub_2_text = ' без предоплaты от ';
+            $sub_2_text = ' без предоплаты от ';
             break;
         case 5:
-            $sub_2_text = ' без пpедоплаты, компания ';
+            $sub_2_text = ' без предоплаты, компания ';
             break;
         case 6:
-            $sub_2_text = ', бе3 предоплаты УЦ ';
+            $sub_2_text = ', без предоплаты УЦ ';
             break;
         case 7:
-            $sub_2_text = ', без предoплаты услуга сервиса ';
+            $sub_2_text = ', без предоплаты услуга сервиса ';
             break;
         case 8:
             $sub_2_text = ', нет предоплат на сайте ';
             break;
         case 9:
-            $sub_2_text = ', никаких прeдоплат на студенческом портале ';
+            $sub_2_text = ', никаких предоплат на студенческом портале ';
             break;
         case 10:
             $sub_2_text = ', не требуем предоплату, ООО ';
             break;
     }
+
+        $sub_2_text = rand_podstav_smv($sub_2_text);
 
 
         $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . $sub_2_text . $site_name;
