@@ -81,49 +81,97 @@ if ( (int)$i >= (int)$count) {
         $pay = $ar_colls[3];
         echo "Посылаем " . $email_client . "<br>";
 
-        if ($vid_rab == 0) {
+        if ($vid_rab == "no") {
 
-            $sub_vid_rab = rand(1, 11);
+            if ($pay == "kur") {
 
-            switch ($sub_vid_rab) {
+                $sub_vid_rab = rand(1, 11);
 
-                case 1:
-                    $vid_rab = ' Диплом ';
-                    break;
-                case 2:
-                    $vid_rab = ' Выпускные-дипломные ';
-                    break;
-                case 3:
-                    $vid_rab = ' Диплом-магистерская ';
-                    break;
-                case 4:
-                    $vid_rab = ' Диссертации-Дипломы ';
-                    break;
-                case 5:
-                    $vid_rab = ' Магистерская-дипломная ';
-                    break;
-                case 6:
-                    $vid_rab = ' Выпускная, дипломная работа ';
-                    break;
-                case 7:
-                    $vid_rab = ' Диссертации и ВКР ';
-                    break;
-                case 8:
-                    $vid_rab = ' ВКР ';
-                    break;
-                case 9:
-                    $vid_rab = ' Выпускная работа ';
-                    break;
-                case 10:
-                    $vid_rab = ' Дипломная ';
-                    break;
-                case 11:
-                    $vid_rab = ' Дипломная работа ';
-                    break;
+                switch ($sub_vid_rab) {
+
+                    case 1:
+                        $vid_rab = ' Курсовой ';
+                        break;
+                    case 2:
+                        $vid_rab = ' Семестровые-курсовые ';
+                        break;
+                    case 3:
+                        $vid_rab = ' Курсовой-семестровая ';
+                        break;
+                    case 4:
+                        $vid_rab = ' Семестровая-курсовые ';
+                        break;
+                    case 5:
+                        $vid_rab = ' Семестровая-курсовая ';
+                        break;
+                    case 6:
+                        $vid_rab = ' Семестровая, курсовая работа ';
+                        break;
+                    case 7:
+                        $vid_rab = ' Курсовая и семестровая ';
+                        break;
+                    case 8:
+                        $vid_rab = ' Семестровая ';
+                        break;
+                    case 9:
+                        $vid_rab = ' Семестровая работа ';
+                        break;
+                    case 10:
+                        $vid_rab = ' Курсовая ';
+                        break;
+                    case 11:
+                        $vid_rab = ' Курсовая работа ';
+                        break;
+                }
+                $rand_nach_mla_mla = rand(15, 30) * 100;
+
+                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 2500);
+
+
+            } else {
+
+                $sub_vid_rab = rand(1, 11);
+
+                switch ($sub_vid_rab) {
+
+                    case 1:
+                        $vid_rab = ' Диплом ';
+                        break;
+                    case 2:
+                        $vid_rab = ' Выпускные-дипломные ';
+                        break;
+                    case 3:
+                        $vid_rab = ' Диплом-магистерская ';
+                        break;
+                    case 4:
+                        $vid_rab = ' Диссертации-Дипломы ';
+                        break;
+                    case 5:
+                        $vid_rab = ' Магистерская-дипломная ';
+                        break;
+                    case 6:
+                        $vid_rab = ' Выпускная, дипломная работа ';
+                        break;
+                    case 7:
+                        $vid_rab = ' Диссертации и ВКР ';
+                        break;
+                    case 8:
+                        $vid_rab = ' ВКР ';
+                        break;
+                    case 9:
+                        $vid_rab = ' Выпускная работа ';
+                        break;
+                    case 10:
+                        $vid_rab = ' Дипломная ';
+                        break;
+                    case 11:
+                        $vid_rab = ' Дипломная работа ';
+                        break;
+                }
+                $rand_nach_mla_mla = rand(47, 69) * 100;
+
+                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 3000);
             }
-            $rand_nach_mla_mla = rand(47, 69) * 100;
-
-            $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 3000);
         }
 
 
