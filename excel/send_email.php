@@ -168,9 +168,9 @@ if ( (int)$i >= (int)$count) {
                         $vid_rab = ' Дипломная работа ';
                         break;
                 }
-                $rand_nach_mla_mla = rand(47, 69) * 100;
+                $rand_nach_mla_mla = rand(40, 50) * 100;
 
-                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 3000);
+                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 1500);
             }
         }
 
