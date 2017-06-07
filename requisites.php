@@ -3,8 +3,8 @@
 //$main_name = "Viva-magisters.ru";
 //$main_name = "Vivamagister.ru";
 //$main_name = "Vivazachet.ru";//"Vivastudent.ru";
-$main_name =  "bazazachet.ru";//"Knowbaza.ru";
-$email2 =   "bazazachet.ru@gmail.com";//"infobazaznanij@gmail.com";//"Vivamagister.ru@gmail.com";//"Vivastudents.ru@gmail.com";
+$main_name =  "znaniumbaza.ru";//"Knowbaza.ru";
+$email2 =   "znaniumbaza.ru@gmail.com";//"infobazaznanij@gmail.com";//"Vivamagister.ru@gmail.com";//"Vivastudents.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -19,7 +19,7 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
-    $site_name = "bazazachet.ru";//'Vivastudent.ru';
+    $site_name = "znaniumbaza.ru";//'Vivastudent.ru';
 $site_name_2 = "Knowbaza";//'www.vivastudent.ru';
 $site_name_3 = "Www.Knowbaza.ru";//'vivastudent.ru';
 $site_name_4 = "Knowbaza-ru";//'vivastudent.ru';
@@ -46,7 +46,7 @@ $site_name_6 = "Know Baza Ru";//'vivastudent.ru';
      //$adres = "г. Санкт-Петeрбург, ул.  Ефимова, <br>дом № 5, oф. 138-139";//Viva-magisters.ru
     //$adres = "г. Санкт-Петeрбург, ул. Будапештская, <br>дом № 19, oф. 278-279";//Vivamagister.ru
      //$adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27, oф. 124-125";//Knowbaza.ru
-$adres = "г. Санкт-Петербург, ул. Толстого, <br>дом № 11, oф. 144-145";//Knowbaza.ru
+$adres = "г. Санкт-Петербург, ул. Лермонтова, <br>дом № 8, oф. 184-185";//Knowbaza.ru
     //$adres = "г. Санкт-Петeрбург, ул. Савушкина, <br>дом № 37, oф. 118-119";//vivazachet
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";//'vivastudent.ru';
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
