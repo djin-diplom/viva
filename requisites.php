@@ -58,7 +58,7 @@ $adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dUMUL2\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Knowbaza.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
     $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
-    $url_adres_yandex_frame = "<iframe src="https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk" width="560" height="400" frameborder="0"></iframe>";
+    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410015259896322"; //последний
 
 $main_name_temp = $main_name;
