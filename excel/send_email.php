@@ -135,10 +135,10 @@ if ( (int)$i >= (int)$count) {
                 switch ($sub_vid_rab) {
 
                     case 1:
-                        $vid_rab = ' Диплом ';
+                        $vid_rab = ' Дипломная работа ';
                         break;
                     case 2:
-                        $vid_rab = ' Выпускные-дипломные ';
+                        $vid_rab = ' Дипломные ';
                         break;
                     case 3:
                         $vid_rab = ' Диплом-магистерская ';
@@ -150,7 +150,7 @@ if ( (int)$i >= (int)$count) {
                         $vid_rab = ' Магистерская-дипломная ';
                         break;
                     case 6:
-                        $vid_rab = ' Выпускная, дипломная работа ';
+                        $vid_rab = ' Выпускная работа ';
                         break;
                     case 7:
                         $vid_rab = ' Диссертации и ВКР ';
@@ -168,7 +168,7 @@ if ( (int)$i >= (int)$count) {
                         $vid_rab = ' Дипломная работа ';
                         break;
                 }
-                $rand_nach_mla_mla = rand(40, 50) * 100;
+                $rand_nach_mla_mla = rand(35, 45) * 100;
 
                 $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 1500);
             }
