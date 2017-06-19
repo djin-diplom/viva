@@ -55,13 +55,13 @@ $vibor_let_case = rand(1,3);
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'В июне скидки на дипломы до 50%.';
+        $vibor_let = 'Весь июнь скидки на дипломные до 40%.';
         break;
     case 2:
-        $vibor_let = 'Летния акция минус 50 % цены.';
+        $vibor_let = 'Июньская акция упраздняет 40 % стоимости.';
         break;
     case 3:
-        $vibor_let = 'Летом цена работ снижена вдвое.';
+        $vibor_let = 'Лето снижает стоимость работ в два раза.';
         break;
 
 }
@@ -75,13 +75,13 @@ $vibor_akc_case = rand(1,3);
 
 switch ($vibor_akc_case) {
     case 1:
-        $vibor_akc = 'Запустим Ваш заказ без предоплаты.';
+        $vibor_akc = 'Пустим в работу без предварительной платы.';
         break;
     case 2:
-        $vibor_akc = 'Никакой предоплаты в новом сезоне.';
+        $vibor_akc = 'Совсем нет предоплаты в летний месяц.';
         break;
     case 3:
-        $vibor_akc = 'Начнем бесплатно выполнять диплом.';
+        $vibor_akc = 'Бесплатно приступим к написанию дипломной.';
         break;
 }
 
@@ -99,16 +99,17 @@ $vibor_pris_case = rand(1,3);
 
 switch ($vibor_pris_case) {
     case 1:
-        $vibor_pris = ' гарантирует бесплатные доработки. Заключает официальный договор, ИНН, оплата с чеком. 
-        Возможна оплата в офисе. ';
+        $vibor_pris = ' дает гарантии бесплатных доработок. Заключит офёрту-договор, предоставит ИНН и чек. 
+        Удобно оплачивать наличинымми и через интернет. ';
         break;
     case 2:
-        $vibor_pris = ' корректирует работы без дополнительных оплат. Гарантирует качество диплома по договору. Предоставляет 
-        чек, регистрацию ФНС. ';
+        $vibor_pris = ' скорректирует текст бесплатно в рамках заказа. Даст гарантию качества дипломной по оферте. Пришлет 
+        ордер-чек, официальные документы регистрации. ';
         break;
     case 3:
-        $vibor_pris = ' ведет до успешной сдачи. Контролирует авторов, зарегистрирована в реестре учебных компаний России. 
-         Заключает договор. ';
+        $vibor_pris = ' проведёт заказ к лучшей оценке. Проконтролирует писателей-авторов, предложит документы регистрации 
+        в списке образовательных центров РФ и договор-оферту.
+        ';
         break;
 
 }
@@ -123,15 +124,15 @@ $text_kurs_case = rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'У нас курсовые работы пишутся по ГОСТу. За рулем только аспиранты, кандидаты наук, а также опытные авторы.
+        $text_kurs = 'В нашей компании курсачи выполняются по гостам. Управляют процессом кандидаты наук, а ещё профи писатели.
         ';
         break;
     case 2:
-        $text_kurs = 'Мы соблюдаем все стандарты написания курсовых. Работаем по Вашим указаниям. Авторы - профессионалы-ботаники.
+        $text_kurs = 'Компания соблюдает лучшие традиции изготовления курсового. Работает по методичке Заказчика. Авторы - спецы.
         ';
         break;
     case 3:
-        $text_kurs = 'Наши авторы закончили университеты и получили научные степени. Разбираются в предмете и пишут по методичкам.
+        $text_kurs = 'Каждый автор центра закончил ВУЗ и получил степень. Он разбирается в теме и пишет по требованиям Заказчика.
         ';
         break;
 
@@ -147,15 +148,15 @@ $text_dip_case = rand(1,3);
 
 switch ($text_dip_case) {
     case 1:
-        $text_dip = 'Для дипломных работ мы отбираем только лучших авторов. Мало иметь степень - нужно иметь опыт написания диплома.
+        $text_dip = 'Для дипломного заказа центр отбирает самых топовых специалистов. Требуется не только научное звание, но и опыт.
         ';
         break;
     case 2:
-        $text_dip = 'Мы селекционируем самых успешных авторов, на счету которых многие десятки и сотни написанных дипломных работ.
+        $text_dip = 'Компания проводит селекцию умелых авторов, которые смогли выполнить не менее десятка дипломных и магистерских.
         ';
         break;
     case 3:
-        $text_dip = 'Наши авторы дипломных работ сидят в экзаменационных коммиссиях ВУЗов, поэтому знают толк в написании дипломов.
+        $text_dip = 'Сотрудники компании и писатели дипломных заседают в университетах, потому хорошо разбираются в ведении диплома.
         ';
         break;
 
@@ -170,15 +171,15 @@ $text_mag_case = rand(1,3);
 
 switch ($text_mag_case) {
     case 1:
-        $text_mag = 'Мы выполняем магистерские диссертации досконально, со знанием дела. Процесс удаленно контролируют доктора наук.
+        $text_mag = 'Центр выполняет магистерские по всем правилам и методике. Все этапы держит под контролем доктор или кандидат.
         ';
         break;
     case 2:
-        $text_mag = 'Диссертации у нас пишут кандидаты и доктора наук, поэтому можно не беспокоиться о качестве и научной новизне.
+        $text_mag = 'Образовательный центр сотрудничает с кандидатами и докторами, потому качество и уникальность работы на высоте.
         ';
         break;
     case 3:
-        $text_mag = 'В нашей компании одну магистерскую диссертацию ведут сразу несколько специалистов, курирует все доктор наук.
+        $text_mag = 'Компания поручает ведение магистерской диссертации двум специалистам, общее руководство осуществляет доктор наук.
         ';
         break;
 
@@ -192,13 +193,13 @@ $vibor_filial_case = rand(1,3);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'Посетите наши офисы в крупных городах России.';
+        $vibor_filial = 'Приезжайте к нам в офисы в Москве и Питере.';
         break;
     case 2:
-        $vibor_filial = 'Пять филиалов по всей Российской Федерации';
+        $vibor_filial = 'Множество филиалов, в Казани, Санкт-Петербурге.';
         break;
     case 3:
-        $vibor_filial = 'Офисы во многих городах РФ, включая Севастополь.';
+        $vibor_filial = 'Отделения в регионах России, не ислючая Крым.';
         break;
 }
 
@@ -212,25 +213,24 @@ $vibor_niz_case = rand(1, 3);
 
 switch ($vibor_niz_case) {
     case 1:
-        $vibor_niz = 'Мы выполняем работы с душой уже долгие годы.<br>
-Десятки тысяч студентов остались благодарным нам.<br>
-Мы постоянно улучшаем квалификацию наших авторов.<br>
-Только профессионалы и специалисты, только кандидаты и доктора наук, только доценты и профессоры!<br>
+        $vibor_niz = '
+        Гарантия полной конфиденциальности и вашей анонимности по договору<br>
+        Гарантия уникальности от 70% с проверкой в сервисе antiplagiat<br>
+        Гарантия выполнения наших обязательств в кратчайшие сроки от 24 часов<br>
 ';
         break;
     case 2:
-        $vibor_niz = 'Семь лет на службе у студентов - и лучшие оценки в этом секторе услуг.<br>
-        Нас хвалят, нас благодарят.<br>
-        И все потому, что мы выбираем только лучших авторов.<br>
-        У нас только профессора и кандидаты, доценты и доктора наук!<br>
+        $vibor_niz = 'Мы всегда стремимся найти оптимальное соотношение цены к сложности работы.<br>
+        Выполнение студенческих работ в нашем центре, подразумевает их высокую уникальность, так как пишутся они индивидуально под каждое задание.<br>
+        Любая работа выполняется в максимально сжатый срок, именно поэтому мы беремся и за срочные заказы.<br>
         
 ';
         break;
     case 3:
-        $vibor_niz = 'Нам под силу сделать отлично Вашу работу.<br>
-        Мы сделаем ее за умеренную плату.<br>
-        В нашем распоряжении - профессорский состав университетов России.<br>
-        Кандидаты и доктора выполнят Вашу курсовую, диплом или магистерскую на высший балл!<br>
+        $vibor_niz = 'Наш автор не только напишет работу согласно всем Вашим условиям, которые требует вуз и преподаватель,<br> 
+        но и просто и доступно объяснит то, чего не удалось понять на лекции, прояснит любые неясные моменты твоей работы.<br>
+        Наша компания действительно думает о Вас и Вашем дипломе.<br> 
+        И это видно и слышно сразу, по первым же словам наших менеджеров, по первому же взгляду на наш уютный офис.<br>
 ';
         break;
 
@@ -244,9 +244,9 @@ $style_1 = rand(3234, 2343).'adfdpt';
 
 
 function kart_vibor_1 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544870&h=J5hNBx3t5i85R25JrdieoQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPWRmU1VBeDJ4a2VnNlZYTnNTRGo0ZEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BXbE9aMDg0YkdSb05UaFVlRmwyY1hOMlptSTNaa0VtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544888&h=sdQ4lAM82IQKMQorecXqAg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPWRmU1VBeDJ4a2VnNlZYTnNTRGo0ZEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BXbE9aMDg0YkdSb05UaFVlRmwyY1hOMlptSTNaa0VtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544899&h=p_438_EyKBpb5sspUuw4BQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVBoMTcybnNzbXgxcWlCRUNTZXVsVncmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekU1Tnlab1BVcENWSEE1VUdoWmJtNTRjVkE0VFZaV2F6SmxlRkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKT2VsVjVUbE5hYjFCVmVISlNSVkYwVFdwT2JsTnNSblZWUjBaaFdESnNTV0l6YUZSa1IyTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJkM2xXYlhCUFpXdEdORlJVU2xOaVJuQnhZWHBPVDJKV2JETlhWekZQWVdzMVNGVnRjRkJTUlRFMlZERlNUazB3TkhsVGJYUlBWakZyZUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963668&h=0gORc2yK5i_37w2dWr5Zbg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1wXzQzOF9FeUtCcGI1c3NwVXV3NEJRJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVkJvTVRjeWJuTnpiWGd4Y1dsQ1JVTlRaWFZzVm5jbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la1UxVG5sYWIxQlZjRU5XU0VFMVZVZG9XbUp0TlRSalZrRTBWRlphVjJGNlNteGxSa1Z0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1QyVnNWalZVYkU1aFlqRkNWbVZJU2xOU1ZrWXdWRmR3VDJKc1RuTlNibFpXVWpCYWFGZEVTbk5UVjBsNllVWlNhMUl5VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmtNMnhYWWxoQ1VGcFhkRWRPUmxKVlUyeE9hVkp1UW5oWldIQlBWREpLVjJKRVRsaFdla1pRV1Zkek1WTkdWblJqUmtKVFVsUkZNbFpFUmxOVWF6QjNUa2hzVkdKWVVsQldha1p5WlVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963696&h=2vFQc5K0DUCunXEvynX2Ng&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4NzAmaD1KNWhOQngzdDVpODVSMjVKcmRpZW9RJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QV1JtVTFWQmVESjRhMlZuTmxaWVRuTlRSR28wWkVFbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la1V3VGtOYWIxQlhiRTlhTURnMFlrZFNiMDVVYUZWbFJtd3lZMWhPTWxwdFNUTmFhMFZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1QyVnNWalZVYkU1aFlqRkNWbVZJU2xOU1ZrWXdWRmR3VDJKc1RuTlNibFpXVWpCYWFGZEVTbk5UVjBsNllVWlNhMUl5VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmtNMnhYWWxoQ1VGcFhkRWRPUmxKVlUyeE9hVkp1UW5oWldIQlBWREpLVjJKRVRsaFdla1pRV1Zkek1WTkdWblJqUmtKVFVsUkZNbFpFUmxOVWF6QjNUa2hzVkdKWVVsQldha1p5WlVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963725&h=95pO1ODhb5wYAemxAUq1kQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4NzAmaD1KNWhOQngzdDVpODVSMjVKcmRpZW9RJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QV1JtVTFWQmVESjRhMlZuTmxaWVRuTlRSR28wWkVFbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la1V3VGtOYWIxQlhiRTlhTURnMFlrZFNiMDVVYUZWbFJtd3lZMWhPTWxwdFNUTmFhMFZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1QyVnNWalZVYkU1aFlqRkNWbVZJU2xOU1ZrWXdWRmR3VDJKc1RuTlNibFpXVWpCYWFGZEVTbk5UVjBsNllVWlNhMUl5VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmtNMnhYWWxoQ1VGcFhkRWRPUmxKVlUyeE9hVkp1UW5oWldIQlBWREpLVjJKRVRsaFdla1pRV1Zkek1WTkdWblJqUmtKVFVsUkZNbFpFUmxOVWF6QjNUa2hzVkdKWVVsQldha1p5WlVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -262,9 +262,9 @@ return $var_2;
 }
 
 function kart_vibor_2 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544870&h=hGK99y_5iE-UZUAp32ArdA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPTh6WTZmUHM2SDZmTnU4MmZwOGM3bEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWb3pjbTh6UkdWRVdISkpiVlJ1UjB4VFJYRmtlVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544888&h=rMcNJHrzs_Au2ilH75H2Sg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPTh6WTZmUHM2SDZmTnU4MmZwOGM3bEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWb3pjbTh6UkdWRVdISkpiVlJ1UjB4VFJYRmtlVkVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544899&h=BMgGTIKc8YywlbwlF5mFUg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVFoWk03NHRoNThacEs2TlY4aE1RQlEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekEwTmlab1BXSkNhVUpYT1dWQ1ZVcE9UUzExZGtkd1FXUjJWMEVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVVXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFVTBUVk5hYjFCVVZUUk9NRWt3VlRGa2IxVldTbUZTYW14c1ZFaHdkVnBxUW1aTk1tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVV0dSUVZqRkZNRlJyVWxwT1JUVTJVMjFvVGxZeFZUQlVibkJDWkRBeE5tRjZUazlTTUhCdlYxY3hWbVZHY0hSVGJYaE9ZbFp3YjFSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963668&h=foF3iwm5vtLrDrdmpdKkcQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1CTWdHVElLYzhZeXdsYndsRjVtRlVnJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVkZvV2swM05IUm9OVGhhY0VzMlRsWTRhRTFSUWxFbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la0V3VG1sYWIxQlhTa05oVlVwWVQxZFdRMVpWY0U5VVV6RXhaR3RrZDFGWFVqSldNRVZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZWVEJVVms1aFlqRkNWVlpVVWs5TlJXdDNWbFJHYTJJeFZsZFRiVVpUWVcxNGMxWkZhSGRrVm5CeFVXMWFUazF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVjBkU1VWWnFSa1pOUmxKeVZXeHdUMUpVVlRKVk1qRnZWR3haZUZaVVFsVmlia0pEV2tSQmVFNXRSalpVYXpsVFRVaENkbFl4WTNoV2JWWkhZMGhTVkdKWWFFOVpiRnAzWWpGU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963696&h=1pappsUNv2eZ6rkLKsCKYQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4ODgmaD1yTWNOSkhyenNfQXUyaWxINzVIMlNnJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVGg2V1RabVVITTJTRFptVG5VNE1tWndPR00zYkVFbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la1V3VGtOYWIxQldiM3BqYlRoNlVrZFdSVmRJU2twaVZsSjFVakI0VkZKWVJtdGxWa1Z0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZWVEJVVms1aFlqRkNWVlpVVWs5TlJXdDNWbFJHYTJJeFZsZFRiVVpUWVcxNGMxWkZhSGRrVm5CeFVXMWFUazF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVjBkU1VWWnFSa1pOUmxKeVZXeHdUMUpVVlRKVk1qRnZWR3haZUZaVVFsVmlia0pEV2tSQmVFNXRSalpVYXpsVFRVaENkbFl4WTNoV2JWWkhZMGhTVkdKWWFFOVpiRnAzWWpGU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963725&h=89LyS6sJsO_AtCdKxFdz1A&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1CTWdHVElLYzhZeXdsYndsRjVtRlVnJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVkZvV2swM05IUm9OVGhhY0VzMlRsWTRhRTFSUWxFbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la0V3VG1sYWIxQlhTa05oVlVwWVQxZFdRMVpWY0U5VVV6RXhaR3RrZDFGWFVqSldNRVZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWVlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZWVEJVVms1aFlqRkNWVlpVVWs5TlJXdDNWbFJHYTJJeFZsZFRiVVpUWVcxNGMxWkZhSGRrVm5CeFVXMWFUazF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVjBkU1VWWnFSa1pOUmxKeVZXeHdUMUpVVlRKVk1qRnZWR3haZUZaVVFsVmlia0pEV2tSQmVFNXRSalpVYXpsVFRVaENkbFl4WTNoV2JWWkhZMGhTVkdKWWFFOVpiRnAzWWpGU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -279,9 +279,9 @@ function kart_vibor_2 ($var) {
 }
 
 function kart_vibor_3 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544870&h=Ch0rrVyQ53ZjDXOhvIlenA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVNtRFI5RDVSY1QxanAzdUtoZWZGNEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544888&h=1KuxeFMH7NlNKEeyr0u-mA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPVNtRFI5RDVSY1QxanAzdUtoZWZGNEEmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekUwTkNab1BWVTBSUzF5VkdocFowTXdNMUJzYjBoTmFTMVlNSGNtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497544899&h=JoN-0QTQ-dHE4qE8nmXoiQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWF1dG9ydm9sb2RpbjIlNDBtYWlsLnJ1JmU9MTQ5NTg2ODA4NyZoPTQyZDA2blBzQWVPMG9jTExlYlZmeHcmdXJsMTcxPWNISnZlSGt1YVcxbmMyMWhhV3d1Y25VdlAyVnRZV2xzUFdGMWRHOXlkbTlzYjJScGJqWWxOREJ0WVdsc0xuSjFKbVU5TVRRNU16RXlOekEwTmlab1BWOVFkMEk1YmtkTU5tNUxTRXhMVEhKUVZsOXNUMUVtZFhKc01UY3hQV05JU25abFNHdDFZVmN4Ym1NeU1XaGhWM2QxWTI1VmRsQXlWblJaVjJ4elVGZEdNV1JIT1hsa2JUbHpZakpTY0dKcVRXeE9SRUowV1Zkc2MweHVTakZLYlZVNVRWUlJOVTFVVFRKUFJFMHpUVU5hYjFCWGVIbFVWVzh3WkROUk5WcEdUbnBSTVZaYVltcEZlbFZZWnpOT01tTnRaRmhLYzAxVVkzaFFWMDQyV2pOV2FGSjZiRFphUldSelpGWnZlV1JIYUdwaWJFcDNXVzB3TldOcmVIUlVibHBwVlhwcmVGa3daRFJrYkd4WVZXNXdUVTF0ZURCWFZtUnJZa2RPTlU5SWJFNVNSVlY2VkVod1FtVnJlRFpVVkZaYVRXdHdjbGRXWkZkaE1EUjVWMWhzVG1Wc2NIQlVWbEp2WVRBMWRGZFljRkJXUm13MlZEQlNRMkpGTlVWVVZGSlBWakZyTUZSSE1YZGtNWEF6Wm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963668&h=a3ldcQLvUeCDEgwTD_HPbg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1Kb04tMFFUUS1kSEU0cUU4bm1Yb2lRJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVFF5WkRBMmJsQnpRV1ZQTUc5alRFeGxZbFptZUhjbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la0V3VG1sYWIxQldPVkZrTUVrMVltdGtUVTV0TlV4VFJYaE1WRWhLVVZac09YTlVNVVZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWUlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZNSHBVVlU1aFlqRkNXR1ZJYkZWV1Z6aDNXa1JPVWs1V2NFZFVibkJTVFZaYVlWbHRjRVpsYkZaWlducE9UMDF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVmtaYVlWUlhkSGRqYkdSWFdrWmthRTFFVWpWV01XaHpWRzFXYzJOSVFsVldiRXAyV1ZSQk1XUkdaRmxqUmtKWFVtMTNNbFpFUWxOUk1rcEdUbFZXVlZaR1NsQldha1p5VFVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963696&h=_2ewcCL2gwW_KvyW0Tesig&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1Kb04tMFFUUS1kSEU0cUU4bm1Yb2lRJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVFF5WkRBMmJsQnpRV1ZQTUc5alRFeGxZbFptZUhjbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la0V3VG1sYWIxQldPVkZrTUVrMVltdGtUVTV0TlV4VFJYaE1WRWhLVVZac09YTlVNVVZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWUlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZNSHBVVlU1aFlqRkNXR1ZJYkZWV1Z6aDNXa1JPVWs1V2NFZFVibkJTVFZaYVlWbHRjRVpsYkZaWlducE9UMDF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVmtaYVlWUlhkSGRqYkdSWFdrWmthRTFFVWpWV01XaHpWRzFXYzJOSVFsVldiRXAyV1ZSQk1XUkdaRmxqUmtKWFVtMTNNbFpFUWxOUk1rcEdUbFZXVlZaR1NsQldha1p5VFVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1497963725&h=efJxpABdzlio3bfbtS5Fcw&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE0OTc1NDQ4OTkmaD1Kb04tMFFUUS1kSEU0cUU4bm1Yb2lRJnVybDE3MT1jSEp2ZUhrdWFXMW5jMjFoYVd3dWNuVXZQMlZ0WVdsc1BXRjFkRzl5ZG05c2IyUnBiaklsTkRCdFlXbHNMbkoxSm1VOU1UUTVOVGcyT0RBNE55Wm9QVFF5WkRBMmJsQnpRV1ZQTUc5alRFeGxZbFptZUhjbWRYSnNNVGN4UFdOSVNuWmxTR3QxWVZjeGJtTXlNV2hoVjNkMVkyNVZkbEF5Vm5SWlYyeHpVRmRHTVdSSE9YbGtiVGx6WWpKU2NHSnFXV3hPUkVKMFdWZHNjMHh1U2pGS2JWVTVUVlJSTlUxNlJYbE9la0V3VG1sYWIxQldPVkZrTUVrMVltdGtUVTV0TlV4VFJYaE1WRWhLVVZac09YTlVNVVZ0WkZoS2MwMVVZM2hRVjA1SlUyNWFiRk5IZERGWlZtTjRZbTFOZVUxWGFHaFdNMlF4V1RJMVZtUnNRWGxXYmxKYVZqSjRlbFZHWkVkTlYxSklUMWhzYTJKVWJIcFpha3BUWTBkS2NWUlhlRTlTUlVvd1YxWmtjMk13ZUhWVGFrWkxZbFpWTlZSV1VsSk9WVEZWVkZSS1VGSkZNSHBVVlU1aFlqRkNXR1ZJYkZWV1Z6aDNXa1JPVWs1V2NFZFVibkJTVFZaYVlWbHRjRVpsYkZaWlducE9UMDF0VG5SYVJtaExZekF4VlZremFGRldNRFF5VjJwT1YyRkdTalppUkZwaFVsZFNlbHBHV25abFYxSklZVWR3YVdKRmNETlhWekIzVGxkT2NtVklVbFZpYkhCd1ZsaHdjbVZHYTNkYVJGSnJZa2Q0V1ZaWE5YZFVWVEYwWlVSQ1dGWnRVbkpaYTJSUFRsVTVTV0pGTlZOU1ZsWTJWa1ZvZDFGdFZuSmxSRnBWVmtaYVlWUlhkSGRqYkdSWFdrWmthRTFFVWpWV01XaHpWRzFXYzJOSVFsVldiRXAyV1ZSQk1XUkdaRmxqUmtKWFVtMTNNbFpFUWxOUk1rcEdUbFZXVlZaR1NsQldha1p5VFVaU1NFMVlaR3ROV0VGNldtMDBNR0pYUmxsVWJWcG9VMFpKZDFrd2FFNVBWVEZTWm00MGJXRllUbVpoU0ZJd1kwaE5PVTFSZm40bWFYTmZhSFIwY0hNOU1Rfn4maXNfaHR0cHM9MQ~~&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
