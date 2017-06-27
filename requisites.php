@@ -14,10 +14,10 @@ $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 
 
-$img_path_1 = "./index_files/1_logo_55 (2).png";
-$img_path_2 = "1_logo_55 (2).png";
-//$img_path_1 = "./index_files/1_logo.jpg";
-//$img_path_2 = "1_logo.jpg";
+//$img_path_1 = "./index_files/1_logo_55 (2).png";
+//$img_path_2 = "1_logo_55 (2).png";
+$img_path_1 = "./index_files/1_logo.jpg";
+$img_path_2 = "1_logo.jpg";
 
     $site_name = "Basisznanij.ru";//'Vivastudent.ru';
 $site_name_2 = "Basisznanij.ru";//'www.vivastudent.ru';
