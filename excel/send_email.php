@@ -123,9 +123,9 @@ if ( (int)$i >= (int)$count) {
                         $vid_rab = ' Курсовая работа ';
                         break;
                 }
-                $rand_nach_mla_mla = rand(15, 30) * 100;
+                $rand_nach_mla_mla = rand(20, 35) * 100;
 
-                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 2500);
+                $pay = $rand_nach_mla_mla;
 
 
             } else {
@@ -168,9 +168,9 @@ if ( (int)$i >= (int)$count) {
                         $vid_rab = ' Дипломная работа ';
                         break;
                 }
-                $rand_nach_mla_mla = rand(35, 45) * 100;
+                $rand_nach_mla_mla = rand(30, 45) * 100;
 
-                $pay = $rand_nach_mla_mla . '-' . ($rand_nach_mla_mla + 1500);
+                $pay = $rand_nach_mla_mla;
             }
         }
 
