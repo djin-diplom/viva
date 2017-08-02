@@ -1,6 +1,6 @@
 <?php
 
-$main_name = "Basisznanij.ru";
+$main_name = "Znaniumbaza.ru";
 //$main_name = "Vivamagister.ru";
 //$main_name = "Vivastudent.ru";
 //$main_name =  "Knowbaza.ru";
@@ -19,12 +19,12 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
-    $site_name = "Basisznanij.ru";//'Vivastudent.ru';
-$site_name_2 = "Basisznanij.ru";//'www.vivastudent.ru';
-$site_name_3 = "Basisznanij.ru";//'vivastudent.ru';
-$site_name_4 = "Basisznanij.ru";//'vivastudent.ru';
-$site_name_5 = "Basisznanij.ru";//'www.vivastudent.ru';
-$site_name_6 = "Basisznanij.ru";//'vivastudent.ru';
+    $site_name = "Znaniumbaza.ru";//'Vivastudent.ru';
+$site_name_2 = "Znaniumbaza";//'www.vivastudent.ru';
+$site_name_3 = "Znaniumbaza.ru";//'vivastudent.ru';
+$site_name_4 = "Znaniumbaza";//'vivastudent.ru';
+$site_name_5 = "Znaniumbaza.ru";//'www.vivastudent.ru';
+$site_name_6 = "Znaniumbaza";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
@@ -46,19 +46,22 @@ $site_name_6 = "Basisznanij.ru";//'vivastudent.ru';
      //$adres = "г. Санкт-Петeрбург, ул.  Ефимова, <br>дом № 5, oф. 138-139";//Viva-magisters.ru
     //$adres = "г. Санкт-Петeрбург, ул. Будапештская, <br>дом № 19, oф. 278-279";//Vivamagister.ru
      //$adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27, oф. 144-145";//bazazachet.ru
-   $adres = "г. Санкт-Петербург, ул. Пушкина, <br>дом № 15, oф. 104-105";
+   //$adres = "г. Санкт-Петербург, ул. Пушкина, <br>дом № 15, oф. 104-105";
+$adres = "г. Санкт-Петербург, ул. Лермонтова,<br> дом № 8, oф. 184-185";
 
     //$adres = "г. Санкт-Петeрбург, ул. Савушкина, <br>дом № 37, oф. 118-119";//vivazachet
 //$adres = "г. Санкт-Петeрбург, ул. Льва Толстого, <br>дом № 19, oф. 178-179";//'vivastudent.ru';
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azv0Yn"; //vivazachet
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6azzK~w"; //Vivamagister.ru
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6dUMUL2";//bazazachet.ru
-$url_adres_yandex = "https://yandex.ru/maps/-/CBQf5HA-cD";
+//$url_adres_yandex = "https://yandex.ru/maps/-/CBQf5HA-cD";//basisznanij.ru
+  $url_adres_yandex = "https://yandex.ru/maps/-/CBQlFSwNwA";//znaniumbaza
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azzK~w\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Vivamagister.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dUMUL2\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//bazazachet.ru
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQf5HA-cD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+//$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQf5HA-cD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//basisznanij.ru
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQlFSwNwA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//znaniumbaza.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
    // $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
     //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
