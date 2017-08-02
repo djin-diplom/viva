@@ -4,7 +4,7 @@ $main_name = "Znaniumbaza.ru";
 //$main_name = "Vivamagister.ru";
 //$main_name = "Vivastudent.ru";
 //$main_name =  "Knowbaza.ru";
-$email2 =  "infobazaznanij@gmail.com";//"Vivamagister.ru@gmail.com";//"Vivastudents.ru@gmail.com";
+$email2 =  "znaniumbaza.ru@gmail.com";//"Vivamagister.ru@gmail.com";//"Vivastudents.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
