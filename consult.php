@@ -31,8 +31,8 @@ require("header.php");
 		<div>
 
 <h1>Отзывы</h1>
-			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы о нашей компании Studrabota</a></h4>
-			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Независимые отзывы о нашей компании Vivadip</a></h4>
+			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы о нашей компании на портале Studrabota</a></h4>
+			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Отзывы о нашей компании на сайте Vivadip</a></h4>
 			<br>
 
 			<style>
