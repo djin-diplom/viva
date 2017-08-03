@@ -30,7 +30,12 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Отзывы</h1><style>
+<h1>Отзывы</h1>
+			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Независимые отзывы о нашей компании</a></h4>
+			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Независимые отзывы о нашей компании</a></h4>
+
+			<style>
+
 
 	/*
 	div.responses div.one { padding: 20px 0; border-bottom: 1px solid #ddd; }
@@ -115,7 +120,9 @@ if(!empty($_GET['add']))
 					<div class="rite">
 						<span></span>
 						<div>
-							<div class="caption"><b>Ксения (Аграрный)</b> <i>18 мая</i></div>
+							<div class="caption"><b>Ксения (Аграрный)</b> <i><?php
+									date_modify($date, '-20 days');
+									echo date_format($date, 'Y-m-d'); ?></i></div>
 							<div class="text">Заказала диплом тут, мне его выполняли по частям. Как получила часть, проверила -
 								сразу порекомендовала подруге. Сейчас у нас работы готовы, всё проверили, немного исправили.
 								Всё хорошо, ждём теперь презентации и речи и на защиту! Рекомендую!</div>

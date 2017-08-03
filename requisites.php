@@ -19,6 +19,9 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
+$date_site = date_create('2017-07-25');
+
+
     $site_name = "Znaniumbaza.ru";//'Vivastudent.ru';
 $site_name_2 = "Znaniumbaza";//'www.vivastudent.ru';
 $site_name_3 = "Znaniumbaza.ru";//'vivastudent.ru';
