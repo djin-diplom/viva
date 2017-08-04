@@ -197,11 +197,11 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
 			<?php switch ($predoplata) {
-				case 0: echo "<span style='color: forestgreen;'>Вы должны ответить на это письмо,<br> чтобы мы начали работать без предоплаты!</span><br>";
+				case 0: echo "<span style='color: forestgreen;'>Ждем методичку, чтобы начать выполнение работы без предоплаты!</span><br>";
 					break;
-				case 1: echo "<span style='color: forestgreen;'>Ждем материалы и предоплату 50% (".((int)($zakaz_cena*0.9*0.5))." руб.), чтобы начать работу!</span><br>";
+				case 1: echo "<span style='color: forestgreen;'>Ждем методичку и предоплату 50% (".((int)($zakaz_cena*0.9*0.5))." руб.), чтобы начать работу!</span><br>";
 					break;
-				case 2: echo "<span style='color: forestgreen;'>Ждем материалы и оплату (".((int)($zakaz_cena*0.8))." руб.), чтобы начать работу!</span><br>";
+				case 2: echo "<span style='color: forestgreen;'>Ждем методичку и оплату (".((int)($zakaz_cena*0.8))." руб.), чтобы начать работу!</span><br>";
 					break;
 			}?>
 		</td>
@@ -228,15 +228,15 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 							<div <?php if( $predoplata == 0) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 							else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 							><?php echo (int)$zakaz_cena; ?> руб.</div>
-						<div style="font-size:10px; padding:0px 0px 3px">(без скидки и без предоплаты)</div>
+						<div style="font-size:10px; padding:0px 0px 3px">(без скидки и предоплаты)</div>
 							<div <?php if( $predoplata == 1) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 								else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 							><?php echo (int)($zakaz_cena*0.9); ?> руб.</div>
-						<div style="font-size:10px; padding:0px 0px 3px">(со скидкой 10% при предоплате 50%)</div>
+						<div style="font-size:10px; padding:0px 0px 3px">(скидка 10% при предоплате 50%)</div>
 						<div <?php if( $predoplata == 2) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
 						else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
 						><?php echo (int)($zakaz_cena*0.8); ?> руб.</div>
-							<div style="font-size:10px; padding:0px 0px 3px">(со скидкой 20% при полной предоплате)</div>
+							<div style="font-size:10px; padding:0px 0px 3px">(скидка 20% при полной предоплате)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
@@ -258,12 +258,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	</tr>
 		<tr>
 			<td>
-					Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
 					Мы работаем официально по договору публичной оферты.<br>
 					Корректировки по замечаниям руководителя бесплатны.<br>
-					Мы можем заключить с Вами индивидуальный договор.<br>
 					Мы будем выполнять работу по Вашим указаниям.<br>
-					Мы можем прислать Вам чек об оплате заказа.<br>
 					Гарантия на работу два месяца.<br>
 
 <a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
