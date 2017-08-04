@@ -7,7 +7,7 @@ $count_text = 31;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Уникальные дипломные работы на заказ</title>
+<title>Уникальные дипломные работы</title>
 <meta name="description" content="Компания осуществляет написание дипломных работ по всем научным направлениям.
 Мы  сопровождаем клиентов до самой защиты. Скидки и бонусы на выполнение дипломных работ на заказ.">
 <meta name="keywords" content="заказать дипломную работу, написать диплом на заказ, диплом Россия, дипломная Россия, купить дипломную работу">
@@ -26,8 +26,8 @@ $count_text = 31;
 	<section class="leather" style="background-image: url(/img/leather1.jpg);">
 
 		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">
-				Уникальные дипломные на заказ</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
-		<div id="shorttext" class="hidden"><h1>Работа на заказ со скидкой 20%!</h1>
+				Уникальные дипломные работы</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
+		<div id="shorttext" class="hidden"><h1>Работы на заказ со скидкой 20% и без предоплаты!</h1>
 			<div class="dashedborder">Наши клиенты знают, что дипломная работа на заказ в «<?php echo $site_name; ?>» будет написана качественно и быстро.</div>
 			<div class="dashedborder">Написание дипломной работы начинается с составления плана. После утверждения плана мы выполняем диплом по частям: введение, главы диплома, заключение, приложения и список литературы. По мере написания работы Вы получаете работу по частям для проверки и согласования с научным руководителем.</div>
 			<div class="dashedborder">Уже готовый диплом оформляется по методичке и Вам останется прийти на защиту и получить отличную оценку!</div>
