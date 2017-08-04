@@ -226,7 +226,7 @@ require("header.php");
 			</div>
 		</div>
 	</div>
-</div><div class="pagination">cтрaницa: <a href="3.php">«</a> <a href="1.php">1</a> <a href="2.php">2</a> <a href="3.php">3</a> <b>4</b> <a href="4.php">5</a> <a href="6.php">6</a> <a href="5.php">»</a> <a href="all.php">вcе</a> </div>		</div>
+</div><div class="pagination">cтрaницa: <a href="3.php">«</a> <a href="1.php">1</a> <a href="2.php">2</a> <a href="3.php">3</a> <b>4</b> <a href="5.php">5</a> <a href="6.php">6</a> <a href="5.php">»</a> <a href="all.php">вcе</a> </div>		</div>
 	</section>
 </div>
 
