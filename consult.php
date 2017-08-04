@@ -122,7 +122,7 @@ if(!empty($_GET['add']))
 						<span></span>
 						<div>
 							<div class="caption"><b>Ксения (Аграрный)</b> <i><?php
-									date_modify($date_site, '-20 days');
+									//date_modify($date_site, '-20 days');
 									echo date_format($date_site, 'Y-m-d'); ?></i></div>
 							<div class="text">Заказала диплом тут, мне его выполняли по частям. Как получила часть, проверила -
 								сразу порекомендовала подруге. Сейчас у нас работы готовы, всё проверили, немного исправили.
