@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Все отзывы <?php echo $main_name; ?></h1>
+<h1>Все отзывы <?php echo $main_name; ?> за последние годы</h1>
 			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы о нашей компании на портале Studrabota</a></h4>
 			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Отзывы о нашей компании на сайте Vivadip</a></h4>
 			<br>
