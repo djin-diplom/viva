@@ -37,11 +37,12 @@ require("header.php");
 
 			Лучше всего о нас скажут наши Заказчики:<br>
 
-			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы о нашей компании на портале Studrabota</a></h4>
-			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Отзывы о нашей компании на сайте Vivadip</a></h4>
+			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы на портале Studrabota</a></h4>
+			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Отзывы на сайте Vivadip</a></h4>
 			<br>
+			Напоминаем:<br>
 			Компания c 2013 года pаботает без телефонныx менеджеров.<br>
-			Это cущеcтвенно cнижает cтоимоcть pабот.<br>
+			<strong>Это cущеcтвенно cнижает cтоимоcть pабот.</strong><br>
 			Используйте форму заказа на cайте, пишите на почту.<br><br>
 
 Основное отличие компании «<?php echo $site_name; ?>» – это не продажа "листков с текстом",
