@@ -7,7 +7,7 @@ $count_text = 15;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Отзывы</title>
+	<title>Отзывы <?php echo $main_name; ?></title>
 
 	<meta name="description" content="Отзывы <?php echo $site_name;?>">
 	<meta name="keywords" content="Отзывы <?php echo $site_name;?>">
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 
-<h1>Отзывы</h1>
+<h1>Отзывы <?php echo $main_name; ?></h1>
 			<h4><a target="_blank" href="http://studrabota.com/177-znaniumbaza_ru.html">Отзывы о нашей компании на портале Studrabota</a></h4>
 			<h4><a target="_blank" href="http://vivadip.xyz/raiting/74/znaniumbaza/">Отзывы о нашей компании на сайте Vivadip</a></h4>
 			<br>
