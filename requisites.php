@@ -176,7 +176,7 @@ if (@$town == 'ufa') {
 
     $email3 = "info@".$main_name;
     $adres = "г. Уфа, Пархоменко ул, <br>дом № 151, oф. 204";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CZXOiN2V";
-    $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/CZXOiN2V\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CBUR6US-TA";
+    $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUR6US-TA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 
 }
