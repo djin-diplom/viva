@@ -2,6 +2,14 @@
 ?>
 <meta name="yandex-verification" content="edfc174bb82c7c5a" />
 <meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
+<meta name="yandex-verification" content="edfc174bb82c7c5a" />
+<meta name="yandex-verification" content="edfc174bb82c7c5a" />
+<meta name="yandex-verification" content="edfc174bb82c7c5a" />
+<meta name="yandex-verification" content="edfc174bb82c7c5a" />
+<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
+<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
+<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
+<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
