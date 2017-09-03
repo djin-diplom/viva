@@ -70,7 +70,7 @@ if ( (int)$i >= (int)$count) {
         case 10:
             $email = $email_11;
             break;
-        case 10:
+        case 11:
             $email = $email_12;
             break;
     }
