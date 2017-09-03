@@ -22,7 +22,7 @@ $img_path_2 = "1_logo.jpg";
 $date_site = date_create('2017-07-25');
 
 
-    $site_name = "moscow.znaniumbaza.ru";//'Vivastudent.ru';
+    $site_name = "Znaniumbaza.ru";//'Vivastudent.ru';
 $site_name_2 = "Znaniumbaza";//'www.vivastudent.ru';
 $site_name_3 = "Znaniumbaza.ru";//'vivastudent.ru';
 $site_name_4 = "Znaniumbaza";//'vivastudent.ru';
