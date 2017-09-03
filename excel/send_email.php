@@ -259,7 +259,7 @@ if ( (int)$i >= (int)$count) {
         $sub_2_text = rand_podstav_smv($sub_2_text);
 
 
-        $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . $sub_2_text . $site_name;
+        $subject =  "Здравствуйте, ".$name . ". " . $vid_rab . $sub_1_text . $pay;// . $sub_2_text . $site_name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
