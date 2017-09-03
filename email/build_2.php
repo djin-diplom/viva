@@ -1,24 +1,24 @@
 <?php
 
 function rand_podstav_smv($text){
-    $per_str_rep_smv = rand(1, 2);
+    $per_str_rep_smv = 5;//rand(1, 2);
 
 switch ($per_str_rep_smv){
-    //case 1: $text = str_replace('х','x',$text);
-     //   break;
-    case 1: $text = str_replace('а','a',$text);
+    case 1: $text = str_replace('х','x',$text);
         break;
-    //case 2: $text = str_replace('р','p',$text);
-       // break;
-    //case 2: $text = str_replace('у','y',$text);
-      //  break;
-    //case 1: $text = str_replace('о','o',$text);
-        //break;
-    //case 2: $text = str_replace('е','e',$text);
-        //break;
-    //case 3: $text = str_replace('с','c',$text);
-        //break;
-    case 2:
+    case 2: $text = str_replace('а','a',$text);//исп
+        break;
+    case 3: $text = str_replace('р','p',$text);
+        break;
+    case 4: $text = str_replace('у','y',$text);
+        break;
+    case 5: $text = str_replace('о','o',$text);//исп
+        break;
+    case 6: $text = str_replace('е','e',$text);
+        break;
+    case 7: $text = str_replace('с','c',$text);
+        break;
+    case 8://исп
         break;
 }
 
