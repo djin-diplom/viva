@@ -161,7 +161,7 @@ if (@$town == 'ufa') {
     $site_url = "http://".$main_name."/";
     $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
-    $email_1 = "zakaz@moscow.".$main_name;
+    $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;
     $email_3 = "promotion@".$main_name;
     $email_4 = "advt@".$main_name;
