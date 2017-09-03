@@ -3,7 +3,7 @@
 <div id="marquee">Закажите работу прямо сейчас, ждем Вашу заявку на почте!
 	Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
 <div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
-
+<!--noindex-->
 	<header>
 		<section>
 			<div class="logo"><a href="index.php" ><img src="<?php echo $img_path_1; ?>" width="222" height="70" alt=""></a>
@@ -72,4 +72,4 @@
         </menu>
 
 	</header>
-	
+<!--/noindex-->
