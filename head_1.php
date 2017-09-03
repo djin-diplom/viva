@@ -1,15 +1,7 @@
 <?php session_start();
 ?>
-<meta name="yandex-verification" content="edfc174bb82c7c5a" />
-<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
-<meta name="yandex-verification" content="edfc174bb82c7c5a" />
-<meta name="yandex-verification" content="edfc174bb82c7c5a" />
-<meta name="yandex-verification" content="edfc174bb82c7c5a" />
-<meta name="yandex-verification" content="edfc174bb82c7c5a" />
-<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
-<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
-<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
-<meta name="google-site-verification" content="duABtgxqKHgwREscO6XqQKdLWrKXC2UEQDuTkGuCcJg" />
+<meta name="google-site-verification" content="9iB_AD80IlNFd-bcqLsSVL4MBCMzZFGmimFPiT-r2ww" />
+<meta name="yandex-verification" content="8fba50bfa88ab6ff" />
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
@@ -42,8 +34,8 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter45507237 = new Ya.Metrika({
-                    id:45507237,
+                w.yaCounter45828273 = new Ya.Metrika({
+                    id:45828273,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true
@@ -63,6 +55,6 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45507237" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/45828273" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>

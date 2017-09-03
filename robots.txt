@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Host: znaniumbaza.ru
+Host: knowbaza.ru
