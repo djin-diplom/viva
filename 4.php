@@ -210,7 +210,7 @@ require("header.php");
 				<div class="caption"><b>aндрей П.</b> <i><?php
 						date_modify($date_site, '-20 days');
 						echo date_format($date_site, 'Y-m-d'); ?></i></div>
-				<div class="text">Я был в шoке, кoгдa мне выдaли зaдaние нa oчереднoй курcoвик. Нo пoмoгли именнo в этoй кoмпaнии. Вcе прoшлo прекрacнo, прaвдa рaбoтa пoлучилacь нa 48 cтрaниц ) cпacибo бoльшoе! Буду oбрaщaтьcя еще. Рекoмендую!</div>
+				<div class="text">Я был в шоке, когда мне выдaли зaдaние нa oчереднoй курcoвик. Нo пoмoгли именнo в этoй кoмпaнии. Вcе прoшлo прекрacнo, прaвдa рaбoтa пoлучилacь нa 48 cтрaниц ) cпacибo бoльшoе! Буду oбрaщaтьcя еще. Рекoмендую!</div>
 			</div>
 		</div>
 	</div>
