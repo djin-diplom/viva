@@ -1,6 +1,6 @@
 <h3>Пример работы <?php echo $name_rab_text." № ".$count_text; ?></h3>
 <?php
-$f = fopen("texts/new_" . $count_text, "r");
+$f = fopen("texts2/new_" . $count_text, "r");
 $col_simv = 0;
 while (!feof($f)) {
     $fgets = fgets($f);
