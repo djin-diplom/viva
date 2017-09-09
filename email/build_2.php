@@ -1,24 +1,24 @@
 <?php
 
 function rand_podstav_smv($text){
-    $per_str_rep_smv = 8;//rand(1, 2);
+    $per_str_rep_smv = rand(1, 8);
 
 switch ($per_str_rep_smv){
     case 1: $text = str_replace('х','x',$text);
         break;
-    case 2: $text = str_replace('а','a',$text);//исп
+    case 2: $text = str_replace('а','a',$text);
         break;
     case 3: $text = str_replace('р','p',$text);
         break;
     case 4: $text = str_replace('у','y',$text);
         break;
-    case 5: $text = str_replace('о','o',$text);//исп
+    case 5: $text = str_replace('о','o',$text);
         break;
     case 6: $text = str_replace('е','e',$text);
         break;
     case 7: $text = str_replace('с','c',$text);
         break;
-    case 8://исп
+    case 8:
         break;
 }
 
@@ -54,7 +54,7 @@ $vibor_let_case = 1;//rand(1,3);
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Бла-бла-бла, я все понял. Ты очень плохая девочка. Почему так все получается?';
+        $vibor_let = 'В первый осенний месяц осени скидка 21%.';
         break;
     case 2:
         $vibor_let = 'Новая акция: снижение цен вдвое.';
@@ -75,7 +75,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'А теперь мне стало совсем больно. Я больше так не могу!!!';
+        $vibor_akc = 'Хорошие новости: осенью никаких авансов.';
         break;
     case 2:
         $vibor_akc = 'Можно заказать без предоплат.';
@@ -101,7 +101,11 @@ $vibor_pris_case = 1;//rand(1,3);
 switch ($vibor_pris_case) {
 
     case 1:
-        $vibor_pris = ' - да это, твою мать, лучшая компания на всем свете. Где ты еще видел такую компанию??';
+        $vibor_pris = ' - лучший образовательный центр в Российской Федерации.
+        Основное отличие нашей компании – это не продажа "листков с текстом", а осуществление комплексной 
+        поддержки студентов на протяжении всего процесса написании дипломной работы. 
+        Сфера нашей работы - образовательный студенческий бизнес, и мы занимаемся им уже долгое время.
+         ';
         break;
     case 2:
         $vibor_pris = ' - лучший рефератный сервис России. Мы обслуживаем Заказчиков на официальной базе, обязуемся предоставлять
@@ -125,7 +129,7 @@ $text_kurs_case = 1;//rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'Курсачи у нас пишут сами боги пера!
+        $text_kurs = 'За плечами нашей команды - тысячи сданных курсовых работ. Наша репутация – это наши деньги.
         ';
         break;
     case 2:
@@ -149,7 +153,7 @@ $text_dip_case = 1;//rand(1,3);
 switch ($text_dip_case) {
 
     case 1:
-        $text_dip = 'А дипломные работы пишут просто Диогены и Аристотели.
+        $text_dip = 'Наша команда - это ваш защитник в суровом мире образования. Обращайтесь, и мы поможем!
         ';
         break;
     case 2:
@@ -174,7 +178,7 @@ $text_mag_case = 1;//rand(1,3);
 
 switch ($text_mag_case) {
     case 1:
-        $text_mag = 'Диссертации пишет сам Путин и Медведев ему помогает.
+        $text_mag = 'Для написания выпускных работ бакалавров и магистрантов у нас есть кандидаты и доктора.
         ';
         break;
     case 2:
@@ -197,10 +201,10 @@ $town_mass = array_rand($town, 2);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'Наши приемные: '.$town[$town_mass[0]].', Москва и '.$town[$town_mass[1]];
+        $vibor_filial = 'Открываем двери: '.$town[$town_mass[0]].', Москва и '.$town[$town_mass[1]];
         break;
     case 2:
-        $vibor_filial = 'Приходите к нам: '.$town[$town_mass[0]].', Питер и '.$town[$town_mass[1]];
+        $vibor_filial = 'Ждем Вас: '.$town[$town_mass[0]].', Питер и '.$town[$town_mass[1]];
         break;
 }
 
@@ -217,9 +221,9 @@ $vibor_niz = $vibor_let.'<br>'.$vibor_akc.'<br>'.$main_name.$vibor_pris.'<br>'.$
 $style_1 = rand(3234, 2343).'adfdpt';
 
 function kart_vibor_1 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808921&h=_p9bfPAMQLq3C7tezvGU6w&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyMi5qcGc~&is_https=0';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808907&h=d1t4hq1TdQ518gFXQ4O9OQ&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyMi5qcGc~&is_https=0';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808920&h=fjNqLte02Vj-0Hb3YTM-Zw&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyMi5qcGc~&is_https=0';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151971&h=OB9TMvtCrxt4J8CHAPUk5g&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4NzkmaD1kQ0otTkV1Q2xBYlh1b3psTVNFQWh3JnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlNaTVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151978&h=i4Se7XEivGUkyjde86nabQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4OTEmaD1QaDBpa1F6bzBJRFJRazV0TlpYOExRJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlNaTVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151966&h=oNmAsjfAVWsPoV1EFrQfXA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE5MjcmaD0zZi16LTRyaEp6bjBhZUxYbldhRlRBJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlNaTVxY0djfiZpc19odHRwcz0w&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -235,9 +239,9 @@ function kart_vibor_1 ($var) {
 }
 
 function kart_vibor_2 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808921&h=S1SssxsGOlbcQ2nu7aGXbQ&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNC5qcGc~&is_https=0';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808907&h=oppSwGw7UEBf4NCS65pR7w&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNC5qcGc~&is_https=0';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808920&h=IRcystZH3Ndi2LuLzKtEtw&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNC5qcGc~&is_https=0';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151971&h=Q5e9VvWsAdGfylx7aF80PQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4NzkmaD1MT0xnQ0dNZ2d5YkoxdUN1X3c1MXlBJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOQzVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151978&h=K1ZKXcO7qu6SpA0r3ReoVA&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4OTEmaD1RbWx4ZEJ0NzhhS2RCRkZRTm9lV1hnJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOQzVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151966&h=mvMBcOkRUMBKusqxdaV6Pg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE5MjcmaD1PbzQwZVkxcWhrMHUwRU14ckpJOEpRJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOQzVxY0djfiZpc19odHRwcz0w&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
@@ -252,9 +256,9 @@ function kart_vibor_2 ($var) {
 }
 
 function kart_vibor_3 ($var) {
-    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808921&h=6e60IYsWbZNnxo7VJo9rzA&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNS5qcGc~&is_https=0';
-    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808907&h=-mShz9W5lrD0UHWPtX2Q2A&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNS5qcGc~&is_https=0';
-    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1504808920&h=-1H5iR6DFiFSn8UJlCH6Fw&url171=a25vd2JhemEucnUvZW1haWwvaW5kZXhfZmlsZXMvc2xpZGVyNS5qcGc~&is_https=0';
+    $img_mail_1 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151971&h=RcluSzWNwUDcVmSoeUD7DQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4NzkmaD1IREdrbjNSY3VLcXE1NXl3Wmg5WTJ3JnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOUzVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_2 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151978&h=g3SlgMB3QuS-oanavRGCZQ&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE4OTEmaD10ems3MDM4RTBuRUxnMjV5aWdQNHJ3JnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOUzVxY0djfiZpc19odHRwcz0w&is_https=1';
+    $img_mail_3 = 'https://proxy.imgsmail.ru/?email=djin-diplom%40mail.ru&e=1505151966&h=_FiDyxVhH1vBuPpfg0fllg&url171=cHJveHkuaW1nc21haWwucnUvP2VtYWlsPWRqaW4tZGlwbG9tJTQwbWFpbC5ydSZlPTE1MDUxNTE5MjcmaD0tcHJFci1YalVDYVRpRTBkb1V0YlFRJnVybDE3MT1hMjV2ZDJKaGVtRXVjblV2WlcxaGFXd3ZhVzVrWlhoZlptbHNaWE12YzJ4cFpHVnlOUzVxY0djfiZpc19odHRwcz0w&is_https=1';
 
     switch ($var) {
         case 1: $var_2 = $img_mail_1;
