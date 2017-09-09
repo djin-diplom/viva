@@ -55,7 +55,9 @@ require("header.php");
 			</div><div><br></div><div>
 				Если у Вас возникли вопросы – напишите, мы Вас проконсультируем!
 			</div><div>Пишите прямо сейчас <b><?php echo $email; ?></b>. Ваше письмо Вас ни к чему не обязывает!
-			</div><div><br></div><div><a href="order.php">Заказать диплом по маркетингу</a></div>		</div>
+			</div><div><br></div><div><a href="order.php">Заказать диплом по маркетингу</a></div>
+			<?php require("doptext.php"); ?>
+		</div>
 	</section>
 </div>
 

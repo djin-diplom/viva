@@ -116,7 +116,10 @@ require("header.php");
 						<a href="order.php">Заказать отчет (банк)</a>
 					</li>
 
-					</li></ul><div></div></div>		</div>
+					</li></ul><div></div></div>
+
+			<?php require("doptext.php"); ?>
+		</div>
 </section>
 </div>
 <!-- end of script -->

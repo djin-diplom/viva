@@ -67,7 +67,7 @@ require("header.php");
 			<p>
 				рецензия и отзыв.
 		</p>
-
+			<?php require("doptext.php"); ?>
 		</div>
 </section>
 </div>

@@ -51,7 +51,10 @@ require("header.php");
 
 
 
-<h2><?php echo $email; ?></h2>		</div>
+<h2><?php echo $email; ?></h2>
+
+			<?php require("doptext.php"); ?>
+		</div>
 	</section>
 </div>
 

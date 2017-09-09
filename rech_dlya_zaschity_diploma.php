@@ -40,7 +40,9 @@ require("header.php");
 					в написанное.</li><li>Речь для защиты диплома завершается благодарностью научному руководителю;</li></ul>
 			<div></div><div><br></div><div>Безусловно, речь для защиты дипломной работы должна быть грамотно написана и составлена.
 				В этом Вам могут помочь сотрудники компании <?php echo $site_name; ?>.
-			</div><div><br></div><div><a href="order.php">Заказать речь для защиты диплома</a></div>		</div>
+			</div><div><br></div><div><a href="order.php">Заказать речь для защиты диплома</a></div>
+			<?php require("doptext.php"); ?>
+		</div>
 </section>
 </div>
 <!-- end of script -->

@@ -70,7 +70,7 @@ require("header.php");
 			они отдаются работе полностью; это позволяет нам держать высокий уровень качества выполняемых дипломных работ.<br><br>
 	
 <img src="./o_kompanii_files/3.jpg" width="700" height="227" alt="">
-			<?php require("doptext.php"); ?>
+			
 		</div>
 		
 	</section>

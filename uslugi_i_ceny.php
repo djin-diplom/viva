@@ -127,7 +127,9 @@ require("header.php");
 					<td>–</td>
 					<td>по договоренности</td>
 				</tr>
-				</tbody></table>		</div>
+				</tbody></table>
+			<?php require("doptext.php"); ?>
+		</div>
 	</section>
 </div>
 
