@@ -72,7 +72,7 @@ require("header.php");
 <img src="./o_kompanii_files/3.jpg" width="700" height="227" alt="">
 
 		</div>
-		require("doptext.php");
+		<?php require("doptext.php"); ?>
 	</section>
 </div>
 
