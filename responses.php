@@ -3,9 +3,9 @@
 <section class="responses">
     <div><div class="h2">Нас хвалят!</div><a href="consult.php">Смотреть<br>все отзывы</a> 53</div>
 
-    <?php switch($count_text):?>
+    <?php switch($count_text):
 
-<?php case 31: ?>
+case 31: ?>
             <div><div><b>Сергей</b> <i><?php
                         $date_site_1 = $date_site;
                         date_modify($date_site_1, '-50 days');
