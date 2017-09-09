@@ -31,9 +31,9 @@ require("header.php");
 		<div>
 
 <h1>Все отзывы <?php echo $main_name; ?> за последние годы</h1>
-			<h4><a target="_blank" href="<?php echo $site_otzv_url_1; ?>/177-znaniumbaza_ru.html">Отзывы на портале
+			<h4><a target="_blank" href="<?php echo $site_otzv_url_1; ?>">Отзывы на портале
 					<?php echo $site_otzv_name_1; ?></a></h4>
-			<h4><a target="_blank" href="<?php echo $site_otzv_url_2; ?>/raiting/74/znaniumbaza/">Отзывы на сайте
+			<h4><a target="_blank" href="<?php echo $site_otzv_url_2; ?>">Отзывы на сайте
 					<?php echo $site_otzv_name_2; ?></a></h4>
 			<br>
 			<style>

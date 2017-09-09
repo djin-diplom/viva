@@ -24,9 +24,9 @@ $date_site = date_create('2017-09-10');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://viva-students.ru";
+$site_otzv_url_1 = "http://viva-students.ru/177-knowbaza_ru.html";
 $site_otzv_name_2 = "Вива Диплом";
-$site_otzv_url_2 = "http://vivadiplom.ru";
+$site_otzv_url_2 = "http://vivadiplom.ru/raiting/74/knowbaza/";
 
 
     $site_name = "Knowbaza.ru";//"Znaniumbaza.ru";//'Vivastudent.ru';
