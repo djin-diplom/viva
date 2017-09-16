@@ -34,7 +34,7 @@ require("header.php");
 			<h4><a target="_blank" href="<?php echo $site_otzv_url_1; ?>">Отзывы на портале
 					<?php echo $site_otzv_name_1; ?></a></h4>
 			<h4><a target="_blank" href="<?php echo $site_otzv_url_2; ?>">Отзывы на сайте
-					<?php echo $site_otzv_name_2; ?></a></h4>
+					<?php echo $site_otzv_name_2; ?></a></h4>	
 			<br>
 			<style>
 
