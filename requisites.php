@@ -79,7 +79,7 @@ $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUVY
    // $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
 
     //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410015259896322"; //последний
+    $url_oplata = "https://money.yandex.ru/to/410014980039098"; //последний
 
 $main_name_temp = $main_name;
 
