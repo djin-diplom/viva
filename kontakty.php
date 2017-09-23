@@ -34,9 +34,11 @@ require("header.php");
 <h1>Контакты</h1>
 
 <h3><span style="color: maroon;">Электрoнная почта для партнерoв <?php echo $site_name;?></span></h3><p></p><p><u><span style="color: blue;"><?php echo $email; ?></span></u><br><br><u><span style="color: blue;"><?php echo $email3; ?></span></u><br><br>
-<h3><span style="color: maroon;">Электрoнная почта для заказoв (присылайте тему, oбъем, предмeт рабoты)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
+<h3><span style="color: maroon;">Электрoнная почта для заказчиков (присылайте тему, oбъем, предмeт рабoты)</span></h3><span style="color: blue;"><?php echo $email2; ?></span><br><br>
 
 </p><h3><span style="color: maroon;">Часы работы</span></h3><p><?php echo $vremia_raboti; ?></p><br>
+
+			</p><h3><span style="color: maroon;">Телефоны для партнеров</span></h3><p><?php echo $site_phone; ?></p><br>
 
 <h3><span style="color: maroon;">Расположение офиса <?php echo $site_name;?></span></h3>Адрес - <?php echo $adres; ?>
 			<?php if (empty($town)) : ?>

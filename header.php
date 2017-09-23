@@ -1,19 +1,21 @@
 
 
 <div id="marquee">Закажите работу прямо сейчас, ждем Вашу заявку на почте!
-	Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
-<div id="marquee2">Мы не держим телефонных менеджеров, они удваивают стоимость заказа!</div>
+	Можно выбрать выполнение заказа без предоплаты или получить скидку 20% при полной оплате, выбирайте!</div>
+<div id="marquee2">Можно выбрать выполнение заказа без предоплаты или получить скидку 20% при полной оплате, выбирайте!</div>
 <!--noindex-->
 	<header>
 		<section>
 			<div class="logo"><a href="index.php" ><img src="<?php echo $img_path_1; ?>" width="222" height="70" alt=""></a>
-				<br><span style="color:green; font-size:18px;">Основана в 1999 году</span></div>
+				<br><span style="color:green; font-size:18px;">Без предоплаты/скидка 20%</span></div>
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
 					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
 			<div class="phone">
-				<div id="pnumber" style="margin:0px 0px 0px 0px"><img src="./index_files/phone2.png" class="blink">Никаких менеджеров!</div>
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><span><?php echo $email; ?></span>
+				</div>
 				
-				<div><span><?php echo $email2; ?></span></div>
+				<div><span><?php echo $email2; ?></span>
+				</div>
 				<?php if (empty($_SESSION['client_email'])): ?>
 					<label onclick="document.forms.callback.className=document.forms.callback.className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;;">Личный кабинет</label>
 				<form name="callback" action="check_login.php" method="get" class="hidden">
