@@ -226,39 +226,40 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ', нет аванса';
+            $sub_2_text = ' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' без аванса';
+            $sub_2_text = ' Без аванса';
             break;
         case 3:
-            $sub_2_text = ' без предоплаты';
+            $sub_2_text = ' Без предоплаты';
             break;
         case 4:
-            $sub_2_text = ' нет предоплаты';
+            $sub_2_text = ' Нет предоплаты';
             break;
         case 5:
-            $sub_2_text = ' никаких предоплат';
+            $sub_2_text = ' Никаких предоплат';
             break;
         case 6:
-            $sub_2_text = ', предлагаем без аванса';
+            $sub_2_text = ' Предлагаем без аванса';
             break;
         case 7:
-            $sub_2_text = ', предлагаем без предоплаты';
+            $sub_2_text = ' Предлагаем без предоплаты';
             break;
         case 8:
-            $sub_2_text = ', не требуем предоплату';
+            $sub_2_text = ' Не требуем предоплату';
             break;
         case 9:
-            $sub_2_text = ', никаких авансов';
+            $sub_2_text = ' Никаких авансов';
             break;
         case 10:
-            $sub_2_text = ', не требуем аванс';
+            $sub_2_text = ' Не требуем аванс';
             break;
     }
 
         $sub_2_text = rand_podstav_smv($sub_2_text);
 
+        if ($predmet != '') $predmet = $predmet.'.';
 
         $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
