@@ -692,7 +692,7 @@ switch ($rand_nom_16) {
         $rand_nom_text_16 = ' рублей.';
         break;
     case 4:
-        $rand_nom_text_16 = '';
+        $rand_nom_text_16 = '.';
         break;
 }
 
