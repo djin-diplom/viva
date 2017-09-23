@@ -79,6 +79,7 @@ if ( (int)$i >= (int)$count) {
         $name = $ar_colls[1];
         $vid_rab = $ar_colls[2];
         $pay = $ar_colls[3];
+        $predmet = $ar_colls[4];
         echo "Посылаем " . $email_client . "<br>";
 
         if ($vid_rab == "no") {
@@ -198,7 +199,7 @@ if ( (int)$i >= (int)$count) {
             $sub_1_text = ' по ';
             break;
         case 4:
-            $sub_1_text = ' от ';
+            $sub_1_text = ' 3А ';
             break;
         case 5:
             $sub_1_text = ' до ';
@@ -225,41 +226,41 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ', нет аванса в компании ';
+            $sub_2_text = ', нет аванса';
             break;
         case 2:
-            $sub_2_text = ' без аванса вместе с порталом ';
+            $sub_2_text = ' без аванса';
             break;
         case 3:
-            $sub_2_text = ' 6ез аванса с учебной студией ';
+            $sub_2_text = ' без предоплаты';
             break;
         case 4:
-            $sub_2_text = ' без аванса от ';
+            $sub_2_text = ' нет предоплаты';
             break;
         case 5:
-            $sub_2_text = ' без аванса, компания ';
+            $sub_2_text = ' никаких предоплат';
             break;
         case 6:
-            $sub_2_text = ', без аванса предлагает центр ';
+            $sub_2_text = ', предлагаем без аванса';
             break;
         case 7:
-            $sub_2_text = ', без аванса от сервиса ';
+            $sub_2_text = ', предлагаем без предоплаты';
             break;
         case 8:
-            $sub_2_text = ', нет аванса на сайте ';
+            $sub_2_text = ', не требуем предоплату';
             break;
         case 9:
-            $sub_2_text = ', никаких авансов у студпортала ';
+            $sub_2_text = ', никаких авансов';
             break;
         case 10:
-            $sub_2_text = ', не требуем аванс, фирма ';
+            $sub_2_text = ', не требуем аванс';
             break;
     }
 
         $sub_2_text = rand_podstav_smv($sub_2_text);
 
 
-        $subject =  "Привет, ".$name . ". " . $vid_rab . $sub_1_text . $pay . $sub_2_text . $site_name;
+        $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
