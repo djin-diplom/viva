@@ -27,8 +27,6 @@ switch ($per_str_rep_smv){
 }
 
 
-
-
 //Выбор названия сайта
 $per_site = rand(1, 6);
 
