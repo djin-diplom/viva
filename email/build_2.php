@@ -52,7 +52,7 @@ $vibor_let_case = 1;//rand(1,3);
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'На 20% снижаем цену в этом учебном году.
+        $vibor_let = 'На 20 % снижаем цену в этом учебном году.
         ';
         break;
     case 2:
