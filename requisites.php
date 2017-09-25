@@ -13,7 +13,7 @@ $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
-$site_phone = '8 (800) 411-31-26, 7 (960) 644-24-35';
+$site_phone = '8 (800) 411-31-26';
 
 
 //$img_path_1 = "./index_files/1_logo_55 (2).png";
