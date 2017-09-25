@@ -3,7 +3,7 @@ require("../requisites.php");
 $name = "Сергей";
 $vid_rab = "Курсовая";
 $pay = "2760";
-$predmet = 'Актуарная математика.';
+$predmet = 'Алгебра и Геометрия';
 
 //$name = "Mosdiplpom.ru";
 //$vid_rab = "Магистерские и диссертации оптом";
