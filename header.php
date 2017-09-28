@@ -9,7 +9,7 @@
 			<div class="logo"><a href="index.php" ><img src="<?php echo $img_path_1; ?>" width="222" height="70" alt=""></a>
 				<br><span style="color:green; font-size:18px;">Без предоплаты/скидка 20%</span></div>
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
-					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><?php echo $vremia_raboti; ?></div>
+					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
 			<div class="phone">
 				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><span><?php echo $email; ?></span>
 				</div>
