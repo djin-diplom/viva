@@ -67,7 +67,7 @@ require("header.php");
 		?>
 		<div>
 <!-- section of script -->
-			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
+			<h1>Пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
 			<?php
 				$f = fopen("texts/new_" . $count_text, "r");
 				$col_simv = 0;

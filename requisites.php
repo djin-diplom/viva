@@ -12,7 +12,7 @@ $url_town_moscow = 'http://moscow.'.$main_name.'/';
 $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
-$vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
+$vremia_raboti = ". С 9:00 до 19:00";
 $site_phone = '8 (800) 411-31-26';
 
 
@@ -67,7 +67,7 @@ $adres = "г. Санкт-Петербург, ул. Академика Лебед
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6dUMUL2";//bazazachet.ru
 //$url_adres_yandex = "https://yandex.ru/maps/-/CBQf5HA-cD";//basisznanij.ru
   //$url_adres_yandex = "https://yandex.ru/maps/-/CBQlFSwNwA";//znaniumbaza
-$url_adres_yandex = "https://yandex.ru/maps/-/CBUVY-G~cD";//knowbaza new
+$url_adres_yandex = "https://yandex.ru/maps/-/CBUgrRwcXB";//knowbaza new
 //$url_adres_yandex = "https://yandex.ru/maps/-/C6az7YL8"; //Viva-magisters.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azv0Yn\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//vivazachet
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6azzK~w\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Vivamagister.ru
@@ -75,7 +75,7 @@ $url_adres_yandex = "https://yandex.ru/maps/-/CBUVY-G~cD";//knowbaza new
 //$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQf5HA-cD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//basisznanij.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQlFSwNwA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//znaniumbaza.ru
 //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6az7YL8\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//Viva-magisters.ru
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUVY-G~cD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//knowbaza new
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUgrRwcXB\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";//knowbaza new
    // $url_adres_yandex = "https://yandex.ru/maps/-/C6UGEVlk";
 
     //$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6UGEVlk\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
