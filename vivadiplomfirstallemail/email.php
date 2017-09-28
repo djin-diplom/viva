@@ -134,9 +134,10 @@ fwrite($fp, $zakaz_cena."\n");
 fwrite($fp, $balance."\n");
 	$balance_date = date("d.m.y");
 fwrite($fp, $balance_date."\n");
+$predoplata = $_POST['predoplata'];
+fwrite($fp, $predoplata."\n");
 
 fclose($fp);
-
 $url_cabinet = $site_url."check_login.php";
 $path_img = $site_url."vivadiplomfirstallemail/";
 
@@ -161,7 +162,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					<tbody><tr>
 						<td style="padding:15px 25px">
 							<a href="<?php echo $site_url; ?>" style="text-decoration:none" target="_blank" data-saferedirecturl="<?php echo $site_url; ?>">
-								<img style="margin-bottom:22px" src="<?php echo $path_img; ?>index_files/logo.jpg" alt="<?php echo $site_name; ?>" class="CToWUd">
+								<img style="margin-bottom:22px" src="<?php echo $path_img; ?>index_files/<?php echo $img_path_2; ?>" alt="<?php echo $site_name; ?>" class="CToWUd">
 							</a>
 						</td>
 						<td style="padding-right:30px">
@@ -193,29 +194,52 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Мы оценили стоимость выполнения Вашей работы:<br>
 			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $zakaz_teme; ?></a><br>
 			Номер заказа <?php echo $zakaz; ?><br>
-			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
+			Логин для входа в Личный кабинет (нажмите на ссылку): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
-			Все интересующие Вас вопросы можно задать в ответе на это письмо!<br>
+			<?php switch ($predoplata) {
+				case 0: echo "<span style='color: forestgreen;'>Ждем методичку, чтобы начать выполнение работы без предоплаты!</span><br>
+Акция: стоимость можно снизить на 20%!<br>";
+					break;
+				case 1: echo "<span style='color: forestgreen;'>Ждем методичку и предоплату 50% (".((int)($zakaz_cena*0.9*0.5))." руб.), чтобы начать работу!</span><br>
+				Акция: стоимость можно снизить на 10%!<br>";
+					break;
+				case 2: echo "<span style='color: forestgreen;'>Ждем методичку и оплату (".((int)($zakaz_cena*0.8))." руб.), чтобы начать работу!</span><br>";
+					break;
+			}?>
+			Пришлём бесплатно примеры работ вашего автора.<br>
 		</td>
 	</tr>
 	<tr>
 		<td style="padding:0px">
-			<table style="width:100%;height:317px;text-align:center;border-collapse:separate;background:url(&#39;<?php echo $path_img; ?>index_files/unnamed.png&#39;) no-repeat;line-height:normal">
-				<tbody><tr>
+			<table style="width:100%;height:100px;text-align:center;border-collapse:separate;background-color: #F0F0F0;line-height:normal">
+				<tbody>
+				<tr>
+					<img alt="Стоимость и срок" src="<?php echo $path_img; ?>index_files/unnamed_2.png">
+				</tr>
+				<tr>
 					<td style="width:50%">
-						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:130px">
+						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:0px">
 							СТОИМОСТЬ РАБОТЫ
 						</div>
 					</td>
 					<td style="width:50%">
-						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:130px">СРОК ВЫПОЛНЕНИЯ</div>
+						<div style="color:#3b4046;font-size:14px;font-weight:bold;padding-top:0px">СРОК ВЫПОЛНЕНИЯ</div>
 					</td>
 				</tr>
 				<tr>
 					<td style="width:50%">
-							<div style="color:#98a4ab;text-decoration:line-through;font-size:36px"><?php echo $zakaz_cena*1.25; ?> руб.</div>
-							<div style="color:green;font-size:36px;font-weight:bold"><?php echo $zakaz_cena; ?> руб.</div>
-							<div style="font-size:14px;padding:5px 0px 22px">со скидкой 20%<br>(в случае полной предоплаты)</div>
+							<div <?php if( $predoplata == 0) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
+							else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
+							><?php echo (int)$zakaz_cena; ?> руб.</div>
+						<div style="font-size:10px; padding:0px 0px 3px">(без скидки и предоплаты)</div>
+							<div <?php if( $predoplata == 1) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
+								else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
+							><?php echo (int)($zakaz_cena*0.9); ?> руб.</div>
+						<div style="font-size:10px; padding:0px 0px 3px">(скидка 10% при предоплате 50%)</div>
+						<div <?php if( $predoplata == 2) echo "style=\"color:green;font-size:30px;font-weight:bold\"";
+						else echo "style=\"color:#98a4ab;text-decoration:line-through;font-size:22px\"";?>
+						><?php echo (int)($zakaz_cena*0.8); ?> руб.</div>
+							<div style="font-size:10px; padding:0px 0px 3px">(скидка 20% при полной предоплате)</div>
 					</td>
 					<td style="width:50%">
 							<div style="font-size:70px;font-weight:bold;color:black;line-height:1"><?php echo $srok_vipoln; ?></div>
@@ -237,21 +261,13 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	</tr>
 		<tr>
 			<td>
+					Мы работаем официально по договору публичной оферты.<br>
+					Корректировки по замечаниям руководителя бесплатны.<br>
+					Мы будем выполнять работу по Вашим указаниям.<br>
+				    Можем заключить индвидуальный договор.<br>
+					Гарантия на работу три месяца.<br>
 
-				<!-- Вы можете внести оплату, чтобы автор начал работать,<br> -->
-				<!-- а можете подождать, пока мы пришлем Вам БЕЗ ПРЕДОПЛАТЫ<br> -->
-				<!-- пример (часть) работы нашего автора по близкой или Вашей теме.<br> -->
-				<!-- Это произойдет в течение суток или значительно раньше.<br> -->
-				Для выполнения работы следует внести предоплату 50%<br>
-				<span style="color:green;">или оплатить полную стоимость, чтобы получить скидку 20%.</span><br>
-				Мы будем выполнять работу по Вашим указаниям.<br>
-				Мы можем прислать Вам бесплатно примеры работ Вашего автора.<br>
-				Корректировки по замечаниям руководителя бесплатны.<br>
-				Гарантия на работу целых три месяца!<br>
-				Для получения всей работы требуется оплатить заказ.<br>
-				Это можно сделать через платежные системы.<br>
-
-<a href="<?php echo $site_url; ?>pay.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
+<a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay5.gif" width="76" height="37" alt=""></a><br>
 				В личном кабинете Вы можете посмотреть актуальную информацию по
@@ -352,7 +368,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<div style="font-size:12px;line-height:1.3">
 				Чем больше у нас <br> информации, тем легче <br> подобрать для Вас наиболее <br> подходящего автора
 			</div>
-			<a href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" style="text-decoration:none;line-height:2.5" target="_blank" >
+			<a href="<?php echo $url_cabinet; ?>" style="text-decoration:none;line-height:2.5" target="_blank" >
 				Заполнить профиль
 			</a>
 		</td>
@@ -376,7 +392,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<div style="font-size:12px;line-height:1.3">
 				Ознакомьтесь с инструкцией, <br> чтобы Ваша работа в личном <br> кабинете проходила быстрее <br> и эффективнее
 			</div>
-			<a href="<?php echo $site_url; ?>kak_zakaz.php" style="text-decoration:none;line-height:2.5" target="_blank" >
+			<a href="<?php echo $site_url; ?>poriadok_zakaza.php" style="text-decoration:none;line-height:2.5" target="_blank" >
 				Посмотреть инструкцию
 			</a>
 		</td>
@@ -396,7 +412,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					<table style="width:630px;height:129px;background-color:#5c9ff3">
 						<tbody><tr>
 							<td style="width:209px;height:129px;padding:0;overflow:visible">
-								<a href="<?php echo $site_url; ?>akcia.php" class="m_3689207491995373867gp-button" target="_blank" ">
+								<a href="<?php echo $site_url; ?>aktcii_i_skidki.php" class="m_3689207491995373867gp-button" target="_blank" ">
 									<img alt="android phones" src="<?php echo $path_img; ?>index_files/offer1.jpg" class="CToWUd" width: 400;>
 								</a>
 							</td>
