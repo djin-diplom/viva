@@ -368,7 +368,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<div style="font-size:12px;line-height:1.3">
 				Чем больше у нас <br> информации, тем легче <br> подобрать для Вас наиболее <br> подходящего автора
 			</div>
-			<a href="<?php echo $url_cabinet; ?>" style="text-decoration:none;line-height:2.5" target="_blank" >
+			<a href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" style="text-decoration:none;line-height:2.5" target="_blank" >
 				Заполнить профиль
 			</a>
 		</td>
