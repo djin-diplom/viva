@@ -546,7 +546,7 @@ switch ($rand_nom_8) {
         $rand_nom_text_8 = ' по ';
         break;
     case 4:
-        $rand_nom_text_8 = ' 3А ';
+        $rand_nom_text_8 = ' за ';
         break;
     case 5:
         $rand_nom_text_8 = ' до ';
