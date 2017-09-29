@@ -31,11 +31,11 @@ $site_otzv_url_2 = "http://vivadiplom.ru/raiting/74/knowbaza/";
 
 
     $site_name = "Knowbaza.ru";//"Znaniumbaza.ru";//'Vivastudent.ru';
-$site_name_2 = "Knowbaza";//"Znaniumbaza";//'www.vivastudent.ru';
+$site_name_2 = "Knowbaza.ru";//"Znaniumbaza";//'www.vivastudent.ru';
 $site_name_3 = "Knowbaza.ru";//"Znaniumbaza.ru";//'vivastudent.ru';
-$site_name_4 = "Knowbaza";//"Znaniumbaza";//'vivastudent.ru';
+$site_name_4 = "Knowbaza.ru";//"Znaniumbaza";//'vivastudent.ru';
 $site_name_5 = "Knowbaza.ru";//"Znaniumbaza.ru";//'www.vivastudent.ru';
-$site_name_6 = "Knowbaza";//"Znaniumbaza";//'vivastudent.ru';
+$site_name_6 = "Knowbaza.ru";//"Znaniumbaza";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
