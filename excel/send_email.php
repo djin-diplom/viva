@@ -250,7 +250,7 @@ if ( (int)$i >= (int)$count) {
             $sub_2_text = ' Не требуем предоплату';
             break;
         case 9:
-            $sub_2_text = ' Никаких авансов';
+            $sub_2_text = ' Не надо авансов';
             break;
         case 10:
             $sub_2_text = ' Не требуем аванс';
