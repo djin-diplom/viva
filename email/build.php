@@ -10,9 +10,6 @@ $predmet = 'Алгебра и Геометрия';
 //$pay = "100";
 
 
-
-
-
 require("../email/build_2.php");
 
 
