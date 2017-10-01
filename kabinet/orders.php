@@ -165,7 +165,7 @@ require ("kab_header.php");
 	<span class="date">
 Размещен <?php echo $zakaz_date; ?>, срок выполнения <?php echo $srok_vipoln; ?> сут. с момента оплаты</span>
 	<br><br><a href="javascript:void(0);" id="link<?php echo $i;?>">Дополнительные сведения</a>
-	<div id="look<?php echo $i;?>" style="display:none;"><br><?php echo $zakaz_dopoln; ?></div>
+	<div id="look<?php echo $i;?>" <!-- style="display:none;" --> ><br><?php echo $zakaz_dopoln; ?></div>
 </div>	</div>
 	<div class="wrapper money">
 		<div class="order-price-area"><svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
