@@ -264,7 +264,6 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					Мы работаем официально по договору публичной оферты.<br>
 					Корректировки по замечаниям руководителя бесплатны.<br>
 					Мы будем выполнять работу по Вашим указаниям.<br>
-				    Можем заключить индвидуальный договор.<br>
 					Гарантия на работу три месяца.<br>
 
 <a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
