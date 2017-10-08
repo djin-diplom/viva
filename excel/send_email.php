@@ -190,28 +190,28 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' оплата ';
+            $sub_1_text = ' со скидкой за ';
             break;
         case 2:
-            $sub_1_text = ' за ';
+            $sub_1_text = ' по акции за ';
             break;
         case 3:
-            $sub_1_text = ' по ';
-            break;
-        case 4:
             $sub_1_text = ' за ';
             break;
+        case 4:
+            $sub_1_text = ' со скидкой по цене ';
+            break;
         case 5:
-            $sub_1_text = ' до ';
+            $sub_1_text = ' за ';
             break;
         case 6:
-            $sub_1_text = ' цена ';
+            $sub_1_text = ' от автора ценой ';
             break;
         case 7:
             $sub_1_text = ' по цене ';
             break;
         case 8:
-            $sub_1_text = ' стоимость ';
+            $sub_1_text = ' стоимостью ';
             break;
         case 9:
             $sub_1_text = ' ценой ';
@@ -226,34 +226,34 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Выполнение без предоплаты';//' Нет аванса';
+            $sub_2_text = ' Выполняем без предоплаты';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Пришлем примеры работ';//' Без аванса';
+            $sub_2_text = ' Покажем примеры работ';//' Без аванса';
             break;
         case 3:
-            $sub_2_text = ' Без предоплаты часть материалов';//' Без предоплаты';
+            $sub_2_text = ' Глава без предоплаты';//' Без предоплаты';
             break;
         case 4:
-            $sub_2_text = ' Без аванса пришлём материалы';//' Нет предоплаты';
+            $sub_2_text = ' Без аванса покажем примеры';//' Нет предоплаты';
             break;
         case 5:
-            $sub_2_text = ' Примеры от автора бесплатно';//' Никаких предоплат';
+            $sub_2_text = ' Образцы от авторов бесплатно';//' Никаких предоплат';
             break;
         case 6:
-            $sub_2_text = ' Предлагаем часть без аванса';
+            $sub_2_text = ' Даем главу без аванса';
             break;
         case 7:
-            $sub_2_text = ' Предлагаем без предоплаты';
+            $sub_2_text = ' Без предварительной оплаты';
             break;
         case 8:
-            $sub_2_text = ' Не требуем предоплату';
+            $sub_2_text = ' Не просим предоплату';
             break;
         case 9:
-            $sub_2_text = ' Не просим аванса';
+            $sub_2_text = ' Не требуем аванс';
             break;
         case 10:
-            $sub_2_text = ' Не требуем аванс';
+            $sub_2_text = ' Примеры работ бесплатно';
             break;
     }
 
@@ -261,7 +261,7 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $subject =  $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $subject =  "Привет, ".$name . "! " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 

@@ -1,7 +1,7 @@
 <?php
 require("../requisites.php");
-$name = "Сергей";
-$vid_rab = "Курсовая";
+$name = "Анастасия";
+$vid_rab = "Дипломная";
 $pay = "2760";
 $predmet = '';//'Алгебра и Геометрия';
 
