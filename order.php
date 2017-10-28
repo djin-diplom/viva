@@ -33,6 +33,7 @@ require("header.php");
 
 <h1>Заказать работу</h1>Сделайте запрос или узнайте об услуге <?php echo $site_name;?> подробнее, заполнив форму.&nbsp;<br>
             Не зaбудьте указать Ваши контактные данные, чтобы мы могли оперативно с Вами связаться.<br>
+            Достаточно заполнить три следующих поля для оценки заказа!<br>
 
 <style>
 	form#request_form { width: 75%; }
@@ -52,23 +53,13 @@ require("header.php");
     <tbody>
 
 
-    <tr>
-        <td class="field">
-            <span style="color: skyblue;">Ваше имя</span>
-            <span style="color: red;">*</span>
-        </td>
-        <td>
-            <input style="width: 50%;" type="text" name="name" id="id_name">
 
-
-        </td>
-    </tr>
 
 
 
     <tr>
         <td class="field">
-            <span style="color: skyblue;">E-mail</span>
+            <span style="color: skyblue;">Ваша почта без ошибок!</span>
             <span style="color: red;">*</span>
         </td>
         <td>
@@ -118,12 +109,33 @@ require("header.php");
             
           </td>
         </tr>
+    <tr>
+        <td class="field">&nbsp;</td>
+        <td>
+            <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
+                Отправить заказ
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td class="field">&nbsp;</td>
+        <td><span style="color: red;">*</span>обязательные поля<br>
+        Далее заполнять не обязательно:</td>
+    </tr>
+    <tr>
+        <td class="field">
+            <span style="color: brown;">Ваше имя</span>
+        </td>
+        <td>
+            <input style="width: 50%;" type="text" name="name" id="id_name">
 
+
+        </td>
+    </tr>
         <tr>
             <td class="field">
-                Сколько Вы готовы заплатить?<br>
+                <span style="color: brown;">Сколько Вы готовы заплатить?</span><br>
                 (<span style="color: green;">Мы учтем Ваши возможности</span>)
-                <span style="color: red;">*</span>
             </td>
             <td>
                 <input id="id_predmet" style="width: 50%;" type="text" name="kli_stoimost" maxlength="100">
@@ -133,8 +145,7 @@ require("header.php");
 
         <tr>
             <td class="field">
-                С предоплатой или без?
-                <span style="color: red;">*</span>
+                <span style="color: brown;">С предоплатой или без?</span>
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
@@ -198,7 +209,7 @@ require("header.php");
         
         <tr>
           <td class="field">
-            Дополнительная информация
+            <span style="color: brown;">Дополнительная информация</span>
             
           </td>
           <td>
@@ -208,40 +219,13 @@ require("header.php");
           </td>
         </tr>
 
-    <tr>
-        <td class="field">
-            <?php
-            $a = rand(1,10);
-            $b = rand(1,100);
-            $c = $a+$b;
-            echo $a."+".$b."=";
-            ?>
-            <span style="color: red;">*</span>
-        </td>
-        <td>
-            <input style="width: 50%;" type="text" name="count_1">
-            <input style="width: 50%; display: none;" type="text" value=<?php echo $c?> name="count_2">
-            <input style="width: 50%; display: none;" type="text" value="Не определено" name="university">
-
-
-        </td>
-    </tr>
 
 
 
-    <tr>
-      <td class="field">&nbsp;</td>
-      <td><span style="color: red;">*</span>обязательные поля</td>
-    </tr>
 
-    <tr>
-      <td class="field">&nbsp;</td>
-      <td>
-        <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
-          Отправить заказ
-        </button>
-      </td>
-    </tr>
+
+
+
     </tbody>
   </table>
 </form>

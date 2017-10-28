@@ -37,18 +37,18 @@ if(isset($_POST['submit'])) {
 
 
 	//Проверка суммы
-	if(trim($_POST['count_1']) != $_POST['count_2']) {
-		$hasError = true;
-	}
+	//if(trim($_POST['count_1']) != $_POST['count_2']) {
+	//	$hasError = true;
+	//}
 	//Проверка стоимости от Заказчика
 	if(trim($_POST['kli_stoimost']) == '') {
-		$hasError = true;
+		$kli_stoimost = 0;
 	} else {
 		$kli_stoimost = trim($_POST['kli_stoimost']);
 	}
 	//Проверка предоплаты
 	if(trim($_POST['predoplata']) == '') {
-		$hasError = true;
+		$predoplata = 2;
 	} else {
 		$predoplata = trim($_POST['predoplata']);
 	}
@@ -83,7 +83,7 @@ if(isset($_POST['submit'])) {
 		$email_stud= $_POST['email_stud'];
 	}
 	if(trim($_POST['name']) == '') {
-		$hasError = true;
+		$name= $_POST['email_stud'];
 	} else {
 		$name= $_POST['name'];
 	}

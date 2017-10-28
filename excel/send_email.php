@@ -180,80 +180,80 @@ if ( (int)$i >= (int)$count) {
         require("../email/build_2.php");
 
         $vid_rab = rand_podstav_smv($vid_rab);
-
+        $name = rand_podstav_smv($name);
 
 
         $body = $body_2;
 
-        $sub_1 = rand(1,10);
+        $sub_1 = rand(1,3);
 
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' со скидкой за ';
+            $sub_1_text = ' от нашей компании за ';
             break;
         case 2:
-            $sub_1_text = ' по акции за ';
+            $sub_1_text = ' от нашего центра за ';
             break;
         case 3:
-            $sub_1_text = ' за ';
+            $sub_1_text = ' от наших авторов за ';
             break;
         case 4:
-            $sub_1_text = ' со скидкой по цене ';
+            $sub_1_text = ' с ценой ';
             break;
         case 5:
-            $sub_1_text = ' за ';
+            $sub_1_text = ' за цену ';
             break;
         case 6:
-            $sub_1_text = ' от автора ценой ';
+            $sub_1_text = ' по стоимости ';
             break;
         case 7:
-            $sub_1_text = ' по цене ';
+            $sub_1_text = ' в срок за ';
             break;
         case 8:
-            $sub_1_text = ' стоимостью ';
+            $sub_1_text = ' с гарантией за ';
             break;
         case 9:
-            $sub_1_text = ' ценой ';
+            $sub_1_text = ' со стоимостью ';
             break;
         case 10:
-            $sub_1_text = ' стоимостью ';
+            $sub_1_text = ' по договору за ';
             break;
     }
         $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = rand(1,10);
+        $sub_2 = rand(1,3);
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Выполняем без предоплаты';//' Нет аванса';
+            $sub_2_text = ' Для старта работы не требуем оплату';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Покажем примеры работ';//' Без аванса';
+            $sub_2_text = ' Запустить работу можно без внесения денег';//' Без аванса';
             break;
         case 3:
-            $sub_2_text = ' Глава без предоплаты';//' Без предоплаты';
+            $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
             break;
         case 4:
-            $sub_2_text = ' Без аванса покажем примеры';//' Нет предоплаты';
+            $sub_2_text = ' Предоплата отменена!';//' Нет предоплаты';
             break;
         case 5:
-            $sub_2_text = ' Образцы от авторов бесплатно';//' Никаких предоплат';
+            $sub_2_text = ' План-введение до оплаты!';//' Никаких предоплат';
             break;
         case 6:
-            $sub_2_text = ' Даем главу без аванса';
+            $sub_2_text = ' План бесплатно!';
             break;
         case 7:
-            $sub_2_text = ' Без предварительной оплаты';
+            $sub_2_text = ' Введение даром!';
             break;
         case 8:
-            $sub_2_text = ' Не просим предоплату';
+            $sub_2_text = ' Подарим часть работы!';
             break;
         case 9:
-            $sub_2_text = ' Не требуем аванс';
+            $sub_2_text = ' Введение бесплатно!';
             break;
         case 10:
-            $sub_2_text = ' Примеры работ бесплатно';
+            $sub_2_text = ' План даром!';
             break;
     }
 
@@ -261,7 +261,9 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $subject =  "Привет, ".$name . "! " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $dobroe_text = rand_podstav_smv('Здравствуйте, ');
+
+        $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
