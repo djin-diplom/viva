@@ -185,83 +185,83 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $sub_1 = rand(1,3);
+        $sub_1 = rand(1,2);
 
-    switch ($sub_1) {
+        switch ($sub_1) {
 
-        case 1:
-            $sub_1_text = ' от нашей компании за ';
-            break;
-        case 2:
-            $sub_1_text = ' от нашего центра за ';
-            break;
-        case 3:
-            $sub_1_text = ' от наших авторов за ';
-            break;
-        case 4:
-            $sub_1_text = ' с ценой ';
-            break;
-        case 5:
-            $sub_1_text = ' за цену ';
-            break;
-        case 6:
-            $sub_1_text = ' по стоимости ';
-            break;
-        case 7:
-            $sub_1_text = ' в срок за ';
-            break;
-        case 8:
-            $sub_1_text = ' с гарантией за ';
-            break;
-        case 9:
-            $sub_1_text = ' со стоимостью ';
-            break;
-        case 10:
-            $sub_1_text = ' по договору за ';
-            break;
-    }
+            case 1:
+                $sub_1_text = ' сделаем за ';
+                break;
+            case 2:
+                $sub_1_text = ' выполним за ';
+                break;
+            case 3:
+                $sub_1_text = ' в точности за ';
+                break;
+            case 4:
+                $sub_1_text = ' с ценой ';
+                break;
+            case 5:
+                $sub_1_text = ' за цену ';
+                break;
+            case 6:
+                $sub_1_text = ' по стоимости ';
+                break;
+            case 7:
+                $sub_1_text = ' в срок за ';
+                break;
+            case 8:
+                $sub_1_text = ' с гарантией за ';
+                break;
+            case 9:
+                $sub_1_text = ' со стоимостью ';
+                break;
+            case 10:
+                $sub_1_text = ' по договору за ';
+                break;
+        }
         $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = rand(1,3);
+        $sub_2 = rand(1,2);
 
-    switch ($sub_2) {
-        case 1:
-            $sub_2_text = ' Для старта работы не требуем оплату';//' Нет аванса';
-            break;
-        case 2:
-            $sub_2_text = ' Запустить работу можно без внесения денег';//' Без аванса';
-            break;
-        case 3:
-            $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
-            break;
-        case 4:
-            $sub_2_text = ' Предоплата отменена!';//' Нет предоплаты';
-            break;
-        case 5:
-            $sub_2_text = ' План-введение до оплаты!';//' Никаких предоплат';
-            break;
-        case 6:
-            $sub_2_text = ' План бесплатно!';
-            break;
-        case 7:
-            $sub_2_text = ' Введение даром!';
-            break;
-        case 8:
-            $sub_2_text = ' Подарим часть работы!';
-            break;
-        case 9:
-            $sub_2_text = ' Введение бесплатно!';
-            break;
-        case 10:
-            $sub_2_text = ' План даром!';
-            break;
-    }
+        switch ($sub_2) {
+            case 1:
+                $sub_2_text = ' Не нужны начальные взносы';//' Нет аванса';
+                break;
+            case 2:
+                $sub_2_text = ' Предоплата в ноябре отменена';//' Без аванса';
+                break;
+            case 3:
+                $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
+                break;
+            case 4:
+                $sub_2_text = ' Предоплата отменена!';//' Нет предоплаты';
+                break;
+            case 5:
+                $sub_2_text = ' План-введение до оплаты!';//' Никаких предоплат';
+                break;
+            case 6:
+                $sub_2_text = ' План бесплатно!';
+                break;
+            case 7:
+                $sub_2_text = ' Введение даром!';
+                break;
+            case 8:
+                $sub_2_text = ' Подарим часть работы!';
+                break;
+            case 9:
+                $sub_2_text = ' Введение бесплатно!';
+                break;
+            case 10:
+                $sub_2_text = ' План даром!';
+                break;
+        }
 
         $sub_2_text = rand_podstav_smv($sub_2_text);
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Здравствуйте, ');
+        $dobroe_text = rand_podstav_smv('Доброе утро, ');
 
         $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
@@ -299,14 +299,14 @@ if ( (int)$i >= (int)$count) {
             }
             setTimeout(func, 19000);
         </script>
-        <?php
-} else {
-        $i++;
-        $f = fopen('log.txt', "w");
-        fwrite($f, $i . "\n");
-        fclose($f);
-        //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
-        ?>
+    <?php
+    } else {
+    $i++;
+    $f = fopen('log.txt', "w");
+    fwrite($f, $i . "\n");
+    fclose($f);
+    //header("Location: time.php?nomer=" . $i . "&filename=" . $filename);
+    ?>
         <script type="text/javascript">
             function func() {
                 return location.href = "time.php?nomer=" + <?php echo $i; ?> + "&filename=" + "<?php echo $filename; ?>";
