@@ -21,17 +21,17 @@ $date_site = date_create('2017-11-01');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "";
+$site_otzv_url_1 = "http://vivamagister.ru/1001-bazazachet_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "";
+$site_otzv_url_2 = "http://studotzyv.16mb.com/raiting/74/bazazachet/";
 
 
 $site_name = "Bazazachet.ru";//'Vivastudent.ru';
-$site_name_2 = "Bazazachet.ru";//'www.vivastudent.ru';
-$site_name_3 = "Bazazachet.ru";//'vivastudent.ru';
-$site_name_4 = "Bazazachet.ru";//'vivastudent.ru';
-$site_name_5 = "Bazazachet.ru";//'www.vivastudent.ru';
-$site_name_6 = "Bazazachet.ru";//'vivastudent.ru';
+$site_name_2 = "Bazazachet";//'www.vivastudent.ru';
+$site_name_3 = "Bazazachet_ru";//'vivastudent.ru';
+$site_name_4 = "Bazazachet.Ru";//'vivastudent.ru';
+$site_name_5 = "BazaZachet";//'www.vivastudent.ru';
+$site_name_6 = "BazaZachet_Ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
