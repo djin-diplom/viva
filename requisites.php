@@ -51,7 +51,7 @@ $site_name_6 = "BazaZachet_Ru";//'vivastudent.ru';
 $adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27, oф. 144-145";
 $url_adres_yandex = "https://yandex.ru/maps/-/C6dUMUL2";
 $url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dUMUL2\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410015026519581";
+$url_oplata = "https://money.yandex.ru/to/410014980039098";
 
 $main_name_temp = $main_name;
 
