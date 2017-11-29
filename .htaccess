@@ -4,6 +4,10 @@
  # Header set Cache-Control "max-age=12000"
 #</FilesMatch>
 
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
 RewriteBase /
 
 # Return 404
