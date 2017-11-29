@@ -21,9 +21,9 @@ $date_site = date_create('2017-12-01');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://vivamagister.ru/1001-bazazachet_ru.html";
+$site_otzv_url_1 = "http://viva-magisters.ru/1001-bazazachet_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://studotzyv.16mb.com/raiting/74/bazazachet/";
+$site_otzv_url_2 = "http://otzyv.96.lt/raiting/74/bazazachet/";
 
 
 $site_name = "Basisznanij.ru";//'Vivastudent.ru';
