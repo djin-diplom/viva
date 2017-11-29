@@ -1,9 +1,9 @@
 <?php
 
-$main_name =  "Bazazachet.ru";
-$email2 =  "bazazachet@gmail.com";
+$main_name =  "basisznanij.ru";
+$email2 =  "basisznanij@gmail.com";
 
-$url_town_piter = 'http://'.$main_name.'/';
+$url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
 $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
@@ -17,7 +17,7 @@ $site_phone = '8 (800) 411-32-26';
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
-$date_site = date_create('2017-11-01');
+$date_site = date_create('2017-12-01');
 
 
 $site_otzv_name_1 = "Студенческие работы";
@@ -26,12 +26,12 @@ $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://studotzyv.16mb.com/raiting/74/bazazachet/";
 
 
-$site_name = "Bazazachet.ru";//'Vivastudent.ru';
-$site_name_2 = "Bazazachet";//'www.vivastudent.ru';
-$site_name_3 = "Bazazachet_ru";//'vivastudent.ru';
-$site_name_4 = "Bazazachet.Ru";//'vivastudent.ru';
-$site_name_5 = "BazaZachet";//'www.vivastudent.ru';
-$site_name_6 = "BazaZachet_Ru";//'vivastudent.ru';
+$site_name = "Basisznanij.ru";//'Vivastudent.ru';
+$site_name_2 = "Basisznanij";//'www.vivastudent.ru';
+$site_name_3 = "Basisznanij_ru";//'vivastudent.ru';
+$site_name_4 = "Basisznanij.Ru";//'vivastudent.ru';
+$site_name_5 = "BasisZnanij";//'www.vivastudent.ru';
+$site_name_6 = "BasisZnanij_Ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
@@ -48,10 +48,10 @@ $site_name_6 = "BazaZachet_Ru";//'vivastudent.ru';
     $email_11 = "promo@".$main_name;// +
     $email_12 = "publicity@".$main_name;// +
     $email3 = "info@".$main_name;
-$adres = "г. Санкт-Петербург, Каменноостровский пр-кт, <br>дом № 27, oф. 144-145";
-$url_adres_yandex = "https://yandex.ru/maps/-/C6dUMUL2";
-$url_adres_yandex_frame = "<iframe src=\"https://api-maps.yandex.ru/frame/v1/-/C6dUMUL2\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410014980039098";
+$adres = "г. Санкт-Петербург, ул. Пушкина, <br>дом № 15, oф. 104-105";
+$url_adres_yandex = "https://yandex.ru/maps/-/CBavn2UEWC";
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBavn2UEWC\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+$url_oplata = "https://money.yandex.ru/to/410015230296657";
 
 $main_name_temp = $main_name;
 
