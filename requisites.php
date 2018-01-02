@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "basisznanij.ru";
-$email2 =  "basisznanij@gmail.com";
+$main_name =  "vivazachet.ru";
+$email2 =  "vivazachet.ru@gmail.com";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -26,12 +26,12 @@ $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://otzyv.96.lt/raiting/74/basisznanij/";
 
 
-$site_name = "Basisznanij.ru";//'Vivastudent.ru';
-$site_name_2 = "Basisznanij";//'www.vivastudent.ru';
-$site_name_3 = "Basisznanij_ru";//'vivastudent.ru';
-$site_name_4 = "Basisznanij.Ru";//'vivastudent.ru';
-$site_name_5 = "BasisZnanij";//'www.vivastudent.ru';
-$site_name_6 = "BasisZnanij_Ru";//'vivastudent.ru';
+$site_name = "vivazachet.ru";//'Vivastudent.ru';
+$site_name_2 = "vivazachet_ru";//'www.vivastudent.ru';
+$site_name_3 = "vivazachet ru";//'vivastudent.ru';
+$site_name_4 = "viva Zachet Ru";//'vivastudent.ru';
+$site_name_5 = "Viva Zachet.ru";//'www.vivastudent.ru';
+$site_name_6 = "Viva Zachet_ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
@@ -48,10 +48,10 @@ $site_name_6 = "BasisZnanij_Ru";//'vivastudent.ru';
     $email_11 = "promo@".$main_name;// +
     $email_12 = "publicity@".$main_name;// +
     $email3 = "info@".$main_name;
-$adres = "г. Санкт-Петербург, ул. Пушкина, <br>дом № 15, oф. 104-105";
-$url_adres_yandex = "https://yandex.ru/maps/-/CBavn2UEWC";
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBavn2UEWC\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410014980039098";
+$adres = "г. Санкт-Петербург, проспект Энергетиков, <br>дом № 26, oф. 98-99";
+$url_adres_yandex = "https://yandex.by/maps/-/CBadeVw8PD";
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.by/map-widget/v1/-/CBadeVw8PD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+$url_oplata = "https://money.yandex.ru/to/410015950270763";
 
 $main_name_temp = $main_name;
 
