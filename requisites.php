@@ -21,7 +21,7 @@ $date_site = date_create('2018-01-03');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://studotzyv.hol.es/1001-basisznanij_ru.html";
+$site_otzv_url_1 = "http://znaniumbaza.ru/1001-basisznanij_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://otzyv.890m.com/raiting/74/basisznanij/";
 
