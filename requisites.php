@@ -17,7 +17,7 @@ $img_path_2 = "1_logo_55 (2).png";
 //$img_path_1 = "./index_files/1_logo.jpg";
 //$img_path_2 = "1_logo.jpg";
 
-$date_site = date_create('2018-01-03');
+$date_site = date_create('2018-01-05');
 
 
 $site_otzv_name_1 = "Студенческие работы";
