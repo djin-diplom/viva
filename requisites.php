@@ -26,10 +26,10 @@ $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://otzyv.890m.com/raiting/74/vivazachet/";
 
 
-$site_name = "vivazachet.ru";//'Vivastudent.ru';
-$site_name_2 = "vivazachet_ru";//'www.vivastudent.ru';
-$site_name_3 = "vivazachet ru";//'vivastudent.ru';
-$site_name_4 = "viva Zachet Ru";//'vivastudent.ru';
+$site_name = "Vivazachet.ru";//'Vivastudent.ru';
+$site_name_2 = "Vivazachet_ru";//'www.vivastudent.ru';
+$site_name_3 = "Vivazachet ru";//'vivastudent.ru';
+$site_name_4 = "Viva Zachet Ru";//'vivastudent.ru';
 $site_name_5 = "Viva Zachet.ru";//'www.vivastudent.ru';
 $site_name_6 = "Viva Zachet_ru";//'vivastudent.ru';
     $password = '111qwaszx';

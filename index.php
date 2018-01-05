@@ -32,7 +32,7 @@ $count_text = 31;
 		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">
 				Дипломная работа без предоплат</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
 		<div id="shorttext" class="hidden"><h1>Выполним дипломные работы со скидкой 10-20%, не требуем деньги вперед!</h1>
-<div class="dashedborder">Мы гарантируем, что в нашем образовательном центре «<?php echo $site_name; ?>» не будут нарущены сроки.</div>
+<div class="dashedborder">Мы гарантируем, что в нашем образовательном центре «<?php echo $site_name; ?>» не будут нарушены сроки.</div>
 <div class="dashedborder">Первым делом мы составим план для вашей дипломной работы.
 	И даже не возьмем за это предоплату. Но вы можете сами внести полную оплату заранее, чтобы получить скидку от 20%!
 	Работа будет сделана по ГОСТ и вашим методическим указаниям от и до.</div>
@@ -42,7 +42,7 @@ $count_text = 31;
 				содержит более тысячи предметов.<br>
 				Сделаем дипломную работу по вашей фирме или предприятию.</div>
 			<div class="dashedborder">Наш образовательный центр <?php echo $site_name; ?> давно выполняет
-				дипломные работы, поэтому мы можем на 99% гарантировать успешную защиту.<br>
+				дипломные работы, поэтому мы можем на 99% гарантировать успешную защиту. Остальное зависит от вас.<br>
 				Наши офисы открыты в Москве, Санкт-Петербурге, Казани, Новосибирске и Уфе. Мы сделаем для вас лучшие курсовые,
 				дипломные и магистерские диссертации. Ждем вас с 9.00 до 19.00 в офисах, сделать заказ через интернет можно в любое время.</div></div>
 
@@ -70,7 +70,7 @@ $count_text = 31;
 						<div><br><h3>Пишем строго по ГОСТ и методике дипломной работы</h3><h3>Высокие баллы работ от 4,67</h3></div>
 					</div><div style="background: url(index_files/slider3.jpg) left top no-repeat; z-index: 2; opacity: 1;">
 						<div style="width: 329px;"></div>
-						<div><br><h3>Не завыщаем стоимость из-за ускорения заказа</h3></div>
+						<div><br><h3>Не завышаем стоимость из-за ускорения заказа</h3></div>
 					</div><div style="background: url(index_files/slider4.jpg) right top no-repeat; z-index: 0;">
 						<div><br><h3><a href="primeri_rabot.php">Предоставляем примеры работ автора совершенно бесплатно</a></h3></div>
 						<div style="width: 433px;"></div>
