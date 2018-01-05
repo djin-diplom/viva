@@ -63,7 +63,7 @@
 
 		<menu>
 			<div><span><a href="o_kompanii.php">Наша история</a></span></div>
-			<div><span><a href="uslugi_i_ceny.php">Наши цены</a></span></div>
+			<div><span><a href="uslugi_i_ceny.php">Цены</a></span></div>
 			<div><span><a href="poriadok_zakaza.php">Что делать?</a></span></div>
 			<div><span><a href="order.php">Сделать заказ</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
