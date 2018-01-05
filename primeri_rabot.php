@@ -11,10 +11,10 @@ $count_text = 1;
 
 	?>
 
-	<title>Примеры</title>
+	<title>Примеры дипломных работ и магистерских диссертаций от центра <?php echo $site_name;?></title>
 
-	<meta name="description" content="Смотреть примеры магистерских, дипломных, курсовых <?php echo $site_name;?>">
-	<meta name="keywords" content="Смотреть примеры магистерских, дипломных, курсовых <?php echo $site_name;?>">
+	<meta name="description" content="Примеры дипломных работ и магистерских диссертаций от образовательного центра <?php echo $site_name;?>">
+	<meta name="keywords" content="Примеры дипломных работ, прмиеры магистерских диссертаций">
 
 	<?php
 	require("head_1.php");
@@ -30,7 +30,7 @@ require("header.php");
 		?>
 		<div>
 <!-- section of script -->
-			<h1>Примеры</h1>
+			<h1>Примеры дипломных работ и магистерских диссертаций от центра <?php echo $site_name;?></h1>
 			<?php
 
 			for($i = 1; $i < 16; $i++) {
@@ -38,42 +38,42 @@ require("header.php");
 				$name_rab = $count % 11;
 				switch ($name_rab) {
 					case 0:
-						$name_rab_text = "выпускной работы";
-						break;
-					case 1:
 						$name_rab_text = "дипломной работы";
 						break;
-					case 2:
+					case 1:
 						$name_rab_text = "магистерской диссертации";
 						break;
-					case 3:
+					case 2:
 						$name_rab_text = "курсовой работы";
 						break;
-					case 4:
+					case 3:
 						$name_rab_text = "курсовой";
 						break;
-					case 5:
+					case 4:
 						$name_rab_text = "дипломной";
 						break;
-					case 6:
+					case 5:
 						$name_rab_text = "магистерской";
 						break;
-					case 7:
+					case 6:
 						$name_rab_text = "эссе";
 						break;
-					case 8:
+					case 7:
 						$name_rab_text = "реферата";
 						break;
-					case 9:
+					case 8:
 						$name_rab_text = "контрольной";
 						break;
-					case 10:
+					case 9:
 						$name_rab_text = "статьи";
+						break;
+					case 10:
+						$name_rab_text = "выпускной работы";
 						break;
 
 				}
 				?>
-				<h2>Пример <?php echo $name_rab_text . " № " . $count; ?></h2>
+				<h2>Пример <?php echo $name_rab_text . " № " . $count." от центра ".$site_name; ?></h2>
 				<?php
 				$f = fopen("texts/new_" . $count, "r");
 				$col_simv = 0;
