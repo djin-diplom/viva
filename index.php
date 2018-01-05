@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <?php
+//новый текст 05012018
+// Ядро: Дипломная работа без предоплат
+//
 require("requisites.php");
 $count_text = 31;
 ?>
@@ -7,10 +10,11 @@ $count_text = 31;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Уникальные дипломные работы</title>
-<meta name="description" content="Компания осуществляет написание дипломных работ по всем научным направлениям.
-Мы  сопровождаем клиентов до самой защиты. Скидки и бонусы на выполнение дипломных работ на заказ.">
-<meta name="keywords" content="заказать дипломную работу, написать диплом на заказ, диплом Россия, дипломная Россия, купить дипломную работу">
+<title>Дипломная работа без предоплат</title>
+<meta name="description" content="Студия <?php echo $site_name; ?> предлагает всем студентам курсовые, дипломные работы и
+магистерские диссертации без предоплаты в короткий срок. Ждем ваши заявки на дипломные работы в форме заявки.">
+<meta name="keywords" content="дипломная раббота, дипломные работы, заказать дипломную работу, дипломная работа срочно,
+магистерская работа, диплом работа, выпускная работа, дипломная для колледжа">
 
 
 	<?php
@@ -26,28 +30,32 @@ $count_text = 31;
 	<section class="leather" style="background-image: url(/img/leather1.jpg);">
 
 		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">
-				Дипломные без предоплаты</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
-		<div id="shorttext" class="hidden"><h1>Работы на заказ со скидкой 20% и даже без предоплаты!</h1>
-			<div class="dashedborder">Наши клиенты знают, что дипломная работа на заказ в «<?php echo $site_name; ?>» будет написана качественно и быстро.</div>
-			<div class="dashedborder">Написание дипломной работы начинается с составления плана. После утверждения плана мы выполняем диплом по частям: введение, главы диплома, заключение, приложения и список литературы. По мере написания работы Вы получаете работу по частям для проверки и согласования с научным руководителем.</div>
-			<div class="dashedborder">Уже готовый диплом оформляется по методичке и Вам останется прийти на защиту и получить отличную оценку!</div>
-			<div class="dashedborder">Для защиты диплома мы подготовим доклад и презентацию бесплатно.</div>
-			<div class="dashedborder">Мы выполняем дипломные работы для всех специальностей и почти на любые темы.<br>
-				Можно написать диплом на примере Вашей организации со всеми данными.</div>
-			<div class="dashedborder">Дипломная или курсовая работа - это довольно непросто, особенно из-за требований по антиплагиату.<br>
-				Если Вам нужно заказать диплом или курсовую, то лучшее решение - это обратиться в компанию «<?php echo $site_name; ?>».<br>
-				Подойти в офис или сделать заказ диплома по почте и через сайт.</div></div>
+				Дипломная работа без предоплат</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
+		<div id="shorttext" class="hidden"><h1>Выполним дипломные работы со скидкой 10-20%, не требуем деньги вперед!</h1>
+<div class="dashedborder">Мы гарантируем, что в нашем образовательном центре «<?php echo $site_name; ?>» не будут нарущены сроки.</div>
+<div class="dashedborder">Первым делом мы составим план для вашей дипломной работы.
+	И даже не возьмем за это предоплату. Но вы можете сами внести полную оплату заранее, чтобы получить скидку от 20%!
+	Работа будет сделана по ГОСТ и вашим методическим указаниям от и до.</div>
+			<div class="dashedborder">В нашей компании более 50 авторов кандидатов наук и 20 специалистов с докторской степенью!</div>
+			<div class="dashedborder">При полной оплате заказа вы получаете презентацию в подарок.</div>
+			<div class="dashedborder">Спектр дисциплин, по которым наши авторы пишут дипломные работы и магистерские диссертации,
+				содержит более тысячи предметов.<br>
+				Сделаем дипломную работу по вашей фирме или предприятию.</div>
+			<div class="dashedborder">Наш образовательный центр <?php echo $site_name; ?> давно выполняет
+				дипломные работы, поэтому мы можем на 99% гарантировать успешную защиту.<br>
+				Наши офисы открыты в Москве, Санкт-Петербурге, Казани, Новосибирске и Уфе. Мы сделаем для вас лучшие курсовые,
+				дипломные и магистерские диссертации. Ждем вас с 9.00 до 19.00 в офисах, сделать заказ через интернет можно в любое время.</div></div>
 
 		<menu class="advantages">
-			<span class="except"><b>Наши преимущества:</b></span>
+			<span class="except"><b>Наш креатив:</b></span>
 
 
-			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,1);">Антиплагиат</label></span>
+			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,1);">Уникальность</label></span>
 			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,2);">Качество</label></span>
-			<span class="active"><label onclick="changeSliderFrame(&#39;slider1&#39;,3);">Оперативность</label></span><wbr>
-			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,4);">Готовые кейсы</label></span>
-			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,5);">Гарантия</label></span>
-			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,6);">Договор</label></span>
+			<span class="active"><label onclick="changeSliderFrame(&#39;slider1&#39;,3);">Срочность</label></span><wbr>
+			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,4);">Примеры</label></span>
+			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,5);">Гарантии</label></span>
+			<span class=""><label onclick="changeSliderFrame(&#39;slider1&#39;,6);">Оферта</label></span>
 
 		</menu>
 		<section class="slider" id="slider1" data-frames="#slider1 &gt; div &gt; div" data-delay="10000">
@@ -56,21 +64,21 @@ $count_text = 31;
 
 					<div style="opacity: 0; z-index: 0; background: url(index_files/slider1.jpg) left center no-repeat;">
 						<div style="width: 480px;"></div>
-						<div><br><h3>Вашу работу выполняют лучшие профессионалы</h3><h3>В работах нет плагиата из Интернета</h3></div>
+						<div><br><h3>Пять систем проверки антиплагиата</h3><h3>Etxt, advego, antiplagiat.ru, внутривузовские системы</h3></div>
 					</div>
 					<div style="background: url(index_files/slider2.jpg) right top no-repeat; z-index: 1; opacity: 0;">
-						<div><br><h3>Выполнение всех требований и инструкций</h3><h3>Большинство сдаёт на «отлично»</h3></div>
+						<div><br><h3>Пишем строго по ГОСТ и методике дипломной работы</h3><h3>Высокие баллы работ от 4,67</h3></div>
 					</div><div style="background: url(index_files/slider3.jpg) left top no-repeat; z-index: 2; opacity: 1;">
 						<div style="width: 329px;"></div>
-						<div><br><h3>Все работы — точно в срок</h3></div>
+						<div><br><h3>Не завыщаем стоимость из-за ускорения заказа</h3></div>
 					</div><div style="background: url(index_files/slider4.jpg) right top no-repeat; z-index: 0;">
-						<div><br><h3><a href="gotovie_keisy.php">Индивидуальный подход к каждому клиенту</a></h3></div>
+						<div><br><h3><a href="primeri_rabot.php">Предоставляем примеры работ автора совершенно бесплатно</a></h3></div>
 						<div style="width: 433px;"></div>
 					</div><div style="background: url(index_files/slider5.jpg) left top no-repeat; z-index: 0;">
 						<div style="width: 329px;"></div>
-						<div><br><h3>Бесплатные доработки</h3><h3>Конфиденциальность гарантирована</h3></div>
+						<div><br><h3>Исправления по замечаниям преподавателя без доплат</h3><h3>Полная анонимность заказчика</h3></div>
 					</div><div style="background: url(index_files/slider6.jpg) right top no-repeat; z-index: 0;">
-						<div><br><h3>При оформлении заказа составляется договор и бланк заказа</h3><h3>Мы являемся официально зарегистрированной организацией</h3></div>
+						<div><br><h3>Мы работаем по договору публичной оферты</h3><h3>Наш образовательный центр официально зарегистрирован в России</h3></div>
 						<div style="width: 354px;"></div>
 					</div>
 				</div>
