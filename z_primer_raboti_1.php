@@ -48,10 +48,10 @@ $count_text = 1;
 	}
 	?>
 
-	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от центра ".$site_name ?></title>
+	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от образовательного центра ".$site_name; ?></title>
 
-	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
-	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
+	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text." от образовательного центра ".$site_name; ?>">
+	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text; ?>">
 
 	<?php
 	require("head_1.php");
@@ -67,7 +67,7 @@ require("header.php");
 		?>
 		<div>
 <!-- section of script -->
-			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
+			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от центра ".$site_name; ?></h1>
 			<?php
 				$f = fopen("texts/new_" . $count_text, "r");
 				$col_simv = 0;
