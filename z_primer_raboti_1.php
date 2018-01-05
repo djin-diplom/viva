@@ -48,7 +48,7 @@ $count_text = 1;
 	}
 	?>
 
-	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></title>
+	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от центра ".$site_name ?></title>
 
 	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
 	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
