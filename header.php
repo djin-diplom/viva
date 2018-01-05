@@ -62,7 +62,7 @@
 		</div>
 
 		<menu>
-			<div><span><a href="o_kompanii.php"><?php echo $site_name; ?></a></span></div>
+			<div><span><a href="o_kompanii.php">О компании</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Цены</a></span></div>
 			<div><span><a href="poriadok_zakaza.php">Ваши шаги</a></span></div>
 			<div><span><a href="order.php">Сделать заказ</a></span></div>
