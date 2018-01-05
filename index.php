@@ -10,7 +10,7 @@ $count_text = 31;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Дипломная работа без предоплат</title>
+<title>Дипломная работа без аванса</title>
 <meta name="description" content="Студия <?php echo $site_name; ?> предлагает всем студентам курсовые, дипломные работы и
 магистерские диссертации без предоплаты в короткий срок. Ждем ваши заявки на дипломные работы в форме заявки.">
 <meta name="keywords" content="дипломная раббота, дипломные работы, заказать дипломную работу, дипломная работа срочно,
@@ -30,7 +30,7 @@ $count_text = 31;
 	<section class="leather" style="background-image: url(/img/leather1.jpg);">
 
 		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">
-				Дипломная работа без предоплат</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
+				Дипломная работа без аванса</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
 		<div id="shorttext" class="hidden"><h1>Выполним дипломные работы со скидкой 10-20%, не требуем деньги вперед!</h1>
 <div class="dashedborder">Мы гарантируем, что в нашем образовательном центре «<?php echo $site_name; ?>» не будут нарушены сроки.</div>
 <div class="dashedborder">Первым делом мы составим план для вашей дипломной работы.
