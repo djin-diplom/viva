@@ -14,7 +14,7 @@ $count_text = 1;
 	<title>Примеры дипломных работ и магистерских диссертаций от центра <?php echo $site_name;?></title>
 
 	<meta name="description" content="Примеры дипломных работ и магистерских диссертаций от образовательного центра <?php echo $site_name;?>">
-	<meta name="keywords" content="Примеры дипломных работ, прмиеры магистерских диссертаций">
+	<meta name="keywords" content="Примеры дипломных работ, примеры магистерских диссертаций">
 
 	<?php
 	require("head_1.php");
