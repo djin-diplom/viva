@@ -11,7 +11,7 @@
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
 					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
 			<div class="phone">
-				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><a href="order.php">Заказать ответ</a>
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><a href="order.php">Оценить работу</a>
 				</div>
 				
 				<div><span><?php echo $email2; ?></span>
@@ -31,14 +31,14 @@
 						</div>
 
 						<div>
-							<div style="text-align: right;"><label onclick="document.forms.callback.className=&#39;hidden&#39;;">Закрыть окно</label></div>
-							<p>Пароль после заказа работы.</p>
-							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Войти в кабинет</button><br>
+							<div style="text-align: right;"><label onclick="document.forms.callback.className=&#39;hidden&#39;;">Закрыть</label></div>
+							<p>Логин и пароль спроси у менеджера.</p>
+							<button type="submit" name="submit" style="font-size: 18px; margin: 15px 0 0; background: #590;">Войти в ЛК</button><br>
 						</div>
 					</section>
 				</form>
 				<?php else: ?>
-					<button><a href="kabinet/profile.php" style="color:white;"><?php echo $_SESSION['client_name']; ?>! Вход в ЛК</a></button>
+					<button><a href="kabinet/profile.php" style="color:white;"><?php echo $_SESSION['client_name']; ?>! Войти в ЛК</a></button>
 				<?php endif ?>
 			</div>
 		</section>
@@ -62,14 +62,14 @@
 		</div>
 
 		<menu>
-			<div><span><a href="o_kompanii.php">О компании</a></span></div>
-			<div><span><a href="uslugi_i_ceny.php">Стоимость</a></span></div>
-			<div><span><a href="poriadok_zakaza.php">Порядок</a></span></div>
-			<div><span><a href="order.php">Заказать работу</a></span></div>
+			<div><span><a href="o_kompanii.php">Наша история</a></span></div>
+			<div><span><a href="uslugi_i_ceny.php">Наши цены</a></span></div>
+			<div><span><a href="poriadok_zakaza.php">Что делать?</a></span></div>
+			<div><span><a href="order.php">Сделать заказ</a></span></div>
 			<div><span><a href="consult.php">Отзывы</a></span></div>
 			<div><span><a href="dogovor.php">Договор</a></span></div>
 			<div><span><a href="primeri_rabot.php">Примеры</a></span></div>
-			<div><span><a href="job_creators.php">Авторы</a></span></div>
+			<div><span><a href="job_creators.php">Авторам</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
         </menu>
 
