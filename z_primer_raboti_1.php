@@ -10,38 +10,39 @@ $count_text = 1;
 	<?php
 	$name_rab = $count_text % 11;
 	switch($name_rab){
+
 		case 0:
-			$name_rab_text = "выпускной работы";
-			break;
-		case 1:
 			$name_rab_text = "дипломной работы";
 			break;
-		case 2:
+		case 1:
 			$name_rab_text = "магистерской диссертации";
 			break;
-		case 3:
+		case 2:
 			$name_rab_text = "курсовой работы";
 			break;
-		case 4:
+		case 3:
 			$name_rab_text = "курсовой";
 			break;
-		case 5:
+		case 4:
 			$name_rab_text = "дипломной";
 			break;
-		case 6:
+		case 5:
 			$name_rab_text = "магистерской";
 			break;
-		case 7:
+		case 6:
 			$name_rab_text = "эссе";
 			break;
-		case 8:
+		case 7:
 			$name_rab_text = "реферата";
 			break;
-		case 9:
+		case 8:
 			$name_rab_text = "контрольной";
 			break;
-		case 10:
+		case 9:
 			$name_rab_text = "статьи";
+			break;
+		case 10:
+			$name_rab_text = "выпускной работы";
 			break;
 
 

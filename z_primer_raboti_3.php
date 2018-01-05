@@ -48,10 +48,10 @@ $count_text = 3;
 	}
 	?>
 
-	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></title>
+	<title>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от образовательного центра ".$site_name; ?></title>
 
-	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
-	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?>">
+	<meta name="description" content="Смотреть пример <?php echo $name_rab_text." № ".$count_text." от образовательного центра ".$site_name; ?>">
+	<meta name="keywords" content="Смотреть пример <?php echo $name_rab_text; ?>">
 
 	<?php
 	require("head_1.php");
@@ -66,29 +66,29 @@ require("header.php");
 		require("calc2.php");
 		?>
 		<div>
-<!-- section of script -->
-			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text; ?></h1>
+			<!-- section of script -->
+			<h1>Смотреть пример <?php echo $name_rab_text." № ".$count_text." от центра ".$site_name; ?></h1>
 			<?php
-				$f = fopen("texts/new_" . $count_text, "r");
-				$col_simv = 0;
-				while (!feof($f)) {
-					$fgets = fgets($f);
-					$col = iconv_strlen($fgets);
-					$col_simv = $col_simv + $col;
-					if ($col > 2) {
-						echo $fgets . "<br /><br />";
-
-					}
+			$f = fopen("texts/new_" . $count_text, "r");
+			$col_simv = 0;
+			while (!feof($f)) {
+				$fgets = fgets($f);
+				$col = iconv_strlen($fgets);
+				$col_simv = $col_simv + $col;
+				if ($col > 2) {
+					echo $fgets . "<br /><br />";
 
 				}
-				fclose($f);
+
+			}
+			fclose($f);
 			$count_text = $count_text + 1;
 			?>
 			<br><a href="z_primer_raboti_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
 		</div>
 
 
-</section>
+	</section>
 </div>
 
 <!-- end of script -->
