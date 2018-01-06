@@ -88,5 +88,6 @@ require("header.php");
 	require("payment.php");
 	require("footer.php");
 	?>
+
 </body>
 </html>

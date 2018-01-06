@@ -1,3 +1,4 @@
+<!--noindex-->
 <footer>
     <section>
         <div class="copy"><div><span ondblclick="self.location=&#39;/indeego.php&#39;;">©</span> 2018 <?php echo $site_name; ?></div></div>
@@ -17,3 +18,4 @@
     <a href="order.php">Сделать заказ</a>
 
 </div>
+<!--/noindex-->

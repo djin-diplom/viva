@@ -104,6 +104,7 @@ $count_text = 31;
 	<!--/noindex-->
 
 	<section class="offers"><div><a href="aktcii_i_skidki.php"><img src="./index_files/offer1.gif" width="805" height="189" alt=""></a></div></section>
+	
 	<?php
 	require("responses.php");
 	require("payment.php");

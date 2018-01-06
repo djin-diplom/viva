@@ -1,6 +1,6 @@
 
 <br>
-<h4>Пример дипломной работы от компании <?php echo $main_name; ?> </h4><br>
+<h4>Образец дипломной работы от образовательного центра <?php echo $site_name; ?> </h4><br>
 <?php
 $f = fopen("texts2/new_" . $count_text, "r");
 $col_simv = 0;

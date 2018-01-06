@@ -1,5 +1,8 @@
+
 <section class="payment">
+    <!--noindex-->
     <div>Оплата заказа возможна <br><a href="oplata.php">наличными в офисах центра</a>, другие варианты:</div>
+    <!--/noindex-->
     <!--
     <div><a href="/oplata/#visa"><img class=desaturated src="/img/pay1.gif" width=78 height=37 alt=""></a></div>
     <div><a href="/oplata/#mastercard"><img class=desaturated src="/img/pay2.gif" width=62 height=37 alt=""></a></div>
