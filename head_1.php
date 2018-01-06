@@ -1,7 +1,7 @@
 <?php session_start();
 ?>
-<meta name="yandex-verification" content="0926b040af820f9b" />
-<meta name="google-site-verification" content="ij3hvd9HxAOW-LyraGWRoF7P9hhCppQ8xSAlXF0ubDE" />
+<meta name="yandex-verification" content="32ac53c099aa6861" />
+<meta name="google-site-verification" content="E4FY3n8a8C8kuAvCyYv-Oygppx7MQ-0njR9soZMEWag" />
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
@@ -34,8 +34,8 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter46914846 = new Ya.Metrika({
-                    id:46914846,
+                w.yaCounter47195034 = new Ya.Metrika({
+                    id:47195034,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true
@@ -55,6 +55,6 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46914846" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/47195034" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
