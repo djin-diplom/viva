@@ -142,13 +142,13 @@ require("header.php");
 		Срок выполнения: $srok_vip <br>
 		Дополнительная информация: $add_info <br>
 		
-		<a href=\"http://$main_name/basa_clients.php?name=".$name."&email_stud=$email_stud&work_kind=$work_kind&tema=$tema&kli_stoimost=$kli_stoimost&predoplata=$predoplata&predmet=$predmet&objem=$objem&unik=$unik&srok_vip=$srok_vip&add_info=$add_info\">Ссылка</a>
+		<a href=\"http://$main_name/basa_clients.php?name=$name&email_stud=$email_stud&work_kind=$work_kind&tema=$tema&kli_stoimost=$kli_stoimost&predoplata=$predoplata&predmet=$predmet&objem=$objem&unik=$unik&srok_vip=$srok_vip&add_info=$add_info\">Ссылка</a>
 		</body>
 </html>
 		";
 
 					$headers  = 'MIME-Version: 1.0' . "\r\n";
-					$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+					$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 					$headers .= 'From: '.$email. "\r\n" . 'Reply-To: ' . $email_stud;
 					$subject = "Письмо от клиента ".$name;
 
