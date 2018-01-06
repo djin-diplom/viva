@@ -3,7 +3,7 @@
 $main_name =  "vivazachet.ru";
 $email2 =  "vivazachet@gmail.com";
 
-$url_town_piter = 'http://'.$main_name.'/';
+$url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
 $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
