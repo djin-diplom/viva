@@ -282,3 +282,8 @@ $count_text = 13;
         </div>
     </section>
 </div>
+
+
+
+</body>
+    </html>
