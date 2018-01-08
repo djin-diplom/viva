@@ -88,7 +88,7 @@
 					 height="<?php if($town == 'ufa') echo '64'; else echo '56';?>" alt=""></a>
 		</div>
 
-
+		<menu>
 			<div><span><a href="o_kompanii.php">О компании</a></span></div>
 			<div><span><a href="uslugi_i_ceny.php">Цены</a></span></div>
 			<div><span><a href="poriadok_zakaza.php">Ваши шаги</a></span></div>
@@ -98,7 +98,7 @@
 			<div><span><a href="primeri_rabot.php">Примеры</a></span></div>
 			<div><span><a href="job_creators.php">Авторам</a></span></div>
 			<div><span><a href="kontakty.php">Контакты</a></span></div>
-        
+        </menu>
 
 	</header>
 <!--/noindex-->
