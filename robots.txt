@@ -1,4 +1,31 @@
 User-Agent: *
-Disallow:
+Disallow: /job_creators.php
+Disallow: /consult.php
+Disallow: /2.php
+Disallow: /1.php
+Disallow: /4.php
+Disallow: /5.php
+Disallow: /6.php
+Disallow: /all.php
+Disallow: /dogovor.php
+Disallow: /order.php
+Disallow: /articles.php
+Disallow: /Diplomnaia-rabota-skolko-trebuetsia-vremeni-dlia-napisaniia.php
+Disallow: /Kak-delat-plan-diplomnoi-raboty.php
+Disallow: /Kak-pravilno-napisat-vvedenie-k-diplomnoi-rabote-obrazetc.php
+Disallow: /Material-dlia-diplomnoi-raboty-i-ego-sistematizatciia.php
+Disallow: /Chto-pisat-v-pervoi-glave-diploma.php
+Disallow: /gotovie_keisy.php
+Disallow: /Vsegda-vysokoe-kachestvo-zakaz-po-rekomendatcii.php
+Disallow: /Obiazatelno-ispolzovat-v-diplome-to-chto-rekomendoval-rukovoditel.php
+Disallow: /Podveli-v-drugoi-firme.php
+Disallow: /9.php
+Disallow: /Sdelal-rabotu-sam-poluchil-zamechaniia-Zakazal-ikh-vypolnit.php
+Disallow: /Student-inostranetc-Nuzhno-pisat-diplomnuiu-rabotu-na-russkom-iazyke.php
+Disallow: /dnevnik_po_praktike.php
+Disallow: /harakteristika_studenta.php
+Disallow: /tehnicheskii_diplom.php
+Disallow: /tehnicheskii_diplom_2.php
+Disallow: /annotaciya_k_diplomu.php
 
 Host: vivazachet.ru
