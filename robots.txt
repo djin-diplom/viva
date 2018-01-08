@@ -29,4 +29,5 @@ Disallow: /tehnicheskii_diplom_2.php
 Disallow: /annotaciya_k_diplomu.php
 Disallow: /o_kompanii.php
 
-Host: vivazachet.ru
+Host: https://vivazachet.ru
+Sitemap: https://vivazachet.ru/sitemap.xml
