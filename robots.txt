@@ -27,7 +27,6 @@ Disallow: /harakteristika_studenta.php
 Disallow: /tehnicheskii_diplom.php
 Disallow: /tehnicheskii_diplom_2.php
 Disallow: /annotaciya_k_diplomu.php
-Disallow: /o_kompanii.php
 Disallow: /aktcii_i_skidki.php
 Disallow: /oplata.php
 
