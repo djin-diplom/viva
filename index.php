@@ -6,7 +6,7 @@
 require("requisites.php");
 $count_text = 31;
 ?>
-<html>
+<html lang="ru"> <!-- 01 Добавить для всех страниц!!!-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
