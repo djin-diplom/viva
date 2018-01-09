@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow: /job_creators.php
-Disallow: /consult.php
 Disallow: /2.php
 Disallow: /1.php
 Disallow: /4.php
