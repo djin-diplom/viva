@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "vivazachet.ru";
-$email2 =  "vivazachet@gmail.com";
+$main_name =  "vivastudent.ru";
+$email2 =  "vivastudent.ru@gmail.com";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -21,17 +21,17 @@ $date_site = date_create('2018-01-05');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://znaniumbaza.ru/1001-vivazachet_ru.html";
+$site_otzv_url_1 = "http://gfgfd/1001-vivastudent_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://otzyv.890m.com/raiting/74/vivazachet/";
+$site_otzv_url_2 = "http://fgdfgf/raiting/74/vivastudent/";
 
 
-$site_name = "Vivazachet.ru";//'Vivastudent.ru';
-$site_name_2 = "Vivazachet_ru";//'www.vivastudent.ru';
-$site_name_3 = "Vivazachet ru";//'vivastudent.ru';
-$site_name_4 = "Viva Zachet Ru";//'vivastudent.ru';
-$site_name_5 = "Viva Zachet.ru";//'www.vivastudent.ru';
-$site_name_6 = "Viva Zachet_ru";//'vivastudent.ru';
+$site_name = "Vivastudent.ru";//'Vivastudent.ru';
+$site_name_2 = "Vivastudent_ru";//'www.vivastudent.ru';
+$site_name_3 = "Vivastudent ru";//'vivastudent.ru';
+$site_name_4 = "Viva Student Ru";//'vivastudent.ru';
+$site_name_5 = "Viva Student.ru";//'www.vivastudent.ru';
+$site_name_6 = "Viva Student_ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
@@ -48,9 +48,9 @@ $site_name_6 = "Viva Zachet_ru";//'vivastudent.ru';
     $email_11 = "promo@".$main_name;// +
     $email_12 = "publicity@".$main_name;// +
     $email3 = "info@".$main_name;
-$adres = "г. Санкт-Петербург, проспект Энергетиков, <br>дом № 26, oф. 98-99";
-$url_adres_yandex = "https://yandex.by/maps/-/CBadeVw8PD";
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.by/map-widget/v1/-/CBadeVw8PD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+$adres = "г. Санкт-Петербург, ул. Льва Толстого, <br>дом № 19, oф. 45-46";
+$url_adres_yandex = "https://yandex.ru/maps/-/CBQ4zFhF-B";
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQ4zFhF-B\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
 $url_oplata = "https://money.yandex.ru/to/410015950270763";
 
 $main_name_temp = $main_name;

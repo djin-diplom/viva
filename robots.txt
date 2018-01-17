@@ -29,5 +29,5 @@ Disallow: /annotaciya_k_diplomu.php
 Disallow: /aktcii_i_skidki.php
 Disallow: /oplata.php
 
-Host: https://vivazachet.ru
-Sitemap: https://vivazachet.ru/sitemap.xml
+Host: https://vivastudent.ru
+Sitemap: https://vivastudent.ru/sitemap.xml
