@@ -1,10 +1,10 @@
 <!-- Yandex.Metrika counter -->
-<script>
+<script type="text/javascript" >
 	(function (d, w, c) {
 		(w[c] = w[c] || []).push(function() {
 			try {
-				w.yaCounter47195034 = new Ya.Metrika({
-					id:47195034,
+				w.yaCounter47341734 = new Ya.Metrika({
+					id:47341734,
 					clickmap:true,
 					trackLinks:true,
 					accurateTrackBounce:true
@@ -24,7 +24,7 @@
 		} else { f(); }
 	})(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/47195034" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/47341734" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 <div id="marquee">Сделайте заказ дипломной работы сейчас прямо на сайте!
