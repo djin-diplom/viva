@@ -21,9 +21,9 @@ $date_site = date_create('2018-01-20');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://gfgfd/1001-vivastudent_ru.html";
+$site_otzv_url_1 = "http://knowbaza.ru/1001-vivastudent_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://fgdfgf/raiting/74/vivastudent/";
+$site_otzv_url_2 = "http://otzyv.hol.es/raiting/74/vivastudent/";
 
 
 $site_name = "Vivastudent.ru";//'Vivastudent.ru';
