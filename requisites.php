@@ -1,7 +1,7 @@
 <?php
 
 $main_name =  "vivastudent.ru";
-$email2 =  "vivastudent.ru@mail.ru";
+$email2 =  "vivastudinfo@mail.ru";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -17,7 +17,7 @@ $img_path_2 = "1_logo_55(2).png";
 //$img_path_1 = "./index_files/1_logo.jpg";
 //$img_path_2 = "1_logo.jpg";
 
-$date_site = date_create('2018-01-05');
+$date_site = date_create('2018-01-20');
 
 
 $site_otzv_name_1 = "Студенческие работы";
