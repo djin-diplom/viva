@@ -266,10 +266,9 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					Мы будем выполнять работу по Вашим указаниям.<br>
 					Гарантия на работу три месяца.<br>
 
-<a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
-</a><a href="<?php echo $site_url; ?>oplata.php">
-<img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt=""></a><a href="<?php echo $site_url; ?>oplata.php">
-<img class="desaturated" src="<?php echo $path_img; ?>index_files/pay5.gif" width="76" height="37" alt=""></a><br>
+<img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
+<img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
+<img class="desaturated" src="<?php echo $path_img; ?>index_files/pay5.gif" width="76" height="37" alt=""><br>
 				В личном кабинете Вы можете посмотреть актуальную информацию по
 				своему заказу.
 			</td>
