@@ -179,8 +179,8 @@ if ( (int)$i >= (int)$count) {
 
         require("../email/build_2.php");
 
-        $vid_rab = rand_podstav_smv($vid_rab);
-        $name = rand_podstav_smv($name);
+        //$vid_rab = rand_podstav_smv($vid_rab);
+        //$name = rand_podstav_smv($name);
 
 
         $body = $body_2;
