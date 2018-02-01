@@ -120,8 +120,24 @@ require("header.php");
                         <tr>
                             <td class="field">&nbsp;</td>
                             <td><span style="color: red;">*</span>обязательные поля<br>
-                                Далее заполнять не обязательно:</td>
+                                Далее заполнять не обязательно, но лучше выбрать способ оплаты:</td>
                         </tr>
+
+                        <tr>
+                            <td class="field">
+                                <span style="color: brown;">С предоплатой или без?</span>
+                            </td>
+                            <td>
+                                <select name="predoplata" id="id_work_kind">
+                                    <option value="0">Без предоплаты (часть бесплатно)</option>
+                                    <option value="1">Предоплата 50% (со скидкой 10%)</option>
+                                    <option value="2" selected="selected">Полная предоплата (со скидкой 20%)</option>
+                                </select>
+
+
+                            </td>
+                        </tr>
+
                         <tr>
                             <td class="field">
                                 <span style="color: brown;">Ваше имя</span>
@@ -143,20 +159,7 @@ require("header.php");
                             </td>
                         </tr>
 
-                        <tr>
-                            <td class="field">
-                                <span style="color: brown;">С предоплатой или без?</span>
-                            </td>
-                            <td>
-                                <select name="predoplata" id="id_work_kind">
-                                    <option value="0">Без предоплаты (часть бесплатно)</option>
-                                    <option value="1">Предоплата 50% (со скидкой 10%)</option>
-                                    <option value="2" selected="selected">Полная предоплата (со скидкой 20%)</option>
-                                </select>
 
-
-                            </td>
-                        </tr>
 
                         <tr>
                             <td class="field">
