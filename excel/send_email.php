@@ -185,7 +185,7 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $sub_1 = rand(1,2);
+        $sub_1 = rand(1,10);
 
         switch ($sub_1) {
 
@@ -220,50 +220,50 @@ if ( (int)$i >= (int)$count) {
                 $sub_1_text = ' по договору за ';
                 break;
         }
-        $sub_1_text = rand_podstav_smv($sub_1_text);
+        // $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = rand(1,2);
+        $sub_2 = rand(1,10);
 
         switch ($sub_2) {
             case 1:
-                $sub_2_text = ' Не просим начальные взносы';//' Нет аванса';
+                $sub_2_text = ' Не просим начальный взнос';//' Нет аванса';
                 break;
             case 2:
-                $sub_2_text = ' Предоплата в Новый Год отменена';//' Без аванса';
+                $sub_2_text = ' Предоплата в феврале отменена';//' Без аванса';
                 break;
             case 3:
-                $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
+                $sub_2_text = ' Без предварительной оплаты';//' Без предоплаты';
                 break;
             case 4:
                 $sub_2_text = ' Предоплата отменена!';//' Нет предоплаты';
                 break;
             case 5:
-                $sub_2_text = ' План-введение до оплаты!';//' Никаких предоплат';
+                $sub_2_text = ' Без всяких предоплат!';//' Никаких предоплат';
                 break;
             case 6:
-                $sub_2_text = ' План бесплатно!';
+                $sub_2_text = ' Никаких авансов!';
                 break;
             case 7:
-                $sub_2_text = ' Введение даром!';
+                $sub_2_text = ' Убрали предоплату.';
                 break;
             case 8:
-                $sub_2_text = ' Подарим часть работы!';
+                $sub_2_text = ' Аванс теперь не нужен.';
                 break;
             case 9:
-                $sub_2_text = ' Введение бесплатно!';
+                $sub_2_text = ' Не просим аванс.';
                 break;
             case 10:
-                $sub_2_text = ' План даром!';
+                $sub_2_text = ' Нет предоплат для новых клиентов.';
                 break;
         }
 
-        $sub_2_text = rand_podstav_smv($sub_2_text);
+        //$sub_2_text = rand_podstav_smv($sub_2_text);
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Доброе утро, ');
+        $dobroe_text = rand_podstav_smv('Здравствуй, ');
 
-        $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $subject =  $name . "! " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
