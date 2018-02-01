@@ -119,8 +119,8 @@ require("header.php");
                         </tr>
                         <tr>
                             <td class="field">&nbsp;</td>
-                            <td><span style="color: red;">*</span>обязательные поля<br>
-                                Далее заполнять не обязательно,<br> но лучше выбрать способ оплаты:</td>
+                            <td><span style="color: red;">*</span>обязательные поля. Далее заполнять<br>
+                                не обязательно, но лучше выбрать способ оплаты:</td>
                         </tr>
 
                         <tr>
