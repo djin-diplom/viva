@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "vivastudent.ru";
-$email2 =  "vivastudinfo@gmail.com";
+$main_name =  "diplomfabrika.ru";
+$email2 =  "diplomfabrika.ru@gmail.com";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -12,26 +12,28 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $site_phone = '8 (800) 411-32-26';
 
 
-$img_path_1 = "./index_files/1_logo_55(2).png";
-$img_path_2 = "1_logo_55(2).png";
+//$img_path_1 = "./index_files/1_logo_55(2).png";
+//$img_path_2 = "1_logo_55(2).png";
 //$img_path_1 = "./index_files/1_logo.jpg";
 //$img_path_2 = "1_logo.jpg";
+$img_path_1 = "./index_files/diplomfabrika.png";
+$img_path_2 = "diplomfabrika.png";
 
-$date_site = date_create('2018-01-20');
+$date_site = date_create('2018-02-20');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://knowbaza.ru/1001-vivastudent_ru.html";
+$site_otzv_url_1 = "http://bazaznanij.com/1001-diplomfabrika_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://otzyv.hol.es/raiting/74/vivastudent/";
+$site_otzv_url_2 = "http://otzyv.hol.es/raiting/74/diplomfabrika/";
 
 
-$site_name = "Vivastudent.ru";//'Vivastudent.ru';
-$site_name_2 = "Vivastudent_ru";//'www.vivastudent.ru';
-$site_name_3 = "Vivastudent ru";//'vivastudent.ru';
-$site_name_4 = "Viva Student Ru";//'vivastudent.ru';
-$site_name_5 = "Viva Student.ru";//'www.vivastudent.ru';
-$site_name_6 = "Viva Student_ru";//'vivastudent.ru';
+$site_name = "diplomfabrika.ru";//'Vivastudent.ru';
+$site_name_2 = "diplomfabrika.ru";//'www.vivastudent.ru';
+$site_name_3 = "diplomfabrika.ru";//'vivastudent.ru';
+$site_name_4 = "diplomfabrika.ru";//'vivastudent.ru';
+$site_name_5 = "diplomfabrika.ru";//'www.vivastudent.ru';
+$site_name_6 = "diplomfabrika.ru";//'vivastudent.ru';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
@@ -48,10 +50,10 @@ $email_10 = "andrievskaya@".$main_name;// +
 $email_11 = "bondareva@".$main_name;// +
 $email_12 = "kizenko@".$main_name;// +
     $email3 = "info@".$main_name;
-$adres = "г. Санкт-Петербург, ул. Льва Толстого, <br>дом № 19, oф. 45-46";
-$url_adres_yandex = "https://yandex.ru/maps/-/CBQ4zFhF-B";
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBQ4zFhF-B\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410015950270763";
+$adres = "г. Санкт-Петербург, ул. Жуковского, <br>дом № 14, oф. 125-126";
+$url_adres_yandex = "https://yandex.ru/maps/-/CBeJfBT4-D";
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBeJfBT4-D\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+$url_oplata = "https://money.yandex.ru/to/410016067116122";
 
 $main_name_temp = $main_name;
 
