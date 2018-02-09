@@ -1,0 +1,25 @@
+Системы должны обеспечивать: 
+	высокую чувствительность к малым задающим сигналам, т.к. от этого зависит точность обработки;
+	высокую точность позиционирования детали, т.к. от этого зависит точность обработки;
+	высокую жесткость механической характеристики;
+	не должен образовывать зазоры в элементах механической системы;
+	должен обладать малой инерционностью (что приводит к тому, что в состав приводов подачи не вход¤т редукторные передачи, что в свою очередь выдвигает высокие требовани¤ по диапазону регулирования выходной величины).
+ѕредлагаетс¤ разработать для одной степени свободы привода подач.
+
+ 
+Annotation
+
+AUTOMATING THE PROCESS OF THERMOFORMING ON THE EXAMPLE OF THE USE OF HIGH-MOLDING LINES FC780EPLUS.
+
+This work contains 85 pages of the explanatory note, 46 drawings, 10 tables, 32 literature sources.
+
+KEYWORDS: GEOMETRIC PRECISION, ACCURACY, CONTROL, PARAMETERS, RESEARCH, TESTING, MACHINE TOOL, CNC.
+
+As a follower of the object, consider supplying the electric machine CNC - thermoforming lines FC780E PLUS. The output parameters of such a system is the movement of the workpiece.
+Such systems should provide:
+	 high sensitivity to small signals setpoint because accuracy of this treatment depends;
+	 high positioning accuracy of the details, as accuracy of this treatment depends;
+	 high rigidity of mechanical characteristics;
+	 should not form the clearances in the mechanical system elements;
+	should have low inertia (leading to the fact that the feed composition does not include transfer drive gear, which in turn puts higher requirements on the range of regulation the output quantity).
+It is proposed to develop the self-propelled guns for the one degree of freedom actuator innings.
