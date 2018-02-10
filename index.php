@@ -30,7 +30,7 @@ $count_text = 31;
 
 		<div class="big"><label onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; document.getElementById(&#39;arr1&#39;).src=document.getElementById(&#39;arr1&#39;).getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;">
 				Заказ выпускной работы</label><br><img id="arr1" class="desaturated" src="./index_files/arr1.png" width="64" height="9" alt="" onclick="document.getElementById(&#39;shorttext&#39;).className=document.getElementById(&#39;shorttext&#39;).className==&#39;hidden&#39;?&#39;showed&#39;:&#39;hidden&#39;; this.src=this.getAttribute(&#39;src&#39;)==&#39;index_files/arr1.png&#39;?&#39;index_files/arr2.png&#39;:&#39;index_files/arr1.png&#39;;"></div>
-		<div id="shorttext" class="hidden"><h1>Сделаем дипломную работу со скидкой от 20%, не потребуем деньги вперед!</h1>
+		<div id="shorttext" class="hidden"><h1>Сделаем выпускную работу со скидкой от 20%, не потребуем деньги вперед!</h1>
 <div class="dashedborder">Наша компания <?php echo $site_name; ?> гарантирует, что сроки будут строго соблюдены.</div>
 <div class="dashedborder">Сначала специалисты составят план вашей выпускной работы.
 	За это мы даже не возьмем предоплату. Но выгоднее всего внести полную предоплату, чтобы снизить стоимость на 20%!
