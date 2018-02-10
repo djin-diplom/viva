@@ -25,7 +25,7 @@ $date_site = date_create('2018-02-20');
 $site_otzv_name_1 = "Студенческие работы";
 $site_otzv_url_1 = "http://bazaznanij.com/1001-diplomfabrika_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://otzyv.hol.es/raiting/74/diplomfabrika/";
+$site_otzv_url_2 = "http://otzyv.pe.hu/raiting/74/diplomfabrika/";
 
 
 $site_name = "diplomfabrika.ru";//'Vivastudent.ru';
