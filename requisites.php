@@ -19,7 +19,7 @@ $site_phone = '8 (800) 411-32-26';
 $img_path_1 = "./index_files/diplomfabrika.png";
 $img_path_2 = "diplomfabrika.png";
 
-$date_site = date_create('2018-02-20');
+$date_site = date_create('2018-02-10');
 
 
 $site_otzv_name_1 = "Студенческие работы";
